@@ -9,10 +9,10 @@ class MedicalCondition < ActiveRecord::Base
 
   #medical code associations
   has_many :medical_condition_medical_codes
-  has_many :medical_codes, through: :medical_condition_medical_codes
+  has_many :codes, classname: "MedicalCode", through: :medical_condition_medical_codes
 
   #medical cause associations
   has_many :medical_condition_medical_causes
-  has_many :medical_causes, through: :medical_condition_medical_causes
+  has_many :causes, classname: "MedicalCause", through: :medical_condition_medical_causes
 
 end
