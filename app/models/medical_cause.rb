@@ -1,4 +1,4 @@
 class MedicalCause < ActiveRecord::Base
-  has_many :medical_condition_medical_causes
-  has_many :medical_condition, through: :medical_condition_medical_causes
+  has_many :medical_causes_conditions
+  has_many :medical_conditions, through: :medical_causes_conditions
 end
