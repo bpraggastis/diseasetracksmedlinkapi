@@ -54,7 +54,5 @@ diseases[0,25].each do |disease|
   new_disease = MedicalCondition.create(name: disease["name"])
   disease["codes"].each do |code|
     new_disease.medical_codes.create(code_system: code["system"], code_value: code["value"])
-    # temp = MedicalCode.create(code_system: code["system"], code_value: code["value"])
-    # MedicalCodeCondition.create(medical_condition_id: disease1.id, medical_code_id: temp.id)
   end
 end
