@@ -50,7 +50,11 @@
 DISEASE_DATA = JSON.parse(File.read('/Users/brendapraggastis/Ada/capstone/datafiles/samplefile2.json'))['diseases']
 diseases = MedicalConditionHelpers::DataSeed.make_disease_bank(DISEASE_DATA)
 
-disease1 = MedicalCondition.create(name: diseases[0]["name"])
-diseases[0]["codes"].each do |code|
-  disease1.codes.create(code_system: code["system"], code_value: code["value"])
+diseases[0,25].each do |disease|
+  new_disease = MedicalCondition.create(name: disease["name"])
+  disease["codes"].each do |code|
+    new_disease.medical_codes.create(code_system: code["system"], code_value: code["value"])
+    # temp = MedicalCode.create(code_system: code["system"], code_value: code["value"])
+    # MedicalCodeCondition.create(medical_condition_id: disease1.id, medical_code_id: temp.id)
+  end
 end
