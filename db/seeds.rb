@@ -56,3 +56,11 @@ diseases[0,25].each do |disease|
     new_disease.medical_codes.create(code_system: code["system"], code_value: code["value"])
   end
 end
+
+DRUG_DATA = Nokogiri::XML(File.open('/support/drug_data.xml'))
+drugs = DRUG_DATA.css('drugbank/drug')
+drugs.each do |drug|
+  name = drug.css("/name").text
+  description = drug.css('/description').text
+  MedicalTherapy.create(name: name, description: description)
+end
