@@ -1,0 +1,16 @@
+<h1>Tracking Disease in Africa</h1>
+
+<ol>
+  <% @conditions.each do |condition| %>
+    <li> <%= condition.name %> <br>
+      Codes: <br>
+      <ul>
+        <li>
+          <% condition.medical_codes.each do |code| %>
+            <%= code.code_system %>: <%= code.code_value %>
+          <% end %>
+        </li>
+      </ul>    
+    </li>
+  <% end %>
+</ol>
