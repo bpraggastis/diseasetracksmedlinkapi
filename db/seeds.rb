@@ -47,17 +47,17 @@
 #################### end of JSON helpers #######################
 
 
-DISEASE_DATA = JSON.parse(File.read('/Users/brendapraggastis/Ada/capstone/datafiles/samplefile2.json'))['diseases']
+DISEASE_DATA = JSON.parse(File.read('db/support/disease_file_short.json'))['diseases']
 diseases = MedicalConditionHelpers::DataSeed.make_disease_bank(DISEASE_DATA)
 
-diseases[0,25].each do |disease|
+diseases.each do |disease|
   new_disease = MedicalCondition.create(name: disease["name"])
   disease["codes"].each do |code|
-    new_disease.medical_codes.create(code_system: code["system"], code_value: code["value"])
+    new_disease.codes.create(code_system: code["system"], code_value: code["value"])
   end
 end
 
-DRUG_DATA = Nokogiri::XML(File.open('/support/drug_data.xml'))
+DRUG_DATA = Nokogiri::XML(File.open('db/support/drug_data.xml'))
 drugs = DRUG_DATA.css('drugbank/drug')
 drugs.each do |drug|
   name = drug.css("/name").text
