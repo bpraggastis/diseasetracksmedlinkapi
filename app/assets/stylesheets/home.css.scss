@@ -1,0 +1,13 @@
+.scrolling-list {
+  display: block;
+  height: 500px;
+  margin: auto;
+  border: solid green;
+  overflow: scroll;
+}
+
+.basic-block {
+  display: block;
+  float: left;
+  width: 45%;
+}
