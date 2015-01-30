@@ -1,0 +1,702 @@
+{
+  "diseases": [
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem emedicinetopic",
+          "value": "schema:codeValue \"567\" "
+        },
+        {
+          "db": "schema:codeSystem diseasesdb",
+          "value": "schema:codeValue \"3631\" "
+        },
+        {
+          "db": "schema:codeSystem meshid",
+          "value": "schema:codeValue \"D004062\" "
+        },
+        {
+          "db": "schema:codeSystem omim",
+          "value": "schema:codeValue \"188400\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#22q11.2_deletion_syndrome a schema:MedicalCondition ",
+      "name": "rdfs:label \"Missing Disease Label\" ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem diseasesdb",
+          "value": "schema:codeValue \"32632\" "
+        },
+        {
+          "db": "schema:codeSystem omim",
+          "value": "schema:codeValue \"102600\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#2%2C8_dihydroxy-adenine_urolithiasis a schema:MedicalCondition ",
+      "name": "rdfs:label \"Missing Disease Label\" ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem diseasesdb",
+          "value": "schema:codeValue \"32638\" "
+        },
+        {
+          "db": "schema:codeSystem omim",
+          "value": "schema:codeValue \"264300\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#17-beta-hydroxysteroid_dehydrogenase_deficiency a schema:MedicalCondition ",
+      "name": "rdfs:label \"17-beta-hydroxysteroid dehydrogenase deficiency\"  ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem diseasesdb",
+          "value": "schema:codeValue \"34425\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#2q37_deletion_syndrome a schema:MedicalCondition ",
+      "name": "rdfs:label \"Missing Disease Label\" ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem omim",
+          "value": "schema:codeValue \"220210\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#3c_syndrome a schema:MedicalCondition ",
+      "name": "rdfs:label \"Missing Disease Label\" ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem diseasesdb",
+          "value": "schema:codeValue \"34396\" "
+        },
+        {
+          "db": "schema:codeSystem omim",
+          "value": "schema:codeValue \"601609\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#3-hydroxyacyl-coenzyme_A_dehydrogenase_deficiency a schema:MedicalCondition ",
+      "name": "rdfs:label \"Missing Disease Label\" ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem omim",
+          "value": "schema:codeValue \"606232\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#22q13_deletion_syndrome a schema:MedicalCondition ",
+      "name": "rdfs:label \"Missing Disease Label\" ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem diseasesdb",
+          "value": "schema:codeValue \"29826\" "
+        },
+        {
+          "db": "schema:codeSystem meshid",
+          "value": "schema:codeValue \"C008047\" "
+        },
+        {
+          "db": "schema:codeSystem omim",
+          "value": "schema:codeValue \"246450\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#3-hydroxy-3-methylglutaryl-CoA_lyase_deficiency a schema:MedicalCondition ",
+      "name": "rdfs:label \"Missing Disease Label\" ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem image",
+          "value": "schema:image \"http://upload.wikimedia.org/wikipedia/commons/b/b4/3-methylglutaconic_acid.svg\" "
+        },
+        {
+          "db": "schema:codeSystem diseasesdb",
+          "value": "schema:codeValue \"29831\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#3-Methylglutaconic_aciduria a schema:MedicalCondition ",
+      "name": "rdfs:label \"3-Methylglutaconic aciduria\"  ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem image",
+          "value": "schema:image \"http://upload.wikimedia.org/wikipedia/commons/c/cd/Androstanolone.svg\" "
+        },
+        {
+          "db": "schema:codeSystem emedicinetopic",
+          "value": "schema:codeValue \"1980\" "
+        },
+        {
+          "db": "schema:codeSystem diseasesdb",
+          "value": "schema:codeValue \"11\" "
+        },
+        {
+          "db": "schema:codeSystem omim",
+          "value": "schema:codeValue \"264600\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#5-alpha-reductase_deficiency a schema:MedicalCondition ",
+      "name": "rdfs:label \"5-alpha-reductase deficiency\"  ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem omim",
+          "value": "schema:codeValue \"607872\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#1p36_deletion_syndrome a schema:MedicalCondition ",
+      "name": "rdfs:label \"Missing Disease Label\" ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem diseasesdb",
+          "value": "schema:codeValue \"33510\" "
+        },
+        {
+          "db": "schema:codeSystem omim",
+          "value": "schema:codeValue \"273750\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#3m_syndrome a schema:MedicalCondition ",
+      "name": "rdfs:label \"3m syndrome\"  ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem diseasesdb",
+          "value": "schema:codeValue \"29836\" "
+        },
+        {
+          "db": "schema:codeSystem meshid",
+          "value": "schema:codeValue \"D020176\" "
+        },
+        {
+          "db": "schema:codeSystem omim",
+          "value": "schema:codeValue \"276710\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#4-Alpha-hydroxyphenylpyruvate_hydroxylase_deficiency a schema:MedicalCondition ",
+      "name": "rdfs:label \"Missing Disease Label\" ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem meshid",
+          "value": "schema:codeValue \"D000402\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#Airway_obstruction a schema:MedicalCondition ",
+      "name": "rdfs:label \"Missing Disease Label\" ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem emedicinetopic",
+          "value": "schema:codeValue \"572\" "
+        },
+        {
+          "db": "schema:codeSystem diseasesdb",
+          "value": "schema:codeValue \"29617\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#Anophthalmia a schema:MedicalCondition ",
+      "name": "rdfs:label \"Missing Disease Label\" ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem diseasesdb",
+          "value": "schema:codeValue \"33220\" "
+        },
+        {
+          "db": "schema:codeSystem meshid",
+          "value": "schema:codeValue \"D001183\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#Arthus_reaction a schema:MedicalCondition ",
+      "name": "rdfs:label \"Missing Disease Label\" ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem omim",
+          "value": "schema:codeValue \"100700\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#Achard_syndrome a schema:MedicalCondition ",
+      "name": "rdfs:label \"Missing Disease Label\" ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem emedicinetopic",
+          "value": "schema:codeValue \"60\" "
+        },
+        {
+          "db": "schema:codeSystem diseasesdb",
+          "value": "schema:codeValue \"29085\" "
+        },
+        {
+          "db": "schema:codeSystem meshid",
+          "value": "schema:codeValue \"D016738\" "
+        },
+        {
+          "db": "schema:codeSystem omim",
+          "value": "schema:codeValue \"118450\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#Alagille_syndrome a schema:MedicalCondition ",
+      "name": "rdfs:label \"Missing Disease Label\" ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem emedicinetopic",
+          "value": "schema:codeValue \"316\" "
+        },
+        {
+          "db": "schema:codeSystem diseasesdb",
+          "value": "schema:codeValue \"503\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#Amblyopia a schema:MedicalCondition ",
+      "name": "rdfs:label \"Amblyopia\"  ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem image",
+          "value": "schema:image \"http://upload.wikimedia.org/wikipedia/commons/b/b3/Small_bowel_duodenum_with_amyloid_deposition_congo_red_10X.jpg\" "
+        },
+        {
+          "db": "schema:codeSystem emedicinetopic",
+          "value": "schema:codeValue \"3377\" "
+        },
+        {
+          "db": "schema:codeSystem diseasesdb",
+          "value": "schema:codeValue \"633\" "
+        },
+        {
+          "db": "schema:codeSystem meshid",
+          "value": "schema:codeValue \"D000686\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#Amyloidosis a schema:MedicalCondition ",
+      "name": "rdfs:label \"Missing Disease Label\" ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem emedicinetopic",
+          "value": "schema:codeValue \"2924\" "
+        },
+        {
+          "db": "schema:codeSystem diseasesdb",
+          "value": "schema:codeValue \"1174\" "
+        },
+        {
+          "db": "schema:codeSystem meshid",
+          "value": "schema:codeValue \"D010020\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#Avascular_necrosis a schema:MedicalCondition ",
+      "name": "rdfs:label \"Missing Disease Label\" ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem diseasesdb",
+          "value": "schema:codeValue \"10835\" "
+        },
+        {
+          "db": "schema:codeSystem meshid",
+          "value": "schema:codeValue \"D005359\" "
+        },
+        {
+          "db": "schema:codeSystem omim",
+          "value": "schema:codeValue \"103580\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#Albright%27s_hereditary_osteodystrophy a schema:MedicalCondition ",
+      "name": "rdfs:label \"Missing Disease Label\" ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem emedicinetopic",
+          "value": "schema:codeValue \"1157\" "
+        },
+        {
+          "db": "schema:codeSystem diseasesdb",
+          "value": "schema:codeValue \"32036\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#Apnea_of_prematurity a schema:MedicalCondition ",
+      "name": "rdfs:label \"Apnea of prematurity\"  ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem meshid",
+          "value": "schema:codeValue \"D001063\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#Appendix_cancer a schema:MedicalCondition ",
+      "name": "rdfs:label \"Missing Disease Label\" ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem image",
+          "value": "schema:image \"http://upload.wikimedia.org/wikipedia/commons/a/af/Gray468.png\" "
+        },
+        {
+          "db": "schema:codeSystem emedicinetopic",
+          "value": "schema:codeValue \"3519\" "
+        },
+        {
+          "db": "schema:codeSystem diseasesdb",
+          "value": "schema:codeValue \"1089\" "
+        },
+        {
+          "db": "schema:codeSystem meshnumber",
+          "value": "schema:codeValue \"C14.240.400.560.375\" "
+        },
+        {
+          "db": "schema:codeSystem meshname",
+          "value": "schema:codeValue \"Atrial+Septal+Defects\" "
+        },
+        {
+          "db": "schema:codeSystem omim",
+          "value": "schema:codeValue \"108800\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#Atrial_septal_defect a schema:MedicalCondition ",
+      "name": "rdfs:label \"Atrial septal defect\"  ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem diseasesdb",
+          "value": "schema:codeValue \"31422\" "
+        },
+        {
+          "db": "schema:codeSystem meshnumber",
+          "value": "schema:codeValue \"C16.320.565.202.607.500\" "
+        },
+        {
+          "db": "schema:codeSystem meshname",
+          "value": "schema:codeValue \"alpha-Mannosidosis\" "
+        },
+        {
+          "db": "schema:codeSystem omim",
+          "value": "schema:codeValue \"248500\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#Alpha-mannosidosis a schema:MedicalCondition ",
+      "name": "rdfs:label \"Alpha-mannosidosis\"  ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem meshid",
+          "value": "schema:codeValue \"D018194\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#Adenomyoma a schema:MedicalCondition ",
+      "name": "rdfs:label \"Missing Disease Label\" ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem emedicinetopic",
+          "value": "schema:codeValue \"437\" "
+        },
+        {
+          "db": "schema:codeSystem diseasesdb",
+          "value": "schema:codeValue \"4024\" "
+        },
+        {
+          "db": "schema:codeSystem meshid",
+          "value": "schema:codeValue \"D001037\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#Aphasia a schema:MedicalCondition ",
+      "name": "rdfs:label \"Missing Disease Label\" ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem diseasesdb",
+          "value": "schema:codeValue \"29646\" "
+        },
+        {
+          "db": "schema:codeSystem meshid",
+          "value": "schema:codeValue \"D000839\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#Aniseikonia a schema:MedicalCondition ",
+      "name": "rdfs:label \"Missing Disease Label\" ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem emedicinetopic",
+          "value": "schema:codeValue \"1117\" "
+        },
+        {
+          "db": "schema:codeSystem diseasesdb",
+          "value": "schema:codeValue \"17\" "
+        },
+        {
+          "db": "schema:codeSystem meshid",
+          "value": "schema:codeValue \"D000012\" "
+        },
+        {
+          "db": "schema:codeSystem omim",
+          "value": "schema:codeValue \"200100\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#Abetalipoproteinemia a schema:MedicalCondition ",
+      "name": "rdfs:label \"Missing Disease Label\" ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem emedicinetopic",
+          "value": "schema:codeValue \"27\" "
+        },
+        {
+          "db": "schema:codeSystem diseasesdb",
+          "value": "schema:codeValue \"114\" "
+        },
+        {
+          "db": "schema:codeSystem meshid",
+          "value": "schema:codeValue \"D000172\" "
+        },
+        {
+          "db": "schema:codeSystem omim",
+          "value": "schema:codeValue \"102200\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#Acromegaly a schema:MedicalCondition ",
+      "name": "rdfs:label \"Acromegaly\"  ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem emedicinetopic",
+          "value": "schema:codeValue \"11\" "
+        },
+        {
+          "db": "schema:codeSystem diseasesdb",
+          "value": "schema:codeValue \"31676\" "
+        },
+        {
+          "db": "schema:codeSystem meshid",
+          "value": "schema:codeValue \"D050398\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#Adamantinoma a schema:MedicalCondition ",
+      "name": "rdfs:label \"Missing Disease Label\" ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem meshid",
+          "value": "schema:codeValue \"D007119\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#Angioimmunoblastic_T-cell_lymphoma a schema:MedicalCondition ",
+      "name": "rdfs:label \"Missing Disease Label\" ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem diseasesdb",
+          "value": "schema:codeValue \"29332\" "
+        },
+        {
+          "db": "schema:codeSystem omim",
+          "value": "schema:codeValue \"147800\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#Aase_syndrome a schema:MedicalCondition ",
+      "name": "rdfs:label \"Aase syndrome\"  ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem emedicinetopic",
+          "value": "schema:codeValue \"561\" "
+        },
+        {
+          "db": "schema:codeSystem diseasesdb",
+          "value": "schema:codeValue \"32457\" "
+        },
+        {
+          "db": "schema:codeSystem meshid",
+          "value": "schema:codeValue \"D000652\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#Amniotic_band_syndrome a schema:MedicalCondition ",
+      "name": "rdfs:label \"Missing Disease Label\" ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem meshid",
+          "value": "schema:codeValue \"D001005\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#Anal_cancer a schema:MedicalCondition ",
+      "name": "rdfs:label \"Missing Disease Label\" ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem emedicinetopic",
+          "value": "schema:codeValue \"3225\" "
+        },
+        {
+          "db": "schema:codeSystem diseasesdb",
+          "value": "schema:codeValue \"8375\" "
+        },
+        {
+          "db": "schema:codeSystem meshid",
+          "value": "schema:codeValue \"D000532\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#Altitude_sickness a schema:MedicalCondition ",
+      "name": "rdfs:label \"Altitude sickness\"  ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem diseasesdb",
+          "value": "schema:codeValue \"946\" "
+        },
+        {
+          "db": "schema:codeSystem meshid",
+          "value": "schema:codeValue \"D006175\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#Asherman%27s_syndrome a schema:MedicalCondition ",
+      "name": "rdfs:label \"Missing Disease Label\" ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem emedicinetopic",
+          "value": "schema:codeValue \"561\" "
+        },
+        {
+          "db": "schema:codeSystem diseasesdb",
+          "value": "schema:codeValue \"32457\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#Amniotic_Band_Constriction a schema:MedicalCondition ",
+      "name": "rdfs:label \"Missing Disease Label\" ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem omim",
+          "value": "schema:codeValue \"600513\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#Autosomal_dominant_nocturnal_frontal_lobe_epilepsy a schema:MedicalCondition ",
+      "name": "rdfs:label \"Autosomal dominant nocturnal frontal lobe epilepsy\"  ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem image",
+          "value": "schema:image \"Pulmonary aspergillosis (1) invasive type.jpg\" "
+        },
+        {
+          "db": "schema:codeSystem emedicinetopic",
+          "value": "schema:codeValue \"174\" "
+        },
+        {
+          "db": "schema:codeSystem meshid",
+          "value": "schema:codeValue \"D001228\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#Aspergillosis a schema:MedicalCondition ",
+      "name": "rdfs:label \"Missing Disease Label\" ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    },
+    {
+      "code": [
+        {
+          "db": "schema:codeSystem emedicinetopic",
+          "value": "schema:codeValue \"161\" "
+        },
+        {
+          "db": "schema:codeSystem diseasesdb",
+          "value": "schema:codeValue \"31309\" "
+        },
+        {
+          "db": "schema:codeSystem omim",
+          "value": "schema:codeValue \"258660\" "
+        }
+      ],
+      "rdf_id": "http://beowulf.pnnl.gov/2015/disease#Anterior_ischemic_optic_neuropathy a schema:MedicalCondition ",
+      "name": "rdfs:label \"Missing Disease Label\" ",
+      "description": "rdfs:comment \"Imported from Wikipedia Infobox on: 01/26/2015 23:03\" .  "
+    }
+  ]
+}
