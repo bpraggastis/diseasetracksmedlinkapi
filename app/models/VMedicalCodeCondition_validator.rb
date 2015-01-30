@@ -1,11 +1,11 @@
-class VMedicalCodeConditionValidator < ActiveModel::EachValidator
+class VmedicalcodeconditionValidator < ActiveModel::EachValidator
 
   def validate_each record, attribute, value
     # this method validates that a medical condition does not get more than one code
     # from the same organization
 
     # codes that the medical condition has already been assigned
-    codes = MedicalCondition.find(record.medical_condition_id)
+    codes = MedicalCondition.find(record.medical_condition_id).codes
 
     # the code systems of those codes
     organizations = codes.map {|code| code.code_system}
