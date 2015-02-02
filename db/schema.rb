@@ -11,10 +11,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150130010915) do
+ActiveRecord::Schema.define(version: 20150202233638) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "alternate_names", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "medical_code_conditions", id: false, force: true do |t|
     t.integer  "medical_code_id"
@@ -38,8 +44,17 @@ ActiveRecord::Schema.define(version: 20150130010915) do
   end
 
   create_table "medical_therapies", force: true do |t|
-    t.string "name"
-    t.text   "description"
+    t.string   "name"
+    t.text     "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "synonyms", force: true do |t|
+    t.integer  "medical_condition_id"
+    t.integer  "alternate_name_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
 end
