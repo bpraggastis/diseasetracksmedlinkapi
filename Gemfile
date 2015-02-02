@@ -23,7 +23,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-gem 'spring',        group: :development
+# gem 'spring',        group: :development
 
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
@@ -54,3 +54,6 @@ gem 'rails_12factor', group: :production
 # gem 'debugger', group: [:development, :test]
 
 gem 'json'
+gem "elasticsearch", git: "git://github.com/elasticsearch/elasticsearch-ruby.git"
+gem "elasticsearch-model", git: "git://github.com/elasticsearch/elasticsearch-rails.git"
+gem "elasticsearch-rails", git: "git://github.com/elasticsearch/elasticsearch-rails.git"
