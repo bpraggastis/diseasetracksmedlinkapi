@@ -42,6 +42,8 @@ group :development do
   gem 'brakeman', :require =>false
 end
 
+gem 'faker', '~> 1.4.3'
+
 gem 'rails_12factor', group: :production
 
 # Use unicorn as the app server
