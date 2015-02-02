@@ -15,6 +15,9 @@ diseases.each do |disease|
   rand(7).times do
     new_disease.alternate_names.create(name: Faker::Company.name + " disease")
   end
+  rand(3).times do
+    new_disease.causes.create(name: Faker::Lorem.word, description: Faker::Company.catch_phrase)
+  end
   disease["codes"].each do |code|
     new_disease.codes.create(code_system: code["system"], code_value: code["value"])
   end
