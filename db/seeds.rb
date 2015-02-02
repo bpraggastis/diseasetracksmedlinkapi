@@ -12,7 +12,9 @@ diseases = MedicalConditionHelpers::DataSeed.make_disease_bank(DISEASE_DATA)
 
 diseases.each do |disease|
   new_disease = MedicalCondition.create(name: disease["name"])
-  new_disease.alternate_names.create(name: Faker::Company.name + "disease")
+  rand(7).times do
+    new_disease.alternate_names.create(name: Faker::Company.name + " disease")
+  end
   disease["codes"].each do |code|
     new_disease.codes.create(code_system: code["system"], code_value: code["value"])
   end
