@@ -1,7 +1,9 @@
 class HomeController < ApplicationController
 
-  def index(conditions = nil, therapies = nil)
+  def index
+
     if params[:condition_query].present?
+
       @conditions = MedicalCondition.search(params[:condition_query]).records
     else
       @conditions = MedicalCondition.all
