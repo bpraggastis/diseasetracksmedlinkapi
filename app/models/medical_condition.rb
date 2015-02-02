@@ -18,4 +18,9 @@ class MedicalCondition < ActiveRecord::Base
   #medical cause associations
   has_many :medical_cause_conditions
   has_many :causes, source: :medical_cause, through: :medical_cause_conditions
+
+  #alternate name associations
+  has_many :synonyms
+  has_many :alternate_names, through: :synonyms
+
 end

@@ -89,6 +89,8 @@ GEM
       dotenv (= 1.0.2)
     erubis (2.7.0)
     execjs (2.2.2)
+    faker (1.4.3)
+      i18n (~> 0.5)
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
     fastercsv (1.5.5)
@@ -213,6 +215,7 @@ DEPENDENCIES
   elasticsearch!
   elasticsearch-model!
   elasticsearch-rails!
+  faker (~> 1.4.3)
   flog
   jbuilder (~> 2.0)
   jquery-rails
