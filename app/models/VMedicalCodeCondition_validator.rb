@@ -5,15 +5,13 @@ class VmedicalcodeconditionValidator < ActiveModel::EachValidator
     # from the same organization
 
     # codes that the medical condition has already been assigned
-    codes = MedicalCondition.find(record.medical_condition_id).codes
-
+    codes = record.medical_condition.codes
     # the code systems of those codes
     organizations = codes.map {|code| code.code_system}
-
     # test if the new code is from a system that has already submitted a code
     if organizations.include? MedicalCode.find(value).code_system
       record.errors[attribute] << (
-        options[:message] || "is from an organization that has already assigned a code to this disease"
+        options[:message] || "is from an organization that has already assigned a code to this disease. Organization: #{MedicalCode.find(value).code_system} Disease: #{MedicalCondition.find(record.medical_condition_id).name}"
       )
     else
       true
