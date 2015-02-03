@@ -1,4 +1,4 @@
-class CreateMedicalCauseCondition < ActiveRecord::Migration
+class CreateMedicalCauseConditions < ActiveRecord::Migration
   def change
     create_table :medical_cause_conditions do |t|
       t.integer :medical_cause_id

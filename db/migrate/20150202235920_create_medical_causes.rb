@@ -1,4 +1,4 @@
-class CreateMedicalCause < ActiveRecord::Migration
+class CreateMedicalCauses < ActiveRecord::Migration
   def change
     create_table :medical_causes do |t|
       t.string :name
