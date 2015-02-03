@@ -1,4 +1,4 @@
-class CreateSynonym < ActiveRecord::Migration
+class CreateSynonyms < ActiveRecord::Migration
   def change
     create_table :synonyms do |t|
       t.integer :medical_condition_id

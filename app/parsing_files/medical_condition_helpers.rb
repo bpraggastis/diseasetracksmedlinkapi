@@ -19,13 +19,13 @@ class DataSeed
   end
 
   def self.parse_condition(item)
-    name = condition_name(item)
+    name = condition_name(item).gsub('_',' ')
     codes = []
     item["code"].each do |code_item|
       code = {"system"=> condition_code_system(code_item), "value"=> condition_code_value(code_item)}
       codes << code
     end
-    return {"name"=> name.gsub('_',' '), "codes" => codes}
+    return {"name"=> name, "codes" => codes}
   end
 
   def self.make_disease_bank(array_of_diseases)
