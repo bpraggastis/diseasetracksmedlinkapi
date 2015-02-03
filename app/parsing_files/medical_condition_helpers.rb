@@ -25,7 +25,7 @@ class DataSeed
       code = {"system"=> condition_code_system(code_item), "value"=> condition_code_value(code_item)}
       codes << code
     end
-    return {"name"=> name, "codes" => codes}
+    return {"name"=> name.gsub('_',' '), "codes" => codes}
   end
 
   def self.make_disease_bank(array_of_diseases)
@@ -36,6 +36,7 @@ class DataSeed
     end
     diseases
   end
+
 
 end
 
