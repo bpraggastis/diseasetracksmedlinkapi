@@ -37,17 +37,16 @@
               <% end %>
           </ul>
         </li>
+          Medical Causes: <br>
+          <ul>
+              <% condition.causes.each do |cause| %>
+              <li>
+                  <em><%= cause.name %></em>: <%= cause.description %>
+                </li>
+              <% end %>
+          </ul>
+        </li>
       <% end %>
-      Medical Causes: <br>
-      <ul>
-          <% condition.causes.each do |cause| %>
-          <li>
-              <em><%= cause.name %></em>: <%= cause.description %>
-            </li>
-          <% end %>
-      </ul>
-    </li>
-  <% end %>
     </ol>
   </div>
 </div>
