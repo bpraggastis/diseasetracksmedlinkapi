@@ -1,7 +1,6 @@
 class MedicalCondition < ActiveRecord::Base
 
-  include Elasticsearch::Model
-  include Elasticsearch::Model::Callbacks
+  include Searchable
 
   #join tables for medical therapies
   has_one :primary_prevention
