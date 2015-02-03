@@ -11,7 +11,8 @@ DISEASE_DATA = JSON.parse(File.read('db/support/disease_file_short.json'))['dise
 diseases = MedicalConditionHelpers::DataSeed.make_disease_bank(DISEASE_DATA)
 
 diseases.each do |disease|
-  new_disease = MedicalCondition.create(name: disease["name"])
+  new_disease = MedicalCondition.create(name: disease.name)
+  new_disease.alternate_names.create(name: disease.name)
   rand(7).times do
     new_disease.alternate_names.create(name: Faker::Company.name + " disease")
   end
