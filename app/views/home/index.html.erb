@@ -17,16 +17,24 @@
         <li> <strong><%= condition.name %></strong> <br>
           Codes: <br>
           <ul>
-            <li>
               <% condition.codes.each do |code| %>
                 <% if code.code_system == "image" %>
                   <li><img src="<%= code.code_value %>" width="100px" height="100px" alt="" />
                   </li>
                 <% else %>
+                <li>
                   <%= code.code_system %>: <%= code.code_value %>
+                </li>
                 <% end %>
               <% end %>
-            </li>
+          </ul>
+          Alternate Names: <br>
+          <ul>
+              <% condition.alternate_names.each do |alt_name| %>
+              <li>
+                  <%= alt_name.name %>
+                </li>
+              <% end %>
           </ul>
         </li>
       <% end %>
