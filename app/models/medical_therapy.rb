@@ -1,8 +1,7 @@
 class MedicalTherapy < ActiveRecord::Base
 
-  include Elasticsearch::Model
-  include Elasticsearch::Model::Callbacks
-  
+  include Searchable
+
   #join tables back to medical conditions (for treatment and prevention)
   has_many :possible_treatments
   has_many :primary_preventions

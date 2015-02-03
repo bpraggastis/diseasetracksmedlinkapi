@@ -9,8 +9,8 @@
           <%= text_field_tag :condition_query, params[:condition_query] %>
           <%= submit_tag :search %>
         </p>
-      <% end %>
-  </div>
+          <!-- put %end here if wish to break up queries -->
+    </div>
   <div class="scrolling-list">
     <ol>
       <% @conditions.each do |condition| %>
@@ -54,7 +54,7 @@
 <div id="drug-list" class="basic-block">
   <h2>Drug Therapies</h2>
     <div class="query-form" id="therapy-query">
-      <%= form_tag '/', method: :get do %>
+          <!-- put %= form_tag here if wish to break up queries -->
         <p>
           <%= label_tag :therapy_query %>
           <%= text_field_tag :therapy_query, params[:therapy_query] %>
