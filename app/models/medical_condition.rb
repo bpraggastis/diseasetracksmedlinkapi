@@ -1,7 +1,6 @@
 class MedicalCondition < ActiveRecord::Base
 
-  include Elasticsearch::Model
-  include Elasticsearch::Model::Callbacks
+  include Searchable
 
   #join tables for medical therapies
   has_one :primary_prevention
@@ -23,4 +22,12 @@ class MedicalCondition < ActiveRecord::Base
   has_many :synonyms
   has_many :alternate_names, through: :synonyms
 
+
+  def to_indexed_json
+    to_json(methods: [:code_systems])
+  end
+
+  def code_systems
+    codes.collect{|code| code.system}
+  end
 end
