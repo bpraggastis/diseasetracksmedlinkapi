@@ -12,12 +12,15 @@ diseases = MedicalConditionHelpers::DataSeed.make_disease_bank(DISEASE_DATA)
 
 diseases.each do |disease|
   new_disease = MedicalCondition.create(name: disease['name'])
-  disease.alternate_names.each do |name|
-    new_disease.alternate_names.create(name: name)
-  end
+  # taken from rdfs:label
+    disease["alternate_names"].each do |alternate_name|
+      new_disease.alternate_names.create(name: alternate_name)
+    end
+  # Faker data used for causes
   rand(3).times do
     new_disease.causes.create(name: Faker::Lorem.word, description: Faker::Company.catch_phrase)
   end
+
   disease["codes"].each do |code|
     new_disease.codes.create(code_system: code["system"], code_value: code["value"])
   end

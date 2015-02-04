@@ -32,11 +32,11 @@
                 <% end %>
               <% end %>
           </ul>
-          Alternate Names: <br>
+          All Known Names: <br>
           <ul>
               <% MedicalCondition.find(condition.id).alternate_names.each do |alt_name| %>
               <li>
-                  <%= HomeController::hilite(alt_name.name, @query) %>
+                  <%= HomeController::hilite(alt_name.name, @cquery) %>
                 </li>
               <% end %>
           </ul>
@@ -72,7 +72,7 @@
     <ol>
       <% @therapies.each do |therapy| %>
       <li>
-        <strong><%= therapy.name %></strong>: <%= therapy.description %>
+        <strong><%= HomeController::hilite(therapy.name,@tquery) %></strong>: <%= HomeController::hilite(therapy.description, @tquery) %>
       </li>
       <% end %>
     </ol>
