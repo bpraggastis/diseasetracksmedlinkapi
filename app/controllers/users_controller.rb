@@ -2,6 +2,7 @@ class UsersController < ApplicationController
 
   def create
     @user = User.new(user_params)
+    @user.password = params[:password]
     if @user.save
       session[:session_id] = @user.id
       redirect_to @user
@@ -17,6 +18,7 @@ class UsersController < ApplicationController
       redirect_to root_path
     end
     @user = User.find(session[:session_id])
+    # Bring up comments and queries, too?
   end
 
   def update
@@ -49,7 +51,7 @@ class UsersController < ApplicationController
   end
 
   def user_params
-    params.require(:user).permit(:name, :email, :password)
+    params.require(:user).permit(:name, :email)
   end
 
 end
