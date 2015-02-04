@@ -34,6 +34,6 @@ drugs.each do |drug|
   d.codes.create(code_system: 'DrugBank', code_value: drug.css('/drugbank-id').first.text)
   codes = drug.css('/external-identifiers/external-identifier')
   codes.each do |code|
-    d.codes.create(code_system: code.css('/resource'), code_value: code.css('identifier'))
+    d.codes.create(code_system: code.css('/resource').text, code_value: code.css('identifier').text)
   end
 end
