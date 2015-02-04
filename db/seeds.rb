@@ -29,5 +29,11 @@ drugs = DRUG_DATA.css('drugbank/drug')
 drugs.each do |drug|
   name = drug.css("/name").text
   description = drug.css('/description').text
-  MedicalTherapy.create(name: name, description: description)
+  d = MedicalTherapy.create(name: name, description: description)
+  d.codes.create(code_value: drug.css('cas-number').text, code_system: "cas-number")
+  d.codes.create(code_system: 'DrugBank', code_value: drug.css('/drugbank-id').first.text)
+  codes = drug.css('/external-identifiers/external-identifier')
+  codes.each do |code|
+    d.codes.create(code_system: code.css('/resource').text, code_value: code.css('identifier').text)
+  end
 end
