@@ -12,9 +12,8 @@ diseases = MedicalConditionHelpers::DataSeed.make_disease_bank(DISEASE_DATA)
 
 diseases.each do |disease|
   new_disease = MedicalCondition.create(name: disease['name'])
-  new_disease.alternate_names.create(name: disease['name'])
-  rand(7).times do
-    new_disease.alternate_names.create(name: Faker::Company.name + " disease")
+  disease.alternate_names.each do |name|
+    new_disease.alternate_names.create(name: name)
   end
   rand(3).times do
     new_disease.causes.create(name: Faker::Lorem.word, description: Faker::Company.catch_phrase)

@@ -10,6 +10,19 @@ class DataSeed
     /#(.*)\sa\sschema:MedicalCondition/.match(item["rdf_id"])[1]
   end
 
+  def self.alternate_names(item)
+
+    temp = /rdfs:label\s\\\"(.*)\\\"/.match(item["name"])
+
+    if temp == "Missing Disease Label"
+      return ""
+    else
+      temp = temp[1].split('AND').collect {|item| item.strip}
+    end
+  end
+
+  # "name": "rdfs:label \"Missing Disease Label\" "
+
   def self.condition_code_system(code_item)
     /schema:codeSystem\s*(\w*)/.match(code_item["db"])[1]
   end
@@ -25,7 +38,7 @@ class DataSeed
       code = {"system"=> condition_code_system(code_item), "value"=> condition_code_value(code_item)}
       codes << code
     end
-    return {"name"=> name, "codes" => codes}
+    return {"name"=> name, "codes" => codes, "alternate_names" => alternate_names(item)}
   end
 
   def self.make_disease_bank(array_of_diseases)
