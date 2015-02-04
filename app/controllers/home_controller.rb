@@ -1,17 +1,35 @@
 class HomeController < ApplicationController
 
   def index
-
+    @cquery = ""
+    @tquery = ""
     if params[:condition_query].present?
-
-      @conditions = MedicalCondition.search(params[:condition_query]).records
+      @cquery = params[:condition_query]
+      responses = AlternateName.search(@cquery).records
+      @conditions = []
+      responses.each do |response|
+        response.medical_conditions.each do |condition|
+          condition.name = HomeController::hilite(condition.name, @cquery)
+          @conditions << condition
+        end
+      end
     else
       @conditions = MedicalCondition.all
     end
     if params[:therapy_query].present?
-      @therapies = MedicalTherapy.search(params[:therapy_query]).records
+      @tquery = params[:therapy_query]
+      @therapies = MedicalTherapy.search(@tquery).records
     else
       @therapies = MedicalTherapy.all
+    end
+  end
+
+
+  def self.hilite(string, query = "")
+    if query != ""
+      string.gsub(query, "<span class='hi-lite'>#{query}</span>").html_safe
+    else
+      string
     end
   end
 

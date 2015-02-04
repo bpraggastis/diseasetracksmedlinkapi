@@ -22,6 +22,30 @@ class MedicalCondition < ActiveRecord::Base
   has_many :synonyms
   has_many :alternate_names, through: :synonyms
 
+  def self.search(query)
+    response = __elasticsearch__.search(
+    {
+      query: {
+        fuzzy_like_this_field: {
+          name: {
+            like_text: query
+          }
+        }
+      },
+      highlight: {
+        pre_tags: ['<span class="hi-lite">'],
+        post_tags: ['</span>'],
+        fields: {
+          name: {}
+        }
+      }
+    })
+
+  end
+
+
+  
+
 
 
 end
