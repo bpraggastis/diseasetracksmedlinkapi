@@ -28,7 +28,7 @@
                 <% end %>
               <% end %>
           </ul>
-          Alternate Names: <br>
+          All Known Names: <br>
           <ul>
               <% condition.alternate_names.each do |alt_name| %>
               <li>
@@ -37,14 +37,6 @@
               <% end %>
           </ul>
         </li>
-          Medical Causes: <br>
-          <ul>
-              <% condition.causes.each do |cause| %>
-              <li>
-                  <em><%= cause.name %></em>: <%= cause.description %>
-                </li>
-              <% end %>
-          </ul>
         </li>
       <% end %>
     </ol>
