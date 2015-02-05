@@ -43,3 +43,22 @@ drugs.each do |drug|
     d.codes.create(code_system: code.css('/resource').text, code_value: code.css('identifier').text)
   end
 end
+
+l = JSON.parse(File.read('disease_drug/diseasome_dump.json'))
+l.keys.each do |key|
+  name = l[key]['http://schema.org/name'][0]['value'] if l[key]['http://schema.org/name']
+  disease = MedicalCondition.where(name: name)
+  if l[key]["http://schema.org/primaryPrevention"]
+    l[key]["http://schema.org/primaryPrevention"].each do |hash|
+      if nums = hash['value'].match(/http:\/\/beowulf.pnnl.gov\/2014\/drug\/DB\d+/)
+        drug = MedicalCode.where(
+                              code_system: "DrugBank",
+                              value: "DB" + nums.to_s.match(/\d+$/).to_s
+                            ).medical_therapy
+      end
+      PrimaryPrevention.create(
+                            medical_therapy_id: drug.id,
+                            medical_condition_id: disease.id)
+    end
+  end
+end
