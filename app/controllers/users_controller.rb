@@ -4,7 +4,7 @@ class UsersController < ApplicationController
     @user = User.new(user_params)
     @user.password = params[:password]
     if @user.save
-      session[:session_id] = @user.id
+      session[:user_id] = @user.id
       redirect_to @user
     else
       redirect_to root_path
@@ -13,11 +13,11 @@ class UsersController < ApplicationController
 
   def show
     #Only logged-in users can view their own pages
-    unless params[:id] == session[:session_id]
+    unless params[:id] == session[:user_id]
       flash[:notice] = "You are not authorized to see that page."
       redirect_to root_path
     end
-    @user = User.find(session[:session_id])
+    @user = User.find(session[:user_id])
     # Bring up comments and queries, too?
   end
 
@@ -47,7 +47,7 @@ class UsersController < ApplicationController
   private
 
   def authorization_check
-    params[:id] == session[:session_id] || User.find(session[:session_id]).tier == "admin"
+    params[:id] == session[:user_id] || User.find(session[:user_id]).tier == "admin"
   end
 
   def user_params

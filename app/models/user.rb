@@ -1,7 +1,10 @@
 class User < ActiveRecord::Base
   validates :name, :email, :password, presence: true
-  validates :email, uniqueness: true, on: :create, on: :update
+  validates :email, :name, uniqueness: true, on: :create, on: :update
+  has_secure_password
   include BCrypt
+
+
 
   def password
     @password ||= Password.new(password_hash)
@@ -11,5 +14,5 @@ class User < ActiveRecord::Base
     @password = Password.create(new_password)
     self.password_hash = @password
   end
-  
+
 end
