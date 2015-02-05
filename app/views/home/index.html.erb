@@ -14,14 +14,10 @@
   <div class="scrolling-list">
     <ol>
       <% @conditions.each do |condition| %>
-
-          <li> <strong><%= condition.try(:highlight).try(:name)? condition.highlight.name[0].html_safe:
-          condition.name%></strong>
-          <br>
-           Codes:
-           <br>
+        <li> <strong><%= condition.name %></strong> <br>
+          Codes: <br>
           <ul>
-              <% MedicalCondition.find(condition.id).codes.each do |code| %>
+              <% condition.codes.each do |code| %>
                 <% if code.code_system == "image" %>
                   <li><img src="<%= code.code_value %>" width="100px" height="100px" alt="" />
                   </li>
@@ -34,25 +30,15 @@
           </ul>
           All Known Names: <br>
           <ul>
-              <% MedicalCondition.find(condition.id).alternate_names.each do |alt_name| %>
+              <% condition.alternate_names.each do |alt_name| %>
               <li>
-                  <%= HomeController::hilite(alt_name.name, @cquery) %>
-                </li>
-              <% end %>
-          </ul>
-
-          Medical Causes: <br>
-          <ul>
-              <% MedicalCondition.find(condition.id).causes.each do |cause| %>
-              <li>
-                  <em><%= cause.name %></em>: <%= cause.description %>
+                  <%= alt_name.name %>
                 </li>
               <% end %>
           </ul>
         </li>
+        </li>
       <% end %>
-
-
     </ol>
   </div>
 </div>
@@ -72,7 +58,7 @@
     <ol>
       <% @therapies.each do |therapy| %>
       <li>
-        <strong><%= HomeController::hilite(therapy.name,@tquery) %></strong>: <%= HomeController::hilite(therapy.description, @tquery) %>
+        <strong><%= therapy.name %></strong>: <%= therapy.description %>
       </li>
       <% end %>
     </ol>
