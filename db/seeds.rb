@@ -26,10 +26,14 @@ diseases.each do |disease|
   end
 end
 
-DRUG_DATA = Nokogiri::XML(File.open('db/support/drugbank.xml'))
-drugs = DRUG_DATA.css('drugbank/drug')
+DRUG_DATA = Nokogiri::XML(File.read('db/support/drugbank.xml'))
+drugs = DRUG_DATA.css('/drugbank/drug')
+puts drugs.length
+n=0
 drugs.each do |drug|
   name = drug.css("/name").text
+  puts drugs.length - n
+  n += 1
   description = drug.css('/description').text
   d = MedicalTherapy.create(name: name, description: description)
   d.codes.create(code_value: drug.css('cas-number').text, code_system: "cas-number")

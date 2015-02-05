@@ -3,12 +3,12 @@ class MedicalCondition < ActiveRecord::Base
   include Searchable
 
   #join tables for medical therapies
-  has_one :primary_prevention
+  has_many :primary_preventions
   has_many :possible_treatments
 
   #medical therapy associations
   has_many :treaments, source: :medical_therapy, through: :possible_treatments
-  has_one :prevention, source: :medical_therapy, through: :primary_prevention
+  has_many :preventions, source: :medical_therapy, through: :primary_preventions
 
   #medical code associations
   has_many :medical_code_conditions
@@ -44,7 +44,7 @@ class MedicalCondition < ActiveRecord::Base
   end
 
 
-  
+
 
 
 

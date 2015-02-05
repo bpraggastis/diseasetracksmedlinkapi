@@ -18,4 +18,7 @@ class MedicalTherapy < ActiveRecord::Base
   has_many :preventable_conditions, class_name: "MedicalCondition", through: :primary_preventions
     #conditions that the treatment treats:
   has_many :treatable_conditions, class_name: "MedicalCondition", through: :possible_treatments
+
+  validate :name, as: :unique
+
 end
