@@ -8,7 +8,7 @@ class DataSeed
 
   #primary name of condition take from PNNL database
   def self.condition_name(item)
-    /#(.*)\sa\sschema:MedicalCondition/.match(item["rdf_id"])[1] #.gsub('_',' ')
+    /#(.*)\sa\sschema:MedicalCondition/.match(item["rdf_id"])[1].gsub('_',' ')
   end
 
   #additional names
@@ -18,7 +18,7 @@ class DataSeed
     temp = /rdfs:label\s"(.*)"/.match(item["name"])[1]
     if temp != "Missing Disease Label"
       temp.split('AND').collect {|alt_name| alt_name.strip}.each do |alt_name|
-        temp_names << alt_name # .gsub('_',' ')
+        temp_names << alt_name.gsub('_',' ')
       end
     end
     return temp_names
