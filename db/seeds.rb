@@ -45,7 +45,10 @@ drugs.each do |drug|
 end
 
 l = JSON.parse(File.read('disease_drug/diseasome_dump.json'))
+n = l.keys.length
 l.keys.each do |key|
+  puts n
+  n -= 1
   name = l[key]['http://schema.org/name'][0]['value'] if l[key]['http://schema.org/name']
   disease = MedicalCondition.where(name: name)
   if l[key]["http://schema.org/primaryPrevention"]
