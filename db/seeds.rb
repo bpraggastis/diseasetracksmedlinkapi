@@ -44,12 +44,12 @@ drugs.each do |drug|
   end
 end
 
-l = JSON.parse(File.read('disease_drug/diseasome_dump.json'))
+l = JSON.parse(File.read('db/support/diseasome_dump.json'))
 n = l.keys.length
 l.keys.each do |key|
   puts n
   n -= 1
-  name = l[key]['http://schema.org/name'][0]['value'] if l[key]['http://schema.org/name']
+  name = l[key]['http://schema.org/name'][0]['value'].gsub("_", " ") if l[key]['http://schema.org/name']
   disease = MedicalCondition.where(name: name)
   if l[key]["http://schema.org/primaryPrevention"]
     l[key]["http://schema.org/primaryPrevention"].each do |hash|
@@ -57,11 +57,17 @@ l.keys.each do |key|
         drug = MedicalCode.where(
                               code_system: "DrugBank",
                               value: "DB" + nums.to_s.match(/\d+$/).to_s
-                            ).medical_therapy
+                            ).medical_code_therapy.medical_therapy
       end
-      PrimaryPrevention.create(
+      if drug && disease
+        PrimaryPrevention.create(
                             medical_therapy_id: drug.id,
                             medical_condition_id: disease.id)
+      else
+        puts "#{name} not in db?"
+        puts "drug: " + drug.inspect
+        puts "disease: " + disease.inspect
+      end
     end
   end
 end
