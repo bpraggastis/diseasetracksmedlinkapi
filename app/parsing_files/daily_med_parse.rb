@@ -1,5 +1,6 @@
 DAILY_MED = JSON.parse(File.read('db/support/dmedsmall.json'))
-DRUGS = DAILY_MED.keys
+DRUGS = DAILY_MED.keys.select {|key| /dailymed\/resource\/drugs/.match(key)}
+
 
 NAME = "http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/name"
 DB_CODE = "http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericDrug"
@@ -10,13 +11,17 @@ INDICATION = "http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/indicat
 CONTRAINDICATION = "http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/contraindication"
 
 DRUGS.each do |drug|
-name = DAILY_MED[drug][NAME][0]["value"]
-db_code = DAILY_MED[drug][DB_CODE][0]["value"].match(/.*\/(DB\d+)/)[1]
-generic = DAILY_MED[drug][GENERIC][0]["value"]
-warning = DAILY_MED[drug][WARNING][0]["value"]
-description = DAILY_MED[drug][DESCRIPTION][0]["value"]
-indications = DAILY_MED[drug][INDICATION][0]["value"]
-contraindications = DAILY_MED[drug][CONTRAINDICATION][0]["value"]
+  dmed_code = /dailymed\/resource\/drugs\/(\d+)/.match(drug)[1]
+  name = DAILY_MED[drug][NAME][0]["value"]
+  db_code = DAILY_MED[drug][DB_CODE][0]["value"].match(/.*\/(DB\d+)/)[1]
+  generic = DAILY_MED[drug][GENERIC][0]["value"]
+  warning = DAILY_MED[drug][WARNING][0]["value"]
+  description = DAILY_MED[drug][DESCRIPTION][0]["value"]
+  indications = DAILY_MED[drug][INDICATION][0]["value"]
+  contraindications = DAILY_MED[drug][CONTRAINDICATION][0]["value"]
+
+end
+
 
 
 
