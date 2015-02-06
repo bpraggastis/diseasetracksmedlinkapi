@@ -5,8 +5,63 @@
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
+  <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+  <script src="javascripts/jquery-min.js"></script>
+  <script src="javascripts/bootstrap.min.js"></script>
+
 </head>
 <body>
+  <header>
+    <!-- Sign In Modal -->
+    <div class="modal fade" id="mySignInModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="mySignInModalLabel">User Sign in</h4>
+          </div>
+          <div class="modal-body">
+            FORM WILL GO HERE
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Sign In</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="mySignUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="mySignUpModalLabel">Create Account</h4>
+          </div>
+          <div class="modal-body">
+            <% form_for User.new do |f| %>
+            <% end %>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <% if session[:user_id] %>
+      <%=link_to "Log Out", "sessions/destroy", class: "btn btn-primary btn-xs" %>
+    <% else %>
+      <!-- Button trigger sign-in modal -->
+      <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#mySignInModal">
+        Sign in
+      </button>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#mySignUpModal">
+        Sign up
+      </button>
+    <% end %>
+  </header>
 
 <%= yield %>
 

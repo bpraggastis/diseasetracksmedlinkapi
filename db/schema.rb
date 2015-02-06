@@ -78,4 +78,13 @@ ActiveRecord::Schema.define(version: 20150204192012) do
     t.datetime "updated_at"
   end
 
+  create_table "users", force: true do |t|
+    t.string   "name"
+    t.string   "password"
+    t.string   "email"
+    t.string   "tier",       default: "unconfirmed"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
 end
