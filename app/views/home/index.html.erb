@@ -1,4 +1,4 @@
-<h1>Tracking Disease in Africa</h1>
+<h1>Disease Tracks  .....  </h1>
 
 <div id="disease-list" class="basic-block">
   <h2>Medical Conditions</h2>
@@ -32,7 +32,7 @@
           <ul>
               <% condition.alternate_names.each do |alt_name| %>
               <li>
-                  <%= alt_name.name %>
+                  <%= HomeController::hilite(alt_name.name, @cquery)%>
                 </li>
               <% end %>
           </ul>
@@ -58,7 +58,7 @@
     <ol>
       <% @therapies.each do |therapy| %>
       <li>
-        <strong><%= therapy.name %></strong>: <%= therapy.description %>
+        <strong><%= HomeController::hilite(therapy.name, @tquery) %></strong>: <%= HomeController::hilite(therapy.description, @tquery) %>
       </li>
       <% end %>
     </ol>
