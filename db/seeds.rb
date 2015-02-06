@@ -58,6 +58,11 @@ l.keys.each do |key|
                               code_system: "DrugBank",
                               value: "DB" + nums.to_s.match(/\d+$/).to_s
                             ).medical_code_therapy.medical_therapy
+      elsif nums = hash['value'].match(/http:\/\/beowulf.pnnl.gov\/2014\/drug\/\d+/)
+        drug = MedicalCode.where(
+                              code_system: "DailyMed",
+                              value: nums.to_s.match(/\d+$/).to_s
+                            ).medical_code_therapy.medical_therapy
       end
       if drug && disease
         PrimaryPrevention.create(
@@ -71,4 +76,3 @@ l.keys.each do |key|
     end
   end
 end
->>>>>>> seeds
