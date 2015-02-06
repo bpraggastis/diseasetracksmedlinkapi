@@ -38,11 +38,20 @@
             <h4 class="modal-title" id="mySignUpModalLabel">Create Account</h4>
           </div>
           <div class="modal-body">
-            <% form_for User.new do |f| %>
-            <% end %>
+            <%= form_for User.new do |f| %>
+              <%= f.label "Name" %> <br>
+              <%= f.text_field :name %> <br>
+              <%= f.label "email" %> <br>
+              <%= f.email_field :email %> <br>
+              <%= f.label "Password" %> <br>
+              <%= f.password_field :password%> <br>
+              <%= f.label "Confirm Password"%> <br>
+              <%= f.password_field :password_confirmation%> <br>
+              <br>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-primary">Submit</button>
+            <%= f.submit "Sign Up"%>
+          <% end %>
           </div>
         </div>
       </div>
