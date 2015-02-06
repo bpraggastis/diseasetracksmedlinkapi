@@ -27,7 +27,7 @@ diseases.each do |disease|
 end
 
 DRUG_DATA = Nokogiri::XML(File.read('db/support/drug_data.xml'))
-drugs = DRUG_DATA.css('/drug_data/drug')
+drugs = DRUG_DATA.css('/drugbank/drug')
 puts drugs.length
 n=0
 drugs.each do |drug|
