@@ -44,6 +44,8 @@ drugs.each do |drug|
   end
 end
 
+DAILYMEDDATA = MedicalConditionHelpers::DailyMedSeed::make_daily_med_seed(dmedsmall.json)
+
 # l = JSON.parse(File.read('disease_drug/diseasome_dump.json'))
 # l.keys.each do |key|
 #   name = l[key]['http://schema.org/name'][0]['value'] if l[key]['http://schema.org/name']
