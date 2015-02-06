@@ -7,6 +7,7 @@
 # Ignore bundler config.
 /.bundle
 /db/support/drugbank.xml
+/db/support/diseasome_dump.json
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
