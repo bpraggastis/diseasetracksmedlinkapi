@@ -73,55 +73,56 @@
 #
 #
 # l = JSON.parse(File.read('https://drive.google.com/file/d/0Bxy3dxgL-9bST3pxS3RGRG1oRFk/view?usp=sharing'))
-l = JSON.parse(File.read('/Users/brendapraggastis/Ada/capstone/datafiles/diseasome_dump.json'))
-
-n = l.keys.length
-l.keys.each do |key|
-  puts n
-  n -= 1
-  name = l[key]['http://schema.org/name'][0]['value'].gsub("_", " ") if l[key]['http://schema.org/name']
-  preventions = l[key]["http://schema.org/primaryPrevention"]
-  if name != nil && preventions != nil
-    diseasealt = AlternateName.find_by(name: name)
-    if diseasealt != nil
-      disease = diseasealt.synonyms[0].medical_condition
-    end
-    if disease != nil
-      preventions.each do |hash|
-        # if nums = hash['value'].match(/http:\/\/beowulf.pnnl.gov\/2014\/drug\/DB\d+/)
-        dcode = /http:\/\/beowulf\.pnnl\.gov\/2014\/drug\/(DB)*(\d*)/.match(hash['value'])
-        db, code = dcode[1], dcode[2]
-        if db != nil
-          drug_code = MedicalCode.find_by(
-                                code_system: "DrugBank",
-                                code_value: db + code
-                              )
-          drug = drug_code.medical_code_therapy.medical_therapy if drug_code != nil
-        elsif
-          drug_code = MedicalCode.find_by(
-                                code_system: "DailyMed",
-                                code_value: code
-                              )
-          drug = drug_code.medical_code_therapy.medical_therapy if drug_code != nil
-        end
-        if drug != nil
-          puts PrimaryPrevention.create(
-                              medical_therapy_id: drug.id,
-                              medical_condition_id: disease.id)
-        else
-          puts '*'*(80)
-          print "drug: ", dcode
-          print "disease: " , disease.name
-          puts '*'*(80)
-        end
-      end
-    end
-  end
-
-end
-
-
-def parse_drug(string)
-  drug = /http:\/\/beowulf\.pnnl\.gov\/2014\/drug\/(DB)*(\d*)/.match(string)
-  return drug[1], drug[2]
-end
+# l = JSON.parse(File.read('/Users/brendapraggastis/Ada/capstone/datafiles/diseasome_dump.json'))
+# l = JSON.parse(File.read('/Users/brendapraggastis/Ada/capstone/datafiles/diseasomesmall.json'))
+#
+# n = l.keys.length
+# l.keys.each do |key|
+#   puts n
+#   n -= 1
+#   name = l[key]['http://schema.org/name'][0]['value'].gsub("_", " ") if l[key]['http://schema.org/name']
+#   preventions = l[key]["http://schema.org/primaryPrevention"]
+#   if name != nil && preventions != nil
+#     diseasealt = AlternateName.find_by(name: name)
+#     if diseasealt != nil
+#       disease = diseasealt.medical_conditions[0]
+#     end
+#     if disease != nil
+#       preventions.each do |hash|
+#         # if nums = hash['value'].match(/http:\/\/beowulf.pnnl.gov\/2014\/drug\/DB\d+/)
+#         dcode = /http:\/\/beowulf\.pnnl\.gov\/2014\/drug\/(DB)*(\d*)/.match(hash['value'])
+#         db, code = dcode[1], dcode[2]
+#         if db != nil
+#           drug_code = MedicalCode.find_by(
+#                                 code_system: "DrugBank",
+#                                 code_value: db + code
+#                               )
+#           drug = drug_code.medical_therapies[0] if drug_code != nil
+#         elsif
+#           drug_code = MedicalCode.find_by(
+#                                 code_system: "DailyMed",
+#                                 code_value: code
+#                               )
+#           drug = drug_code.medical_therapies[0] if drug_code != nil
+#         end
+#         if drug != nil
+#           puts PrimaryPrevention.create(
+#                               medical_therapy_id: drug.id,
+#                               medical_condition_id: disease.id)
+#         else
+#           puts '*'*(80)
+#           print "drug: ", dcode
+#           print "disease: " , disease.name
+#           puts '*'*(80)
+#         end
+#       end
+#     end
+#   end
+#
+# end
+#
+#
+# def parse_drug(string)
+#   drug = /http:\/\/beowulf\.pnnl\.gov\/2014\/drug\/(DB)*(\d*)/.match(string)
+#   return drug[1], drug[2]
+# end

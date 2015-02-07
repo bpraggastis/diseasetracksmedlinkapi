@@ -27,7 +27,7 @@ class HomeController < ApplicationController
   def self.hilite(string, query = "")
     if string != nil
       if query != ""
-        string.gsub(query, "<span class='hi-lite'>#{query}</span>").html_safe
+        string.gsub(/#{Regexp.escape query}/i, "<span class='hi-lite'>#{query}</span>").html_safe
       else
         string
       end

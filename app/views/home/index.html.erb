@@ -9,7 +9,7 @@
           <%= text_field_tag :condition_query, params[:condition_query] %>
           <%= submit_tag :search %>
         </p>
-          <!-- put %end here if wish to break up queries -->
+        <!-- put %end here if wish to break up queries -->
     </div>
   <div class="scrolling-list">
     <ol>
@@ -36,6 +36,14 @@
                 </li>
               <% end %>
           </ul>
+          Preventions:
+          <ul>
+            <% condition.preventions.each do |therapy| %>
+            <li>
+              <%= therapy.name %>
+            </li>
+            <% end %>
+          </ul>
         </li>
         </li>
       <% end %>
@@ -46,7 +54,7 @@
 <div id="drug-list" class="basic-block">
   <h2>Drug Therapies</h2>
     <div class="query-form" id="therapy-query">
-          <!-- put %= form_tag here if wish to break up queries -->
+ <!-- put %= form_tag here if wish to break up queries -->
         <p>
           <%= label_tag :therapy_query %>
           <%= text_field_tag :therapy_query, params[:therapy_query] %>
