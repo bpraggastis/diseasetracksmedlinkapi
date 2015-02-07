@@ -59,6 +59,16 @@
       <% @therapies.each do |therapy| %>
       <li>
         <strong><%= HomeController::hilite(therapy.name, @tquery) %></strong>: <%= HomeController::hilite(therapy.description, @tquery) %>
+        <br>
+        <ul>
+
+        <% therapy.codes.each do |code| %>
+          <li>
+            <%= code.code_system %>: <%= code.code_value %>
+          </li>
+        <% end %>
+
+      </ul>
       </li>
       <% end %>
     </ol>

@@ -6,7 +6,6 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-
 DISEASE_DATA = JSON.parse(File.read('db/support/disease_file_short.json'))['diseases']
 diseases = MedicalConditionHelpers::DataSeed.make_disease_bank(DISEASE_DATA)
 
@@ -44,7 +43,27 @@ drugs.each do |drug|
   end
 end
 
-DAILYMEDDATA = MedicalConditionHelpers::DailyMedSeed::make_daily_med_seed(dmedsmall.json)
+DMED = MedicalTherapyHelpers::DailyMedSeed::make_daily_med_seed('db/support/dmedsmall.json')
+# This returns {dmedcode => {name:----, db_code:----, generic:----, description:----},--=>{..}...}
+# Check medical_therapy_helpers for additional fields
+
+DMED.keys.each do |dkey|  #dkey = primary key for DailyMed record
+  dKey = DMED[dkey]
+  therapy = nil
+  therapy_code = MedicalCode.find_by(code_value: dKey[:db_code])
+  if dKey[:db_code] != nil
+    therapy = therapy_code.medical_code_therapy.medical_therapy if therapy_code != nil
+  end
+  if therapy != nil
+    therapy.codes.create(code_system: "DailyMed", code_value: dkey)
+    therapy.therapy_alternate_names.create(name: dKey[:generic])
+  else
+    therapy = MedicalTherapy.create(name: dKey[:name], description: dKey[:description])
+    therapy.therapy_alternate_names.create(name: dKey[:generic]) if dKey[:generic] != nil
+    therapy.codes.create(code_system: "DrugBank", code_value: dKey[:db_code]) if dKey[:db_code] != nil
+    therapy.codes.create(code_system: "DailyMed", code_value: dkey)
+  end
+end
 
 # l = JSON.parse(File.read('disease_drug/diseasome_dump.json'))
 # l.keys.each do |key|
