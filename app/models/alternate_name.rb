@@ -2,8 +2,8 @@ class AlternateName < ActiveRecord::Base
 
   include Searchable
 
-  has_many :synonyms
-  has_many :medical_conditions, through: :synonyms
+  has_one :synonym
+  has_one :medical_condition, through: :synonyms
 
   def self.search(query)
     response = __elasticsearch__.search(
