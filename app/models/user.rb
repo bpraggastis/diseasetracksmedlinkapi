@@ -1,8 +1,7 @@
 class User < ActiveRecord::Base
   validates :name, :email, :password, presence: true
   validates :email, :name, uniqueness: true, on: :create, on: :update
-  has_secure_password
-  include BCrypt
+  #has_secure_password
 
 
 
