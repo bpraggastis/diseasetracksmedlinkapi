@@ -7,12 +7,14 @@ class SessionsController < ApplicationController
 
   def create
     @user = User.find_by(email: params[:email])
-    raise
-    if @user.password_digest == params[:password]
+    if @user == @user.authenticate(params[:password])
       session[:user_id] = @user.id.to_s
+      redirect_to @user
     else
+      flash[:notice] = "Email or password is incorrect."
+      redirect_to root_path
     end
-    raise
+
   end
 
 end
