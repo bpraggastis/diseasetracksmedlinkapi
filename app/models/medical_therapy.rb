@@ -24,4 +24,18 @@ class MedicalTherapy < ActiveRecord::Base
 
   validate :name, as: :unique
 
+  def self.search(query)
+    response = __elasticsearch__.search(
+    {
+      query: {
+        fuzzy_like_this_field: {
+          name: {
+            like_text: query
+          }
+        }
+      }
+    })
+    return response
+  end
+
 end
