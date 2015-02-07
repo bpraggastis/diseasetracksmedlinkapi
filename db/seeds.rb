@@ -74,17 +74,20 @@ l.keys.each do |key|
   n -= 1
   name = l[key]['http://schema.org/name'][0]['value'].gsub("_", " ") if l[key]['http://schema.org/name']
   disease = MedicalCondition.where(name: name)
-  if disease == nil && name == nil
-    return nil
-  else
-    disease = MedicalCondition.create(name: name)
+
   if l[key]["http://schema.org/primaryPrevention"]
     l[key]["http://schema.org/primaryPrevention"].each do |hash|
       # if nums = hash['value'].match(/http:\/\/beowulf.pnnl.gov\/2014\/drug\/DB\d+/)
-
+      db, code = parse_drug(hash['value'])
+      if db != nil
         drug = MedicalCode.where(
                               code_system: "DrugBank",
-                              value: "DB" + nums.to_s.match(/\d+$/).to_s
+                              value: db + code
+                            ).medical_code_therapy.medical_therapy
+      else
+        drug = MedicalCode.where(
+                              code_system: "DailyMed",
+                              value: code
                             ).medical_code_therapy.medical_therapy
       end
       if drug && disease
