@@ -1,0 +1,50 @@
+<!-- Sign In Modal -->
+<div class="modal fade" id="mySignInModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="mySignInModalLabel">User Sign in</h4>
+      </div>
+      <div class="modal-body">
+        <%= form_tag sessions_path, method: :post do %>
+          <%= label_tag :email, "Email" %> <br>
+          <%= email_field_tag :email %> <br>
+          <%= label_tag :password, "Password" %> <br>
+          <%= password_field_tag :password %> <br>
+      </div>
+      <div class="modal-footer">
+          <%= submit_tag "Sign In" %>
+      <% end %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="mySignUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="mySignUpModalLabel">Create Account</h4>
+      </div>
+      <div class="modal-body">
+        <%= form_for User.new do |f| %>
+          <%= f.label "Name" %> <br>
+          <%= f.text_field :name %> <br>
+          <%= f.label "email" %> <br>
+          <%= f.email_field :email %> <br>
+          <%= f.label "Password" %> <br>
+          <%= f.password_field :password%> <br>
+          <%= f.label "Confirm Password"%> <br>
+          <%= f.password_field :password_confirmation%> <br>
+          <br>
+      </div>
+      <div class="modal-footer">
+        <%= f.submit "Sign Up"%>
+      <% end %>
+      </div>
+    </div>
+  </div>
+</div>

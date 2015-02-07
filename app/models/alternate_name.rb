@@ -16,5 +16,6 @@ class AlternateName < ActiveRecord::Base
         }
       }
     })
+    return response
   end
 end
