@@ -43,7 +43,8 @@ module MedicalTherapyHelpers
       temp[:db_code] = DailyMedSeed::db_code(dailymedvalue)
       temp[:generic] = DailyMedSeed::get_value(dailymedvalue, GENERIC)
       # temp[:warning] = DailyMedSeed::get_value(dailymedvalue, WARNING)
-      temp[:description] = DailyMedSeed::get_value(dailymedvalue, DESCRIPTION)
+      temp_descr = DailyMedSeed::get_value(dailymedvalue, DESCRIPTION)
+      temp[:description] = temp_descr.gsub(/(\\uFFFD)+/,"-") if temp_descr != nil
       # temp[:indications] = DailyMedSeed::get_value(dailymedvalue, INDICATION)
       # temp[:contraindication] = DailyMedSeed::get_value(dailymedvalue, CONTRAINDICATION
       return temp
