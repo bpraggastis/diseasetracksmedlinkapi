@@ -16,7 +16,8 @@
 #
 # # DISEASE_DATA = JSON.parse(File.read("/Users/brendapraggastis/Ada/capstone/datafiles/diseases.json"))['diseases']
 # DISEASE_DATA = JSON.parse(File.read("/Users/brendapraggastis/Ada/capstone/datafiles/disease_file_short.json"))['diseases']
-#
+#######--> Replace with correct path name
+
 # diseases = MedicalConditionHelpers::DataSeed.make_disease_bank(DISEASE_DATA)
 #
 # diseases.each do |disease|
@@ -46,7 +47,8 @@
 #
 # # DRUG_DATA = Nokogiri::XML(File.read('/Users/brendapraggastis/Ada/capstone/datafiles/drugbank.xml'))
 # DRUG_DATA = Nokogiri::XML(File.read('/Users/brendapraggastis/Ada/capstone/datafiles/drug_data.xml'))
-#
+#######--> Replace with correct path name
+
 # drugs = DRUG_DATA.css('/drugbank/drug')
 #
 # puts drugs.length
@@ -76,7 +78,8 @@
 # ###################################################################################################################
 # # DMED = MedicalTherapyHelpers::DailyMedSeed::make_daily_med_seed("/Users/brendapraggastis/Ada/capstone/datafiles/dailymed_dump.json")
 # DMED = MedicalTherapyHelpers::DailyMedSeed::make_daily_med_seed("/Users/brendapraggastis/Ada/capstone/datafiles/dmedsmall.json")
-#
+#######--> Replace with correct path name
+
 # # This returns {dmedcode => {name:----, db_code:----, generic:----, description:----},--=>{..}...}
 # # Check medical_therapy_helpers for additional fields
 #
@@ -108,8 +111,8 @@
 # #          Seed 4: Adds drug-disease associations to PrimaryPreventions.
 # #
 # ###################################################################################################################
-# # l = JSON.parse(File.read('https://drive.google.com/file/d/0Bxy3dxgL-9bST3pxS3RGRG1oRFk/view?usp=sharing'))
 # # l = JSON.parse(File.read('/Users/brendapraggastis/Ada/capstone/datafiles/diseasome_dump.json'))
+######--> Replace with correct path name
 # l = JSON.parse(File.read('/Users/brendapraggastis/Ada/capstone/datafiles/diseasomesmall.json'))
 #
 # n = l.keys.length
@@ -183,31 +186,12 @@
 #       # puts hash["description"][0,50] if hash["description"]
 #       puts condition.name
 #
-#       # name = hash["name"]
-#       # if !(condition.alternate_names.include?(name))
-#       #   print "need to add "
-#       #   # condition.alternate_names.create(name: name)
-#       #   condition.alternate_names.new(name: name)
-#       # end
-#       # puts name
-#
-#       # add_to_alt(condition, hash["name"])
-#       # if hash["alt_names"]
-#       #   hash["alt_names"].each do |n|
-#       #     add_to_alt(condition, n)
-#       #   end
-#       # end
+
 #     end
 #   end
 # end
 #
-# # def add_to_alt(condition,name)
-# #   if !(condition.alternate_names.include?(name))
-# #     print "need to add "
-# #     # condition.alternate_names.create(name: name)
-# #     condition.alternate_names.new(name: name)
-# #   end
-# #   puts name
+
 
 ###################################################################################################################
 #
@@ -216,56 +200,78 @@
 ###################################################################################################################
 
 
-omim_refs = MedicalCode.select{|name| name.code_system == 'omim' && name.code_value.to_i.to_s === name.code_value}
-# omim_refs = [MedicalCode.find_by("code_system" == 'omim' && "code_value" == '242500')]
-omim_refs.each do |code|
-  omim_description = OmimHelpers::Omim::description(code)
-  if omim_description != nil
-    condition = MedicalCode.find_by(
-                          code_system: "omim",
-                          code_value: "#{code["code_value"]}"
-                          ).medical_conditions[0]
-    if condition != nil
-      condition.update(description: omim_description)
-      # puts hash["description"][0,50] if hash["description"]
-      puts condition.name
-    end
-  end
-end
+# omim_refs = MedicalCode.select{|name| name.code_system == 'omim' && name.code_value.to_i.to_s === name.code_value}
+# omim_refs.each do |code|
+#   omim_description = OmimHelpers::Omim::description(code)
+#   if omim_description != nil
+#     condition = MedicalCode.find_by(
+#                           code_system: "omim",
+#                           code_value: "#{code["code_value"]}"
+#                           ).medical_conditions[0]
+#     if condition != nil
+#       condition.update(description: omim_description)
+#       # puts hash["description"][0,50] if hash["description"]
+#       puts condition.name
+#     end
+#   end
+# end
 
 ###################################################################################################################
 #
-#          Seed 6: Location data from CSV file
+#          Seed 6: Location data from CSV files
 #
 ###################################################################################################################
-# 
+#
+
+############## Convert CSV file to JSON ####################
 # def is_int?(string)
 #   !!(string =~ /^[+-]?[1-9][0-9]*$/)
 # end
 #
-# lines = CSV.open('db/support/Location_sample.csv').readlines
+#####--> Replace with correct path name
+# lines = CSV.open('/Users/brendapraggastis/Ada/capstone/datafiles/us_geo_populated_place.csv').readlines
 # keys = lines.shift
+# n= lines.count
 #
-# File.open("db/support/locations.json", "w+") do |f|
+# File.open("/Users/brendapraggastis/Ada/capstone/datafiles/us_locations.json", "w") do |f|
 #   data = lines.map do |values|
+#           puts n
+#           n -=1
 #           Hash[keys.zip(values.map{|val| is_int?(val) ? val.to_i : val})]
 #           end
 #   f.puts JSON.pretty_generate(data)
 #   f.close
 # end
-# places = JSON.parse(File.read("db/support/locations.json"))
-# places.each do |place|
-#   #seed the location tables from here using keys below
+
+
+############### Seed Places Table #############
+# lines = CSV.open('db/support/places.csv').readlines
+# lines.each do |abbr,region|
+#   Place.create(name: region ,abbreviation: abbr)
 # end
 
-lines = CSV.open('db/support/places.csv').readlines
-lines.each do |abbr,region|
-  Place.create(name: region ,abbreviation: abbr)
-end
+############### Seed GEO Table ################
+#
+
+######--> Replace with correct path name
+# geo_data = JSON.parse(File.read("/Users/brendapraggastis/Ada/capstone/datafiles/us_locations.json"))
+# geo_data.each do |local|
+#   new_geo = Geo.create(
+#               name: local["FEATURE_NAME"],
+#               latitude: local["SOURCE_LAT_DEC"],
+#               longitude: local["SOURCE_LONG_DEC"],
+#               )
+#               puts new_geo.name
+#   GeoPlace.create(
+#               place_id: Place.find_by(abbreviation: local["STATE_ALPHA"] ).id,
+#               geo_id: new_geo.id
+#               )
+# end
+#
+#
 
 
-
-
+# sample item from locations.json
 # {
 #   "FEATURE_ID": 1397658,
 #   "FEATURE_NAME": "Ester",
