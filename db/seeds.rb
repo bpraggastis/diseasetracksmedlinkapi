@@ -182,29 +182,57 @@ omim_refs.each do |code|
       condition.update(description: omim_description)
       # puts hash["description"][0,50] if hash["description"]
       puts condition.name
-
-      # name = hash["name"]
-      # if !(condition.alternate_names.include?(name))
-      #   print "need to add "
-      #   # condition.alternate_names.create(name: name)
-      #   condition.alternate_names.new(name: name)
-      # end
-      # puts name
-
-      # add_to_alt(condition, hash["name"])
-      # if hash["alt_names"]
-      #   hash["alt_names"].each do |n|
-      #     add_to_alt(condition, n)
-      #   end
-      # end
     end
   end
 end
 
-# def add_to_alt(condition,name)
-#   if !(condition.alternate_names.include?(name))
-#     print "need to add "
-#     # condition.alternate_names.create(name: name)
-#     condition.alternate_names.new(name: name)
-#   end
-#   puts name
+###################################################################################################################
+#
+#          Seed 6: Location data from CSV file
+#
+###################################################################################################################
+
+def is_int?(string)
+  !!(string =~ /^[+-]?[1-9][0-9]*$/)
+end
+
+lines = CSV.open('db/support/Location_sample.csv').readlines
+keys = lines.shift
+
+File.open("db/support/locations.json", "w+") do |f|
+  data = lines.map do |values|
+          Hash[keys.zip(values.map{|val| is_int?(val) ? val.to_i : val})]
+          end
+  f.puts JSON.pretty_generate(data)
+  f.close
+end
+places = JSON.parse(File.read("db/support/locations.json"))
+places.each do |place|
+  #seed the location tables from here using keys below
+end
+
+
+
+
+# {
+#   "FEATURE_ID": 1397658,
+#   "FEATURE_NAME": "Ester",
+#   "FEATURE_CLASS": "Populated Place",
+#   "STATE_ALPHA": "AK",
+#   "STATE_NUMERIC": 2,
+#   "COUNTY_NAME": "Fairbanks North Star",
+#   "COUNTY_NUMERIC": 90,
+#   "PRIMARY_LAT_DMS": "645050N",
+#   "PRIM_LONG_DMS": "1480052W",
+#   "PRIM_LAT_DEC": "64.8472222",
+#   "PRIM_LONG_DEC": "-148.0144444",
+#   "SOURCE_LAT_DMS": null,
+#   "SOURCE_LONG_DMS": null,
+#   "SOURCE_LAT_DEC": null,
+#   "SOURCE_LONG_DEC": null,
+#   "ELEV_IN_M": 221,
+#   "ELEV_IN_FT": 725,
+#   "MAP_NAME": "Fairbanks D-3",
+#   "DATE_CREATED": "12/31/95",
+#   "DATE_EDITED": "1/24/09"
+# },

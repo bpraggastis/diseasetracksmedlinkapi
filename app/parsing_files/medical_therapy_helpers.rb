@@ -61,17 +61,5 @@ module MedicalTherapyHelpers
       end
       return temp
     end
-
-
-
-
-
-    # find the drug therapy with the same code or name
-    #add the generic name to alt names, and fill in anything that
-    #is missing. Add warning and description as needed.
-
-
   end
 end
-
-  #Get omim disease descriptions

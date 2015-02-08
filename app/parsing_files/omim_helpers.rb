@@ -1,11 +1,8 @@
 # http://api.omim.org/api/entry?mimNumber=220100&include=text&format=json
 
 module OmimHelpers
-
   class Omim
-
     # code belongs to class MedicalCode
-
     def self.omim_hash(code)
       response = HTTParty.get("http://api.omim.org/api/entry?mimNumber=#{code["code_value"]}&include=text:description&format=json&apiKey=#{ENV['OMIM_KEY']}")
       puts response.code, code["code_value"]
@@ -16,29 +13,6 @@ module OmimHelpers
       end
     end
 
-
-    # def omim_hash(code)
-    #   response = HTTParty.get("http://api.omim.org/api/entry?mimNumber=#{code}&include=text:description&format=json&apiKey=47F11481134016F9E5D4B8307285E3005C68E7E7")
-    #   puts response
-    #   # if response.parsed_response
-    #   #   puts response.parsed_reponse
-    #   #   response.parsed_response["omim"]["entryList"][0]["entry"]
-    #   # end
-    # end
-
-    # def self.name(omimHash)
-    #   omimHash["titles"]["preferredTitle"]
-    # end
-    #
-    # def self.alternate_names(omimHash)
-    #   #returns an array
-    #   x = omimHash["titles"]["alternativeTitles"]
-    #   if x
-    #     y = x.split(",")
-    #   end
-    #   return y
-    # end
-
     def self.description(code)
       if Omim::omim_hash(code) != nil
         omimHash = Omim::omim_hash(code)
@@ -46,20 +20,8 @@ module OmimHelpers
           return omimHash["textSectionList"][0]["textSection"]["textSectionContent"]
         end
       end
-    end
-
-    # def self.create_omim_hash(code)
-    #   omimHash = Omim::omim_hash(code)
-    #   # return  {
-    #   #           "name" => Omim::name(omimHash),
-    #   #           "alt_names" => Omim::alternate_names(omimHash),
-    #   #           "description" => Omim::description(omimHash)
-    #   #         }
-    # end
-
-
+    end    
   end
-
 end
 
 #################Sample omim_hash with initial keys still in place
