@@ -17,7 +17,38 @@
         <li> <strong><%= HomeController::hilite(condition.name, @cquery) %></strong> <br>
           Description: <br>
             <%= condition.description[0,250] if condition.description %>
-
+            <!-- Button trigger modal -->
+              <button class="btn" data-toggle="modal"
+                 data-target="#myModal">
+                 read more ...
+              </button>
+            <br>      <!-- Modal -->
+              <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+                 aria-labelledby="myModalLabel" aria-hidden="true">
+                 <div class="modal-dialog">
+                    <div class="modal-content">
+                       <div class="modal-header">
+                          <!-- <button type="button" class="close"
+                             data-dismiss="modal" aria-hidden="true">
+                                &times;
+                          </button> -->
+                          <h4 class="modal-title" id="myModalLabel">
+                             <%= condition.name %>
+                          </h4>
+                       </div>
+                       <div class="modal-body">
+                          <%= condition.description if condition.description %>
+                       </div>
+                       <div class="modal-footer">
+                          <button type="button"
+                             data-dismiss="modal">Close
+                          </button>
+                          <!-- <button type="button" class="btn btn-primary">
+                             Submit changes
+                          </button> -->
+                       </div>
+                    </div><!-- /.modal-content -->
+              </div><!-- /.modal -->
           Codes: <br>
           <ul>
               <% condition.codes.each do |code| %>
@@ -53,8 +84,6 @@
     </ol>
   </div>
 </div>
-
-
 
 <div id="drug-list" class="basic-block">
   <h2>Drug Therapies</h2>
