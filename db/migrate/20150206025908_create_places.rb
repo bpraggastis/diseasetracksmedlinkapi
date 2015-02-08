@@ -1,8 +1,8 @@
 class CreatePlaces < ActiveRecord::Migration
   def change
     create_table :places do |t|
-      t.string :govt
-
+      t.string :name
+      t.string :abbreviation
       t.timestamps
     end
   end
