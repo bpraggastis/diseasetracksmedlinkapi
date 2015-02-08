@@ -238,24 +238,29 @@ end
 #          Seed 6: Location data from CSV file
 #
 ###################################################################################################################
+# 
+# def is_int?(string)
+#   !!(string =~ /^[+-]?[1-9][0-9]*$/)
+# end
+#
+# lines = CSV.open('db/support/Location_sample.csv').readlines
+# keys = lines.shift
+#
+# File.open("db/support/locations.json", "w+") do |f|
+#   data = lines.map do |values|
+#           Hash[keys.zip(values.map{|val| is_int?(val) ? val.to_i : val})]
+#           end
+#   f.puts JSON.pretty_generate(data)
+#   f.close
+# end
+# places = JSON.parse(File.read("db/support/locations.json"))
+# places.each do |place|
+#   #seed the location tables from here using keys below
+# end
 
-def is_int?(string)
-  !!(string =~ /^[+-]?[1-9][0-9]*$/)
-end
-
-lines = CSV.open('db/support/Location_sample.csv').readlines
-keys = lines.shift
-
-File.open("db/support/locations.json", "w+") do |f|
-  data = lines.map do |values|
-          Hash[keys.zip(values.map{|val| is_int?(val) ? val.to_i : val})]
-          end
-  f.puts JSON.pretty_generate(data)
-  f.close
-end
-places = JSON.parse(File.read("db/support/locations.json"))
-places.each do |place|
-  #seed the location tables from here using keys below
+lines = CSV.open('db/support/places.csv').readlines
+lines.each do |abbr,region|
+  Place.create(name: region ,abbreviation: abbr)
 end
 
 

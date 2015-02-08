@@ -22,6 +22,39 @@ ActiveRecord::Schema.define(version: 20150206212633) do
     t.datetime "updated_at"
   end
 
+  create_table "event_places", force: true do |t|
+    t.integer  "place_id"
+    t.integer  "event_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "events", force: true do |t|
+    t.integer  "number_infected"
+    t.datetime "start_date"
+    t.datetime "duration"
+    t.datetime "end_date"
+    t.string   "status"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "geo_places", force: true do |t|
+    t.integer  "place_id"
+    t.integer  "geo_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "geos", force: true do |t|
+    t.float    "latitude"
+    t.float    "longitude"
+    t.string   "name"
+    t.string   "gazateer"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "medical_cause_conditions", force: true do |t|
     t.integer  "medical_cause_id"
     t.integer  "medical_condition_id"
@@ -67,6 +100,19 @@ ActiveRecord::Schema.define(version: 20150206212633) do
   create_table "medical_therapies", force: true do |t|
     t.string   "name"
     t.text     "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "outbreaks", force: true do |t|
+    t.integer  "medical_condition_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "places", force: true do |t|
+    t.string   "name"
+    t.string   "abbreviation"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
