@@ -15,9 +15,9 @@ class MedicalTherapy < ActiveRecord::Base
 
   # Associations back to medical conditions
     #conditions that the treatment prevents:
-  has_many :preventable_conditions, class_name: "MedicalCondition", through: :primary_preventions
+  has_many :preventable_conditions, source: :medical_condition, through: :primary_preventions
     #conditions that the treatment treats:
-  has_many :treatable_conditions, class_name: "MedicalCondition", through: :possible_treatments
+  has_many :treatable_conditions, source: :medical_condition, through: :possible_treatments
 
   validate :name, as: :unique
 
