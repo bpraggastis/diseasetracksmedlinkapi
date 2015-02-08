@@ -2,6 +2,7 @@ class AlternateName < ActiveRecord::Base
 
   include Searchable
 
+  #medical_condition associations
   has_many :synonyms
   has_many :medical_conditions, through: :synonyms
 
@@ -18,4 +19,5 @@ class AlternateName < ActiveRecord::Base
     })
     return response
   end
+  return response
 end

@@ -19,8 +19,10 @@ class MedicalTherapy < ActiveRecord::Base
     #conditions that the treatment treats:
   has_many :treatable_conditions, source: :medical_condition, through: :possible_treatments
 
+
   has_many :therapy_synonyms
   has_many :therapy_alternate_names, through: :therapy_synonyms
+
 
   validate :name, as: :unique
 
