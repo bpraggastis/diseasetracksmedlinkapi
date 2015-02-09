@@ -19,5 +19,5 @@ class AlternateName < ActiveRecord::Base
     })
     return response
   end
-  return response
+
 end
