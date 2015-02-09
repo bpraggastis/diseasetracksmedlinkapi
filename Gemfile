@@ -62,4 +62,4 @@ gem "elasticsearch-model", git: "git://github.com/elasticsearch/elasticsearch-ra
 gem "elasticsearch-rails", git: "git://github.com/elasticsearch/elasticsearch-rails.git"
 gem 'httparty'
 
-gem 'httparty'
+gem 'gmaps4rails'

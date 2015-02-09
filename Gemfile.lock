@@ -99,6 +99,7 @@ GEM
     flog (4.3.1)
       ruby_parser (~> 3.1, > 3.1.0)
       sexp_processor (~> 4.4)
+    gmaps4rails (2.1.2)
     haml (3.1.8)
     hashie (3.3.2)
     hike (1.2.3)
@@ -224,6 +225,7 @@ DEPENDENCIES
   elasticsearch-rails!
   faker (~> 1.4.3)
   flog
+  gmaps4rails
   httparty
   jbuilder (~> 2.0)
   jquery-rails

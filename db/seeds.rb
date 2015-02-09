@@ -168,7 +168,7 @@
 #
 # ###################################################################################################################
 # #
-# #          Seed 5: Adds Omim Clinical Features and alternate name associations to MedicalCondition
+# #          Seed 5: Adds Omim Description to MedicalCondition
 # #
 # ###################################################################################################################
 #
