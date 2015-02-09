@@ -1,0 +1,2 @@
+class QueryRecordController < ApplicationController
+end
