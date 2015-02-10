@@ -9,7 +9,7 @@ module MedicalConditionHelpers
 
     #primary name of condition take from PNNL database
     def self.condition_name(item)
-      /#(.*)\sa\sschema:MedicalCondition/.match(item["rdf_id"])[1].gsub('_',' ').gsub("%27", "'")
+      URI.decode(/#(.*)\sa\sschema:MedicalCondition/.match(item["rdf_id"])[1])
     end
 
     #additional names
