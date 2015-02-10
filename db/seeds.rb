@@ -255,11 +255,12 @@
 
 ######--> Replace with correct path name
 # geo_data = JSON.parse(File.read("/Users/brendapraggastis/Ada/capstone/datafiles/us_locations.json"))
+# geo_data = JSON.parse(File.read('db/support/locations.json'))
 # geo_data.each do |local|
 #   new_geo = Geo.create(
 #               name: local["FEATURE_NAME"],
-#               latitude: local["SOURCE_LAT_DEC"],
-#               longitude: local["SOURCE_LONG_DEC"],
+#               latitude: local["PRIM_LAT_DEC"],
+#               longitude: local["PRIM_LONG_DEC"],
 #               )
 #               puts new_geo.name
 #   GeoPlace.create(

@@ -1,7 +1,20 @@
+<!-- original map centered at Seattle -->
 
+<div id="map-canvas" data-center-latitude=<%= "30" %>
+                     data-center-longitude=<%= "0" %> >
+</div>
 
+<div id="page-scroll">
+  <ul>
+    <% @marker.each do |mark| %>
+    <div >
+      <li class="place-marker">
+     <a href="#" class="location-marker" data-latitude=<%="#{mark.latitude}"%>
+            data-longitude=<%= "#{mark.longitude}" %>>  <%= mark.name %> </a></div>  </li>
+    <% end %>
+  </ul>
+</div>
+<div id="name">
+  <button type="button" class="clear-markers">Clear Markers</button>
 
-
-<body>
-    <div id="map-canvas"></div>
-</body>
+</div>
