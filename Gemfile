@@ -27,6 +27,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt-ruby'
 
 gem 'nokogiri'
 
@@ -52,6 +53,16 @@ gem 'rails_12factor', group: :production
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+group :development do
+  gem 'capistrano'
+  gem 'capistrano-rvm'
+  gem 'capistrano-bundler'
+  gem 'capistrano-rails'
+  gem "capistrano-passenger"
+end
+
+gem 'therubyracer', platforms: :ruby
+
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
@@ -59,3 +70,5 @@ gem 'json'
 gem "elasticsearch", git: "git://github.com/elasticsearch/elasticsearch-ruby.git"
 gem "elasticsearch-model", git: "git://github.com/elasticsearch/elasticsearch-rails.git"
 gem "elasticsearch-rails", git: "git://github.com/elasticsearch/elasticsearch-rails.git"
+
+gem 'httparty'
