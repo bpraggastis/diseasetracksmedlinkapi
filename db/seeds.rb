@@ -15,27 +15,29 @@
 #
 #
 # # DISEASE_DATA = JSON.parse(File.read("/Users/brendapraggastis/Ada/capstone/datafiles/diseases.json"))['diseases']
-# DISEASE_DATA = JSON.parse(File.read("/Users/brendapraggastis/Ada/capstone/datafiles/disease_file_short.json"))['diseases']
-#######--> Replace with correct path name
+# # DISEASE_DATA = JSON.parse(File.read("/Users/brendapraggastis/Ada/capstone/datafiles/disease_file_short.json"))['diseases']
+# ######--> Replace with correct path name
+#
+DISEASE_DATA = JSON.parse(HTTParty.get("https://s3-us-west-2.amazonaws.com/capstone-datafiles/datafiles/diseases.json"))['diseases']
 
-# diseases = MedicalConditionHelpers::DataSeed.make_disease_bank(DISEASE_DATA)
-#
-# diseases.each do |disease|
-#   new_disease = MedicalCondition.create(name: disease['name'])
-#   puts disease["name"]
-#   # taken from rdfs:label
-#     disease["alternate_names"].each do |alternate_name|
-#       new_disease.alternate_names.create(name: alternate_name)
-#     end
-#   # Faker data used for causes
-#   rand(3).times do
-#     new_disease.causes.create(name: Faker::Lorem.word, description: Faker::Company.catch_phrase)
-#   end
-#
-#   disease["codes"].each do |code|
-#     new_disease.codes.create(code_system: code["system"], code_value: code["value"])
-#   end
-# end
+diseases = MedicalConditionHelpers::DataSeed.make_disease_bank(DISEASE_DATA)
+
+diseases.each do |disease|
+  new_disease = MedicalCondition.create(name: disease['name'])
+  puts disease["name"]
+  # taken from rdfs:label
+    disease["alternate_names"].each do |alternate_name|
+      new_disease.alternate_names.create(name: alternate_name)
+    end
+  # Faker data used for causes
+  rand(3).times do
+    new_disease.causes.create(name: Faker::Lorem.word, description: Faker::Company.catch_phrase)
+  end
+
+  disease["codes"].each do |code|
+    new_disease.codes.create(code_system: code["system"], code_value: code["value"])
+  end
+end
 #
 #
 #
@@ -47,8 +49,8 @@
 #
 # # DRUG_DATA = Nokogiri::XML(File.read('/Users/brendapraggastis/Ada/capstone/datafiles/drugbank.xml'))
 # DRUG_DATA = Nokogiri::XML(File.read('/Users/brendapraggastis/Ada/capstone/datafiles/drug_data.xml'))
-#######--> Replace with correct path name
-
+# ######--> Replace with correct path name
+#
 # drugs = DRUG_DATA.css('/drugbank/drug')
 #
 # puts drugs.length
@@ -78,8 +80,8 @@
 # ###################################################################################################################
 # # DMED = MedicalTherapyHelpers::DailyMedSeed::make_daily_med_seed("/Users/brendapraggastis/Ada/capstone/datafiles/dailymed_dump.json")
 # DMED = MedicalTherapyHelpers::DailyMedSeed::make_daily_med_seed("/Users/brendapraggastis/Ada/capstone/datafiles/dmedsmall.json")
-#######--> Replace with correct path name
-
+# ######--> Replace with correct path name
+#
 # # This returns {dmedcode => {name:----, db_code:----, generic:----, description:----},--=>{..}...}
 # # Check medical_therapy_helpers for additional fields
 #
@@ -112,7 +114,7 @@
 # #
 # ###################################################################################################################
 # # l = JSON.parse(File.read('/Users/brendapraggastis/Ada/capstone/datafiles/diseasome_dump.json'))
-######--> Replace with correct path name
+# #####--> Replace with correct path name
 # l = JSON.parse(File.read('/Users/brendapraggastis/Ada/capstone/datafiles/diseasomesmall.json'))
 #
 # n = l.keys.length
@@ -186,20 +188,20 @@
 #       # puts hash["description"][0,50] if hash["description"]
 #       puts condition.name
 #
-
+#
 #     end
 #   end
 # end
 #
-
-
-###################################################################################################################
+#
+#
+# ##################################################################################################################
 #
 #          Seed 6: Place names will be given by name(state/country/territory), and abbreviation
 #
-###################################################################################################################
-
-
+# ##################################################################################################################
+#
+#
 # omim_refs = MedicalCode.select{|name| name.code_system == 'omim' && name.code_value.to_i.to_s === name.code_value}
 # omim_refs.each do |code|
 #   omim_description = OmimHelpers::Omim::description(code)
@@ -215,20 +217,20 @@
 #     end
 #   end
 # end
-
-###################################################################################################################
+#
+# ##################################################################################################################
 #
 #          Seed 6: Location data from CSV files
 #
-###################################################################################################################
+# ##################################################################################################################
 #
-
-############## Convert CSV file to JSON ####################
+#
+# ############# Convert CSV file to JSON ####################
 # def is_int?(string)
 #   !!(string =~ /^[+-]?[1-9][0-9]*$/)
 # end
 #
-#####--> Replace with correct path name
+# ####--> Replace with correct path name
 # lines = CSV.open('/Users/brendapraggastis/Ada/capstone/datafiles/us_geo_populated_place.csv').readlines
 # keys = lines.shift
 # n= lines.count
@@ -242,18 +244,18 @@
 #   f.puts JSON.pretty_generate(data)
 #   f.close
 # end
-
-
-############### Seed Places Table #############
+#
+#
+# ############## Seed Places Table #############
 # lines = CSV.open('db/support/places.csv').readlines
 # lines.each do |abbr,region|
 #   Place.create(name: region ,abbreviation: abbr)
 # end
-
-############### Seed GEO Table ################
 #
-
-######--> Replace with correct path name
+# ############## Seed GEO Table ################
+#
+#
+# #####--> Replace with correct path name
 # geo_data = JSON.parse(File.read("/Users/brendapraggastis/Ada/capstone/datafiles/us_locations.json"))
 # geo_data.each do |local|
 #   new_geo = Geo.create(
@@ -269,8 +271,8 @@
 # end
 #
 #
-
-
+#
+#
 # sample item from locations.json
 # {
 #   "FEATURE_ID": 1397658,
