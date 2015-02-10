@@ -6,6 +6,8 @@ class AlternateName < ActiveRecord::Base
   has_many :synonyms
   has_many :medical_conditions, through: :synonyms
 
+  validates_uniqeness_of :name
+
   def self.search(query)
     response = __elasticsearch__.search(
     {
