@@ -1,0 +1,7032 @@
+[
+  {
+    "date": "2015-02-13 02:35:55",
+    "population": 11,
+    "location": {
+      "FEATURE_ID": "72014",
+      "FEATURE_NAME": "Highland",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Polk",
+      "COUNTY_NUMERIC": "113",
+      "PRIMARY_LAT_DMS": "343737N",
+      "PRIM_LONG_DMS": "0935748W",
+      "PRIM_LAT_DEC": "34.627048",
+      "PRIM_LONG_DEC": "-93.9632578",
+      "DATE_CREATED": "4/30/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-02-14 12:35:55",
+    "population": 5,
+    "location": {
+      "FEATURE_ID": "334558",
+      "FEATURE_NAME": "North Cohutta (historical)",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Murray",
+      "COUNTY_NUMERIC": "213",
+      "PRIMARY_LAT_DMS": "345343N",
+      "PRIM_LONG_DMS": "0844242W",
+      "PRIM_LAT_DEC": "34.8953568",
+      "PRIM_LONG_DEC": "-84.7116037",
+      "DATE_CREATED": "5/1/93",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-02-17 11:35:55",
+    "population": 3,
+    "location": {
+      "FEATURE_ID": "156340",
+      "FEATURE_NAME": "Fairview West",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Cullman",
+      "COUNTY_NUMERIC": "43",
+      "PRIMARY_LAT_DMS": "340159N",
+      "PRIM_LONG_DMS": "0864744W",
+      "PRIM_LAT_DEC": "34.0331552",
+      "PRIM_LONG_DEC": "-86.7955541",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-02-19 13:35:55",
+    "population": 9,
+    "location": {
+      "FEATURE_ID": "1730038",
+      "FEATURE_NAME": "Trade Winds Trailer Park",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Mobile",
+      "COUNTY_NUMERIC": "97",
+      "PRIMARY_LAT_DMS": "301547N",
+      "PRIM_LONG_DMS": "0880655W",
+      "PRIM_LAT_DEC": "30.2629809",
+      "PRIM_LONG_DEC": "-88.1152774",
+      "DATE_CREATED": "5/13/97",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-02-21 15:35:55",
+    "population": 13,
+    "location": {
+      "FEATURE_ID": "629666",
+      "FEATURE_NAME": "Kilmanagh",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Huron",
+      "COUNTY_NUMERIC": "63",
+      "PRIMARY_LAT_DMS": "434522N",
+      "PRIM_LONG_DMS": "0832125W",
+      "PRIM_LAT_DEC": "43.7561273",
+      "PRIM_LONG_DEC": "-83.356902",
+      "DATE_CREATED": "4/14/80",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-02-22 06:35:55",
+    "population": 8,
+    "location": {
+      "FEATURE_ID": "2481539",
+      "FEATURE_NAME": "Bayou Pass Village",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hillsborough",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "274217N",
+      "PRIM_LONG_DMS": "0822415W",
+      "PRIM_LAT_DEC": "27.7046",
+      "PRIM_LONG_DEC": "-82.4041",
+      "DATE_CREATED": "7/18/08",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-02-23 00:35:55",
+    "population": 2,
+    "location": {
+      "FEATURE_ID": "2647669",
+      "FEATURE_NAME": "Kingsley Mobile Park",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Washtenaw",
+      "COUNTY_NUMERIC": "161",
+      "PRIMARY_LAT_DMS": "421502N",
+      "PRIM_LONG_DMS": "0833335W",
+      "PRIM_LAT_DEC": "42.2505556",
+      "PRIM_LONG_DEC": "-83.5597222",
+      "DATE_CREATED": "6/2/11",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-02-25 08:35:55",
+    "population": 10,
+    "location": {
+      "FEATURE_ID": "1617487",
+      "FEATURE_NAME": "Cheviers",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Alcona",
+      "COUNTY_NUMERIC": "1",
+      "PRIMARY_LAT_DMS": "443405N",
+      "PRIM_LONG_DMS": "0834413W",
+      "PRIM_LAT_DEC": "44.5680696",
+      "PRIM_LONG_DEC": "-83.7369275",
+      "DATE_CREATED": "4/14/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-02-28 00:35:55",
+    "population": 4,
+    "location": {
+      "FEATURE_ID": "2483221",
+      "FEATURE_NAME": "Free Land Heights",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hillsborough",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "280335N",
+      "PRIM_LONG_DMS": "0822752W",
+      "PRIM_LAT_DEC": "28.0597",
+      "PRIM_LONG_DEC": "-82.4645",
+      "DATE_CREATED": "7/18/08",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-03-01 01:35:55",
+    "population": 13,
+    "location": {
+      "FEATURE_ID": "1687579",
+      "FEATURE_NAME": "Pointe Bleue",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "DeKalb",
+      "COUNTY_NUMERIC": "89",
+      "PRIMARY_LAT_DMS": "334108N",
+      "PRIM_LONG_DMS": "0841349W",
+      "PRIM_LAT_DEC": "33.6856631",
+      "PRIM_LONG_DEC": "-84.2301985",
+      "DATE_CREATED": "4/30/96",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-03-01 17:35:55",
+    "population": 2,
+    "location": {
+      "FEATURE_ID": "331184",
+      "FEATURE_NAME": "Blairsville",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Union",
+      "COUNTY_NUMERIC": "291",
+      "PRIMARY_LAT_DMS": "345234N",
+      "PRIM_LONG_DMS": "0835730W",
+      "PRIM_LAT_DEC": "34.8761989",
+      "PRIM_LONG_DEC": "-83.9582412",
+      "DATE_CREATED": "9/25/79",
+      "DATE_EDITED": "3/20/08"
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-03-02 16:35:55",
+    "population": 12,
+    "location": {
+      "FEATURE_ID": "1672341",
+      "FEATURE_NAME": "Wesleyan Hills",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Bibb",
+      "COUNTY_NUMERIC": "21",
+      "PRIMARY_LAT_DMS": "325504N",
+      "PRIM_LONG_DMS": "0834321W",
+      "PRIM_LAT_DEC": "32.9179151",
+      "PRIM_LONG_DEC": "-83.722403",
+      "DATE_CREATED": "11/13/95",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-03-04 05:35:55",
+    "population": 9,
+    "location": {
+      "FEATURE_ID": "621967",
+      "FEATURE_NAME": "Bridgman",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Berrien",
+      "COUNTY_NUMERIC": "21",
+      "PRIMARY_LAT_DMS": "415635N",
+      "PRIM_LONG_DMS": "0863325W",
+      "PRIM_LAT_DEC": "41.9430986",
+      "PRIM_LONG_DEC": "-86.5569659",
+      "DATE_CREATED": "4/14/80",
+      "DATE_EDITED": "3/20/08"
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-03-04 19:35:55",
+    "population": 6,
+    "location": {
+      "FEATURE_ID": "559171",
+      "FEATURE_NAME": "Ridgewood",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "East Baton Rouge",
+      "COUNTY_NUMERIC": "33",
+      "PRIMARY_LAT_DMS": "303020N",
+      "PRIM_LONG_DMS": "0910155W",
+      "PRIM_LAT_DEC": "30.5054669",
+      "PRIM_LONG_DEC": "-91.032048",
+      "DATE_CREATED": "5/1/94",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-03-05 12:35:55",
+    "population": 8,
+    "location": {
+      "FEATURE_ID": "343160",
+      "FEATURE_NAME": "Peach Valley",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Peach",
+      "COUNTY_NUMERIC": "225",
+      "PRIMARY_LAT_DMS": "323309N",
+      "PRIM_LONG_DMS": "0835234W",
+      "PRIM_LAT_DEC": "32.5523697",
+      "PRIM_LONG_DEC": "-83.8760194",
+      "DATE_CREATED": "3/1/94",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-03-07 00:35:55",
+    "population": 2,
+    "location": {
+      "FEATURE_ID": "541044",
+      "FEATURE_NAME": "Alabama Landing",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "Union",
+      "COUNTY_NUMERIC": "111",
+      "PRIMARY_LAT_DMS": "325225N",
+      "PRIM_LONG_DMS": "0920504W",
+      "PRIM_LAT_DEC": "32.8737426",
+      "PRIM_LONG_DEC": "-92.0845776",
+      "DATE_CREATED": "6/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-03-08 11:35:55",
+    "population": 7,
+    "location": {
+      "FEATURE_ID": "558203",
+      "FEATURE_NAME": "Dalcour",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "Plaquemines",
+      "COUNTY_NUMERIC": "75",
+      "PRIMARY_LAT_DMS": "294827N",
+      "PRIM_LONG_DMS": "0895955W",
+      "PRIM_LAT_DEC": "29.8074302",
+      "PRIM_LONG_DEC": "-89.9986813",
+      "DATE_CREATED": "6/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-03-10 22:35:55",
+    "population": 10,
+    "location": {
+      "FEATURE_ID": "2502532",
+      "FEATURE_NAME": "Plantation Mobile Home Estates",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Bulloch",
+      "COUNTY_NUMERIC": "31",
+      "PRIMARY_LAT_DMS": "322438N",
+      "PRIM_LONG_DMS": "0814225W",
+      "PRIM_LAT_DEC": "32.4106",
+      "PRIM_LONG_DEC": "-81.7069",
+      "DATE_CREATED": "10/20/08",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-03-12 09:35:55",
+    "population": 10,
+    "location": {
+      "FEATURE_ID": "2484115",
+      "FEATURE_NAME": "Rolling Acres",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hillsborough",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "275357N",
+      "PRIM_LONG_DMS": "0821530W",
+      "PRIM_LAT_DEC": "27.8991",
+      "PRIM_LONG_DEC": "-82.2584",
+      "DATE_CREATED": "7/18/08",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-03-13 13:35:55",
+    "population": 7,
+    "location": {
+      "FEATURE_ID": "629650",
+      "FEATURE_NAME": "Kibbie",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Allegan",
+      "COUNTY_NUMERIC": "5",
+      "PRIMARY_LAT_DMS": "422508N",
+      "PRIM_LONG_DMS": "0861115W",
+      "PRIM_LAT_DEC": "42.4189202",
+      "PRIM_LONG_DEC": "-86.1875289",
+      "DATE_CREATED": "4/14/80",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-03-15 07:35:55",
+    "population": 2,
+    "location": {
+      "FEATURE_ID": "116014",
+      "FEATURE_NAME": "Chestnut",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Monroe",
+      "COUNTY_NUMERIC": "99",
+      "PRIMARY_LAT_DMS": "314828N",
+      "PRIM_LONG_DMS": "0871356W",
+      "PRIM_LAT_DEC": "31.8076532",
+      "PRIM_LONG_DEC": "-87.2322094",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-03-16 01:35:55",
+    "population": 11,
+    "location": {
+      "FEATURE_ID": "58704",
+      "FEATURE_NAME": "Success",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Clay",
+      "COUNTY_NUMERIC": "21",
+      "PRIMARY_LAT_DMS": "362716N",
+      "PRIM_LONG_DMS": "0904317W",
+      "PRIM_LAT_DEC": "36.4545056",
+      "PRIM_LONG_DEC": "-90.721506",
+      "DATE_CREATED": "4/30/80",
+      "DATE_EDITED": "3/20/08"
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-03-18 01:35:55",
+    "population": 8,
+    "location": {
+      "FEATURE_ID": "2630147",
+      "FEATURE_NAME": "Sprucetree Mobile Home Court",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Calhoun",
+      "COUNTY_NUMERIC": "25",
+      "PRIMARY_LAT_DMS": "421641N",
+      "PRIM_LONG_DMS": "0845608W",
+      "PRIM_LAT_DEC": "42.2780556",
+      "PRIM_LONG_DEC": "-84.9355556",
+      "DATE_CREATED": "6/24/10",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-03-18 16:35:55",
+    "population": 3,
+    "location": {
+      "FEATURE_ID": "67354",
+      "FEATURE_NAME": "Red Hill (historical)",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Sevier",
+      "COUNTY_NUMERIC": "133",
+      "PRIMARY_LAT_DMS": "340724N",
+      "PRIM_LONG_DMS": "0941306W",
+      "PRIM_LAT_DEC": "34.1234466",
+      "PRIM_LONG_DEC": "-94.2182579",
+      "DATE_CREATED": "11/1/92",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-03-19 16:35:55",
+    "population": 11,
+    "location": {
+      "FEATURE_ID": "541080",
+      "FEATURE_NAME": "Crimea",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "Tensas",
+      "COUNTY_NUMERIC": "107",
+      "PRIMARY_LAT_DMS": "315838N",
+      "PRIM_LONG_DMS": "0912011W",
+      "PRIM_LAT_DEC": "31.9771019",
+      "PRIM_LONG_DEC": "-91.336504",
+      "DATE_CREATED": "6/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-03-21 02:35:55",
+    "population": 6,
+    "location": {
+      "FEATURE_ID": "1627834",
+      "FEATURE_NAME": "Old Shell Beach",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "St. Bernard",
+      "COUNTY_NUMERIC": "87",
+      "PRIMARY_LAT_DMS": "295200N",
+      "PRIM_LONG_DMS": "0894042W",
+      "PRIM_LAT_DEC": "29.866594",
+      "PRIM_LONG_DEC": "-89.6783919",
+      "DATE_CREATED": "6/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-03-23 22:35:55",
+    "population": 12,
+    "location": {
+      "FEATURE_ID": "2482259",
+      "FEATURE_NAME": "Dana Shores",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hillsborough",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "275821N",
+      "PRIM_LONG_DMS": "0823324W",
+      "PRIM_LAT_DEC": "27.9725",
+      "PRIM_LONG_DEC": "-82.5568",
+      "DATE_CREATED": "7/18/08",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-03-26 04:35:55",
+    "population": 1,
+    "location": {
+      "FEATURE_ID": "155138",
+      "FEATURE_NAME": "Little Rock",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Escambia",
+      "COUNTY_NUMERIC": "53",
+      "PRIMARY_LAT_DMS": "310653N",
+      "PRIM_LONG_DMS": "0872320W",
+      "PRIM_LAT_DEC": "31.1146218",
+      "PRIM_LONG_DEC": "-87.388869",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-03-26 18:35:55",
+    "population": 9,
+    "location": {
+      "FEATURE_ID": "150452",
+      "FEATURE_NAME": "Pea Ridge Crossroads",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "DeKalb",
+      "COUNTY_NUMERIC": "49",
+      "PRIMARY_LAT_DMS": "343818N",
+      "PRIM_LONG_DMS": "0854253W",
+      "PRIM_LAT_DEC": "34.6384168",
+      "PRIM_LONG_DEC": "-85.7146919",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-03-28 01:35:55",
+    "population": 7,
+    "location": {
+      "FEATURE_ID": "2484789",
+      "FEATURE_NAME": "Wolfson",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hillsborough",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "280244N",
+      "PRIM_LONG_DMS": "0822308W",
+      "PRIM_LAT_DEC": "28.0456",
+      "PRIM_LONG_DEC": "-82.3856",
+      "DATE_CREATED": "7/18/08",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-03-28 09:35:55",
+    "population": 41,
+    "location": {
+      "FEATURE_ID": "1617839",
+      "FEATURE_NAME": "Schultz",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Barry",
+      "COUNTY_NUMERIC": "15",
+      "PRIMARY_LAT_DMS": "423450N",
+      "PRIM_LONG_DMS": "0852047W",
+      "PRIM_LAT_DEC": "42.5805909",
+      "PRIM_LONG_DEC": "-85.3463969",
+      "DATE_CREATED": "4/14/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-03-28 21:35:55",
+    "population": 25,
+    "location": {
+      "FEATURE_ID": "345385",
+      "FEATURE_NAME": "Pitts",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Jones",
+      "COUNTY_NUMERIC": "169",
+      "PRIMARY_LAT_DMS": "325550N",
+      "PRIM_LONG_DMS": "0833007W",
+      "PRIM_LAT_DEC": "32.9306926",
+      "PRIM_LONG_DEC": "-83.5018389",
+      "DATE_CREATED": "6/1/94",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-03-29 12:35:55",
+    "population": 26,
+    "location": {
+      "FEATURE_ID": "62634",
+      "FEATURE_NAME": "New Thompson (historical)",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Howard",
+      "COUNTY_NUMERIC": "61",
+      "PRIMARY_LAT_DMS": "341705N",
+      "PRIM_LONG_DMS": "0935726W",
+      "PRIM_LAT_DEC": "34.2848302",
+      "PRIM_LONG_DEC": "-93.9571384",
+      "DATE_CREATED": "5/1/92",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-03-30 11:35:55",
+    "population": 28,
+    "location": {
+      "FEATURE_ID": "1630662",
+      "FEATURE_NAME": "Plantersville (historical)",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "Morehouse",
+      "COUNTY_NUMERIC": "67",
+      "PRIMARY_LAT_DMS": "325300N",
+      "PRIM_LONG_DMS": "0914640W",
+      "PRIM_LAT_DEC": "32.8834645",
+      "PRIM_LONG_DEC": "-91.7779032",
+      "DATE_CREATED": "1/1/93",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-03-31 09:35:55",
+    "population": 35,
+    "location": {
+      "FEATURE_ID": "344739",
+      "FEATURE_NAME": "Grubb (historical)",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Randolph",
+      "COUNTY_NUMERIC": "243",
+      "PRIMARY_LAT_DMS": "314016N",
+      "PRIM_LONG_DMS": "0844623W",
+      "PRIM_LAT_DEC": "31.6710005",
+      "PRIM_LONG_DEC": "-84.7729762",
+      "DATE_CREATED": "5/1/94",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-04-01 05:35:55",
+    "population": 32,
+    "location": {
+      "FEATURE_ID": "543280",
+      "FEATURE_NAME": "Harmony",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "Allen",
+      "COUNTY_NUMERIC": "3",
+      "PRIMARY_LAT_DMS": "303546N",
+      "PRIM_LONG_DMS": "0925450W",
+      "PRIM_LAT_DEC": "30.596032",
+      "PRIM_LONG_DEC": "-92.9137616",
+      "DATE_CREATED": "6/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-04-01 23:35:55",
+    "population": 44,
+    "location": {
+      "FEATURE_ID": "149167",
+      "FEATURE_NAME": "Booker T City",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Calhoun",
+      "COUNTY_NUMERIC": "15",
+      "PRIMARY_LAT_DMS": "334748N",
+      "PRIM_LONG_DMS": "0854715W",
+      "PRIM_LAT_DEC": "33.7967679",
+      "PRIM_LONG_DEC": "-85.7874652",
+      "DATE_CREATED": "12/1/03",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-04-02 12:35:55",
+    "population": 40,
+    "location": {
+      "FEATURE_ID": "59804",
+      "FEATURE_NAME": "Pleasant Grove",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Union",
+      "COUNTY_NUMERIC": "139",
+      "PRIMARY_LAT_DMS": "330546N",
+      "PRIM_LONG_DMS": "0923306W",
+      "PRIM_LAT_DEC": "33.0962438",
+      "PRIM_LONG_DEC": "-92.5515396",
+      "DATE_CREATED": "12/1/91",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-04-03 10:35:55",
+    "population": 34,
+    "location": {
+      "FEATURE_ID": "116627",
+      "FEATURE_NAME": "Corinth",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Randolph",
+      "COUNTY_NUMERIC": "111",
+      "PRIMARY_LAT_DMS": "331006N",
+      "PRIM_LONG_DMS": "0853327W",
+      "PRIM_LAT_DEC": "33.1684522",
+      "PRIM_LONG_DEC": "-85.5574543",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-04-03 12:35:55",
+    "population": 42,
+    "location": {
+      "FEATURE_ID": "1672042",
+      "FEATURE_NAME": "Blanton Acres",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Bibb",
+      "COUNTY_NUMERIC": "21",
+      "PRIMARY_LAT_DMS": "324806N",
+      "PRIM_LONG_DMS": "0834848W",
+      "PRIM_LAT_DEC": "32.801529",
+      "PRIM_LONG_DEC": "-83.8132405",
+      "DATE_CREATED": "11/13/95",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-04-03 19:35:55",
+    "population": 49,
+    "location": {
+      "FEATURE_ID": "1805585",
+      "FEATURE_NAME": "Monte Bello",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Shelby",
+      "COUNTY_NUMERIC": "117",
+      "PRIMARY_LAT_DMS": "330944N",
+      "PRIM_LONG_DMS": "0864912W",
+      "PRIM_LAT_DEC": "33.1623393",
+      "PRIM_LONG_DEC": "-86.8199882",
+      "DATE_CREATED": "2/11/99",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-04-04 00:35:55",
+    "population": 42,
+    "location": {
+      "FEATURE_ID": "72067",
+      "FEATURE_NAME": "Hopper",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Montgomery",
+      "COUNTY_NUMERIC": "97",
+      "PRIMARY_LAT_DMS": "342131N",
+      "PRIM_LONG_DMS": "0934120W",
+      "PRIM_LAT_DEC": "34.358713",
+      "PRIM_LONG_DEC": "-93.6888009",
+      "DATE_CREATED": "4/30/80",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-04-04 06:35:55",
+    "population": 48,
+    "location": {
+      "FEATURE_ID": "2418365",
+      "FEATURE_NAME": "Hillsdale Mobile Village",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Hillsdale",
+      "COUNTY_NUMERIC": "59",
+      "PRIMARY_LAT_DMS": "415636N",
+      "PRIM_LONG_DMS": "0843903W",
+      "PRIM_LAT_DEC": "41.9433333",
+      "PRIM_LONG_DEC": "-84.6508333",
+      "DATE_CREATED": "5/6/08",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-04-04 17:35:55",
+    "population": 35,
+    "location": {
+      "FEATURE_ID": "289687",
+      "FEATURE_NAME": "Ridge Manor",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hernando",
+      "COUNTY_NUMERIC": "53",
+      "PRIMARY_LAT_DMS": "283027N",
+      "PRIM_LONG_DMS": "0821013W",
+      "PRIM_LAT_DEC": "28.5074971",
+      "PRIM_LONG_DEC": "-82.1703628",
+      "DATE_CREATED": "10/19/79",
+      "DATE_EDITED": "3/20/08"
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-04-05 12:35:55",
+    "population": 34,
+    "location": {
+      "FEATURE_ID": "1694836",
+      "FEATURE_NAME": "Gilbert Gardens",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Fulton",
+      "COUNTY_NUMERIC": "121",
+      "PRIMARY_LAT_DMS": "333901N",
+      "PRIM_LONG_DMS": "0842251W",
+      "PRIM_LAT_DEC": "33.6503869",
+      "PRIM_LONG_DEC": "-84.380759",
+      "DATE_CREATED": "5/8/96",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-04-06 07:35:55",
+    "population": 40,
+    "location": {
+      "FEATURE_ID": "357491",
+      "FEATURE_NAME": "Tulakes",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Muscogee",
+      "COUNTY_NUMERIC": "215",
+      "PRIMARY_LAT_DMS": "323243N",
+      "PRIM_LONG_DMS": "0845812W",
+      "PRIM_LAT_DEC": "32.54514",
+      "PRIM_LONG_DEC": "-84.9699321",
+      "DATE_CREATED": "6/1/95",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-04-07 04:35:55",
+    "population": 41,
+    "location": {
+      "FEATURE_ID": "78228",
+      "FEATURE_NAME": "Rudy",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Crawford",
+      "COUNTY_NUMERIC": "33",
+      "PRIMARY_LAT_DMS": "353140N",
+      "PRIM_LONG_DMS": "0941615W",
+      "PRIM_LAT_DEC": "35.5278646",
+      "PRIM_LONG_DEC": "-94.2707653",
+      "DATE_CREATED": "4/30/80",
+      "DATE_EDITED": "3/20/08"
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-04-07 23:35:55",
+    "population": 29,
+    "location": {
+      "FEATURE_ID": "622719",
+      "FEATURE_NAME": "Carleton",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Monroe",
+      "COUNTY_NUMERIC": "115",
+      "PRIMARY_LAT_DMS": "420333N",
+      "PRIM_LONG_DMS": "0832327W",
+      "PRIM_LAT_DEC": "42.0592101",
+      "PRIM_LONG_DEC": "-83.3907658",
+      "DATE_CREATED": "4/14/80",
+      "DATE_EDITED": "3/20/08"
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-04-08 01:35:55",
+    "population": 37,
+    "location": {
+      "FEATURE_ID": "1672767",
+      "FEATURE_NAME": "Habersham Hills",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Clarke",
+      "COUNTY_NUMERIC": "59",
+      "PRIMARY_LAT_DMS": "335539N",
+      "PRIM_LONG_DMS": "0832252W",
+      "PRIM_LAT_DEC": "33.9276158",
+      "PRIM_LONG_DEC": "-83.3809917",
+      "DATE_CREATED": "11/13/95",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-04-09 00:35:55",
+    "population": 40,
+    "location": {
+      "FEATURE_ID": "2600403",
+      "FEATURE_NAME": "Fusilier Mobile Home Estates",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "Vermilion",
+      "COUNTY_NUMERIC": "113",
+      "PRIMARY_LAT_DMS": "300445N",
+      "PRIM_LONG_DMS": "0920715W",
+      "PRIM_LAT_DEC": "30.0792752",
+      "PRIM_LONG_DEC": "-92.1208076",
+      "DATE_CREATED": "5/27/10",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-04-09 21:35:55",
+    "population": 46,
+    "location": {
+      "FEATURE_ID": "2634562",
+      "FEATURE_NAME": "Valley Brook Estates Mobile Home Park",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Ingham",
+      "COUNTY_NUMERIC": "65",
+      "PRIMARY_LAT_DMS": "423741N",
+      "PRIM_LONG_DMS": "0843231W",
+      "PRIM_LAT_DEC": "42.6280556",
+      "PRIM_LONG_DEC": "-84.5419444",
+      "DATE_CREATED": "1/10/11",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-04-10 09:35:55",
+    "population": 27,
+    "location": {
+      "FEATURE_ID": "288408",
+      "FEATURE_NAME": "Palm River Estates",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Collier",
+      "COUNTY_NUMERIC": "21",
+      "PRIMARY_LAT_DMS": "261642N",
+      "PRIM_LONG_DMS": "0814640W",
+      "PRIM_LAT_DEC": "26.2784194",
+      "PRIM_LONG_DEC": "-81.7778645",
+      "DATE_CREATED": "10/19/79",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-04-10 20:35:55",
+    "population": 43,
+    "location": {
+      "FEATURE_ID": "636541",
+      "FEATURE_NAME": "Saint Anthony",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Monroe",
+      "COUNTY_NUMERIC": "115",
+      "PRIMARY_LAT_DMS": "414757N",
+      "PRIM_LONG_DMS": "0833921W",
+      "PRIM_LAT_DEC": "41.799215",
+      "PRIM_LONG_DEC": "-83.6557704",
+      "DATE_CREATED": "4/14/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-04-11 01:35:55",
+    "population": 33,
+    "location": {
+      "FEATURE_ID": "1627812",
+      "FEATURE_NAME": "Oaklawn",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "St. Mary",
+      "COUNTY_NUMERIC": "101",
+      "PRIMARY_LAT_DMS": "295029N",
+      "PRIM_LONG_DMS": "0912709W",
+      "PRIM_LAT_DEC": "29.8413164",
+      "PRIM_LONG_DEC": "-91.4526104",
+      "DATE_CREATED": "6/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-04-11 13:35:55",
+    "population": 46,
+    "location": {
+      "FEATURE_ID": "1622870",
+      "FEATURE_NAME": "Bagnall",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Wexford",
+      "COUNTY_NUMERIC": "165",
+      "PRIMARY_LAT_DMS": "442538N",
+      "PRIM_LONG_DMS": "0854531W",
+      "PRIM_LAT_DEC": "44.4272255",
+      "PRIM_LONG_DEC": "-85.7586815",
+      "DATE_CREATED": "2/1/91",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-04-11 21:35:55",
+    "population": 40,
+    "location": {
+      "FEATURE_ID": "633608",
+      "FEATURE_NAME": "North Manitou",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Leelanau",
+      "COUNTY_NUMERIC": "89",
+      "PRIMARY_LAT_DMS": "450713N",
+      "PRIM_LONG_DMS": "0855845W",
+      "PRIM_LAT_DEC": "45.1202637",
+      "PRIM_LONG_DEC": "-85.979256",
+      "DATE_CREATED": "4/14/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-04-11 23:35:55",
+    "population": 43,
+    "location": {
+      "FEATURE_ID": "356819",
+      "FEATURE_NAME": "Tramlin Acres",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Oconee",
+      "COUNTY_NUMERIC": "219",
+      "PRIMARY_LAT_DMS": "335055N",
+      "PRIM_LONG_DMS": "0832609W",
+      "PRIM_LAT_DEC": "33.8487297",
+      "PRIM_LONG_DEC": "-83.4357163",
+      "DATE_CREATED": "6/1/95",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-04-12 18:35:55",
+    "population": 27,
+    "location": {
+      "FEATURE_ID": "118059",
+      "FEATURE_NAME": "Eutaw",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Greene",
+      "COUNTY_NUMERIC": "63",
+      "PRIMARY_LAT_DMS": "325026N",
+      "PRIM_LONG_DMS": "0875315W",
+      "PRIM_LAT_DEC": "32.8406848",
+      "PRIM_LONG_DEC": "-87.8875145",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": "8/26/13"
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-04-13 04:35:55",
+    "population": 35,
+    "location": {
+      "FEATURE_ID": "2484872",
+      "FEATURE_NAME": "Scotts Little Farms",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hillsborough",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "280336N",
+      "PRIM_LONG_DMS": "0822645W",
+      "PRIM_LAT_DEC": "28.0601",
+      "PRIM_LONG_DEC": "-82.4457",
+      "DATE_CREATED": "7/18/08",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-04-13 17:35:55",
+    "population": 48,
+    "location": {
+      "FEATURE_ID": "54177",
+      "FEATURE_NAME": "Romance",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "White",
+      "COUNTY_NUMERIC": "145",
+      "PRIMARY_LAT_DMS": "351427N",
+      "PRIM_LONG_DMS": "0920305W",
+      "PRIM_LAT_DEC": "35.2409171",
+      "PRIM_LONG_DEC": "-92.051258",
+      "DATE_CREATED": "4/30/80",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-04-13 22:35:55",
+    "population": 45,
+    "location": {
+      "FEATURE_ID": "1619698",
+      "FEATURE_NAME": "Deerheart Valley",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Crawford",
+      "COUNTY_NUMERIC": "39",
+      "PRIMARY_LAT_DMS": "443213N",
+      "PRIM_LONG_DMS": "0843414W",
+      "PRIM_LAT_DEC": "44.5369613",
+      "PRIM_LONG_DEC": "-84.5705788",
+      "DATE_CREATED": "4/14/80",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-04-14 00:35:55",
+    "population": 49,
+    "location": {
+      "FEATURE_ID": "162216",
+      "FEATURE_NAME": "Philadelphia",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Calhoun",
+      "COUNTY_NUMERIC": "15",
+      "PRIMARY_LAT_DMS": "335630N",
+      "PRIM_LONG_DMS": "0853252W",
+      "PRIM_LAT_DEC": "33.9417676",
+      "PRIM_LONG_DEC": "-85.5477372",
+      "DATE_CREATED": "12/1/03",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-04-14 16:35:55",
+    "population": 42,
+    "location": {
+      "FEATURE_ID": "57610",
+      "FEATURE_NAME": "Crocketts Bluff",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Arkansas",
+      "COUNTY_NUMERIC": "1",
+      "PRIMARY_LAT_DMS": "342638N",
+      "PRIM_LONG_DMS": "0911312W",
+      "PRIM_LAT_DEC": "34.4439881",
+      "PRIM_LONG_DEC": "-91.2201202",
+      "DATE_CREATED": "4/30/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-04-15 12:35:55",
+    "population": 49,
+    "location": {
+      "FEATURE_ID": "1672267",
+      "FEATURE_NAME": "Rivoli (historical)",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Bibb",
+      "COUNTY_NUMERIC": "21",
+      "PRIMARY_LAT_DMS": "325236N",
+      "PRIM_LONG_DMS": "0834253W",
+      "PRIM_LAT_DEC": "32.8768052",
+      "PRIM_LONG_DEC": "-83.7146259",
+      "DATE_CREATED": "11/13/95",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-04-15 20:35:55",
+    "population": 28,
+    "location": {
+      "FEATURE_ID": "83225",
+      "FEATURE_NAME": "Mud Lake",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "St. Francis",
+      "COUNTY_NUMERIC": "123",
+      "PRIMARY_LAT_DMS": "345444N",
+      "PRIM_LONG_DMS": "0903050W",
+      "PRIM_LAT_DEC": "34.9123174",
+      "PRIM_LONG_DEC": "-90.5139918",
+      "DATE_CREATED": "4/30/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-04-16 16:35:55",
+    "population": 45,
+    "location": {
+      "FEATURE_ID": "1688496",
+      "FEATURE_NAME": "Williamsburg Park",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Clayton",
+      "COUNTY_NUMERIC": "63",
+      "PRIMARY_LAT_DMS": "333550N",
+      "PRIM_LONG_DMS": "0842624W",
+      "PRIM_LAT_DEC": "33.597333",
+      "PRIM_LONG_DEC": "-84.4399271",
+      "DATE_CREATED": "4/30/96",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-04-16 19:35:55",
+    "population": 28,
+    "location": {
+      "FEATURE_ID": "332009",
+      "FEATURE_NAME": "Hollingsworth",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Banks",
+      "COUNTY_NUMERIC": "11",
+      "PRIMARY_LAT_DMS": "342619N",
+      "PRIM_LONG_DMS": "0833030W",
+      "PRIM_LAT_DEC": "34.4387127",
+      "PRIM_LONG_DEC": "-83.5082251",
+      "DATE_CREATED": "9/25/79",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-04-16 22:35:55",
+    "population": 38,
+    "location": {
+      "FEATURE_ID": "299064",
+      "FEATURE_NAME": "Valhalla",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Monroe",
+      "COUNTY_NUMERIC": "87",
+      "PRIMARY_LAT_DMS": "244432N",
+      "PRIM_LONG_DMS": "0805839W",
+      "PRIM_LAT_DEC": "24.7420847",
+      "PRIM_LONG_DEC": "-80.9775709",
+      "DATE_CREATED": "8/28/87",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-04-17 10:35:55",
+    "population": 48,
+    "location": {
+      "FEATURE_ID": "552311",
+      "FEATURE_NAME": "Hollywood",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "Caddo",
+      "COUNTY_NUMERIC": "17",
+      "PRIMARY_LAT_DMS": "322708N",
+      "PRIM_LONG_DMS": "0934709W",
+      "PRIM_LAT_DEC": "32.4520982",
+      "PRIM_LONG_DEC": "-93.7857354",
+      "DATE_CREATED": "1/1/94",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-04-18 03:35:55",
+    "population": 44,
+    "location": {
+      "FEATURE_ID": "1622080",
+      "FEATURE_NAME": "Wellington",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Gogebic",
+      "COUNTY_NUMERIC": "53",
+      "PRIMARY_LAT_DMS": "461951N",
+      "PRIM_LONG_DMS": "0893926W",
+      "PRIM_LAT_DEC": "46.3307816",
+      "PRIM_LONG_DEC": "-89.6570993",
+      "DATE_CREATED": "4/14/80",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-04-18 22:35:55",
+    "population": 37,
+    "location": {
+      "FEATURE_ID": "124432",
+      "FEATURE_NAME": "Park Place",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Jefferson",
+      "COUNTY_NUMERIC": "73",
+      "PRIMARY_LAT_DMS": "332727N",
+      "PRIM_LONG_DMS": "0865340W",
+      "PRIM_LAT_DEC": "33.4576077",
+      "PRIM_LONG_DEC": "-86.8944359",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-04-19 20:35:55",
+    "population": 49,
+    "location": {
+      "FEATURE_ID": "2495050",
+      "FEATURE_NAME": "Crystal Lake Mobile Home Park",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Benzie",
+      "COUNTY_NUMERIC": "19",
+      "PRIMARY_LAT_DMS": "443728N",
+      "PRIM_LONG_DMS": "0860618W",
+      "PRIM_LAT_DEC": "44.6244444",
+      "PRIM_LONG_DEC": "-86.105",
+      "DATE_CREATED": "9/16/08",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-04-20 04:35:55",
+    "population": 49,
+    "location": {
+      "FEATURE_ID": "64696",
+      "FEATURE_NAME": "Oak Ridge",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Craighead",
+      "COUNTY_NUMERIC": "31",
+      "PRIMARY_LAT_DMS": "355338N",
+      "PRIM_LONG_DMS": "0904702W",
+      "PRIM_LAT_DEC": "35.8939623",
+      "PRIM_LONG_DEC": "-90.7840037",
+      "DATE_CREATED": "10/1/92",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-04-20 18:35:55",
+    "population": 48,
+    "location": {
+      "FEATURE_ID": "2566939",
+      "FEATURE_NAME": "Byron Center Mobile Village",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Kent",
+      "COUNTY_NUMERIC": "81",
+      "PRIMARY_LAT_DMS": "424835N",
+      "PRIM_LONG_DMS": "0854347W",
+      "PRIM_LAT_DEC": "42.8097222",
+      "PRIM_LONG_DEC": "-85.7297222",
+      "DATE_CREATED": "9/3/09",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-04-21 03:35:55",
+    "population": 36,
+    "location": {
+      "FEATURE_ID": "350929",
+      "FEATURE_NAME": "Acton (historical)",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Harris",
+      "COUNTY_NUMERIC": "145",
+      "PRIMARY_LAT_DMS": "323910N",
+      "PRIM_LONG_DMS": "0850036W",
+      "PRIM_LAT_DEC": "32.6529138",
+      "PRIM_LONG_DEC": "-85.009934",
+      "DATE_CREATED": "11/1/94",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-04-21 15:35:55",
+    "population": 26,
+    "location": {
+      "FEATURE_ID": "553088",
+      "FEATURE_NAME": "Ben Hur (historical)",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "East Baton Rouge",
+      "COUNTY_NUMERIC": "33",
+      "PRIMARY_LAT_DMS": "302111N",
+      "PRIM_LONG_DMS": "0911023W",
+      "PRIM_LAT_DEC": "30.3529708",
+      "PRIM_LONG_DEC": "-91.1731621",
+      "DATE_CREATED": null,
+      "DATE_EDITED": "7/19/10"
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-04-22 04:35:55",
+    "population": 47,
+    "location": {
+      "FEATURE_ID": "2483761",
+      "FEATURE_NAME": "La Vergne",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hillsborough",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "275834N",
+      "PRIM_LONG_DMS": "0822707W",
+      "PRIM_LAT_DEC": "27.976",
+      "PRIM_LONG_DEC": "-82.4519",
+      "DATE_CREATED": "7/18/08",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-04-22 06:35:55",
+    "population": 40,
+    "location": {
+      "FEATURE_ID": "2451565",
+      "FEATURE_NAME": "Conestoga Mobile Home Park",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Orange",
+      "COUNTY_NUMERIC": "95",
+      "PRIMARY_LAT_DMS": "283305N",
+      "PRIM_LONG_DMS": "0812732W",
+      "PRIM_LAT_DEC": "28.5514",
+      "PRIM_LONG_DEC": "-81.4589",
+      "DATE_CREATED": "7/21/08",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-04-22 23:35:55",
+    "population": 36,
+    "location": {
+      "FEATURE_ID": "552586",
+      "FEATURE_NAME": "Delano (historical)",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "St. Landry",
+      "COUNTY_NUMERIC": "97",
+      "PRIMARY_LAT_DMS": "304551N",
+      "PRIM_LONG_DMS": "0914624W",
+      "PRIM_LAT_DEC": "30.7640752",
+      "PRIM_LONG_DEC": "-91.7734487",
+      "DATE_CREATED": "1/1/94",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-04-23 14:35:55",
+    "population": 47,
+    "location": {
+      "FEATURE_ID": "118200",
+      "FEATURE_NAME": "Farley",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Madison",
+      "COUNTY_NUMERIC": "89",
+      "PRIMARY_LAT_DMS": "343543N",
+      "PRIM_LONG_DMS": "0863344W",
+      "PRIM_LAT_DEC": "34.5953691",
+      "PRIM_LONG_DEC": "-86.5622135",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-04-24 04:35:55",
+    "population": 43,
+    "location": {
+      "FEATURE_ID": "357409",
+      "FEATURE_NAME": "Leesburg",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Muscogee",
+      "COUNTY_NUMERIC": "215",
+      "PRIMARY_LAT_DMS": "323211N",
+      "PRIM_LONG_DMS": "0845345W",
+      "PRIM_LAT_DEC": "32.5362511",
+      "PRIM_LONG_DEC": "-84.8957642",
+      "DATE_CREATED": "6/1/95",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-04-24 11:35:55",
+    "population": 35,
+    "location": {
+      "FEATURE_ID": "66390",
+      "FEATURE_NAME": "Brashears",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Madison",
+      "COUNTY_NUMERIC": "87",
+      "PRIMARY_LAT_DMS": "354842N",
+      "PRIM_LONG_DMS": "0934745W",
+      "PRIM_LAT_DEC": "35.8117461",
+      "PRIM_LONG_DEC": "-93.7957489",
+      "DATE_CREATED": "10/1/92",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-04-25 00:35:55",
+    "population": 26,
+    "location": {
+      "FEATURE_ID": "124772",
+      "FEATURE_NAME": "Pine Grove",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Cherokee",
+      "COUNTY_NUMERIC": "19",
+      "PRIMARY_LAT_DMS": "340159N",
+      "PRIM_LONG_DMS": "0854228W",
+      "PRIM_LAT_DEC": "34.0331549",
+      "PRIM_LONG_DEC": "-85.7077424",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-04-25 05:35:55",
+    "population": 49,
+    "location": {
+      "FEATURE_ID": "117769",
+      "FEATURE_NAME": "East Gadsden",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Etowah",
+      "COUNTY_NUMERIC": "55",
+      "PRIMARY_LAT_DMS": "340009N",
+      "PRIM_LONG_DMS": "0855807W",
+      "PRIM_LAT_DEC": "34.0025979",
+      "PRIM_LONG_DEC": "-85.968582",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-04-26 04:35:55",
+    "population": 26,
+    "location": {
+      "FEATURE_ID": "2482176",
+      "FEATURE_NAME": "Alma Heights",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hillsborough",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "275747N",
+      "PRIM_LONG_DMS": "0822504W",
+      "PRIM_LAT_DEC": "27.9631",
+      "PRIM_LONG_DEC": "-82.4177",
+      "DATE_CREATED": "7/18/08",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-04-26 19:35:55",
+    "population": 35,
+    "location": {
+      "FEATURE_ID": "54009",
+      "FEATURE_NAME": "Rich",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Monroe",
+      "COUNTY_NUMERIC": "95",
+      "PRIMARY_LAT_DMS": "344552N",
+      "PRIM_LONG_DMS": "0910814W",
+      "PRIM_LAT_DEC": "34.7645408",
+      "PRIM_LONG_DEC": "-91.1373447",
+      "DATE_CREATED": "4/30/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-04-27 16:35:55",
+    "population": 25,
+    "location": {
+      "FEATURE_ID": "148075",
+      "FEATURE_NAME": "East Arlington",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Tuscaloosa",
+      "COUNTY_NUMERIC": "125",
+      "PRIMARY_LAT_DMS": "331109N",
+      "PRIM_LONG_DMS": "0873152W",
+      "PRIM_LAT_DEC": "33.1859523",
+      "PRIM_LONG_DEC": "-87.5311167",
+      "DATE_CREATED": "12/1/03",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-04-28 08:35:55",
+    "population": 25,
+    "location": {
+      "FEATURE_ID": "306225",
+      "FEATURE_NAME": "Pine Lakes",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Lake",
+      "COUNTY_NUMERIC": "69",
+      "PRIMARY_LAT_DMS": "285628N",
+      "PRIM_LONG_DMS": "0812548W",
+      "PRIM_LAT_DEC": "28.9410985",
+      "PRIM_LONG_DEC": "-81.4300675",
+      "DATE_CREATED": "10/19/79",
+      "DATE_EDITED": "3/20/08"
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-04-28 17:35:55",
+    "population": 40,
+    "location": {
+      "FEATURE_ID": "552469",
+      "FEATURE_NAME": "Waterwood Estates",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "Caddo",
+      "COUNTY_NUMERIC": "17",
+      "PRIMARY_LAT_DMS": "322621N",
+      "PRIM_LONG_DMS": "0935621W",
+      "PRIM_LAT_DEC": "32.4390435",
+      "PRIM_LONG_DEC": "-93.939072",
+      "DATE_CREATED": "1/1/94",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-04-29 16:35:55",
+    "population": 33,
+    "location": {
+      "FEATURE_ID": "82909",
+      "FEATURE_NAME": "Monica",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "St. Francis",
+      "COUNTY_NUMERIC": "123",
+      "PRIMARY_LAT_DMS": "345946N",
+      "PRIM_LONG_DMS": "0904710W",
+      "PRIM_LAT_DEC": "34.9962031",
+      "PRIM_LONG_DEC": "-90.7862229",
+      "DATE_CREATED": "12/1/91",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-04-30 07:35:55",
+    "population": 26,
+    "location": {
+      "FEATURE_ID": "162972",
+      "FEATURE_NAME": "Camp Spring (historical)",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Lawrence",
+      "COUNTY_NUMERIC": "79",
+      "PRIMARY_LAT_DMS": "342535N",
+      "PRIM_LONG_DMS": "0872730W",
+      "PRIM_LAT_DEC": "34.426485",
+      "PRIM_LONG_DEC": "-87.4583564",
+      "DATE_CREATED": "12/1/03",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-04-30 18:35:55",
+    "population": 35,
+    "location": {
+      "FEATURE_ID": "146946",
+      "FEATURE_NAME": "Greenhill",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Madison",
+      "COUNTY_NUMERIC": "89",
+      "PRIMARY_LAT_DMS": "344533N",
+      "PRIM_LONG_DMS": "0863609W",
+      "PRIM_LAT_DEC": "34.7592574",
+      "PRIM_LONG_DEC": "-86.6024933",
+      "DATE_CREATED": "12/1/03",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-01 17:35:55",
+    "population": 39,
+    "location": {
+      "FEATURE_ID": "630440",
+      "FEATURE_NAME": "Lincoln",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Alcona",
+      "COUNTY_NUMERIC": "1",
+      "PRIMARY_LAT_DMS": "444105N",
+      "PRIM_LONG_DMS": "0832444W",
+      "PRIM_LAT_DEC": "44.6847352",
+      "PRIM_LONG_DEC": "-83.4121935",
+      "DATE_CREATED": "4/14/80",
+      "DATE_EDITED": "3/20/08"
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-02 15:35:55",
+    "population": 26,
+    "location": {
+      "FEATURE_ID": "156227",
+      "FEATURE_NAME": "Crocker Junction",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Jefferson",
+      "COUNTY_NUMERIC": "73",
+      "PRIMARY_LAT_DMS": "334003N",
+      "PRIM_LONG_DMS": "0865438W",
+      "PRIM_LAT_DEC": "33.6676043",
+      "PRIM_LONG_DEC": "-86.9105504",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-03 11:35:55",
+    "population": 48,
+    "location": {
+      "FEATURE_ID": "554658",
+      "FEATURE_NAME": "Harelson",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "East Baton Rouge",
+      "COUNTY_NUMERIC": "33",
+      "PRIMARY_LAT_DMS": "302603N",
+      "PRIM_LONG_DMS": "0910357W",
+      "PRIM_LAT_DEC": "30.4340798",
+      "PRIM_LONG_DEC": "-91.0659374",
+      "DATE_CREATED": "6/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-04 06:35:55",
+    "population": 38,
+    "location": {
+      "FEATURE_ID": "144135",
+      "FEATURE_NAME": "Dogtown",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Jefferson",
+      "COUNTY_NUMERIC": "73",
+      "PRIMARY_LAT_DMS": "333650N",
+      "PRIM_LONG_DMS": "0865302W",
+      "PRIM_LAT_DEC": "33.6139936",
+      "PRIM_LONG_DEC": "-86.8838822",
+      "DATE_CREATED": "12/1/03",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-05 01:35:55",
+    "population": 35,
+    "location": {
+      "FEATURE_ID": "160811",
+      "FEATURE_NAME": "Weathers",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Clay",
+      "COUNTY_NUMERIC": "27",
+      "PRIMARY_LAT_DMS": "332005N",
+      "PRIM_LONG_DMS": "0855745W",
+      "PRIM_LAT_DEC": "33.3348341",
+      "PRIM_LONG_DEC": "-85.9624669",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-05 15:35:55",
+    "population": 28,
+    "location": {
+      "FEATURE_ID": "119533",
+      "FEATURE_NAME": "Hackneyville",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Tallapoosa",
+      "COUNTY_NUMERIC": "123",
+      "PRIMARY_LAT_DMS": "330337N",
+      "PRIM_LONG_DMS": "0855559W",
+      "PRIM_LAT_DEC": "33.0603978",
+      "PRIM_LONG_DEC": "-85.9330202",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": "1/29/11"
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-06 11:35:55",
+    "population": 33,
+    "location": {
+      "FEATURE_ID": "144527",
+      "FEATURE_NAME": "Brookwood",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Dallas",
+      "COUNTY_NUMERIC": "47",
+      "PRIMARY_LAT_DMS": "321915N",
+      "PRIM_LONG_DMS": "0871858W",
+      "PRIM_LAT_DEC": "32.3206947",
+      "PRIM_LONG_DEC": "-87.3161068",
+      "DATE_CREATED": "12/1/03",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-06 15:35:55",
+    "population": 26,
+    "location": {
+      "FEATURE_ID": "1624812",
+      "FEATURE_NAME": "Parkville",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "St. Joseph",
+      "COUNTY_NUMERIC": "149",
+      "PRIMARY_LAT_DMS": "420057N",
+      "PRIM_LONG_DMS": "0853252W",
+      "PRIM_LAT_DEC": "42.0158813",
+      "PRIM_LONG_DEC": "-85.5477706",
+      "DATE_CREATED": "4/14/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-06 16:35:55",
+    "population": 30,
+    "location": {
+      "FEATURE_ID": "156429",
+      "FEATURE_NAME": "Grassland",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Cherokee",
+      "COUNTY_NUMERIC": "19",
+      "PRIMARY_LAT_DMS": "341754N",
+      "PRIM_LONG_DMS": "0853518W",
+      "PRIM_LAT_DEC": "34.2984252",
+      "PRIM_LONG_DEC": "-85.5882956",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-07 04:35:55",
+    "population": 33,
+    "location": {
+      "FEATURE_ID": "1877605",
+      "FEATURE_NAME": "Lima (historical)",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "St. Tammany",
+      "COUNTY_NUMERIC": "103",
+      "PRIMARY_LAT_DMS": "Unknown",
+      "PRIM_LONG_DMS": "Unknown",
+      "PRIM_LAT_DEC": "0",
+      "PRIM_LONG_DEC": "0",
+      "DATE_CREATED": "8/17/00",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-07 17:35:55",
+    "population": 34,
+    "location": {
+      "FEATURE_ID": "73259",
+      "FEATURE_NAME": "Red Star",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Madison",
+      "COUNTY_NUMERIC": "87",
+      "PRIMARY_LAT_DMS": "355200N",
+      "PRIM_LONG_DMS": "0933151W",
+      "PRIM_LAT_DEC": "35.8667455",
+      "PRIM_LONG_DEC": "-93.5307416",
+      "DATE_CREATED": "4/30/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-08 06:35:55",
+    "population": 33,
+    "location": {
+      "FEATURE_ID": "352080",
+      "FEATURE_NAME": "Mount Carmel (historical)",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Wilkinson",
+      "COUNTY_NUMERIC": "319",
+      "PRIMARY_LAT_DMS": "325409N",
+      "PRIM_LONG_DMS": "0831245W",
+      "PRIM_LAT_DEC": "32.9023681",
+      "PRIM_LONG_DEC": "-83.212377",
+      "DATE_CREATED": "5/1/93",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-09 04:35:55",
+    "population": 32,
+    "location": {
+      "FEATURE_ID": "148189",
+      "FEATURE_NAME": "Gorgas",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Tuscaloosa",
+      "COUNTY_NUMERIC": "125",
+      "PRIMARY_LAT_DMS": "333112N",
+      "PRIM_LONG_DMS": "0873650W",
+      "PRIM_LAT_DEC": "33.5201132",
+      "PRIM_LONG_DEC": "-87.6138973",
+      "DATE_CREATED": "12/1/03",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-09 06:35:55",
+    "population": 44,
+    "location": {
+      "FEATURE_ID": "1700471",
+      "FEATURE_NAME": "Coker Heights",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Tuscaloosa",
+      "COUNTY_NUMERIC": "125",
+      "PRIMARY_LAT_DMS": "331458N",
+      "PRIM_LONG_DMS": "0874140W",
+      "PRIM_LAT_DEC": "33.2495623",
+      "PRIM_LONG_DEC": "-87.6944551",
+      "DATE_CREATED": "11/22/96",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-09 17:35:55",
+    "population": 30,
+    "location": {
+      "FEATURE_ID": "331690",
+      "FEATURE_NAME": "Fairview",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Walker",
+      "COUNTY_NUMERIC": "295",
+      "PRIMARY_LAT_DMS": "345644N",
+      "PRIM_LONG_DMS": "0851704W",
+      "PRIM_LAT_DEC": "34.9456314",
+      "PRIM_LONG_DEC": "-85.2844008",
+      "DATE_CREATED": "9/25/79",
+      "DATE_EDITED": "3/20/08"
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-09 19:35:55",
+    "population": 26,
+    "location": {
+      "FEATURE_ID": "143484",
+      "FEATURE_NAME": "Lebaron Woods",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Mobile",
+      "COUNTY_NUMERIC": "97",
+      "PRIMARY_LAT_DMS": "304346N",
+      "PRIM_LONG_DMS": "0880945W",
+      "PRIM_LAT_DEC": "30.7293556",
+      "PRIM_LONG_DEC": "-88.1625026",
+      "DATE_CREATED": "12/1/03",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-09 22:35:55",
+    "population": 25,
+    "location": {
+      "FEATURE_ID": "353845",
+      "FEATURE_NAME": "River Place",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Floyd",
+      "COUNTY_NUMERIC": "115",
+      "PRIMARY_LAT_DMS": "341322N",
+      "PRIM_LONG_DMS": "0851320W",
+      "PRIM_LAT_DEC": "34.2228723",
+      "PRIM_LONG_DEC": "-85.2221742",
+      "DATE_CREATED": "6/1/95",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-10 18:35:55",
+    "population": 29,
+    "location": {
+      "FEATURE_ID": "122027",
+      "FEATURE_NAME": "Loop",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Cherokee",
+      "COUNTY_NUMERIC": "19",
+      "PRIMARY_LAT_DMS": "341922N",
+      "PRIM_LONG_DMS": "0853834W",
+      "PRIM_LAT_DEC": "34.3228691",
+      "PRIM_LONG_DEC": "-85.6427418",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": "10/18/10"
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-10 21:35:55",
+    "population": 33,
+    "location": {
+      "FEATURE_ID": "1686458",
+      "FEATURE_NAME": "Daniell Mill Estates",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Douglas",
+      "COUNTY_NUMERIC": "97",
+      "PRIMARY_LAT_DMS": "334017N",
+      "PRIM_LONG_DMS": "0845115W",
+      "PRIM_LAT_DEC": "33.671498",
+      "PRIM_LONG_DEC": "-84.8541055",
+      "DATE_CREATED": "4/30/96",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-11 15:35:55",
+    "population": 48,
+    "location": {
+      "FEATURE_ID": "558665",
+      "FEATURE_NAME": "Martin",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "Plaquemines",
+      "COUNTY_NUMERIC": "75",
+      "PRIMARY_LAT_DMS": "293349N",
+      "PRIM_LONG_DMS": "0894625W",
+      "PRIM_LAT_DEC": "29.5635485",
+      "PRIM_LONG_DEC": "-89.7736769",
+      "DATE_CREATED": "3/1/94",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-12 08:35:55",
+    "population": 36,
+    "location": {
+      "FEATURE_ID": "63917",
+      "FEATURE_NAME": "Dolton (historical)",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Jefferson",
+      "COUNTY_NUMERIC": "69",
+      "PRIMARY_LAT_DMS": "340612N",
+      "PRIM_LONG_DMS": "0914444W",
+      "PRIM_LAT_DEC": "34.1034327",
+      "PRIM_LONG_DEC": "-91.7456857",
+      "DATE_CREATED": "10/1/92",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-12 14:35:55",
+    "population": 39,
+    "location": {
+      "FEATURE_ID": "141207",
+      "FEATURE_NAME": "Vestavia Estates",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Limestone",
+      "COUNTY_NUMERIC": "83",
+      "PRIMARY_LAT_DMS": "344710N",
+      "PRIM_LONG_DMS": "0870020W",
+      "PRIM_LAT_DEC": "34.7861996",
+      "PRIM_LONG_DEC": "-87.0055644",
+      "DATE_CREATED": "12/1/03",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-13 12:35:55",
+    "population": 28,
+    "location": {
+      "FEATURE_ID": "294649",
+      "FEATURE_NAME": "Allentown",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Santa Rosa",
+      "COUNTY_NUMERIC": "113",
+      "PRIMARY_LAT_DMS": "304546N",
+      "PRIM_LONG_DMS": "0870232W",
+      "PRIM_LAT_DEC": "30.7626889",
+      "PRIM_LONG_DEC": "-87.0421883",
+      "DATE_CREATED": "10/19/79",
+      "DATE_EDITED": "1/29/11"
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-14 05:35:55",
+    "population": 47,
+    "location": {
+      "FEATURE_ID": "349967",
+      "FEATURE_NAME": "Westfork",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Paulding",
+      "COUNTY_NUMERIC": "223",
+      "PRIMARY_LAT_DMS": "340017N",
+      "PRIM_LONG_DMS": "0845015W",
+      "PRIM_LAT_DEC": "34.0048231",
+      "PRIM_LONG_DEC": "-84.8374402",
+      "DATE_CREATED": "9/1/94",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-14 19:35:55",
+    "population": 49,
+    "location": {
+      "FEATURE_ID": "543283",
+      "FEATURE_NAME": "Hayti",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "Caddo",
+      "COUNTY_NUMERIC": "17",
+      "PRIMARY_LAT_DMS": "324244N",
+      "PRIM_LONG_DMS": "0935008W",
+      "PRIM_LAT_DEC": "32.7120891",
+      "PRIM_LONG_DEC": "-93.8354577",
+      "DATE_CREATED": "6/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-15 00:35:55",
+    "population": 41,
+    "location": {
+      "FEATURE_ID": "623174",
+      "FEATURE_NAME": "Chesterfield Shores",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Macomb",
+      "COUNTY_NUMERIC": "99",
+      "PRIMARY_LAT_DMS": "424012N",
+      "PRIM_LONG_DMS": "0824541W",
+      "PRIM_LAT_DEC": "42.6700326",
+      "PRIM_LONG_DEC": "-82.7613066",
+      "DATE_CREATED": "4/14/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-15 07:35:55",
+    "population": 43,
+    "location": {
+      "FEATURE_ID": "157020",
+      "FEATURE_NAME": "Saville",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Crenshaw",
+      "COUNTY_NUMERIC": "41",
+      "PRIMARY_LAT_DMS": "315239N",
+      "PRIM_LONG_DMS": "0861952W",
+      "PRIM_LAT_DEC": "31.8773743",
+      "PRIM_LONG_DEC": "-86.3310764",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-15 21:35:55",
+    "population": 42,
+    "location": {
+      "FEATURE_ID": "71408",
+      "FEATURE_NAME": "Dongola",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Searcy",
+      "COUNTY_NUMERIC": "129",
+      "PRIMARY_LAT_DMS": "355431N",
+      "PRIM_LONG_DMS": "0924531W",
+      "PRIM_LAT_DEC": "35.908687",
+      "PRIM_LONG_DEC": "-92.7584993",
+      "DATE_CREATED": "4/30/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-15 22:35:55",
+    "population": 171,
+    "location": {
+      "FEATURE_ID": "543687",
+      "FEATURE_NAME": "Sparks",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "Pointe Coupee",
+      "COUNTY_NUMERIC": "77",
+      "PRIMARY_LAT_DMS": "302956N",
+      "PRIM_LONG_DMS": "0913138W",
+      "PRIM_LAT_DEC": "30.4988048",
+      "PRIM_LONG_DEC": "-91.5273321",
+      "DATE_CREATED": "6/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-16 00:35:55",
+    "population": 120,
+    "location": {
+      "FEATURE_ID": "2483059",
+      "FEATURE_NAME": "Lithia Pines",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hillsborough",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "275115N",
+      "PRIM_LONG_DMS": "0820736W",
+      "PRIM_LAT_DEC": "27.8542",
+      "PRIM_LONG_DEC": "-82.1268",
+      "DATE_CREATED": "7/18/08",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-16 01:35:55",
+    "population": 196,
+    "location": {
+      "FEATURE_ID": "2483780",
+      "FEATURE_NAME": "Lake Carroll Grove Estates",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hillsborough",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "280252N",
+      "PRIM_LONG_DMS": "0822856W",
+      "PRIM_LAT_DEC": "28.0478",
+      "PRIM_LONG_DEC": "-82.4821",
+      "DATE_CREATED": "7/18/08",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-16 03:35:55",
+    "population": 116,
+    "location": {
+      "FEATURE_ID": "548620",
+      "FEATURE_NAME": "Town East",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "Ouachita",
+      "COUNTY_NUMERIC": "73",
+      "PRIMARY_LAT_DMS": "323133N",
+      "PRIM_LONG_DMS": "0915915W",
+      "PRIM_LAT_DEC": "32.525698",
+      "PRIM_LONG_DEC": "-91.987631",
+      "DATE_CREATED": "2/1/93",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-16 04:35:55",
+    "population": 63,
+    "location": {
+      "FEATURE_ID": "2451673",
+      "FEATURE_NAME": "April Oaks Mobile Home Park",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Putnam",
+      "COUNTY_NUMERIC": "107",
+      "PRIMARY_LAT_DMS": "293812N",
+      "PRIM_LONG_DMS": "0813943W",
+      "PRIM_LAT_DEC": "29.636532",
+      "PRIM_LONG_DEC": "-81.661966",
+      "DATE_CREATED": "7/21/08",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-16 05:35:55",
+    "population": 138,
+    "location": {
+      "FEATURE_ID": "2484702",
+      "FEATURE_NAME": "Westmoreland Place",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hillsborough",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "280001N",
+      "PRIM_LONG_DMS": "0822708W",
+      "PRIM_LAT_DEC": "28.0002",
+      "PRIM_LONG_DEC": "-82.4523",
+      "DATE_CREATED": "7/18/08",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-16 07:35:55",
+    "population": 232,
+    "location": {
+      "FEATURE_ID": "139489",
+      "FEATURE_NAME": "Street (historical)",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Marshall",
+      "COUNTY_NUMERIC": "95",
+      "PRIMARY_LAT_DMS": "341642N",
+      "PRIM_LONG_DMS": "0861934W",
+      "PRIM_LAT_DEC": "34.2784272",
+      "PRIM_LONG_DEC": "-86.3260931",
+      "DATE_CREATED": "12/1/03",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-16 09:35:55",
+    "population": 143,
+    "location": {
+      "FEATURE_ID": "156342",
+      "FEATURE_NAME": "Fannings Crossing",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Madison",
+      "COUNTY_NUMERIC": "89",
+      "PRIMARY_LAT_DMS": "345302N",
+      "PRIM_LONG_DMS": "0862634W",
+      "PRIM_LAT_DEC": "34.8839776",
+      "PRIM_LONG_DEC": "-86.4427677",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-16 10:35:55",
+    "population": 133,
+    "location": {
+      "FEATURE_ID": "2485011",
+      "FEATURE_NAME": "Sparkman Place",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hillsborough",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "275757N",
+      "PRIM_LONG_DMS": "0822705W",
+      "PRIM_LAT_DEC": "27.9657",
+      "PRIM_LONG_DEC": "-82.4515",
+      "DATE_CREATED": "7/18/08",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-16 11:35:55",
+    "population": 197,
+    "location": {
+      "FEATURE_ID": "295377",
+      "FEATURE_NAME": "Iola",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Gulf",
+      "COUNTY_NUMERIC": "45",
+      "PRIMARY_LAT_DMS": "300856N",
+      "PRIM_LONG_DMS": "0850955W",
+      "PRIM_LAT_DEC": "30.1488106",
+      "PRIM_LONG_DEC": "-85.1651936",
+      "DATE_CREATED": "10/19/79",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-16 12:35:55",
+    "population": 127,
+    "location": {
+      "FEATURE_ID": "1673307",
+      "FEATURE_NAME": "Waterford Place",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Troup",
+      "COUNTY_NUMERIC": "285",
+      "PRIMARY_LAT_DMS": "330452N",
+      "PRIM_LONG_DMS": "0850255W",
+      "PRIM_LAT_DEC": "33.0812343",
+      "PRIM_LONG_DEC": "-85.0485499",
+      "DATE_CREATED": "11/13/95",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-16 14:35:55",
+    "population": 160,
+    "location": {
+      "FEATURE_ID": "331057",
+      "FEATURE_NAME": "Ashland",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Franklin",
+      "COUNTY_NUMERIC": "119",
+      "PRIMARY_LAT_DMS": "341932N",
+      "PRIM_LONG_DMS": "0832121W",
+      "PRIM_LAT_DEC": "34.3256608",
+      "PRIM_LONG_DEC": "-83.3557147",
+      "DATE_CREATED": "9/25/79",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-16 16:35:55",
+    "population": 123,
+    "location": {
+      "FEATURE_ID": "2451969",
+      "FEATURE_NAME": "Gray Acres Mobile Home Park",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Volusia",
+      "COUNTY_NUMERIC": "127",
+      "PRIMARY_LAT_DMS": "290833N",
+      "PRIM_LONG_DMS": "0810149W",
+      "PRIM_LAT_DEC": "29.1426",
+      "PRIM_LONG_DEC": "-81.0302",
+      "DATE_CREATED": "7/21/08",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-16 18:35:55",
+    "population": 102,
+    "location": {
+      "FEATURE_ID": "113090",
+      "FEATURE_NAME": "Anne Manie",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Wilcox",
+      "COUNTY_NUMERIC": "131",
+      "PRIMARY_LAT_DMS": "320311N",
+      "PRIM_LONG_DMS": "0873415W",
+      "PRIM_LAT_DEC": "32.0529256",
+      "PRIM_LONG_DEC": "-87.5708342",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-16 20:35:55",
+    "population": 199,
+    "location": {
+      "FEATURE_ID": "332253",
+      "FEATURE_NAME": "Locust Grove",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Henry",
+      "COUNTY_NUMERIC": "151",
+      "PRIMARY_LAT_DMS": "332045N",
+      "PRIM_LONG_DMS": "0840633W",
+      "PRIM_LAT_DEC": "33.3459495",
+      "PRIM_LONG_DEC": "-84.109083",
+      "DATE_CREATED": "9/25/79",
+      "DATE_EDITED": "3/20/08"
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-16 21:35:55",
+    "population": 121,
+    "location": {
+      "FEATURE_ID": "150979",
+      "FEATURE_NAME": "Abercrombie",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Bibb",
+      "COUNTY_NUMERIC": "7",
+      "PRIMARY_LAT_DMS": "325055N",
+      "PRIM_LONG_DMS": "0870954W",
+      "PRIM_LAT_DEC": "32.8487374",
+      "PRIM_LONG_DEC": "-87.1649961",
+      "DATE_CREATED": "12/1/90",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-16 23:35:55",
+    "population": 195,
+    "location": {
+      "FEATURE_ID": "2648530",
+      "FEATURE_NAME": "Chouteau Estates Macomb Mobile Home Park",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Macomb",
+      "COUNTY_NUMERIC": "99",
+      "PRIMARY_LAT_DMS": "423818N",
+      "PRIM_LONG_DMS": "0825524W",
+      "PRIM_LAT_DEC": "42.6383333",
+      "PRIM_LONG_DEC": "-82.9233333",
+      "DATE_CREATED": "7/28/11",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-17 00:35:55",
+    "population": 65,
+    "location": {
+      "FEATURE_ID": "2484079",
+      "FEATURE_NAME": "Riverside",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hillsborough",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "275635N",
+      "PRIM_LONG_DMS": "0822740W",
+      "PRIM_LAT_DEC": "27.9431",
+      "PRIM_LONG_DEC": "-82.4612",
+      "DATE_CREATED": "7/18/08",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-17 01:35:55",
+    "population": 218,
+    "location": {
+      "FEATURE_ID": "346578",
+      "FEATURE_NAME": "Manning (historical)",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Laurens",
+      "COUNTY_NUMERIC": "175",
+      "PRIMARY_LAT_DMS": "323655N",
+      "PRIM_LONG_DMS": "0824619W",
+      "PRIM_LAT_DEC": "32.6151641",
+      "PRIM_LONG_DEC": "-82.772083",
+      "DATE_CREATED": "6/1/94",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-17 02:35:55",
+    "population": 98,
+    "location": {
+      "FEATURE_ID": "134557",
+      "FEATURE_NAME": "Ellisville",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Baldwin",
+      "COUNTY_NUMERIC": "3",
+      "PRIMARY_LAT_DMS": "303741N",
+      "PRIM_LONG_DMS": "0874735W",
+      "PRIM_LAT_DEC": "30.6279695",
+      "PRIM_LONG_DEC": "-87.7930465",
+      "DATE_CREATED": "12/1/03",
+      "DATE_EDITED": "1/28/11"
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-17 03:35:55",
+    "population": 189,
+    "location": {
+      "FEATURE_ID": "135147",
+      "FEATURE_NAME": "Pine Mountain",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Blount",
+      "COUNTY_NUMERIC": "9",
+      "PRIMARY_LAT_DMS": "334832N",
+      "PRIM_LONG_DMS": "0863407W",
+      "PRIM_LAT_DEC": "33.8089887",
+      "PRIM_LONG_DEC": "-86.5685989",
+      "DATE_CREATED": "12/1/03",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-17 04:35:55",
+    "population": 137,
+    "location": {
+      "FEATURE_ID": "73135",
+      "FEATURE_NAME": "Pleasant Valley",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Izard",
+      "COUNTY_NUMERIC": "65",
+      "PRIMARY_LAT_DMS": "360818N",
+      "PRIM_LONG_DMS": "0920951W",
+      "PRIM_LAT_DEC": "36.138403",
+      "PRIM_LONG_DEC": "-92.1640429",
+      "DATE_CREATED": "4/30/80",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-17 05:35:55",
+    "population": 83,
+    "location": {
+      "FEATURE_ID": "635576",
+      "FEATURE_NAME": "Qumby",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Barry",
+      "COUNTY_NUMERIC": "15",
+      "PRIMARY_LAT_DMS": "423637N",
+      "PRIM_LONG_DMS": "0851340W",
+      "PRIM_LAT_DEC": "42.6103133",
+      "PRIM_LONG_DEC": "-85.2277817",
+      "DATE_CREATED": "4/14/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-17 07:35:55",
+    "population": 79,
+    "location": {
+      "FEATURE_ID": "1694635",
+      "FEATURE_NAME": "River Oaks",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Chatham",
+      "COUNTY_NUMERIC": "51",
+      "PRIMARY_LAT_DMS": "320135N",
+      "PRIM_LONG_DMS": "0805743W",
+      "PRIM_LAT_DEC": "32.0263242",
+      "PRIM_LONG_DEC": "-80.962056",
+      "DATE_CREATED": "5/8/96",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-17 08:35:55",
+    "population": 174,
+    "location": {
+      "FEATURE_ID": "356952",
+      "FEATURE_NAME": "Sharon",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Telfair",
+      "COUNTY_NUMERIC": "271",
+      "PRIMARY_LAT_DMS": "315249N",
+      "PRIM_LONG_DMS": "0830816W",
+      "PRIM_LAT_DEC": "31.8801815",
+      "PRIM_LONG_DEC": "-83.1376514",
+      "DATE_CREATED": "6/1/95",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-17 10:35:55",
+    "population": 78,
+    "location": {
+      "FEATURE_ID": "139413",
+      "FEATURE_NAME": "Keel (historical)",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Marshall",
+      "COUNTY_NUMERIC": "95",
+      "PRIMARY_LAT_DMS": "343100N",
+      "PRIM_LONG_DMS": "0861828W",
+      "PRIM_LAT_DEC": "34.5167549",
+      "PRIM_LONG_DEC": "-86.307762",
+      "DATE_CREATED": "12/1/03",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-17 11:35:55",
+    "population": 123,
+    "location": {
+      "FEATURE_ID": "1705124",
+      "FEATURE_NAME": "Wiley Bridge Junction",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Cherokee",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "340457N",
+      "PRIM_LONG_DMS": "0842537W",
+      "PRIM_LAT_DEC": "34.0825986",
+      "PRIM_LONG_DEC": "-84.4268725",
+      "DATE_CREATED": "12/3/96",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-17 12:35:55",
+    "population": 109,
+    "location": {
+      "FEATURE_ID": "620794",
+      "FEATURE_NAME": "Bayport Park",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Genesee",
+      "COUNTY_NUMERIC": "49",
+      "PRIMARY_LAT_DMS": "425115N",
+      "PRIM_LONG_DMS": "0834304W",
+      "PRIM_LAT_DEC": "42.8541948",
+      "PRIM_LONG_DEC": "-83.7177299",
+      "DATE_CREATED": "4/14/80",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-17 14:35:55",
+    "population": 133,
+    "location": {
+      "FEATURE_ID": "2482368",
+      "FEATURE_NAME": "East Brandon Estates",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hillsborough",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "275636N",
+      "PRIM_LONG_DMS": "0821448W",
+      "PRIM_LAT_DEC": "27.9434",
+      "PRIM_LONG_DEC": "-82.2467",
+      "DATE_CREATED": "7/18/08",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-17 16:35:55",
+    "population": 52,
+    "location": {
+      "FEATURE_ID": "150317",
+      "FEATURE_NAME": "Kilpatrick",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "DeKalb",
+      "COUNTY_NUMERIC": "49",
+      "PRIMARY_LAT_DMS": "341605N",
+      "PRIM_LONG_DMS": "0860435W",
+      "PRIM_LAT_DEC": "34.2681488",
+      "PRIM_LONG_DEC": "-86.0763638",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-17 17:35:55",
+    "population": 211,
+    "location": {
+      "FEATURE_ID": "2600953",
+      "FEATURE_NAME": "Vermillion Court Mobile Home Park",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "Lafayette",
+      "COUNTY_NUMERIC": "55",
+      "PRIMARY_LAT_DMS": "300634N",
+      "PRIM_LONG_DMS": "0920021W",
+      "PRIM_LAT_DEC": "30.1094284",
+      "PRIM_LONG_DEC": "-92.0057108",
+      "DATE_CREATED": "5/27/10",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-17 18:35:55",
+    "population": 101,
+    "location": {
+      "FEATURE_ID": "121360",
+      "FEATURE_NAME": "Lamison",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Wilcox",
+      "COUNTY_NUMERIC": "131",
+      "PRIMARY_LAT_DMS": "320717N",
+      "PRIM_LONG_DMS": "0873400W",
+      "PRIM_LAT_DEC": "32.1212569",
+      "PRIM_LONG_DEC": "-87.5666681",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-17 20:35:55",
+    "population": 131,
+    "location": {
+      "FEATURE_ID": "72490",
+      "FEATURE_NAME": "Lost Corner",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Conway",
+      "COUNTY_NUMERIC": "29",
+      "PRIMARY_LAT_DMS": "352445N",
+      "PRIM_LONG_DMS": "0923917W",
+      "PRIM_LAT_DEC": "35.4125795",
+      "PRIM_LONG_DEC": "-92.6546065",
+      "DATE_CREATED": "4/30/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-17 22:35:55",
+    "population": 156,
+    "location": {
+      "FEATURE_ID": "306983",
+      "FEATURE_NAME": "Tama (historical)",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Liberty",
+      "COUNTY_NUMERIC": "77",
+      "PRIMARY_LAT_DMS": "300901N",
+      "PRIM_LONG_DMS": "0844100W",
+      "PRIM_LAT_DEC": "30.1502009",
+      "PRIM_LONG_DEC": "-84.6832415",
+      "DATE_CREATED": "11/1/89",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-17 23:35:55",
+    "population": 182,
+    "location": {
+      "FEATURE_ID": "56999",
+      "FEATURE_NAME": "Ebenezer",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Columbia",
+      "COUNTY_NUMERIC": "27",
+      "PRIMARY_LAT_DMS": "331803N",
+      "PRIM_LONG_DMS": "0930331W",
+      "PRIM_LAT_DEC": "33.3009597",
+      "PRIM_LONG_DEC": "-93.0584983",
+      "DATE_CREATED": "4/30/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-18 01:35:55",
+    "population": 102,
+    "location": {
+      "FEATURE_ID": "638892",
+      "FEATURE_NAME": "Stony Creek",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Oakland",
+      "COUNTY_NUMERIC": "125",
+      "PRIMARY_LAT_DMS": "424146N",
+      "PRIM_LONG_DMS": "0830643W",
+      "PRIM_LAT_DEC": "42.6961432",
+      "PRIM_LONG_DEC": "-83.1118767",
+      "DATE_CREATED": "4/14/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-18 03:35:55",
+    "population": 67,
+    "location": {
+      "FEATURE_ID": "162973",
+      "FEATURE_NAME": "Kinlock (historical)",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Lawrence",
+      "COUNTY_NUMERIC": "79",
+      "PRIMARY_LAT_DMS": "341848N",
+      "PRIM_LONG_DMS": "0873030W",
+      "PRIM_LAT_DEC": "34.3134316",
+      "PRIM_LONG_DEC": "-87.5083558",
+      "DATE_CREATED": "12/1/03",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-18 04:35:55",
+    "population": 154,
+    "location": {
+      "FEATURE_ID": "1671768",
+      "FEATURE_NAME": "Settlers Landing",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Houston",
+      "COUNTY_NUMERIC": "153",
+      "PRIMARY_LAT_DMS": "323411N",
+      "PRIM_LONG_DMS": "0834100W",
+      "PRIM_LAT_DEC": "32.5695909",
+      "PRIM_LONG_DEC": "-83.6832396",
+      "DATE_CREATED": "11/13/95",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-18 05:35:55",
+    "population": 85,
+    "location": {
+      "FEATURE_ID": "2449960",
+      "FEATURE_NAME": "Lake Geneva Mobile Home Park",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Clay",
+      "COUNTY_NUMERIC": "19",
+      "PRIMARY_LAT_DMS": "294627N",
+      "PRIM_LONG_DMS": "0820047W",
+      "PRIM_LAT_DEC": "29.7742",
+      "PRIM_LONG_DEC": "-82.013",
+      "DATE_CREATED": "7/21/08",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-18 06:35:55",
+    "population": 196,
+    "location": {
+      "FEATURE_ID": "279284",
+      "FEATURE_NAME": "Bowden",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Duval",
+      "COUNTY_NUMERIC": "31",
+      "PRIMARY_LAT_DMS": "301558N",
+      "PRIM_LONG_DMS": "0813705W",
+      "PRIM_LAT_DEC": "30.2660735",
+      "PRIM_LONG_DEC": "-81.6181484",
+      "DATE_CREATED": "10/19/79",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-18 08:35:55",
+    "population": 73,
+    "location": {
+      "FEATURE_ID": "57521",
+      "FEATURE_NAME": "Casa",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Perry",
+      "COUNTY_NUMERIC": "105",
+      "PRIMARY_LAT_DMS": "350122N",
+      "PRIM_LONG_DMS": "0930252W",
+      "PRIM_LAT_DEC": "35.0228667",
+      "PRIM_LONG_DEC": "-93.047674",
+      "DATE_CREATED": "4/30/80",
+      "DATE_EDITED": "3/20/08"
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-18 10:35:55",
+    "population": 87,
+    "location": {
+      "FEATURE_ID": "2485164",
+      "FEATURE_NAME": "Sytsma Estates",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hillsborough",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "275749N",
+      "PRIM_LONG_DMS": "0820818W",
+      "PRIM_LAT_DEC": "27.9637",
+      "PRIM_LONG_DEC": "-82.1384",
+      "DATE_CREATED": "7/18/08",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-18 11:35:55",
+    "population": 90,
+    "location": {
+      "FEATURE_ID": "165089",
+      "FEATURE_NAME": "Heritage Park",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "St. Clair",
+      "COUNTY_NUMERIC": "115",
+      "PRIMARY_LAT_DMS": "333415N",
+      "PRIM_LONG_DMS": "0863020W",
+      "PRIM_LAT_DEC": "33.5709369",
+      "PRIM_LONG_DEC": "-86.5055393",
+      "DATE_CREATED": "12/1/03",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-18 13:35:55",
+    "population": 164,
+    "location": {
+      "FEATURE_ID": "74167",
+      "FEATURE_NAME": "Williams Junction",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Perry",
+      "COUNTY_NUMERIC": "105",
+      "PRIMARY_LAT_DMS": "345253N",
+      "PRIM_LONG_DMS": "0924625W",
+      "PRIM_LAT_DEC": "34.8814784",
+      "PRIM_LONG_DEC": "-92.7735003",
+      "DATE_CREATED": "4/30/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-18 15:35:55",
+    "population": 86,
+    "location": {
+      "FEATURE_ID": "70506",
+      "FEATURE_NAME": "Barcelona",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Crawford",
+      "COUNTY_NUMERIC": "33",
+      "PRIMARY_LAT_DMS": "353714N",
+      "PRIM_LONG_DMS": "0942722W",
+      "PRIM_LAT_DEC": "35.6206416",
+      "PRIM_LONG_DEC": "-94.4560487",
+      "DATE_CREATED": "4/30/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-18 16:35:55",
+    "population": 73,
+    "location": {
+      "FEATURE_ID": "2077149",
+      "FEATURE_NAME": "Strawberry Village Trailer Park",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Miami-Dade",
+      "COUNTY_NUMERIC": "86",
+      "PRIMARY_LAT_DMS": "255054N",
+      "PRIM_LONG_DMS": "0801836W",
+      "PRIM_LAT_DEC": "25.8483333",
+      "PRIM_LONG_DEC": "-80.31",
+      "DATE_CREATED": "11/8/05",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-18 17:35:55",
+    "population": 105,
+    "location": {
+      "FEATURE_ID": "2579854",
+      "FEATURE_NAME": "Shepherds Mobile Home Park",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Mobile",
+      "COUNTY_NUMERIC": "97",
+      "PRIMARY_LAT_DMS": "303406N",
+      "PRIM_LONG_DMS": "0881013W",
+      "PRIM_LAT_DEC": "30.5683671",
+      "PRIM_LONG_DEC": "-88.1702388",
+      "DATE_CREATED": "5/14/10",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-18 18:35:55",
+    "population": 219,
+    "location": {
+      "FEATURE_ID": "2546940",
+      "FEATURE_NAME": "Fairfield Manor Mobile Home Park",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Bay",
+      "COUNTY_NUMERIC": "17",
+      "PRIMARY_LAT_DMS": "433610N",
+      "PRIM_LONG_DMS": "0840040W",
+      "PRIM_LAT_DEC": "43.6027778",
+      "PRIM_LONG_DEC": "-84.0111111",
+      "DATE_CREATED": "3/27/09",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-18 20:35:55",
+    "population": 191,
+    "location": {
+      "FEATURE_ID": "324704",
+      "FEATURE_NAME": "Vidalia",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Toombs",
+      "COUNTY_NUMERIC": "279",
+      "PRIMARY_LAT_DMS": "321304N",
+      "PRIM_LONG_DMS": "0822448W",
+      "PRIM_LAT_DEC": "32.2176855",
+      "PRIM_LONG_DEC": "-82.4134614",
+      "DATE_CREATED": "9/25/79",
+      "DATE_EDITED": "3/20/08"
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-18 22:35:55",
+    "population": 187,
+    "location": {
+      "FEATURE_ID": "326333",
+      "FEATURE_NAME": "Huffaker",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Floyd",
+      "COUNTY_NUMERIC": "115",
+      "PRIMARY_LAT_DMS": "341648N",
+      "PRIM_LONG_DMS": "0851437W",
+      "PRIM_LAT_DEC": "34.2800928",
+      "PRIM_LONG_DEC": "-85.2435641",
+      "DATE_CREATED": "9/25/79",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-18 23:35:55",
+    "population": 239,
+    "location": {
+      "FEATURE_ID": "1687092",
+      "FEATURE_NAME": "Waverly Way",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Hall",
+      "COUNTY_NUMERIC": "139",
+      "PRIMARY_LAT_DMS": "341446N",
+      "PRIM_LONG_DMS": "0835355W",
+      "PRIM_LAT_DEC": "34.2462125",
+      "PRIM_LONG_DEC": "-83.898513",
+      "DATE_CREATED": "4/30/96",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-19 01:35:55",
+    "population": 151,
+    "location": {
+      "FEATURE_ID": "543702",
+      "FEATURE_NAME": "Steven",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "Ouachita",
+      "COUNTY_NUMERIC": "73",
+      "PRIMARY_LAT_DMS": "322947N",
+      "PRIM_LONG_DMS": "0921002W",
+      "PRIM_LAT_DEC": "32.4962562",
+      "PRIM_LONG_DEC": "-92.1673581",
+      "DATE_CREATED": "6/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-19 03:35:55",
+    "population": 102,
+    "location": {
+      "FEATURE_ID": "78299",
+      "FEATURE_NAME": "Saulsburg",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Monroe",
+      "COUNTY_NUMERIC": "95",
+      "PRIMARY_LAT_DMS": "345812N",
+      "PRIM_LONG_DMS": "0911258W",
+      "PRIM_LAT_DEC": "34.9700927",
+      "PRIM_LONG_DEC": "-91.2162363",
+      "DATE_CREATED": "4/30/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-19 05:35:55",
+    "population": 151,
+    "location": {
+      "FEATURE_ID": "543089",
+      "FEATURE_NAME": "Claybank",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "Ascension",
+      "COUNTY_NUMERIC": "5",
+      "PRIMARY_LAT_DMS": "302020N",
+      "PRIM_LONG_DMS": "0905147W",
+      "PRIM_LAT_DEC": "30.3388048",
+      "PRIM_LONG_DEC": "-90.8631534",
+      "DATE_CREATED": "6/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-19 07:35:55",
+    "population": 110,
+    "location": {
+      "FEATURE_ID": "549999",
+      "FEATURE_NAME": "Fertitta Park",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "Vernon",
+      "COUNTY_NUMERIC": "115",
+      "PRIMARY_LAT_DMS": "310812N",
+      "PRIM_LONG_DMS": "0931631W",
+      "PRIM_LAT_DEC": "31.1365754",
+      "PRIM_LONG_DEC": "-93.275165",
+      "DATE_CREATED": "6/1/93",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-19 08:35:55",
+    "population": 73,
+    "location": {
+      "FEATURE_ID": "332310",
+      "FEATURE_NAME": "Manassas",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Tattnall",
+      "COUNTY_NUMERIC": "267",
+      "PRIMARY_LAT_DMS": "320938N",
+      "PRIM_LONG_DMS": "0820110W",
+      "PRIM_LAT_DEC": "32.1604689",
+      "PRIM_LONG_DEC": "-82.0195625",
+      "DATE_CREATED": "9/25/79",
+      "DATE_EDITED": "3/20/08"
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-19 10:35:55",
+    "population": 54,
+    "location": {
+      "FEATURE_ID": "2452848",
+      "FEATURE_NAME": "Rainbow Trailer Park",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Polk",
+      "COUNTY_NUMERIC": "105",
+      "PRIMARY_LAT_DMS": "275948N",
+      "PRIM_LONG_DMS": "0814235W",
+      "PRIM_LAT_DEC": "27.996654",
+      "PRIM_LONG_DEC": "-81.709684",
+      "DATE_CREATED": "7/21/08",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-19 12:35:55",
+    "population": 178,
+    "location": {
+      "FEATURE_ID": "116796",
+      "FEATURE_NAME": "Coxheath",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Marengo",
+      "COUNTY_NUMERIC": "91",
+      "PRIMARY_LAT_DMS": "320517N",
+      "PRIM_LONG_DMS": "0875437W",
+      "PRIM_LAT_DEC": "32.0879265",
+      "PRIM_LONG_DEC": "-87.910289",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-19 14:35:55",
+    "population": 129,
+    "location": {
+      "FEATURE_ID": "550815",
+      "FEATURE_NAME": "Dogwood Park",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "Bossier",
+      "COUNTY_NUMERIC": "15",
+      "PRIMARY_LAT_DMS": "323435N",
+      "PRIM_LONG_DMS": "0933711W",
+      "PRIM_LAT_DEC": "32.5762609",
+      "PRIM_LONG_DEC": "-93.6196206",
+      "DATE_CREATED": "8/1/93",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-19 16:35:55",
+    "population": 191,
+    "location": {
+      "FEATURE_ID": "2600937",
+      "FEATURE_NAME": "Thibodeaux Mobile Home Park",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "Lafayette",
+      "COUNTY_NUMERIC": "55",
+      "PRIMARY_LAT_DMS": "301456N",
+      "PRIM_LONG_DMS": "0921017W",
+      "PRIM_LAT_DEC": "30.2488059",
+      "PRIM_LONG_DEC": "-92.1713549",
+      "DATE_CREATED": "5/27/10",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-19 17:35:55",
+    "population": 217,
+    "location": {
+      "FEATURE_ID": "560151",
+      "FEATURE_NAME": "Berwick",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "St. Mary",
+      "COUNTY_NUMERIC": "101",
+      "PRIMARY_LAT_DMS": "294141N",
+      "PRIM_LONG_DMS": "0911308W",
+      "PRIM_LAT_DEC": "29.6946526",
+      "PRIM_LONG_DEC": "-91.2189925",
+      "DATE_CREATED": "6/4/80",
+      "DATE_EDITED": "3/20/08"
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-19 19:35:55",
+    "population": 201,
+    "location": {
+      "FEATURE_ID": "2484708",
+      "FEATURE_NAME": "Westwood Lakes",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hillsborough",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "280504N",
+      "PRIM_LONG_DMS": "0823846W",
+      "PRIM_LAT_DEC": "28.0844",
+      "PRIM_LONG_DEC": "-82.6462",
+      "DATE_CREATED": "7/18/08",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-19 20:35:55",
+    "population": 218,
+    "location": {
+      "FEATURE_ID": "350215",
+      "FEATURE_NAME": "Ebenezer",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Effingham",
+      "COUNTY_NUMERIC": "103",
+      "PRIMARY_LAT_DMS": "322241N",
+      "PRIM_LONG_DMS": "0811056W",
+      "PRIM_LAT_DEC": "32.3779691",
+      "PRIM_LONG_DEC": "-81.182332",
+      "DATE_CREATED": "9/1/94",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-19 21:35:55",
+    "population": 62,
+    "location": {
+      "FEATURE_ID": "120488",
+      "FEATURE_NAME": "Howton",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Tuscaloosa",
+      "COUNTY_NUMERIC": "125",
+      "PRIMARY_LAT_DMS": "331532N",
+      "PRIM_LONG_DMS": "0872025W",
+      "PRIM_LAT_DEC": "33.2590053",
+      "PRIM_LONG_DEC": "-87.3402786",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-19 23:35:55",
+    "population": 239,
+    "location": {
+      "FEATURE_ID": "1672577",
+      "FEATURE_NAME": "Pinecrest Forest",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Clayton",
+      "COUNTY_NUMERIC": "63",
+      "PRIMARY_LAT_DMS": "333425N",
+      "PRIM_LONG_DMS": "0841929W",
+      "PRIM_LAT_DEC": "33.5737219",
+      "PRIM_LONG_DEC": "-84.3246456",
+      "DATE_CREATED": "11/13/95",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-20 00:35:55",
+    "population": 115,
+    "location": {
+      "FEATURE_ID": "2482527",
+      "FEATURE_NAME": "Fletchers Pond",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hillsborough",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "280552N",
+      "PRIM_LONG_DMS": "0821420W",
+      "PRIM_LAT_DEC": "28.0977",
+      "PRIM_LONG_DEC": "-82.2388",
+      "DATE_CREATED": "7/18/08",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-20 02:35:55",
+    "population": 56,
+    "location": {
+      "FEATURE_ID": "281352",
+      "FEATURE_NAME": "Daysville",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Alachua",
+      "COUNTY_NUMERIC": "1",
+      "PRIMARY_LAT_DMS": "293740N",
+      "PRIM_LONG_DMS": "0822210W",
+      "PRIM_LAT_DEC": "29.6277455",
+      "PRIM_LONG_DEC": "-82.3695495",
+      "DATE_CREATED": "10/19/79",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-20 03:35:55",
+    "population": 115,
+    "location": {
+      "FEATURE_ID": "1621442",
+      "FEATURE_NAME": "Rothbury",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Oceana",
+      "COUNTY_NUMERIC": "127",
+      "PRIMARY_LAT_DMS": "433026N",
+      "PRIM_LONG_DMS": "0862051W",
+      "PRIM_LAT_DEC": "43.5072317",
+      "PRIM_LONG_DEC": "-86.3475717",
+      "DATE_CREATED": "4/14/80",
+      "DATE_EDITED": "3/20/08"
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-20 04:35:55",
+    "population": 92,
+    "location": {
+      "FEATURE_ID": "57785",
+      "FEATURE_NAME": "Gaither",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Boone",
+      "COUNTY_NUMERIC": "9",
+      "PRIMARY_LAT_DMS": "360837N",
+      "PRIM_LONG_DMS": "0931001W",
+      "PRIM_LAT_DEC": "36.1436845",
+      "PRIM_LONG_DEC": "-93.1668442",
+      "DATE_CREATED": "4/30/80",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-20 06:35:55",
+    "population": 202,
+    "location": {
+      "FEATURE_ID": "332867",
+      "FEATURE_NAME": "Riverland Terrace",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Muscogee",
+      "COUNTY_NUMERIC": "215",
+      "PRIMARY_LAT_DMS": "322519N",
+      "PRIM_LONG_DMS": "0845717W",
+      "PRIM_LAT_DEC": "32.4218111",
+      "PRIM_LONG_DEC": "-84.9546529",
+      "DATE_CREATED": "9/25/79",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-20 07:35:55",
+    "population": 199,
+    "location": {
+      "FEATURE_ID": "76681",
+      "FEATURE_NAME": "Cotter",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Baxter",
+      "COUNTY_NUMERIC": "5",
+      "PRIMARY_LAT_DMS": "361616N",
+      "PRIM_LONG_DMS": "0923208W",
+      "PRIM_LAT_DEC": "36.2711798",
+      "PRIM_LONG_DEC": "-92.5354402",
+      "DATE_CREATED": "4/30/80",
+      "DATE_EDITED": "3/20/08"
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-20 09:35:55",
+    "population": 159,
+    "location": {
+      "FEATURE_ID": "622937",
+      "FEATURE_NAME": "Cedar Lake",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Montcalm",
+      "COUNTY_NUMERIC": "117",
+      "PRIMARY_LAT_DMS": "432422N",
+      "PRIM_LONG_DMS": "0845830W",
+      "PRIM_LAT_DEC": "43.4061425",
+      "PRIM_LONG_DEC": "-84.9750182",
+      "DATE_CREATED": "4/14/80",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-20 11:35:55",
+    "population": 221,
+    "location": {
+      "FEATURE_ID": "152987",
+      "FEATURE_NAME": "Pleasant Hill",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Choctaw",
+      "COUNTY_NUMERIC": "23",
+      "PRIMARY_LAT_DMS": "315549N",
+      "PRIM_LONG_DMS": "0881252W",
+      "PRIM_LAT_DEC": "31.9301513",
+      "PRIM_LONG_DEC": "-88.2144609",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-20 13:35:55",
+    "population": 77,
+    "location": {
+      "FEATURE_ID": "132868",
+      "FEATURE_NAME": "East Sheffield",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Colbert",
+      "COUNTY_NUMERIC": "33",
+      "PRIMARY_LAT_DMS": "344615N",
+      "PRIM_LONG_DMS": "0874040W",
+      "PRIM_LAT_DEC": "34.7709218",
+      "PRIM_LONG_DEC": "-87.6778069",
+      "DATE_CREATED": "12/1/03",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-20 15:35:55",
+    "population": 92,
+    "location": {
+      "FEATURE_ID": "1628493",
+      "FEATURE_NAME": "White Hall",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "St. James",
+      "COUNTY_NUMERIC": "93",
+      "PRIMARY_LAT_DMS": "300446N",
+      "PRIM_LONG_DMS": "0905405W",
+      "PRIM_LAT_DEC": "30.0793666",
+      "PRIM_LONG_DEC": "-90.9014857",
+      "DATE_CREATED": "6/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-20 17:35:55",
+    "population": 180,
+    "location": {
+      "FEATURE_ID": "343746",
+      "FEATURE_NAME": "Lambville (historical)",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Thomas",
+      "COUNTY_NUMERIC": "275",
+      "PRIMARY_LAT_DMS": "304855N",
+      "PRIM_LONG_DMS": "0835413W",
+      "PRIM_LAT_DEC": "30.8151935",
+      "PRIM_LONG_DEC": "-83.9035011",
+      "DATE_CREATED": "3/1/94",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-20 19:35:55",
+    "population": 98,
+    "location": {
+      "FEATURE_ID": "552180",
+      "FEATURE_NAME": "Southport Country",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "Caddo",
+      "COUNTY_NUMERIC": "17",
+      "PRIMARY_LAT_DMS": "322309N",
+      "PRIM_LONG_DMS": "0934807W",
+      "PRIM_LAT_DEC": "32.3857112",
+      "PRIM_LONG_DEC": "-93.8018471",
+      "DATE_CREATED": "1/1/94",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-20 21:35:55",
+    "population": 104,
+    "location": {
+      "FEATURE_ID": "348106",
+      "FEATURE_NAME": "Calvin",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Dodge",
+      "COUNTY_NUMERIC": "91",
+      "PRIMARY_LAT_DMS": "320031N",
+      "PRIM_LONG_DMS": "0830825W",
+      "PRIM_LAT_DEC": "32.0085111",
+      "PRIM_LONG_DEC": "-83.1401516",
+      "DATE_CREATED": "8/1/94",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-20 22:35:55",
+    "population": 155,
+    "location": {
+      "FEATURE_ID": "284035",
+      "FEATURE_NAME": "Hillsboro Beach",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Broward",
+      "COUNTY_NUMERIC": "11",
+      "PRIMARY_LAT_DMS": "261738N",
+      "PRIM_LONG_DMS": "0800444W",
+      "PRIM_LAT_DEC": "26.2939687",
+      "PRIM_LONG_DEC": "-80.0789318",
+      "DATE_CREATED": "10/19/79",
+      "DATE_EDITED": "3/20/08"
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-21 00:35:55",
+    "population": 210,
+    "location": {
+      "FEATURE_ID": "48531",
+      "FEATURE_NAME": "Dixie",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Craighead",
+      "COUNTY_NUMERIC": "31",
+      "PRIMARY_LAT_DMS": "355515N",
+      "PRIM_LONG_DMS": "0902705W",
+      "PRIM_LAT_DEC": "35.9209056",
+      "PRIM_LONG_DEC": "-90.4514938",
+      "DATE_CREATED": "4/30/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-21 01:35:55",
+    "population": 181,
+    "location": {
+      "FEATURE_ID": "77459",
+      "FEATURE_NAME": "Lawrenceville",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Monroe",
+      "COUNTY_NUMERIC": "95",
+      "PRIMARY_LAT_DMS": "343033N",
+      "PRIM_LONG_DMS": "0911051W",
+      "PRIM_LAT_DEC": "34.5092655",
+      "PRIM_LONG_DEC": "-91.1809536",
+      "DATE_CREATED": "4/30/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-21 03:35:55",
+    "population": 136,
+    "location": {
+      "FEATURE_ID": "331652",
+      "FEATURE_NAME": "Elliotts Bluff",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Camden",
+      "COUNTY_NUMERIC": "39",
+      "PRIMARY_LAT_DMS": "305045N",
+      "PRIM_LONG_DMS": "0813341W",
+      "PRIM_LAT_DEC": "30.8457903",
+      "PRIM_LONG_DEC": "-81.5614874",
+      "DATE_CREATED": "9/25/79",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-21 05:35:55",
+    "population": 192,
+    "location": {
+      "FEATURE_ID": "78687",
+      "FEATURE_NAME": "Waltreak",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Yell",
+      "COUNTY_NUMERIC": "149",
+      "PRIMARY_LAT_DMS": "345902N",
+      "PRIM_LONG_DMS": "0933645W",
+      "PRIM_LAT_DEC": "34.9839819",
+      "PRIM_LONG_DEC": "-93.6124159",
+      "DATE_CREATED": "4/30/80",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-21 06:35:55",
+    "population": 90,
+    "location": {
+      "FEATURE_ID": "2483787",
+      "FEATURE_NAME": "Lake Crest Manor",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hillsborough",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "280003N",
+      "PRIM_LONG_DMS": "0823515W",
+      "PRIM_LAT_DEC": "28.0008",
+      "PRIM_LONG_DEC": "-82.5876",
+      "DATE_CREATED": "7/18/08",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-21 07:35:55",
+    "population": 121,
+    "location": {
+      "FEATURE_ID": "57322",
+      "FEATURE_NAME": "Band Mill",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Izard",
+      "COUNTY_NUMERIC": "65",
+      "PRIMARY_LAT_DMS": "360801N",
+      "PRIM_LONG_DMS": "0915845W",
+      "PRIM_LAT_DEC": "36.1336801",
+      "PRIM_LONG_DEC": "-91.9790395",
+      "DATE_CREATED": "4/30/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-21 09:35:55",
+    "population": 164,
+    "location": {
+      "FEATURE_ID": "57874",
+      "FEATURE_NAME": "Hancock Junction",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Craighead",
+      "COUNTY_NUMERIC": "31",
+      "PRIMARY_LAT_DMS": "354650N",
+      "PRIM_LONG_DMS": "0901817W",
+      "PRIM_LAT_DEC": "35.7806313",
+      "PRIM_LONG_DEC": "-90.3048217",
+      "DATE_CREATED": "4/30/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-21 10:35:55",
+    "population": 196,
+    "location": {
+      "FEATURE_ID": "1672589",
+      "FEATURE_NAME": "Taylor Crossing",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Clayton",
+      "COUNTY_NUMERIC": "63",
+      "PRIMARY_LAT_DMS": "333227N",
+      "PRIM_LONG_DMS": "0842410W",
+      "PRIM_LAT_DEC": "33.5409454",
+      "PRIM_LONG_DEC": "-84.4027033",
+      "DATE_CREATED": "11/13/95",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-21 12:35:55",
+    "population": 236,
+    "location": {
+      "FEATURE_ID": "358163",
+      "FEATURE_NAME": "Avondale",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Richmond",
+      "COUNTY_NUMERIC": "245",
+      "PRIMARY_LAT_DMS": "333041N",
+      "PRIM_LONG_DMS": "0820336W",
+      "PRIM_LAT_DEC": "33.5115245",
+      "PRIM_LONG_DEC": "-82.0601175",
+      "DATE_CREATED": "6/1/95",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-21 13:35:55",
+    "population": 184,
+    "location": {
+      "FEATURE_ID": "545303",
+      "FEATURE_NAME": "Bayou Cane",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "Plaquemines",
+      "COUNTY_NUMERIC": "75",
+      "PRIMARY_LAT_DMS": "294801N",
+      "PRIM_LONG_DMS": "0900102W",
+      "PRIM_LAT_DEC": "29.8002082",
+      "PRIM_LONG_DEC": "-90.017293",
+      "DATE_CREATED": "1/1/00",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-21 15:35:55",
+    "population": 82,
+    "location": {
+      "FEATURE_ID": "329083",
+      "FEATURE_NAME": "Oakton",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Walker",
+      "COUNTY_NUMERIC": "295",
+      "PRIMARY_LAT_DMS": "343558N",
+      "PRIM_LONG_DMS": "0851713W",
+      "PRIM_LAT_DEC": "34.5995275",
+      "PRIM_LONG_DEC": "-85.2868995",
+      "DATE_CREATED": "9/25/79",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-21 16:35:55",
+    "population": 150,
+    "location": {
+      "FEATURE_ID": "290646",
+      "FEATURE_NAME": "Sans Pareil",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Duval",
+      "COUNTY_NUMERIC": "31",
+      "PRIMARY_LAT_DMS": "301700N",
+      "PRIM_LONG_DMS": "0812939W",
+      "PRIM_LAT_DEC": "30.2832965",
+      "PRIM_LONG_DEC": "-81.4942545",
+      "DATE_CREATED": "10/19/79",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-21 18:35:55",
+    "population": 243,
+    "location": {
+      "FEATURE_ID": "1853246",
+      "FEATURE_NAME": "Dunes Road",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Palm Beach",
+      "COUNTY_NUMERIC": "99",
+      "PRIMARY_LAT_DMS": "262904N",
+      "PRIM_LONG_DMS": "0800706W",
+      "PRIM_LAT_DEC": "26.4845173",
+      "PRIM_LONG_DEC": "-80.1183768",
+      "DATE_CREATED": "2/4/00",
+      "DATE_EDITED": "3/20/08"
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-21 19:35:55",
+    "population": 80,
+    "location": {
+      "FEATURE_ID": "129064",
+      "FEATURE_NAME": "Wilmer",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Mobile",
+      "COUNTY_NUMERIC": "97",
+      "PRIMARY_LAT_DMS": "304924N",
+      "PRIM_LONG_DMS": "0882141W",
+      "PRIM_LAT_DEC": "30.823243",
+      "PRIM_LONG_DEC": "-88.3614002",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-21 20:35:55",
+    "population": 232,
+    "location": {
+      "FEATURE_ID": "157047",
+      "FEATURE_NAME": "Shell",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Butler",
+      "COUNTY_NUMERIC": "13",
+      "PRIMARY_LAT_DMS": "313605N",
+      "PRIM_LONG_DMS": "0863913W",
+      "PRIM_LAT_DEC": "31.6012711",
+      "PRIM_LONG_DEC": "-86.6535812",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-21 22:35:55",
+    "population": 123,
+    "location": {
+      "FEATURE_ID": "326265",
+      "FEATURE_NAME": "Emerson",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Brooks",
+      "COUNTY_NUMERIC": "27",
+      "PRIMARY_LAT_DMS": "304634N",
+      "PRIM_LONG_DMS": "0833755W",
+      "PRIM_LAT_DEC": "30.7760298",
+      "PRIM_LONG_DEC": "-83.631827",
+      "DATE_CREATED": "9/25/79",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-21 23:35:55",
+    "population": 209,
+    "location": {
+      "FEATURE_ID": "2484282",
+      "FEATURE_NAME": "Milwood Estates",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hillsborough",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "280002N",
+      "PRIM_LONG_DMS": "0822925W",
+      "PRIM_LAT_DEC": "28.0006",
+      "PRIM_LONG_DEC": "-82.4903",
+      "DATE_CREATED": "7/18/08",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-22 01:35:55",
+    "population": 97,
+    "location": {
+      "FEATURE_ID": "332103",
+      "FEATURE_NAME": "Joel",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Carroll",
+      "COUNTY_NUMERIC": "45",
+      "PRIMARY_LAT_DMS": "332832N",
+      "PRIM_LONG_DMS": "0851417W",
+      "PRIM_LAT_DEC": "33.475668",
+      "PRIM_LONG_DEC": "-85.238003",
+      "DATE_CREATED": "9/25/79",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-22 03:35:55",
+    "population": 121,
+    "location": {
+      "FEATURE_ID": "2481521",
+      "FEATURE_NAME": "Bast",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hillsborough",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "280327N",
+      "PRIM_LONG_DMS": "0822912W",
+      "PRIM_LAT_DEC": "28.0574",
+      "PRIM_LONG_DEC": "-82.4868",
+      "DATE_CREATED": "7/18/08",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-22 05:35:55",
+    "population": 187,
+    "location": {
+      "FEATURE_ID": "146941",
+      "FEATURE_NAME": "Green Cove Meadows",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Madison",
+      "COUNTY_NUMERIC": "89",
+      "PRIMARY_LAT_DMS": "343550N",
+      "PRIM_LONG_DMS": "0863428W",
+      "PRIM_LAT_DEC": "34.5973136",
+      "PRIM_LONG_DEC": "-86.5744362",
+      "DATE_CREATED": "12/1/03",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-22 07:35:55",
+    "population": 206,
+    "location": {
+      "FEATURE_ID": "1686496",
+      "FEATURE_NAME": "Imperial Estates",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Douglas",
+      "COUNTY_NUMERIC": "97",
+      "PRIMARY_LAT_DMS": "334012N",
+      "PRIM_LONG_DMS": "0844844W",
+      "PRIM_LAT_DEC": "33.6701093",
+      "PRIM_LONG_DEC": "-84.8121597",
+      "DATE_CREATED": "4/30/96",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-22 08:35:55",
+    "population": 105,
+    "location": {
+      "FEATURE_ID": "638625",
+      "FEATURE_NAME": "Springfield Place",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Calhoun",
+      "COUNTY_NUMERIC": "25",
+      "PRIMARY_LAT_DMS": "421830N",
+      "PRIM_LONG_DMS": "0851309W",
+      "PRIM_LAT_DEC": "42.3083747",
+      "PRIM_LONG_DEC": "-85.2191598",
+      "DATE_CREATED": "4/14/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-22 09:35:55",
+    "population": 119,
+    "location": {
+      "FEATURE_ID": "1673325",
+      "FEATURE_NAME": "Willowcrest",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Troup",
+      "COUNTY_NUMERIC": "285",
+      "PRIMARY_LAT_DMS": "330335N",
+      "PRIM_LONG_DMS": "0850523W",
+      "PRIM_LAT_DEC": "33.0598457",
+      "PRIM_LONG_DEC": "-85.089662",
+      "DATE_CREATED": "11/13/95",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-22 11:35:55",
+    "population": 243,
+    "location": {
+      "FEATURE_ID": "127275",
+      "FEATURE_NAME": "Springdale",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Jefferson",
+      "COUNTY_NUMERIC": "73",
+      "PRIMARY_LAT_DMS": "333126N",
+      "PRIM_LONG_DMS": "0864319W",
+      "PRIM_LAT_DEC": "33.5239936",
+      "PRIM_LONG_DEC": "-86.7219326",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-22 13:35:55",
+    "population": 213,
+    "location": {
+      "FEATURE_ID": "1688314",
+      "FEATURE_NAME": "Pleasant Acres",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Gwinnett",
+      "COUNTY_NUMERIC": "135",
+      "PRIMARY_LAT_DMS": "335537N",
+      "PRIM_LONG_DMS": "0840714W",
+      "PRIM_LAT_DEC": "33.9270473",
+      "PRIM_LONG_DEC": "-84.1204703",
+      "DATE_CREATED": "4/30/96",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-22 15:35:55",
+    "population": 108,
+    "location": {
+      "FEATURE_ID": "1688267",
+      "FEATURE_NAME": "Norcross Mobile Home City",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Gwinnett",
+      "COUNTY_NUMERIC": "135",
+      "PRIMARY_LAT_DMS": "335753N",
+      "PRIM_LONG_DMS": "0841030W",
+      "PRIM_LAT_DEC": "33.9648236",
+      "PRIM_LONG_DEC": "-84.1749175",
+      "DATE_CREATED": "4/30/96",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-22 17:35:55",
+    "population": 112,
+    "location": {
+      "FEATURE_ID": "335130",
+      "FEATURE_NAME": "Orico (historical)",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Jeff Davis",
+      "COUNTY_NUMERIC": "161",
+      "PRIMARY_LAT_DMS": "315656N",
+      "PRIM_LONG_DMS": "0823109W",
+      "PRIM_LAT_DEC": "31.9487992",
+      "PRIM_LONG_DEC": "-82.5192989",
+      "DATE_CREATED": "7/1/93",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-22 19:35:55",
+    "population": 189,
+    "location": {
+      "FEATURE_ID": "62492",
+      "FEATURE_NAME": "State Line",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Lafayette",
+      "COUNTY_NUMERIC": "73",
+      "PRIMARY_LAT_DMS": "330305N",
+      "PRIM_LONG_DMS": "0933221W",
+      "PRIM_LAT_DEC": "33.0515231",
+      "PRIM_LONG_DEC": "-93.5390634",
+      "DATE_CREATED": "5/1/92",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-22 20:35:55",
+    "population": 246,
+    "location": {
+      "FEATURE_ID": "1705107",
+      "FEATURE_NAME": "Little River North",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Cherokee",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "340650N",
+      "PRIM_LONG_DMS": "0842927W",
+      "PRIM_LAT_DEC": "34.113987",
+      "PRIM_LONG_DEC": "-84.4907634",
+      "DATE_CREATED": "12/3/96",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-22 21:35:55",
+    "population": 83,
+    "location": {
+      "FEATURE_ID": "329059",
+      "FEATURE_NAME": "Northcutt",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Gilmer",
+      "COUNTY_NUMERIC": "123",
+      "PRIMARY_LAT_DMS": "344349N",
+      "PRIM_LONG_DMS": "0842550W",
+      "PRIM_LAT_DEC": "34.7303627",
+      "PRIM_LONG_DEC": "-84.4304807",
+      "DATE_CREATED": "9/25/79",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-22 23:35:55",
+    "population": 177,
+    "location": {
+      "FEATURE_ID": "152256",
+      "FEATURE_NAME": "Maysville",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Madison",
+      "COUNTY_NUMERIC": "89",
+      "PRIMARY_LAT_DMS": "344611N",
+      "PRIM_LONG_DMS": "0862549W",
+      "PRIM_LAT_DEC": "34.7698119",
+      "PRIM_LONG_DEC": "-86.4302662",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-23 00:35:55",
+    "population": 205,
+    "location": {
+      "FEATURE_ID": "278448",
+      "FEATURE_NAME": "Belle Meade",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Collier",
+      "COUNTY_NUMERIC": "21",
+      "PRIMARY_LAT_DMS": "260259N",
+      "PRIM_LONG_DMS": "0814158W",
+      "PRIM_LAT_DEC": "26.0498166",
+      "PRIM_LONG_DEC": "-81.6995306",
+      "DATE_CREATED": "10/19/79",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-23 01:35:55",
+    "population": 99,
+    "location": {
+      "FEATURE_ID": "331320",
+      "FEATURE_NAME": "Canton",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Cherokee",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "341412N",
+      "PRIM_LONG_DMS": "0842927W",
+      "PRIM_LAT_DEC": "34.2367621",
+      "PRIM_LONG_DEC": "-84.4907621",
+      "DATE_CREATED": "9/25/79",
+      "DATE_EDITED": "3/20/08"
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-23 03:35:55",
+    "population": 180,
+    "location": {
+      "FEATURE_ID": "2482980",
+      "FEATURE_NAME": "Cross Creek Substation",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hillsborough",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "280851N",
+      "PRIM_LONG_DMS": "0821705W",
+      "PRIM_LAT_DEC": "28.1476",
+      "PRIM_LONG_DEC": "-82.2847",
+      "DATE_CREATED": "7/18/08",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-23 05:35:55",
+    "population": 160,
+    "location": {
+      "FEATURE_ID": "332544",
+      "FEATURE_NAME": "Oakland",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Lee",
+      "COUNTY_NUMERIC": "177",
+      "PRIMARY_LAT_DMS": "314027N",
+      "PRIM_LONG_DMS": "0841536W",
+      "PRIM_LAT_DEC": "31.6740602",
+      "PRIM_LONG_DEC": "-84.2599109",
+      "DATE_CREATED": "9/25/79",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-23 07:35:55",
+    "population": 238,
+    "location": {
+      "FEATURE_ID": "136889",
+      "FEATURE_NAME": "Ferguson",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Cherokee",
+      "COUNTY_NUMERIC": "19",
+      "PRIMARY_LAT_DMS": "340820N",
+      "PRIM_LONG_DMS": "0853527W",
+      "PRIM_LAT_DEC": "34.1389852",
+      "PRIM_LONG_DEC": "-85.5907949",
+      "DATE_CREATED": "12/1/03",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-23 09:35:55",
+    "population": 78,
+    "location": {
+      "FEATURE_ID": "148206",
+      "FEATURE_NAME": "Happy Acres",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Tuscaloosa",
+      "COUNTY_NUMERIC": "125",
+      "PRIMARY_LAT_DMS": "331144N",
+      "PRIM_LONG_DMS": "0873140W",
+      "PRIM_LAT_DEC": "33.1956744",
+      "PRIM_LONG_DEC": "-87.5277834",
+      "DATE_CREATED": "12/1/03",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-23 11:35:55",
+    "population": 192,
+    "location": {
+      "FEATURE_ID": "1694725",
+      "FEATURE_NAME": "Woodridge Estates",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Chatham",
+      "COUNTY_NUMERIC": "51",
+      "PRIMARY_LAT_DMS": "320020N",
+      "PRIM_LONG_DMS": "0805743W",
+      "PRIM_LAT_DEC": "32.0054921",
+      "PRIM_LONG_DEC": "-80.9620562",
+      "DATE_CREATED": "5/8/96",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-23 13:35:55",
+    "population": 187,
+    "location": {
+      "FEATURE_ID": "157885",
+      "FEATURE_NAME": "Barrytown",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Choctaw",
+      "COUNTY_NUMERIC": "23",
+      "PRIMARY_LAT_DMS": "315015N",
+      "PRIM_LONG_DMS": "0881510W",
+      "PRIM_LAT_DEC": "31.8373764",
+      "PRIM_LONG_DEC": "-88.252793",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": "12/6/13"
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-23 14:35:55",
+    "population": 240,
+    "location": {
+      "FEATURE_ID": "57331",
+      "FEATURE_NAME": "Barney",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Faulkner",
+      "COUNTY_NUMERIC": "45",
+      "PRIMARY_LAT_DMS": "351506N",
+      "PRIM_LONG_DMS": "0921225W",
+      "PRIM_LAT_DEC": "35.2517499",
+      "PRIM_LONG_DEC": "-92.2068171",
+      "DATE_CREATED": "4/30/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-23 15:35:55",
+    "population": 244,
+    "location": {
+      "FEATURE_ID": "122127",
+      "FEATURE_NAME": "Lynntown",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Morgan",
+      "COUNTY_NUMERIC": "103",
+      "PRIMARY_LAT_DMS": "342550N",
+      "PRIM_LONG_DMS": "0864219W",
+      "PRIM_LAT_DEC": "34.4306492",
+      "PRIM_LONG_DEC": "-86.7052748",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-23 17:35:55",
+    "population": 171,
+    "location": {
+      "FEATURE_ID": "554268",
+      "FEATURE_NAME": "Dry Creek",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "Beauregard",
+      "COUNTY_NUMERIC": "11",
+      "PRIMARY_LAT_DMS": "304009N",
+      "PRIM_LONG_DMS": "0930244W",
+      "PRIM_LAT_DEC": "30.6690861",
+      "PRIM_LONG_DEC": "-93.0454332",
+      "DATE_CREATED": "6/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-23 19:35:55",
+    "population": 53,
+    "location": {
+      "FEATURE_ID": "57737",
+      "FEATURE_NAME": "Fair Landing",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Phillips",
+      "COUNTY_NUMERIC": "107",
+      "PRIMARY_LAT_DMS": "341524N",
+      "PRIM_LONG_DMS": "0905022W",
+      "PRIM_LAT_DEC": "34.2567714",
+      "PRIM_LONG_DEC": "-90.8395514",
+      "DATE_CREATED": "4/30/80",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-23 20:35:55",
+    "population": 77,
+    "location": {
+      "FEATURE_ID": "2451974",
+      "FEATURE_NAME": "Rose Bay Trailer Park",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Volusia",
+      "COUNTY_NUMERIC": "127",
+      "PRIMARY_LAT_DMS": "290617N",
+      "PRIM_LONG_DMS": "0805823W",
+      "PRIM_LAT_DEC": "29.104742",
+      "PRIM_LONG_DEC": "-80.972973",
+      "DATE_CREATED": "7/21/08",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-23 22:35:55",
+    "population": 190,
+    "location": {
+      "FEATURE_ID": "139416",
+      "FEATURE_NAME": "Lamont (historical)",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Marshall",
+      "COUNTY_NUMERIC": "95",
+      "PRIMARY_LAT_DMS": "342818N",
+      "PRIM_LONG_DMS": "0862550W",
+      "PRIM_LAT_DEC": "34.4717574",
+      "PRIM_LONG_DEC": "-86.4305424",
+      "DATE_CREATED": "12/1/03",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-23 23:35:55",
+    "population": 237,
+    "location": {
+      "FEATURE_ID": "357968",
+      "FEATURE_NAME": "Woodlake",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Richmond",
+      "COUNTY_NUMERIC": "245",
+      "PRIMARY_LAT_DMS": "332345N",
+      "PRIM_LONG_DMS": "0820437W",
+      "PRIM_LAT_DEC": "33.395695",
+      "PRIM_LONG_DEC": "-82.0770627",
+      "DATE_CREATED": "6/1/95",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-24 01:35:55",
+    "population": 170,
+    "location": {
+      "FEATURE_ID": "160221",
+      "FEATURE_NAME": "Needmore",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Lawrence",
+      "COUNTY_NUMERIC": "79",
+      "PRIMARY_LAT_DMS": "342749N",
+      "PRIM_LONG_DMS": "0872854W",
+      "PRIM_LAT_DEC": "34.4637063",
+      "PRIM_LONG_DEC": "-87.481691",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-24 03:35:55",
+    "population": 205,
+    "location": {
+      "FEATURE_ID": "2452675",
+      "FEATURE_NAME": "Connecticut Mobile Park",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Indian River",
+      "COUNTY_NUMERIC": "61",
+      "PRIMARY_LAT_DMS": "274426N",
+      "PRIM_LONG_DMS": "0802553W",
+      "PRIM_LAT_DEC": "27.7405",
+      "PRIM_LONG_DEC": "-80.4315",
+      "DATE_CREATED": "7/21/08",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-24 04:35:55",
+    "population": 205,
+    "location": {
+      "FEATURE_ID": "2502500",
+      "FEATURE_NAME": "Cabana Court Mobile Home Park",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Glynn",
+      "COUNTY_NUMERIC": "127",
+      "PRIMARY_LAT_DMS": "311457N",
+      "PRIM_LONG_DMS": "0812655W",
+      "PRIM_LAT_DEC": "31.2492",
+      "PRIM_LONG_DEC": "-81.4486",
+      "DATE_CREATED": "10/20/08",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-24 06:35:55",
+    "population": 116,
+    "location": {
+      "FEATURE_ID": "2451396",
+      "FEATURE_NAME": "Whispering Cove Mobile Home Park",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Okeechobee",
+      "COUNTY_NUMERIC": "93",
+      "PRIMARY_LAT_DMS": "271227N",
+      "PRIM_LONG_DMS": "0804659W",
+      "PRIM_LAT_DEC": "27.207417",
+      "PRIM_LONG_DEC": "-80.782949",
+      "DATE_CREATED": "7/21/08",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-24 07:35:55",
+    "population": 112,
+    "location": {
+      "FEATURE_ID": "285049",
+      "FEATURE_NAME": "Kenansville",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Osceola",
+      "COUNTY_NUMERIC": "97",
+      "PRIMARY_LAT_DMS": "275235N",
+      "PRIM_LONG_DMS": "0805916W",
+      "PRIM_LAT_DEC": "27.8764138",
+      "PRIM_LONG_DEC": "-80.9878408",
+      "DATE_CREATED": "10/19/79",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-24 09:35:55",
+    "population": 74,
+    "location": {
+      "FEATURE_ID": "117848",
+      "FEATURE_NAME": "Eclectic",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Elmore",
+      "COUNTY_NUMERIC": "51",
+      "PRIMARY_LAT_DMS": "323807N",
+      "PRIM_LONG_DMS": "0860204W",
+      "PRIM_LAT_DEC": "32.6354093",
+      "PRIM_LONG_DEC": "-86.0344079",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": "3/20/08"
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-24 11:35:55",
+    "population": 97,
+    "location": {
+      "FEATURE_ID": "308026",
+      "FEATURE_NAME": "Mickler Landing",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "St. Johns",
+      "COUNTY_NUMERIC": "109",
+      "PRIMARY_LAT_DMS": "300942N",
+      "PRIM_LONG_DMS": "0812121W",
+      "PRIM_LAT_DEC": "30.161632",
+      "PRIM_LONG_DEC": "-81.3559133",
+      "DATE_CREATED": "10/19/79",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-24 13:35:55",
+    "population": 207,
+    "location": {
+      "FEATURE_ID": "310835",
+      "FEATURE_NAME": "Barwick",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Thomas",
+      "COUNTY_NUMERIC": "275",
+      "PRIMARY_LAT_DMS": "305325N",
+      "PRIM_LONG_DMS": "0834427W",
+      "PRIM_LAT_DEC": "30.8901919",
+      "PRIM_LONG_DEC": "-83.7407217",
+      "DATE_CREATED": "9/25/79",
+      "DATE_EDITED": "3/20/08"
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-24 14:35:55",
+    "population": 111,
+    "location": {
+      "FEATURE_ID": "142741",
+      "FEATURE_NAME": "Mountain View Estates",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Montgomery",
+      "COUNTY_NUMERIC": "101",
+      "PRIMARY_LAT_DMS": "322242N",
+      "PRIM_LONG_DMS": "0861322W",
+      "PRIM_LAT_DEC": "32.3784717",
+      "PRIM_LONG_DEC": "-86.2227445",
+      "DATE_CREATED": "12/1/03",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-24 15:35:55",
+    "population": 175,
+    "location": {
+      "FEATURE_ID": "166228",
+      "FEATURE_NAME": "Womack (historical)",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Calhoun",
+      "COUNTY_NUMERIC": "15",
+      "PRIMARY_LAT_DMS": "334210N",
+      "PRIM_LONG_DMS": "0860115W",
+      "PRIM_LAT_DEC": "33.7028785",
+      "PRIM_LONG_DEC": "-86.0208037",
+      "DATE_CREATED": "12/1/03",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-24 17:35:55",
+    "population": 151,
+    "location": {
+      "FEATURE_ID": "2484518",
+      "FEATURE_NAME": "Orangeland",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hillsborough",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "275635N",
+      "PRIM_LONG_DMS": "0821914W",
+      "PRIM_LAT_DEC": "27.943",
+      "PRIM_LONG_DEC": "-82.3206",
+      "DATE_CREATED": "7/18/08",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-24 18:35:55",
+    "population": 243,
+    "location": {
+      "FEATURE_ID": "543598",
+      "FEATURE_NAME": "Port Hickey Landing",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "East Baton Rouge",
+      "COUNTY_NUMERIC": "33",
+      "PRIMARY_LAT_DMS": "303926N",
+      "PRIM_LONG_DMS": "0911732W",
+      "PRIM_LAT_DEC": "30.6571305",
+      "PRIM_LONG_DEC": "-91.2923324",
+      "DATE_CREATED": "6/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-24 19:35:55",
+    "population": 92,
+    "location": {
+      "FEATURE_ID": "121922",
+      "FEATURE_NAME": "Littleton",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Jefferson",
+      "COUNTY_NUMERIC": "73",
+      "PRIMARY_LAT_DMS": "334119N",
+      "PRIM_LONG_DMS": "0865953W",
+      "PRIM_LAT_DEC": "33.6887161",
+      "PRIM_LONG_DEC": "-86.9980528",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": "10/18/10"
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-24 20:35:55",
+    "population": 171,
+    "location": {
+      "FEATURE_ID": "350832",
+      "FEATURE_NAME": "Paschal (historical)",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Talbot",
+      "COUNTY_NUMERIC": "263",
+      "PRIMARY_LAT_DMS": "323633N",
+      "PRIM_LONG_DMS": "0842814W",
+      "PRIM_LAT_DEC": "32.6090288",
+      "PRIM_LONG_DEC": "-84.470476",
+      "DATE_CREATED": "11/1/94",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-24 21:35:55",
+    "population": 245,
+    "location": {
+      "FEATURE_ID": "1617705",
+      "FEATURE_NAME": "Mashek",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Marquette",
+      "COUNTY_NUMERIC": "103",
+      "PRIMARY_LAT_DMS": "460252N",
+      "PRIM_LONG_DMS": "0872817W",
+      "PRIM_LAT_DEC": "46.0477315",
+      "PRIM_LONG_DEC": "-87.4715242",
+      "DATE_CREATED": "4/14/80",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-24 23:35:55",
+    "population": 90,
+    "location": {
+      "FEATURE_ID": "67732",
+      "FEATURE_NAME": "Almont (historical)",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Crittenden",
+      "COUNTY_NUMERIC": "35",
+      "PRIMARY_LAT_DMS": "351002N",
+      "PRIM_LONG_DMS": "0900929W",
+      "PRIM_LAT_DEC": "35.1673124",
+      "PRIM_LONG_DEC": "-90.1581493",
+      "DATE_CREATED": "12/1/92",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-25 00:35:55",
+    "population": 65,
+    "location": {
+      "FEATURE_ID": "326231",
+      "FEATURE_NAME": "Cooks Crossing",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Fulton",
+      "COUNTY_NUMERIC": "121",
+      "PRIMARY_LAT_DMS": "333736N",
+      "PRIM_LONG_DMS": "0842828W",
+      "PRIM_LAT_DEC": "33.6267769",
+      "PRIM_LONG_DEC": "-84.474373",
+      "DATE_CREATED": "9/25/79",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-25 02:35:55",
+    "population": 135,
+    "location": {
+      "FEATURE_ID": "539618",
+      "FEATURE_NAME": "Stampley",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "Morehouse",
+      "COUNTY_NUMERIC": "67",
+      "PRIMARY_LAT_DMS": "324918N",
+      "PRIM_LONG_DMS": "0914647W",
+      "PRIM_LAT_DEC": "32.8217999",
+      "PRIM_LONG_DEC": "-91.7798475",
+      "DATE_CREATED": "6/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-25 03:35:55",
+    "population": 195,
+    "location": {
+      "FEATURE_ID": "622743",
+      "FEATURE_NAME": "Carney",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Menominee",
+      "COUNTY_NUMERIC": "109",
+      "PRIMARY_LAT_DMS": "453512N",
+      "PRIM_LONG_DMS": "0873326W",
+      "PRIM_LAT_DEC": "45.586635",
+      "PRIM_LONG_DEC": "-87.5573448",
+      "DATE_CREATED": "4/14/80",
+      "DATE_EDITED": "3/20/08"
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-25 05:35:55",
+    "population": 174,
+    "location": {
+      "FEATURE_ID": "61238",
+      "FEATURE_NAME": "Evans Estates",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Lonoke",
+      "COUNTY_NUMERIC": "85",
+      "PRIMARY_LAT_DMS": "345853N",
+      "PRIM_LONG_DMS": "0920415W",
+      "PRIM_LAT_DEC": "34.9814765",
+      "PRIM_LONG_DEC": "-92.0707017",
+      "DATE_CREATED": "12/1/91",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-25 07:35:55",
+    "population": 215,
+    "location": {
+      "FEATURE_ID": "555779",
+      "FEATURE_NAME": "Redland",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "Bossier",
+      "COUNTY_NUMERIC": "15",
+      "PRIMARY_LAT_DMS": "325722N",
+      "PRIM_LONG_DMS": "0933655W",
+      "PRIM_LAT_DEC": "32.9562481",
+      "PRIM_LONG_DEC": "-93.6151752",
+      "DATE_CREATED": "6/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-25 09:35:55",
+    "population": 86,
+    "location": {
+      "FEATURE_ID": "552183",
+      "FEATURE_NAME": "Steeple Chase",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "Caddo",
+      "COUNTY_NUMERIC": "17",
+      "PRIMARY_LAT_DMS": "322618N",
+      "PRIM_LONG_DMS": "0935136W",
+      "PRIM_LAT_DEC": "32.43821",
+      "PRIM_LONG_DEC": "-93.8599036",
+      "DATE_CREATED": "1/1/94",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-25 10:35:55",
+    "population": 164,
+    "location": {
+      "FEATURE_ID": "1621420",
+      "FEATURE_NAME": "Rockland",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Ontonagon",
+      "COUNTY_NUMERIC": "131",
+      "PRIMARY_LAT_DMS": "464417N",
+      "PRIM_LONG_DMS": "0891047W",
+      "PRIM_LAT_DEC": "46.7379959",
+      "PRIM_LONG_DEC": "-89.1795854",
+      "DATE_CREATED": "4/14/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-25 11:35:55",
+    "population": 202,
+    "location": {
+      "FEATURE_ID": "60634",
+      "FEATURE_NAME": "McLean (historical)",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Grant",
+      "COUNTY_NUMERIC": "53",
+      "PRIMARY_LAT_DMS": "342053N",
+      "PRIM_LONG_DMS": "0923821W",
+      "PRIM_LAT_DEC": "34.34815",
+      "PRIM_LONG_DEC": "-92.6390512",
+      "DATE_CREATED": "12/1/91",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-25 12:35:55",
+    "population": 136,
+    "location": {
+      "FEATURE_ID": "1614822",
+      "FEATURE_NAME": "Three Oaks",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Berrien",
+      "COUNTY_NUMERIC": "21",
+      "PRIMARY_LAT_DMS": "414755N",
+      "PRIM_LONG_DMS": "0863638W",
+      "PRIM_LAT_DEC": "41.7986545",
+      "PRIM_LONG_DEC": "-86.6105778",
+      "DATE_CREATED": "4/14/80",
+      "DATE_EDITED": "3/20/08"
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-25 13:35:55",
+    "population": 129,
+    "location": {
+      "FEATURE_ID": "58428",
+      "FEATURE_NAME": "Preston Place",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Phillips",
+      "COUNTY_NUMERIC": "107",
+      "PRIMARY_LAT_DMS": "342832N",
+      "PRIM_LONG_DMS": "0903837W",
+      "PRIM_LAT_DEC": "34.4756586",
+      "PRIM_LONG_DEC": "-90.643718",
+      "DATE_CREATED": "4/30/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-25 14:35:55",
+    "population": 198,
+    "location": {
+      "FEATURE_ID": "358072",
+      "FEATURE_NAME": "Berckman Hills",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Richmond",
+      "COUNTY_NUMERIC": "245",
+      "PRIMARY_LAT_DMS": "332954N",
+      "PRIM_LONG_DMS": "0820159W",
+      "PRIM_LAT_DEC": "33.498469",
+      "PRIM_LONG_DEC": "-82.0331724",
+      "DATE_CREATED": "6/1/95",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-25 15:35:55",
+    "population": 100,
+    "location": {
+      "FEATURE_ID": "278225",
+      "FEATURE_NAME": "Bay Point",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Monroe",
+      "COUNTY_NUMERIC": "87",
+      "PRIMARY_LAT_DMS": "243737N",
+      "PRIM_LONG_DMS": "0813532W",
+      "PRIM_LAT_DEC": "24.6268111",
+      "PRIM_LONG_DEC": "-81.5923088",
+      "DATE_CREATED": "10/19/79",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-25 16:35:55",
+    "population": 103,
+    "location": {
+      "FEATURE_ID": "2483263",
+      "FEATURE_NAME": "Gavin Estates",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hillsborough",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "280009N",
+      "PRIM_LONG_DMS": "0821337W",
+      "PRIM_LAT_DEC": "28.0026",
+      "PRIM_LONG_DEC": "-82.227",
+      "DATE_CREATED": "7/18/08",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-25 18:35:55",
+    "population": 231,
+    "location": {
+      "FEATURE_ID": "316056",
+      "FEATURE_NAME": "Jasper",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Pickens",
+      "COUNTY_NUMERIC": "227",
+      "PRIMARY_LAT_DMS": "342804N",
+      "PRIM_LONG_DMS": "0842545W",
+      "PRIM_LAT_DEC": "34.4678687",
+      "PRIM_LONG_DEC": "-84.4290918",
+      "DATE_CREATED": "9/25/79",
+      "DATE_EDITED": "3/20/08"
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-25 20:35:55",
+    "population": 203,
+    "location": {
+      "FEATURE_ID": "152908",
+      "FEATURE_NAME": "Pinckard",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Dale",
+      "COUNTY_NUMERIC": "45",
+      "PRIMARY_LAT_DMS": "311842N",
+      "PRIM_LONG_DMS": "0853311W",
+      "PRIM_LAT_DEC": "31.3115612",
+      "PRIM_LONG_DEC": "-85.5529906",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": "3/20/08"
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-25 21:35:55",
+    "population": 51,
+    "location": {
+      "FEATURE_ID": "2514261",
+      "FEATURE_NAME": "Riverton (historical)",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Mason",
+      "COUNTY_NUMERIC": "105",
+      "PRIMARY_LAT_DMS": "435418N",
+      "PRIM_LONG_DMS": "0862020W",
+      "PRIM_LAT_DEC": "43.905",
+      "PRIM_LONG_DEC": "-86.3388889",
+      "DATE_CREATED": "1/6/09",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-25 23:35:55",
+    "population": 218,
+    "location": {
+      "FEATURE_ID": "1687703",
+      "FEATURE_NAME": "Center Green",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Fayette",
+      "COUNTY_NUMERIC": "113",
+      "PRIMARY_LAT_DMS": "332308N",
+      "PRIM_LONG_DMS": "0843355W",
+      "PRIM_LAT_DEC": "33.3856722",
+      "PRIM_LONG_DEC": "-84.5652064",
+      "DATE_CREATED": "4/30/96",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-26 01:35:55",
+    "population": 116,
+    "location": {
+      "FEATURE_ID": "114727",
+      "FEATURE_NAME": "Bonnie Doone",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Limestone",
+      "COUNTY_NUMERIC": "83",
+      "PRIMARY_LAT_DMS": "344627N",
+      "PRIM_LONG_DMS": "0865751W",
+      "PRIM_LAT_DEC": "34.7742557",
+      "PRIM_LONG_DEC": "-86.9641739",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-26 02:35:55",
+    "population": 139,
+    "location": {
+      "FEATURE_ID": "334366",
+      "FEATURE_NAME": "Wayfare Estates",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Bartow",
+      "COUNTY_NUMERIC": "15",
+      "PRIMARY_LAT_DMS": "341043N",
+      "PRIM_LONG_DMS": "0845139W",
+      "PRIM_LAT_DEC": "34.1787077",
+      "PRIM_LONG_DEC": "-84.8607736",
+      "DATE_CREATED": "5/1/93",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-26 03:35:55",
+    "population": 228,
+    "location": {
+      "FEATURE_ID": "1959569",
+      "FEATURE_NAME": "East Centreville",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Bibb",
+      "COUNTY_NUMERIC": "7",
+      "PRIMARY_LAT_DMS": "325638N",
+      "PRIM_LONG_DMS": "0870808W",
+      "PRIM_LAT_DEC": "32.9440128",
+      "PRIM_LONG_DEC": "-87.1355511",
+      "DATE_CREATED": "9/11/02",
+      "DATE_EDITED": "8/31/10"
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-26 05:35:55",
+    "population": 243,
+    "location": {
+      "FEATURE_ID": "140201",
+      "FEATURE_NAME": "Cavers Grove",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Randolph",
+      "COUNTY_NUMERIC": "111",
+      "PRIMARY_LAT_DMS": "332331N",
+      "PRIM_LONG_DMS": "0852923W",
+      "PRIM_LAT_DEC": "33.392058",
+      "PRIM_LONG_DEC": "-85.4896757",
+      "DATE_CREATED": "12/1/03",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-26 06:35:55",
+    "population": 214,
+    "location": {
+      "FEATURE_ID": "305904",
+      "FEATURE_NAME": "Kerr City",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Marion",
+      "COUNTY_NUMERIC": "83",
+      "PRIMARY_LAT_DMS": "292213N",
+      "PRIM_LONG_DMS": "0814659W",
+      "PRIM_LAT_DEC": "29.3702505",
+      "PRIM_LONG_DEC": "-81.7831383",
+      "DATE_CREATED": "10/19/79",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-26 07:35:55",
+    "population": 109,
+    "location": {
+      "FEATURE_ID": "551342",
+      "FEATURE_NAME": "Pine Acres",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "Calcasieu",
+      "COUNTY_NUMERIC": "19",
+      "PRIMARY_LAT_DMS": "302615N",
+      "PRIM_LONG_DMS": "0932622W",
+      "PRIM_LAT_DEC": "30.4374226",
+      "PRIM_LONG_DEC": "-93.4393297",
+      "DATE_CREATED": "1/1/94",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-26 09:35:55",
+    "population": 205,
+    "location": {
+      "FEATURE_ID": "626321",
+      "FEATURE_NAME": "Fostoria",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Tuscola",
+      "COUNTY_NUMERIC": "157",
+      "PRIMARY_LAT_DMS": "431512N",
+      "PRIM_LONG_DMS": "0832219W",
+      "PRIM_LAT_DEC": "43.2533586",
+      "PRIM_LONG_DEC": "-83.3718948",
+      "DATE_CREATED": "4/14/80",
+      "DATE_EDITED": "1/29/11"
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-26 11:35:55",
+    "population": 232,
+    "location": {
+      "FEATURE_ID": "1686595",
+      "FEATURE_NAME": "Colonial Estates",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Douglas",
+      "COUNTY_NUMERIC": "97",
+      "PRIMARY_LAT_DMS": "334509N",
+      "PRIM_LONG_DMS": "0844150W",
+      "PRIM_LAT_DEC": "33.7526076",
+      "PRIM_LONG_DEC": "-84.697157",
+      "DATE_CREATED": "4/30/96",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-26 13:35:55",
+    "population": 192,
+    "location": {
+      "FEATURE_ID": "159081",
+      "FEATURE_NAME": "Arley",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Winston",
+      "COUNTY_NUMERIC": "133",
+      "PRIMARY_LAT_DMS": "340444N",
+      "PRIM_LONG_DMS": "0871244W",
+      "PRIM_LAT_DEC": "34.078993",
+      "PRIM_LONG_DEC": "-87.2122325",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": "12/6/13"
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-26 15:35:55",
+    "population": 167,
+    "location": {
+      "FEATURE_ID": "166204",
+      "FEATURE_NAME": "Cox Gap",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Etowah",
+      "COUNTY_NUMERIC": "55",
+      "PRIMARY_LAT_DMS": "340645N",
+      "PRIM_LONG_DMS": "0860425W",
+      "PRIM_LAT_DEC": "34.1125958",
+      "PRIM_LONG_DEC": "-86.0735851",
+      "DATE_CREATED": "12/1/03",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-26 17:35:55",
+    "population": 87,
+    "location": {
+      "FEATURE_ID": "1705113",
+      "FEATURE_NAME": "Park Place Estates",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Cherokee",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "340620N",
+      "PRIM_LONG_DMS": "0842922W",
+      "PRIM_LAT_DEC": "34.1056538",
+      "PRIM_LONG_DEC": "-84.4893745",
+      "DATE_CREATED": "12/3/96",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-26 19:35:55",
+    "population": 108,
+    "location": {
+      "FEATURE_ID": "279460",
+      "FEATURE_NAME": "Broward Highlands",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Broward",
+      "COUNTY_NUMERIC": "11",
+      "PRIMARY_LAT_DMS": "261754N",
+      "PRIM_LONG_DMS": "0800639W",
+      "PRIM_LAT_DEC": "26.298413",
+      "PRIM_LONG_DEC": "-80.1108772",
+      "DATE_CREATED": "10/19/79",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-26 20:35:55",
+    "population": 174,
+    "location": {
+      "FEATURE_ID": "306021",
+      "FEATURE_NAME": "McIntyre",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Franklin",
+      "COUNTY_NUMERIC": "37",
+      "PRIMARY_LAT_DMS": "295853N",
+      "PRIM_LONG_DMS": "0843134W",
+      "PRIM_LAT_DEC": "29.9813154",
+      "PRIM_LONG_DEC": "-84.5260138",
+      "DATE_CREATED": "10/19/79",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-26 21:35:55",
+    "population": 117,
+    "location": {
+      "FEATURE_ID": "135109",
+      "FEATURE_NAME": "Hortons Mill",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Blount",
+      "COUNTY_NUMERIC": "9",
+      "PRIMARY_LAT_DMS": "340033N",
+      "PRIM_LONG_DMS": "0862650W",
+      "PRIM_LAT_DEC": "34.0092642",
+      "PRIM_LONG_DEC": "-86.447208",
+      "DATE_CREATED": "12/1/03",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-26 23:35:55",
+    "population": 80,
+    "location": {
+      "FEATURE_ID": "60031",
+      "FEATURE_NAME": "Nahay (historical)",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Prairie",
+      "COUNTY_NUMERIC": "117",
+      "PRIMARY_LAT_DMS": "343825N",
+      "PRIM_LONG_DMS": "0913245W",
+      "PRIM_LAT_DEC": "34.640373",
+      "PRIM_LONG_DEC": "-91.545963",
+      "DATE_CREATED": "12/1/91",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-27 01:35:55",
+    "population": 147,
+    "location": {
+      "FEATURE_ID": "554519",
+      "FEATURE_NAME": "Geismar",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "Ascension",
+      "COUNTY_NUMERIC": "5",
+      "PRIMARY_LAT_DMS": "301216N",
+      "PRIM_LONG_DMS": "0910121W",
+      "PRIM_LAT_DEC": "30.2043633",
+      "PRIM_LONG_DEC": "-91.0226013",
+      "DATE_CREATED": "6/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-27 02:35:55",
+    "population": 51,
+    "location": {
+      "FEATURE_ID": "137775",
+      "FEATURE_NAME": "Stewart",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Fayette",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "335052N",
+      "PRIM_LONG_DMS": "0874925W",
+      "PRIM_LAT_DEC": "33.8478836",
+      "PRIM_LONG_DEC": "-87.8236329",
+      "DATE_CREATED": "12/1/03",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-27 04:35:55",
+    "population": 129,
+    "location": {
+      "FEATURE_ID": "2449325",
+      "FEATURE_NAME": "Evening Star Trailer Park",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Broward",
+      "COUNTY_NUMERIC": "11",
+      "PRIMARY_LAT_DMS": "260121N",
+      "PRIM_LONG_DMS": "0801239W",
+      "PRIM_LAT_DEC": "26.0226",
+      "PRIM_LONG_DEC": "-80.2108",
+      "DATE_CREATED": "7/21/08",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-27 06:35:55",
+    "population": 89,
+    "location": {
+      "FEATURE_ID": "158850",
+      "FEATURE_NAME": "Hueytown",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Jefferson",
+      "COUNTY_NUMERIC": "73",
+      "PRIMARY_LAT_DMS": "332704N",
+      "PRIM_LONG_DMS": "0865948W",
+      "PRIM_LAT_DEC": "33.4512197",
+      "PRIM_LONG_DEC": "-86.9966606",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": "3/20/08"
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-27 07:35:55",
+    "population": 248,
+    "location": {
+      "FEATURE_ID": "58813",
+      "FEATURE_NAME": "Waldo",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Columbia",
+      "COUNTY_NUMERIC": "27",
+      "PRIMARY_LAT_DMS": "332105N",
+      "PRIM_LONG_DMS": "0931745W",
+      "PRIM_LAT_DEC": "33.351514",
+      "PRIM_LONG_DEC": "-93.2957251",
+      "DATE_CREATED": "4/30/80",
+      "DATE_EDITED": "3/20/08"
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-27 09:35:55",
+    "population": 200,
+    "location": {
+      "FEATURE_ID": "2483336",
+      "FEATURE_NAME": "Green Pastures",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hillsborough",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "280257N",
+      "PRIM_LONG_DMS": "0821345W",
+      "PRIM_LAT_DEC": "28.0491",
+      "PRIM_LONG_DEC": "-82.2292",
+      "DATE_CREATED": "7/18/08",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-27 11:35:55",
+    "population": 55,
+    "location": {
+      "FEATURE_ID": "554153",
+      "FEATURE_NAME": "Cut Off",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "Lafourche",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "293234N",
+      "PRIM_LONG_DMS": "0902017W",
+      "PRIM_LAT_DEC": "29.5427168",
+      "PRIM_LONG_DEC": "-90.3381361",
+      "DATE_CREATED": "6/4/80",
+      "DATE_EDITED": "3/20/08"
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-27 12:35:55",
+    "population": 124,
+    "location": {
+      "FEATURE_ID": "58054",
+      "FEATURE_NAME": "Leland",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Chicot",
+      "COUNTY_NUMERIC": "17",
+      "PRIMARY_LAT_DMS": "332220N",
+      "PRIM_LONG_DMS": "0910923W",
+      "PRIM_LAT_DEC": "33.3723385",
+      "PRIM_LONG_DEC": "-91.1564988",
+      "DATE_CREATED": "4/30/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-27 13:35:55",
+    "population": 226,
+    "location": {
+      "FEATURE_ID": "326295",
+      "FEATURE_NAME": "Fruitland",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Echols",
+      "COUNTY_NUMERIC": "101",
+      "PRIMARY_LAT_DMS": "304925N",
+      "PRIM_LONG_DMS": "0825117W",
+      "PRIM_LAT_DEC": "30.8235443",
+      "PRIM_LONG_DEC": "-82.8548608",
+      "DATE_CREATED": "9/25/79",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-27 15:35:55",
+    "population": 241,
+    "location": {
+      "FEATURE_ID": "2085182",
+      "FEATURE_NAME": "Alafaya",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Orange",
+      "COUNTY_NUMERIC": "95",
+      "PRIMARY_LAT_DMS": "283351N",
+      "PRIM_LONG_DMS": "0811241W",
+      "PRIM_LAT_DEC": "28.5641",
+      "PRIM_LONG_DEC": "-81.2114",
+      "DATE_CREATED": "3/9/06",
+      "DATE_EDITED": "1/12/11"
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-27 17:35:55",
+    "population": 134,
+    "location": {
+      "FEATURE_ID": "159427",
+      "FEATURE_NAME": "Coldwater",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Calhoun",
+      "COUNTY_NUMERIC": "15",
+      "PRIMARY_LAT_DMS": "333510N",
+      "PRIM_LONG_DMS": "0855506W",
+      "PRIM_LAT_DEC": "33.5862158",
+      "PRIM_LONG_DEC": "-85.9183001",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-27 18:35:55",
+    "population": 141,
+    "location": {
+      "FEATURE_ID": "2484537",
+      "FEATURE_NAME": "Ownahome",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hillsborough",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "275812N",
+      "PRIM_LONG_DMS": "0822548W",
+      "PRIM_LAT_DEC": "27.9699",
+      "PRIM_LONG_DEC": "-82.4299",
+      "DATE_CREATED": "7/18/08",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-27 19:35:55",
+    "population": 101,
+    "location": {
+      "FEATURE_ID": "128527",
+      "FEATURE_NAME": "Walker Springs",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Clarke",
+      "COUNTY_NUMERIC": "25",
+      "PRIMARY_LAT_DMS": "313227N",
+      "PRIM_LONG_DMS": "0874728W",
+      "PRIM_LAT_DEC": "31.540717",
+      "PRIM_LONG_DEC": "-87.791108",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-27 20:35:55",
+    "population": 83,
+    "location": {
+      "FEATURE_ID": "62340",
+      "FEATURE_NAME": "Martinville",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Ashley",
+      "COUNTY_NUMERIC": "3",
+      "PRIMARY_LAT_DMS": "331438N",
+      "PRIM_LONG_DMS": "0914726W",
+      "PRIM_LAT_DEC": "33.2440086",
+      "PRIM_LONG_DEC": "-91.7906841",
+      "DATE_CREATED": "5/1/92",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-27 21:35:55",
+    "population": 173,
+    "location": {
+      "FEATURE_ID": "2483935",
+      "FEATURE_NAME": "Powhatan Heights",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hillsborough",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "275952N",
+      "PRIM_LONG_DMS": "0822657W",
+      "PRIM_LAT_DEC": "27.9979",
+      "PRIM_LONG_DEC": "-82.4491",
+      "DATE_CREATED": "7/18/08",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-27 23:35:55",
+    "population": 111,
+    "location": {
+      "FEATURE_ID": "2452750",
+      "FEATURE_NAME": "Paradise Mobile Home Park",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Palm Beach",
+      "COUNTY_NUMERIC": "99",
+      "PRIMARY_LAT_DMS": "263858N",
+      "PRIM_LONG_DMS": "0800529W",
+      "PRIM_LAT_DEC": "26.649507",
+      "PRIM_LONG_DEC": "-80.091371",
+      "DATE_CREATED": "7/21/08",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-28 01:35:55",
+    "population": 117,
+    "location": {
+      "FEATURE_ID": "142807",
+      "FEATURE_NAME": "Prairie View Estates",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Montgomery",
+      "COUNTY_NUMERIC": "101",
+      "PRIMARY_LAT_DMS": "322003N",
+      "PRIM_LONG_DMS": "0862121W",
+      "PRIM_LAT_DEC": "32.3340282",
+      "PRIM_LONG_DEC": "-86.3558034",
+      "DATE_CREATED": "12/1/03",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-28 03:35:55",
+    "population": 247,
+    "location": {
+      "FEATURE_ID": "2482965",
+      "FEATURE_NAME": "Crenshaw Lakes",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hillsborough",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "280718N",
+      "PRIM_LONG_DMS": "0822933W",
+      "PRIM_LAT_DEC": "28.1217",
+      "PRIM_LONG_DEC": "-82.4926",
+      "DATE_CREATED": "7/18/08",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-28 05:35:55",
+    "population": 130,
+    "location": {
+      "FEATURE_ID": "536137",
+      "FEATURE_NAME": "Junction",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "Beauregard",
+      "COUNTY_NUMERIC": "11",
+      "PRIMARY_LAT_DMS": "305017N",
+      "PRIM_LONG_DMS": "0933033W",
+      "PRIM_LAT_DEC": "30.8379754",
+      "PRIM_LONG_DEC": "-93.5090609",
+      "DATE_CREATED": "6/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-28 07:35:55",
+    "population": 213,
+    "location": {
+      "FEATURE_ID": "57748",
+      "FEATURE_NAME": "Ferguson",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Phillips",
+      "COUNTY_NUMERIC": "107",
+      "PRIMARY_LAT_DMS": "340817N",
+      "PRIM_LONG_DMS": "0905902W",
+      "PRIM_LAT_DEC": "34.1381606",
+      "PRIM_LONG_DEC": "-90.9839987",
+      "DATE_CREATED": "4/30/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-28 09:35:55",
+    "population": 173,
+    "location": {
+      "FEATURE_ID": "1704552",
+      "FEATURE_NAME": "Peoplestown",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Fulton",
+      "COUNTY_NUMERIC": "121",
+      "PRIMARY_LAT_DMS": "334340N",
+      "PRIM_LONG_DMS": "0842307W",
+      "PRIM_LAT_DEC": "33.7278848",
+      "PRIM_LONG_DEC": "-84.3852043",
+      "DATE_CREATED": "12/3/96",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-28 10:35:55",
+    "population": 141,
+    "location": {
+      "FEATURE_ID": "2379202",
+      "FEATURE_NAME": "Glen-Aire Mobile Home Park",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Berrien",
+      "COUNTY_NUMERIC": "21",
+      "PRIMARY_LAT_DMS": "420243N",
+      "PRIM_LONG_DMS": "0862853W",
+      "PRIM_LAT_DEC": "42.0452778",
+      "PRIM_LONG_DEC": "-86.4813889",
+      "DATE_CREATED": "2/22/08",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-28 12:35:55",
+    "population": 139,
+    "location": {
+      "FEATURE_ID": "51382",
+      "FEATURE_NAME": "Lodge Corner",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Arkansas",
+      "COUNTY_NUMERIC": "1",
+      "PRIMARY_LAT_DMS": "341800N",
+      "PRIM_LONG_DMS": "0913130W",
+      "PRIM_LAT_DEC": "34.300098",
+      "PRIM_LONG_DEC": "-91.5251248",
+      "DATE_CREATED": "4/30/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-28 14:35:55",
+    "population": 126,
+    "location": {
+      "FEATURE_ID": "123985",
+      "FEATURE_NAME": "North Auburn",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Lee",
+      "COUNTY_NUMERIC": "81",
+      "PRIMARY_LAT_DMS": "323917N",
+      "PRIM_LONG_DMS": "0852704W",
+      "PRIM_LAT_DEC": "32.6548554",
+      "PRIM_LONG_DEC": "-85.4510595",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-28 16:35:55",
+    "population": 96,
+    "location": {
+      "FEATURE_ID": "2482620",
+      "FEATURE_NAME": "Brooker Trace",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hillsborough",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "275424N",
+      "PRIM_LONG_DMS": "0821531W",
+      "PRIM_LAT_DEC": "27.9067",
+      "PRIM_LONG_DEC": "-82.2586",
+      "DATE_CREATED": "7/18/08",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-28 18:35:55",
+    "population": 163,
+    "location": {
+      "FEATURE_ID": "1688183",
+      "FEATURE_NAME": "Hickory Hills",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Gwinnett",
+      "COUNTY_NUMERIC": "135",
+      "PRIMARY_LAT_DMS": "335039N",
+      "PRIM_LONG_DMS": "0840119W",
+      "PRIM_LAT_DEC": "33.8442728",
+      "PRIM_LONG_DEC": "-84.0218556",
+      "DATE_CREATED": "4/30/96",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-28 20:35:55",
+    "population": 219,
+    "location": {
+      "FEATURE_ID": "305734",
+      "FEATURE_NAME": "Good Hope",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Okaloosa",
+      "COUNTY_NUMERIC": "91",
+      "PRIMARY_LAT_DMS": "305809N",
+      "PRIM_LONG_DMS": "0863753W",
+      "PRIM_LAT_DEC": "30.9690706",
+      "PRIM_LONG_DEC": "-86.6313429",
+      "DATE_CREATED": "10/19/79",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-28 22:35:55",
+    "population": 185,
+    "location": {
+      "FEATURE_ID": "1688483",
+      "FEATURE_NAME": "Rocklane Estates",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Clayton",
+      "COUNTY_NUMERIC": "63",
+      "PRIMARY_LAT_DMS": "333816N",
+      "PRIM_LONG_DMS": "0841925W",
+      "PRIM_LAT_DEC": "33.6378869",
+      "PRIM_LONG_DEC": "-84.3235348",
+      "DATE_CREATED": "4/30/96",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-29 00:35:55",
+    "population": 64,
+    "location": {
+      "FEATURE_ID": "57339",
+      "FEATURE_NAME": "Batavia",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Boone",
+      "COUNTY_NUMERIC": "9",
+      "PRIMARY_LAT_DMS": "361518N",
+      "PRIM_LONG_DMS": "0931322W",
+      "PRIM_LAT_DEC": "36.2550706",
+      "PRIM_LONG_DEC": "-93.2226797",
+      "DATE_CREATED": "4/30/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-29 01:35:55",
+    "population": 246,
+    "location": {
+      "FEATURE_ID": "285542",
+      "FEATURE_NAME": "Lincoln Estates",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Alachua",
+      "COUNTY_NUMERIC": "1",
+      "PRIMARY_LAT_DMS": "293824N",
+      "PRIM_LONG_DMS": "0821803W",
+      "PRIM_LAT_DEC": "29.639968",
+      "PRIM_LONG_DEC": "-82.3009364",
+      "DATE_CREATED": "10/19/79",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-29 02:35:55",
+    "population": 188,
+    "location": {
+      "FEATURE_ID": "129326",
+      "FEATURE_NAME": "Zion",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Pickens",
+      "COUNTY_NUMERIC": "107",
+      "PRIMARY_LAT_DMS": "332516N",
+      "PRIM_LONG_DMS": "0875239W",
+      "PRIM_LAT_DEC": "33.421227",
+      "PRIM_LONG_DEC": "-87.8775178",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-29 04:35:55",
+    "population": 137,
+    "location": {
+      "FEATURE_ID": "58212",
+      "FEATURE_NAME": "Morganton",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Van Buren",
+      "COUNTY_NUMERIC": "141",
+      "PRIMARY_LAT_DMS": "352821N",
+      "PRIM_LONG_DMS": "0922023W",
+      "PRIM_LAT_DEC": "35.4725782",
+      "PRIM_LONG_DEC": "-92.3395996",
+      "DATE_CREATED": "4/30/80",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-29 05:35:55",
+    "population": 111,
+    "location": {
+      "FEATURE_ID": "2482533",
+      "FEATURE_NAME": "Florence Villa",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hillsborough",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "275809N",
+      "PRIM_LONG_DMS": "0822355W",
+      "PRIM_LAT_DEC": "27.9691",
+      "PRIM_LONG_DEC": "-82.3986",
+      "DATE_CREATED": "7/18/08",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-29 06:35:55",
+    "population": 246,
+    "location": {
+      "FEATURE_ID": "350414",
+      "FEATURE_NAME": "Northwood",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Bulloch",
+      "COUNTY_NUMERIC": "31",
+      "PRIMARY_LAT_DMS": "322850N",
+      "PRIM_LONG_DMS": "0814619W",
+      "PRIM_LAT_DEC": "32.4804527",
+      "PRIM_LONG_DEC": "-81.7720558",
+      "DATE_CREATED": "9/1/94",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-29 07:35:55",
+    "population": 190,
+    "location": {
+      "FEATURE_ID": "2485310",
+      "FEATURE_NAME": "Tower Ridge Estates",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hillsborough",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "275715N",
+      "PRIM_LONG_DMS": "0820700W",
+      "PRIM_LAT_DEC": "27.9542",
+      "PRIM_LONG_DEC": "-82.1167",
+      "DATE_CREATED": "7/18/08",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-29 09:35:55",
+    "population": 109,
+    "location": {
+      "FEATURE_ID": "2484509",
+      "FEATURE_NAME": "Orange Haven",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hillsborough",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "275702N",
+      "PRIM_LONG_DMS": "0820658W",
+      "PRIM_LAT_DEC": "27.9506",
+      "PRIM_LONG_DEC": "-82.1161",
+      "DATE_CREATED": "7/18/08",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-29 10:35:55",
+    "population": 74,
+    "location": {
+      "FEATURE_ID": "2514444",
+      "FEATURE_NAME": "Caddo Mobile Home Park",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Lawrence",
+      "COUNTY_NUMERIC": "79",
+      "PRIMARY_LAT_DMS": "343308N",
+      "PRIM_LONG_DMS": "0870834W",
+      "PRIM_LAT_DEC": "34.5522222",
+      "PRIM_LONG_DEC": "-87.1427778",
+      "DATE_CREATED": "12/15/08",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-29 11:35:55",
+    "population": 189,
+    "location": {
+      "FEATURE_ID": "142449",
+      "FEATURE_NAME": "Tutwiler",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Walker",
+      "COUNTY_NUMERIC": "127",
+      "PRIMARY_LAT_DMS": "333526N",
+      "PRIM_LONG_DMS": "0871650W",
+      "PRIM_LAT_DEC": "33.5906653",
+      "PRIM_LONG_DEC": "-87.2805564",
+      "DATE_CREATED": "12/1/03",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-29 13:35:55",
+    "population": 171,
+    "location": {
+      "FEATURE_ID": "559280",
+      "FEATURE_NAME": "Wildwood",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "East Baton Rouge",
+      "COUNTY_NUMERIC": "33",
+      "PRIMARY_LAT_DMS": "302212N",
+      "PRIM_LONG_DMS": "0910646W",
+      "PRIM_LAT_DEC": "30.3699147",
+      "PRIM_LONG_DEC": "-91.1128827",
+      "DATE_CREATED": "5/1/94",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-29 14:35:55",
+    "population": 201,
+    "location": {
+      "FEATURE_ID": "294732",
+      "FEATURE_NAME": "Crystal Lake",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Washington",
+      "COUNTY_NUMERIC": "133",
+      "PRIMARY_LAT_DMS": "302639N",
+      "PRIM_LONG_DMS": "0854119W",
+      "PRIM_LAT_DEC": "30.4440845",
+      "PRIM_LONG_DEC": "-85.6885412",
+      "DATE_CREATED": "10/19/79",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-29 15:35:55",
+    "population": 61,
+    "location": {
+      "FEATURE_ID": "2484366",
+      "FEATURE_NAME": "Netherland",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hillsborough",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "274313N",
+      "PRIM_LONG_DMS": "0822709W",
+      "PRIM_LAT_DEC": "27.7202",
+      "PRIM_LONG_DEC": "-82.4525",
+      "DATE_CREATED": "7/18/08",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-29 16:35:55",
+    "population": 156,
+    "location": {
+      "FEATURE_ID": "1671625",
+      "FEATURE_NAME": "Bonaire Heights",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Houston",
+      "COUNTY_NUMERIC": "153",
+      "PRIMARY_LAT_DMS": "323233N",
+      "PRIM_LONG_DMS": "0833558W",
+      "PRIM_LAT_DEC": "32.5423686",
+      "PRIM_LONG_DEC": "-83.5993495",
+      "DATE_CREATED": "11/13/95",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-29 18:35:55",
+    "population": 233,
+    "location": {
+      "FEATURE_ID": "306895",
+      "FEATURE_NAME": "Henrietta",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Leon",
+      "COUNTY_NUMERIC": "73",
+      "PRIMARY_LAT_DMS": "302352N",
+      "PRIM_LONG_DMS": "0841734W",
+      "PRIM_LAT_DEC": "30.3977006",
+      "PRIM_LONG_DEC": "-84.2926774",
+      "DATE_CREATED": "8/28/87",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-29 20:35:55",
+    "population": 78,
+    "location": {
+      "FEATURE_ID": "326517",
+      "FEATURE_NAME": "Smithonia",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Oglethorpe",
+      "COUNTY_NUMERIC": "221",
+      "PRIMARY_LAT_DMS": "340010N",
+      "PRIM_LONG_DMS": "0831034W",
+      "PRIM_LAT_DEC": "34.002891",
+      "PRIM_LONG_DEC": "-83.1759837",
+      "DATE_CREATED": "9/25/79",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-29 22:35:55",
+    "population": 156,
+    "location": {
+      "FEATURE_ID": "114837",
+      "FEATURE_NAME": "Brantley",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Dallas",
+      "COUNTY_NUMERIC": "47",
+      "PRIMARY_LAT_DMS": "322544N",
+      "PRIM_LONG_DMS": "0865648W",
+      "PRIM_LAT_DEC": "32.429025",
+      "PRIM_LONG_DEC": "-86.9466546",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-29 23:35:55",
+    "population": 180,
+    "location": {
+      "FEATURE_ID": "133574",
+      "FEATURE_NAME": "Asbury",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Clarke",
+      "COUNTY_NUMERIC": "25",
+      "PRIMARY_LAT_DMS": "314203N",
+      "PRIM_LONG_DMS": "0874326W",
+      "PRIM_LAT_DEC": "31.7007124",
+      "PRIM_LONG_DEC": "-87.7238869",
+      "DATE_CREATED": "12/1/03",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-30 00:35:55",
+    "population": 165,
+    "location": {
+      "FEATURE_ID": "354192",
+      "FEATURE_NAME": "Shadynook",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Walker",
+      "COUNTY_NUMERIC": "295",
+      "PRIMARY_LAT_DMS": "345420N",
+      "PRIM_LONG_DMS": "0851752W",
+      "PRIM_LAT_DEC": "34.9056321",
+      "PRIM_LONG_DEC": "-85.2977344",
+      "DATE_CREATED": "6/1/95",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-30 02:35:55",
+    "population": 165,
+    "location": {
+      "FEATURE_ID": "543071",
+      "FEATURE_NAME": "Chalkley",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "Calcasieu",
+      "COUNTY_NUMERIC": "19",
+      "PRIMARY_LAT_DMS": "300908N",
+      "PRIM_LONG_DMS": "0930551W",
+      "PRIM_LAT_DEC": "30.1521523",
+      "PRIM_LONG_DEC": "-93.0973747",
+      "DATE_CREATED": "6/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-30 03:35:55",
+    "population": 164,
+    "location": {
+      "FEATURE_ID": "2627807",
+      "FEATURE_NAME": "Portage Terrace Mobile Home Park",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Kalamazoo",
+      "COUNTY_NUMERIC": "77",
+      "PRIMARY_LAT_DMS": "423912N",
+      "PRIM_LONG_DMS": "0853348W",
+      "PRIM_LAT_DEC": "42.6533333",
+      "PRIM_LONG_DEC": "-85.5633333",
+      "DATE_CREATED": "9/2/10",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-30 04:35:55",
+    "population": 61,
+    "location": {
+      "FEATURE_ID": "1700254",
+      "FEATURE_NAME": "Ridgecrest",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Jefferson",
+      "COUNTY_NUMERIC": "73",
+      "PRIMARY_LAT_DMS": "332403N",
+      "PRIM_LONG_DMS": "0864658W",
+      "PRIM_LAT_DEC": "33.4009422",
+      "PRIM_LONG_DEC": "-86.7827664",
+      "DATE_CREATED": "11/22/96",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-30 05:35:55",
+    "population": 73,
+    "location": {
+      "FEATURE_ID": "295354",
+      "FEATURE_NAME": "Holmes Valley",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Washington",
+      "COUNTY_NUMERIC": "133",
+      "PRIMARY_LAT_DMS": "303437N",
+      "PRIM_LONG_DMS": "0854435W",
+      "PRIM_LAT_DEC": "30.5768598",
+      "PRIM_LONG_DEC": "-85.7429869",
+      "DATE_CREATED": "10/19/79",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-30 07:35:55",
+    "population": 156,
+    "location": {
+      "FEATURE_ID": "285000",
+      "FEATURE_NAME": "Jupiter",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Palm Beach",
+      "COUNTY_NUMERIC": "99",
+      "PRIMARY_LAT_DMS": "265603N",
+      "PRIM_LONG_DMS": "0800539W",
+      "PRIM_LAT_DEC": "26.9342246",
+      "PRIM_LONG_DEC": "-80.0942087",
+      "DATE_CREATED": "10/19/79",
+      "DATE_EDITED": "3/20/08"
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-30 08:35:55",
+    "population": 67,
+    "location": {
+      "FEATURE_ID": "155781",
+      "FEATURE_NAME": "Williams Subdivision",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Coffee",
+      "COUNTY_NUMERIC": "31",
+      "PRIMARY_LAT_DMS": "311843N",
+      "PRIM_LONG_DMS": "0854924W",
+      "PRIM_LAT_DEC": "31.3118378",
+      "PRIM_LONG_DEC": "-85.8232706",
+      "DATE_CREATED": "7/1/90",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-30 10:35:55",
+    "population": 100,
+    "location": {
+      "FEATURE_ID": "64593",
+      "FEATURE_NAME": "Abner (historical)",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Pike",
+      "COUNTY_NUMERIC": "109",
+      "PRIMARY_LAT_DMS": "341100N",
+      "PRIM_LONG_DMS": "0934239W",
+      "PRIM_LAT_DEC": "34.1834395",
+      "PRIM_LONG_DEC": "-93.710742",
+      "DATE_CREATED": "10/1/92",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-30 12:35:55",
+    "population": 241,
+    "location": {
+      "FEATURE_ID": "62584",
+      "FEATURE_NAME": "Forgy (historical)",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Howard",
+      "COUNTY_NUMERIC": "61",
+      "PRIMARY_LAT_DMS": "335653N",
+      "PRIM_LONG_DMS": "0935639W",
+      "PRIM_LAT_DEC": "33.9481703",
+      "PRIM_LONG_DEC": "-93.9440769",
+      "DATE_CREATED": "5/1/92",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-30 14:35:55",
+    "population": 221,
+    "location": {
+      "FEATURE_ID": "622506",
+      "FEATURE_NAME": "Cambridge Junction",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Lenawee",
+      "COUNTY_NUMERIC": "91",
+      "PRIMARY_LAT_DMS": "420332N",
+      "PRIM_LONG_DMS": "0841316W",
+      "PRIM_LAT_DEC": "42.0589313",
+      "PRIM_LONG_DEC": "-84.2210575",
+      "DATE_CREATED": "4/14/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-30 15:35:55",
+    "population": 61,
+    "location": {
+      "FEATURE_ID": "295405",
+      "FEATURE_NAME": "Leroy (historical)",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Marion",
+      "COUNTY_NUMERIC": "83",
+      "PRIMARY_LAT_DMS": "290804N",
+      "PRIM_LONG_DMS": "0821946W",
+      "PRIM_LAT_DEC": "29.1344202",
+      "PRIM_LONG_DEC": "-82.3295421",
+      "DATE_CREATED": "10/19/79",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-30 17:35:55",
+    "population": 69,
+    "location": {
+      "FEATURE_ID": "345628",
+      "FEATURE_NAME": "Blume",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Glascock",
+      "COUNTY_NUMERIC": "125",
+      "PRIMARY_LAT_DMS": "331537N",
+      "PRIM_LONG_DMS": "0823928W",
+      "PRIM_LAT_DEC": "33.260145",
+      "PRIM_LONG_DEC": "-82.6579104",
+      "DATE_CREATED": "6/1/94",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-30 19:35:55",
+    "population": 187,
+    "location": {
+      "FEATURE_ID": "295433",
+      "FEATURE_NAME": "Mason",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Columbia",
+      "COUNTY_NUMERIC": "23",
+      "PRIMARY_LAT_DMS": "300224N",
+      "PRIM_LONG_DMS": "0823552W",
+      "PRIM_LAT_DEC": "30.0399578",
+      "PRIM_LONG_DEC": "-82.5978985",
+      "DATE_CREATED": "10/19/79",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-30 20:35:55",
+    "population": 123,
+    "location": {
+      "FEATURE_ID": "122882",
+      "FEATURE_NAME": "Minter",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Dallas",
+      "COUNTY_NUMERIC": "47",
+      "PRIMARY_LAT_DMS": "320441N",
+      "PRIM_LONG_DMS": "0865937W",
+      "PRIM_LAT_DEC": "32.0779224",
+      "PRIM_LONG_DEC": "-86.9935961",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-30 22:35:55",
+    "population": 164,
+    "location": {
+      "FEATURE_ID": "1621172",
+      "FEATURE_NAME": "Peacock",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Lake",
+      "COUNTY_NUMERIC": "85",
+      "PRIMARY_LAT_DMS": "440246N",
+      "PRIM_LONG_DMS": "0855319W",
+      "PRIM_LAT_DEC": "44.0461199",
+      "PRIM_LONG_DEC": "-85.8886777",
+      "DATE_CREATED": "4/14/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-31 00:35:55",
+    "population": 162,
+    "location": {
+      "FEATURE_ID": "2485090",
+      "FEATURE_NAME": "Sultana Glade",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hillsborough",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "280009N",
+      "PRIM_LONG_DMS": "0822440W",
+      "PRIM_LAT_DEC": "28.0025",
+      "PRIM_LONG_DEC": "-82.411",
+      "DATE_CREATED": "7/18/08",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-31 02:35:55",
+    "population": 131,
+    "location": {
+      "FEATURE_ID": "72186",
+      "FEATURE_NAME": "Jethro",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Franklin",
+      "COUNTY_NUMERIC": "47",
+      "PRIMARY_LAT_DMS": "353627N",
+      "PRIM_LONG_DMS": "0935315W",
+      "PRIM_LAT_DEC": "35.607583",
+      "PRIM_LONG_DEC": "-93.8874194",
+      "DATE_CREATED": "4/30/80",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-31 04:35:55",
+    "population": 104,
+    "location": {
+      "FEATURE_ID": "68531",
+      "FEATURE_NAME": "Secluded Hills",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Pulaski",
+      "COUNTY_NUMERIC": "119",
+      "PRIMARY_LAT_DMS": "344750N",
+      "PRIM_LONG_DMS": "0922608W",
+      "PRIM_LAT_DEC": "34.7973133",
+      "PRIM_LONG_DEC": "-92.435434",
+      "DATE_CREATED": "12/1/92",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-31 05:35:55",
+    "population": 106,
+    "location": {
+      "FEATURE_ID": "58339",
+      "FEATURE_NAME": "Pecan Grove",
+      "STATE_ALPHA": "AR",
+      "STATE_NUMERIC": "5",
+      "COUNTY_NAME": "Pulaski",
+      "COUNTY_NUMERIC": "119",
+      "PRIMARY_LAT_DMS": "344623N",
+      "PRIM_LONG_DMS": "0921225W",
+      "PRIM_LAT_DEC": "34.773147",
+      "PRIM_LONG_DEC": "-92.2068145",
+      "DATE_CREATED": "4/30/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-31 06:35:55",
+    "population": 90,
+    "location": {
+      "FEATURE_ID": "560579",
+      "FEATURE_NAME": "Danks",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "St. Landry",
+      "COUNTY_NUMERIC": "97",
+      "PRIMARY_LAT_DMS": "304302N",
+      "PRIM_LONG_DMS": "0915241W",
+      "PRIM_LAT_DEC": "30.7171355",
+      "PRIM_LONG_DEC": "-91.8781709",
+      "DATE_CREATED": "6/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-31 07:35:55",
+    "population": 248,
+    "location": {
+      "FEATURE_ID": "554505",
+      "FEATURE_NAME": "Ganeyville",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "La Salle",
+      "COUNTY_NUMERIC": "59",
+      "PRIMARY_LAT_DMS": "314313N",
+      "PRIM_LONG_DMS": "0921652W",
+      "PRIM_LAT_DEC": "31.7201708",
+      "PRIM_LONG_DEC": "-92.281248",
+      "DATE_CREATED": "6/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-31 09:35:55",
+    "population": 124,
+    "location": {
+      "FEATURE_ID": "630268",
+      "FEATURE_NAME": "Leelanau Shores",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Leelanau",
+      "COUNTY_NUMERIC": "89",
+      "PRIMARY_LAT_DMS": "445332N",
+      "PRIM_LONG_DMS": "0854136W",
+      "PRIM_LAT_DEC": "44.892222",
+      "PRIM_LONG_DEC": "-85.6934153",
+      "DATE_CREATED": "4/14/80",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-05-31 10:35:55",
+    "population": 160,
+    "location": {
+      "FEATURE_ID": "115933",
+      "FEATURE_NAME": "Chancellor",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Geneva",
+      "COUNTY_NUMERIC": "61",
+      "PRIMARY_LAT_DMS": "311054N",
+      "PRIM_LONG_DMS": "0855238W",
+      "PRIM_LAT_DEC": "31.1815634",
+      "PRIM_LONG_DEC": "-85.8771592",
+      "DATE_CREATED": "9/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-31 11:35:55",
+    "population": 238,
+    "location": {
+      "FEATURE_ID": "625922",
+      "FEATURE_NAME": "Ferry",
+      "STATE_ALPHA": "MI",
+      "STATE_NUMERIC": "26",
+      "COUNTY_NAME": "Oceana",
+      "COUNTY_NUMERIC": "127",
+      "PRIMARY_LAT_DMS": "433503N",
+      "PRIM_LONG_DMS": "0861329W",
+      "PRIM_LAT_DEC": "43.5841773",
+      "PRIM_LONG_DEC": "-86.2247918",
+      "DATE_CREATED": "4/14/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-31 13:35:55",
+    "population": 53,
+    "location": {
+      "FEATURE_ID": "1671626",
+      "FEATURE_NAME": "Bonners Camp",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Houston",
+      "COUNTY_NUMERIC": "153",
+      "PRIMARY_LAT_DMS": "322701N",
+      "PRIM_LONG_DMS": "0834445W",
+      "PRIM_LAT_DEC": "32.4501514",
+      "PRIM_LONG_DEC": "-83.7457388",
+      "DATE_CREATED": "11/13/95",
+      "DATE_EDITED": null
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-31 14:35:55",
+    "population": 78,
+    "location": {
+      "FEATURE_ID": "2677682",
+      "FEATURE_NAME": "Davitte (historical)",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Polk",
+      "COUNTY_NUMERIC": "233",
+      "PRIMARY_LAT_DMS": "340346N",
+      "PRIM_LONG_DMS": "0850200W",
+      "PRIM_LAT_DEC": "34.0628457",
+      "PRIM_LONG_DEC": "-85.0333643",
+      "DATE_CREATED": "4/1/11",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  },
+  {
+    "date": "2015-05-31 16:35:55",
+    "population": 63,
+    "location": {
+      "FEATURE_ID": "555797",
+      "FEATURE_NAME": "Riceville",
+      "STATE_ALPHA": "LA",
+      "STATE_NUMERIC": "22",
+      "COUNTY_NAME": "Vermilion",
+      "COUNTY_NUMERIC": "113",
+      "PRIMARY_LAT_DMS": "300435N",
+      "PRIM_LONG_DMS": "0923051W",
+      "PRIM_LAT_DEC": "30.0763177",
+      "PRIM_LONG_DEC": "-92.5143028",
+      "DATE_CREATED": "6/4/80",
+      "DATE_EDITED": null
+    },
+    "disease": "C1096184"
+  },
+  {
+    "date": "2015-05-31 18:35:55",
+    "population": 175,
+    "location": {
+      "FEATURE_ID": "343527",
+      "FEATURE_NAME": "Brewers (historical)",
+      "STATE_ALPHA": "GA",
+      "STATE_NUMERIC": "13",
+      "COUNTY_NAME": "Polk",
+      "COUNTY_NUMERIC": "233",
+      "PRIMARY_LAT_DMS": "340030N",
+      "PRIM_LONG_DMS": "0850635W",
+      "PRIM_LAT_DEC": "34.0084337",
+      "PRIM_LONG_DEC": "-85.1096704",
+      "DATE_CREATED": "3/1/94",
+      "DATE_EDITED": null
+    },
+    "disease": "C0014060"
+  },
+  {
+    "date": "2015-05-31 20:35:55",
+    "population": 135,
+    "location": {
+      "FEATURE_ID": "1867220",
+      "FEATURE_NAME": "Town 'n' Country",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hillsborough",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "280038N",
+      "PRIM_LONG_DMS": "0823438W",
+      "PRIM_LAT_DEC": "28.0105745",
+      "PRIM_LONG_DEC": "-82.5773193",
+      "DATE_CREATED": "5/15/00",
+      "DATE_EDITED": "3/20/08"
+    },
+    "disease": "C03.752.250.552"
+  },
+  {
+    "date": "2015-05-31 22:35:55",
+    "population": 164,
+    "location": {
+      "FEATURE_ID": "2483605",
+      "FEATURE_NAME": "Interbay",
+      "STATE_ALPHA": "FL",
+      "STATE_NUMERIC": "12",
+      "COUNTY_NAME": "Hillsborough",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "275253N",
+      "PRIM_LONG_DMS": "0823016W",
+      "PRIM_LAT_DEC": "27.8813",
+      "PRIM_LONG_DEC": "-82.5044",
+      "DATE_CREATED": "7/18/08",
+      "DATE_EDITED": null
+    },
+    "disease": "248310"
+  },
+  {
+    "date": "2015-06-01 00:35:55",
+    "population": 79,
+    "location": {
+      "FEATURE_ID": "1700102",
+      "FEATURE_NAME": "Mountain Forest",
+      "STATE_ALPHA": "AL",
+      "STATE_NUMERIC": "1",
+      "COUNTY_NAME": "Jefferson",
+      "COUNTY_NUMERIC": "73",
+      "PRIMARY_LAT_DMS": "333217N",
+      "PRIM_LONG_DMS": "0863932W",
+      "PRIM_LAT_DEC": "33.53816",
+      "PRIM_LONG_DEC": "-86.6588758",
+      "DATE_CREATED": "11/22/96",
+      "DATE_EDITED": null
+    },
+    "disease": "7728"
+  }
+]
