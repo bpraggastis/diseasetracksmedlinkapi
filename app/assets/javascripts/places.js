@@ -12,7 +12,7 @@ $(function(){
     var latLng = new google.maps.LatLng(latitude,longitude)
     var mapOptions = {
       center: latLng,
-      zoom: 2
+      zoom: 3
     };
     map = new google.maps.Map(document.getElementById('map-canvas'),
         mapOptions);
