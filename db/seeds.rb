@@ -1,24 +1,28 @@
-# # This file should contain all the record creation needed to seed the database with its default values.
-# # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
+# # # This file should contain all the record creation needed to seed the database with its default values.
+# # # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
+# # #
+# # # Examples:
+# # #
+# # #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
+# # #   Mayor.create(name: 'Emanuel', city: cities.first)
 # #
-# # Examples:
 # #
-# #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-# #   Mayor.create(name: 'Emanuel', city: cities.first)
-#
-#
-# ###################################################################################################################
+# # ###################################################################################################################
+# # #
+# # #          Seed 1: Creates MedicalCondition records by name. Creates associated MedicalCode.
+# # #
+# # ###################################################################################################################
 # #
-# #          Seed 1: Creates MedicalCondition records by name. Creates associated MedicalCode.
 # #
-# ###################################################################################################################
-#
-#
 # # DISEASE_DATA = JSON.parse(File.read("/Users/brendapraggastis/Ada/capstone/datafiles/diseases.json"))['diseases']
-# DISEASE_DATA = JSON.parse(File.read("/Users/brendapraggastis/Ada/capstone/datafiles/disease_file_short.json"))['diseases']
-#######--> Replace with correct path name
+# # DISEASE_DATA = JSON.parse(File.read("db/support/disease_file.json"))['diseases']
+# ######--> Replace with correct path name
+#
+
+# DISEASE_DATA = JSON.parse(HTTParty.get("https://s3-us-west-2.amazonaws.com/capstone-datafiles/datafiles/diseases.json"))['diseases']
 
 # diseases = MedicalConditionHelpers::DataSeed.make_disease_bank(DISEASE_DATA)
+
 #
 # diseases.each do |disease|
 #   new_disease = MedicalCondition.create(name: disease['name'])
@@ -36,19 +40,19 @@
 #     new_disease.codes.create(code_system: code["system"], code_value: code["value"])
 #   end
 # end
-#
-#
-#
-# ###################################################################################################################
 # #
-# #          Seed 2: Creates MedicalTherapy by name, description. Creates associated MedicalCode.
 # #
-# ###################################################################################################################
-#
+# #
+# # ###################################################################################################################
+# # #
+# # #          Seed 2: Creates MedicalTherapy by name, description. Creates associated MedicalCode.
+# # #
+# # ###################################################################################################################
+# #
 # # DRUG_DATA = Nokogiri::XML(File.read('/Users/brendapraggastis/Ada/capstone/datafiles/drugbank.xml'))
-# DRUG_DATA = Nokogiri::XML(File.read('/Users/brendapraggastis/Ada/capstone/datafiles/drug_data.xml'))
-#######--> Replace with correct path name
-
+# DRUG_DATA = Nokogiri::XML(File.read('db/support/drugbank.xml'))
+# ######--> Replace with correct path name
+#
 # drugs = DRUG_DATA.css('/drugbank/drug')
 #
 # puts drugs.length
@@ -69,7 +73,6 @@
 #
 #
 #
-#
 # ###################################################################################################################
 # #
 # #          Seed 3: Adds MedicalTherapy by name. Creates associated MedicalCode for DrugBank and DailyMed.
@@ -77,11 +80,10 @@
 # #
 # ###################################################################################################################
 # # DMED = MedicalTherapyHelpers::DailyMedSeed::make_daily_med_seed("/Users/brendapraggastis/Ada/capstone/datafiles/dailymed_dump.json")
-# DMED = MedicalTherapyHelpers::DailyMedSeed::make_daily_med_seed("/Users/brendapraggastis/Ada/capstone/datafiles/dmedsmall.json")
-#######--> Replace with correct path name
-
-# # This returns {dmedcode => {name:----, db_code:----, generic:----, description:----},--=>{..}...}
-# # Check medical_therapy_helpers for additional fields
+# DMED = MedicalTherapyHelpers::DailyMedSeed::make_daily_med_seed("db/support/dailymed_dump.json")
+######--> Replace with correct path name
+# This returns {dmedcode => {name:----, db_code:----, generic:----, description:----},--=>{..}...}
+# Check medical_therapy_helpers for additional fields
 #
 # DMED.keys.each do |dkey|  #dkey = primary key for DailyMed record
 #   dKey = DMED[dkey] #dKey = the hash for the drug in dailymed record dkey
@@ -92,7 +94,18 @@
 #   end
 #   if therapy != nil
 #     dmed_code = therapy.codes.find_by(code_system: "DailyMed", code_value: dkey)
-#     therapy.codes.create(code_system: "DailyMed", code_value: dkey) if dmed_code == nil
+#     begin
+#       therapy.codes.create(code_system: "DailyMed", code_value: dkey) if dmed_code == nil
+#     rescue
+#       temp_ar = therapy.codes.map {|code| code.code_system == "DailyMed"? code.code_value : next }
+#       puts "DailyMed Duplicate Code! Code value: #{dkey}"
+#       if temp_ar.include? dkey
+#         puts "Code was already in there"
+#       else
+#         puts temp_ar.inspect
+#         puts "They were trying to put in a second DM code."
+#       end
+#     end
 #     therapy.therapy_alternate_names.create(name: dKey[:generic])
 #   else
 #     therapy = MedicalTherapy.create(name: dKey[:name], description: dKey[:description])
@@ -105,25 +118,21 @@
 # end
 #
 #
-#
 # ###################################################################################################################
 # #
 # #          Seed 4: Adds drug-disease associations to PrimaryPreventions.
 # #
 # ###################################################################################################################
 # # l = JSON.parse(File.read('/Users/brendapraggastis/Ada/capstone/datafiles/diseasome_dump.json'))
-######--> Replace with correct path name
-# l = JSON.parse(File.read('/Users/brendapraggastis/Ada/capstone/datafiles/diseasomesmall.json'))
+# ######--> Replace with correct path name
+# l = JSON.parse(File.read('db/support/diseasome_dump.json'))
 #
-# n = l.keys.length
 # l.keys.each do |key|
-#   puts n
-#   n -= 1
-#   name = l[key]['http://schema.org/name'][0]['value'].gsub("_", " ") if l[key]['http://schema.org/name']
+#   name = URI.decode(l[key]['http://schema.org/name'][0]['value']).gsub("_", " ") if l[key]['http://schema.org/name']
 #   preventions = l[key]["http://schema.org/primaryPrevention"]
-#   if name != nil && preventions != nil
+#   if name && preventions
 #     diseasealt = AlternateName.find_by(name: name)
-#     if diseasealt != nil
+#     if diseasealt
 #       disease = diseasealt.medical_conditions[0]
 #     end
 #     if disease != nil
@@ -132,17 +141,27 @@
 #         dcode = /http:\/\/beowulf\.pnnl\.gov\/2014\/drug\/(DB)*(\d*)/.match(hash['value'])
 #         db, code = dcode[1], dcode[2]
 #         if db != nil
-#           drug_code = MedicalCode.find_by(
-#                                 code_system: "DrugBank",
-#                                 code_value: db + code
-#                               )
-#           drug = drug_code.medical_therapies[0] if drug_code != nil
-#         elsif
-#           drug_code = MedicalCode.find_by(
-#                                 code_system: "DailyMed",
-#                                 code_value: code
-#                               )
-#           drug = drug_code.medical_therapies[0] if drug_code != nil
+#           begin
+#             drug_code = MedicalCode.find_by(
+#                                   code_system: "DrugBank",
+#                                   code_value: db + code
+#                                 )
+#             drug = drug_code.medical_code_therapy.medical_therapy if drug_code != nil
+#           rescue
+#             puts "No connection"
+#             next
+#           end
+#         else
+#           begin
+#             drug_code = MedicalCode.find_by(
+#                                   code_system: "DailyMed",
+#                                   code_value: code
+#                                 )
+#             drug = drug_code.medical_code_therapy.medical_therapy if drug_code != nil
+#           rescue
+#             puts "No connection"
+#             next
+#           end
 #         end
 #         if drug != nil
 #           puts PrimaryPrevention.create(
@@ -166,6 +185,8 @@
 #   return drug[1], drug[2]
 # end
 #
+#
+#
 # ###################################################################################################################
 # #
 # #          Seed 5: Adds Omim Description to MedicalCondition
@@ -186,20 +207,20 @@
 #       # puts hash["description"][0,50] if hash["description"]
 #       puts condition.name
 #
-
+#
 #     end
 #   end
 # end
 #
-
-
-###################################################################################################################
+#
+#
+# ##################################################################################################################
 #
 #          Seed 6: Place names will be given by name(state/country/territory), and abbreviation
 #
-###################################################################################################################
-
-
+# ##################################################################################################################
+#
+#
 # omim_refs = MedicalCode.select{|name| name.code_system == 'omim' && name.code_value.to_i.to_s === name.code_value}
 # omim_refs.each do |code|
 #   omim_description = OmimHelpers::Omim::description(code)
@@ -215,20 +236,20 @@
 #     end
 #   end
 # end
-
-###################################################################################################################
+#
+# ##################################################################################################################
 #
 #          Seed 6: Location data from CSV files
 #
-###################################################################################################################
+# ##################################################################################################################
 #
-
-############## Convert CSV file to JSON ####################
+#
+# ############# Convert CSV file to JSON ####################
 # def is_int?(string)
 #   !!(string =~ /^[+-]?[1-9][0-9]*$/)
 # end
 #
-#####--> Replace with correct path name
+# ####--> Replace with correct path name
 # lines = CSV.open('/Users/brendapraggastis/Ada/capstone/datafiles/us_geo_populated_place.csv').readlines
 # keys = lines.shift
 # n= lines.count
@@ -242,18 +263,18 @@
 #   f.puts JSON.pretty_generate(data)
 #   f.close
 # end
-
-
-############### Seed Places Table #############
+#
+#
+# ############## Seed Places Table #############
 # lines = CSV.open('db/support/places.csv').readlines
 # lines.each do |abbr,region|
 #   Place.create(name: region ,abbreviation: abbr)
 # end
-
-############### Seed GEO Table ################
 #
-
-######--> Replace with correct path name
+# ############## Seed GEO Table ################
+#
+#
+# #####--> Replace with correct path name
 # geo_data = JSON.parse(File.read("/Users/brendapraggastis/Ada/capstone/datafiles/us_locations.json"))
 # geo_data = JSON.parse(File.read('db/support/locations.json'))
 # geo_data.each do |local|
@@ -270,8 +291,8 @@
 # end
 #
 #
-
-
+#
+#
 # sample item from locations.json
 # {
 #   "FEATURE_ID": 1397658,
