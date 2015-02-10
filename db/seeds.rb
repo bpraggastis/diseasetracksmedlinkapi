@@ -1,71 +1,71 @@
-# # This file should contain all the record creation needed to seed the database with its default values.
-# # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
+# # # This file should contain all the record creation needed to seed the database with its default values.
+# # # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
+# # #
+# # # Examples:
+# # #
+# # #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
+# # #   Mayor.create(name: 'Emanuel', city: cities.first)
 # #
-# # Examples:
 # #
-# #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-# #   Mayor.create(name: 'Emanuel', city: cities.first)
-#
-#
-# ###################################################################################################################
+# # ###################################################################################################################
+# # #
+# # #          Seed 1: Creates MedicalCondition records by name. Creates associated MedicalCode.
+# # #
+# # ###################################################################################################################
 # #
-# #          Seed 1: Creates MedicalCondition records by name. Creates associated MedicalCode.
 # #
-# ###################################################################################################################
+# # DISEASE_DATA = JSON.parse(File.read("/Users/brendapraggastis/Ada/capstone/datafiles/diseases.json"))['diseases']
+# DISEASE_DATA = JSON.parse(File.read("db/support/disease_file.json"))['diseases']
+# ######--> Replace with correct path name
 #
+# diseases = MedicalConditionHelpers::DataSeed.make_disease_bank(DISEASE_DATA)
 #
-# DISEASE_DATA = JSON.parse(File.read("/Users/brendapraggastis/Ada/capstone/datafiles/diseases.json"))['diseases']
-DISEASE_DATA = JSON.parse(File.read("db/support/disease_file.json"))['diseases']
-######--> Replace with correct path name
-
-diseases = MedicalConditionHelpers::DataSeed.make_disease_bank(DISEASE_DATA)
-
-diseases.each do |disease|
-  new_disease = MedicalCondition.create(name: disease['name'])
-  puts disease["name"]
-  # taken from rdfs:label
-    disease["alternate_names"].each do |alternate_name|
-      new_disease.alternate_names.create(name: alternate_name)
-    end
-  # Faker data used for causes
-  rand(3).times do
-    new_disease.causes.create(name: Faker::Lorem.word, description: Faker::Company.catch_phrase)
-  end
-
-  disease["codes"].each do |code|
-    new_disease.codes.create(code_system: code["system"], code_value: code["value"])
-  end
-end
+# diseases.each do |disease|
+#   new_disease = MedicalCondition.create(name: disease['name'])
+#   puts disease["name"]
+#   # taken from rdfs:label
+#     disease["alternate_names"].each do |alternate_name|
+#       new_disease.alternate_names.create(name: alternate_name)
+#     end
+#   # Faker data used for causes
+#   rand(3).times do
+#     new_disease.causes.create(name: Faker::Lorem.word, description: Faker::Company.catch_phrase)
+#   end
 #
-#
-#
-# ###################################################################################################################
+#   disease["codes"].each do |code|
+#     new_disease.codes.create(code_system: code["system"], code_value: code["value"])
+#   end
+# end
 # #
-# #          Seed 2: Creates MedicalTherapy by name, description. Creates associated MedicalCode.
 # #
-# ###################################################################################################################
+# #
+# # ###################################################################################################################
+# # #
+# # #          Seed 2: Creates MedicalTherapy by name, description. Creates associated MedicalCode.
+# # #
+# # ###################################################################################################################
+# #
+# # DRUG_DATA = Nokogiri::XML(File.read('/Users/brendapraggastis/Ada/capstone/datafiles/drugbank.xml'))
+# DRUG_DATA = Nokogiri::XML(File.read('db/support/drugbank.xml'))
+# ######--> Replace with correct path name
 #
-# DRUG_DATA = Nokogiri::XML(File.read('/Users/brendapraggastis/Ada/capstone/datafiles/drugbank.xml'))
-DRUG_DATA = Nokogiri::XML(File.read('db/support/drugbank.xml'))
-######--> Replace with correct path name
-
-drugs = DRUG_DATA.css('/drugbank/drug')
-
-puts drugs.length
-n=0
-drugs.each do |drug|
-  name = drug.css("/name").text
-  puts drugs.length - n
-  n += 1
-  description = drug.css('/description').text
-  d = MedicalTherapy.create(name: name, description: description)
-  d.codes.create(code_value: drug.css('cas-number').text, code_system: "cas-number")
-  d.codes.create(code_system: 'DrugBank', code_value: drug.css('/drugbank-id').first.text)
-  codes = drug.css('/external-identifiers/external-identifier')
-  codes.each do |code|
-    d.codes.create(code_system: code.css('/resource').text, code_value: code.css('identifier').text)
-  end
-end
+# drugs = DRUG_DATA.css('/drugbank/drug')
+#
+# puts drugs.length
+# n=0
+# drugs.each do |drug|
+#   name = drug.css("/name").text
+#   puts drugs.length - n
+#   n += 1
+#   description = drug.css('/description').text
+#   d = MedicalTherapy.create(name: name, description: description)
+#   d.codes.create(code_value: drug.css('cas-number').text, code_system: "cas-number")
+#   d.codes.create(code_system: 'DrugBank', code_value: drug.css('/drugbank-id').first.text)
+#   codes = drug.css('/external-identifiers/external-identifier')
+#   codes.each do |code|
+#     d.codes.create(code_system: code.css('/resource').text, code_value: code.css('identifier').text)
+#   end
+# end
 
 #
 #
@@ -92,7 +92,18 @@ DMED.keys.each do |dkey|  #dkey = primary key for DailyMed record
   end
   if therapy != nil
     dmed_code = therapy.codes.find_by(code_system: "DailyMed", code_value: dkey)
-    therapy.codes.create(code_system: "DailyMed", code_value: dkey) if dmed_code == nil
+    begin
+      therapy.codes.create(code_system: "DailyMed", code_value: dkey) if dmed_code == nil
+    rescue
+      temp_ar = therapy.codes.map {|code| code.code_system == "DailyMed"? code.code_value : next }
+      puts "DailyMed Duplicate Code! Code value: #{dkey}"
+      if temp_ar.include? dkey
+        puts "Code was already in there"
+      else
+        puts temp_ar.inspect
+        puts "They were trying to put in a second DM code."
+      end
+    end
     therapy.therapy_alternate_names.create(name: dKey[:generic])
   else
     therapy = MedicalTherapy.create(name: dKey[:name], description: dKey[:description])
