@@ -116,7 +116,7 @@ end
 l = JSON.parse(File.read('db/support/diseasome_dump.json'))
 
 l.keys.each do |key|
-  name = URI.decode(l[key]['http://schema.org/name'][0]['value']) if l[key]['http://schema.org/name']
+  name = URI.decode(l[key]['http://schema.org/name'][0]['value']).gsub("_", " ") if l[key]['http://schema.org/name']
   preventions = l[key]["http://schema.org/primaryPrevention"]
   if name && preventions
     diseasealt = AlternateName.find_by(name: name)

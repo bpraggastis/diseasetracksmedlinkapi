@@ -9,7 +9,7 @@ module MedicalConditionHelpers
 
     #primary name of condition take from PNNL database
     def self.condition_name(item)
-      URI.decode(/#(.*)\sa\sschema:MedicalCondition/.match(item["rdf_id"])[1])
+      URI.decode(/#(.*)\sa\sschema:MedicalCondition/.match(item["rdf_id"])[1]).gsub("_", " ")
     end
 
     #additional names
@@ -19,7 +19,7 @@ module MedicalConditionHelpers
       temp = /rdfs:label\s"(.*)"/.match(item["name"])[1]
       if temp != "Missing Disease Label"
         temp.split('AND').collect {|alt_name| alt_name.strip}.each do |alt_name|
-          temp_names << URI.decode(alt_name)
+          temp_names << URI.decode(alt_name).gsub("_", " ")
         end
       end
       return temp_names
