@@ -19,7 +19,7 @@ module MedicalConditionHelpers
       temp = /rdfs:label\s"(.*)"/.match(item["name"])[1]
       if temp != "Missing Disease Label"
         temp.split('AND').collect {|alt_name| alt_name.strip}.each do |alt_name|
-          temp_names << alt_name.gsub('_',' ').gsub("%27", "'")
+          temp_names << URI.decode(alt_name)
         end
       end
       return temp_names
