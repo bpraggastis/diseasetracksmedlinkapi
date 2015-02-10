@@ -8,6 +8,7 @@
 /.bundle
 /db/support/drugbank.xml
 /db/support/diseasome_dump.json
+/db/support/dailymed_dump.json
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
