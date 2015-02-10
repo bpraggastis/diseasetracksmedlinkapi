@@ -71,4 +71,4 @@ gem "elasticsearch", git: "git://github.com/elasticsearch/elasticsearch-ruby.git
 gem "elasticsearch-model", git: "git://github.com/elasticsearch/elasticsearch-rails.git"
 gem "elasticsearch-rails", git: "git://github.com/elasticsearch/elasticsearch-rails.git"
 
-gem 'httparty'
+gem 'gmaps4rails'
