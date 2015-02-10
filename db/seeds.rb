@@ -312,3 +312,18 @@
 #   "DATE_CREATED": "12/31/95",
 #   "DATE_EDITED": "1/24/09"
 # },
+
+# ##################################################################################################################
+#
+#          Seed 7: EVENT DATA FROM JSON FILES
+#
+# ##################################################################################################################
+#
+outbreaks = []
+(1..3).each do |n|
+  outbreaks += JSON.parse(File.read("db/support/outbreak-#{n}.json"))
+end
+outbreaks.each do |event|
+  
+end
+puts outbreaks.length
