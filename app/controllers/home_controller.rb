@@ -1,6 +1,9 @@
 class HomeController < ApplicationController
 
-  def index
+  def index    
+    @marker = Geo.all[0,4]
+
+
     @cquery = ""
     @tquery = ""
     if params[:condition_query].present?
