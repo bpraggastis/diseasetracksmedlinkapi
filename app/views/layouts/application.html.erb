@@ -8,27 +8,68 @@
   <script type="text/javascript"
     src="https://maps.googleapis.com/maps/api/js?key="+ENV[GMAPS_KEY]>
   </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
 
 
 </head>
 <body>
   <header>
+    <div class="navbar navbar-inverse">
+      <div class="navbar-inner">
+        <div class="container">
 
-    <%= render partial: "shared/modals" %>
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </a>
+
+        <!-- Be sure to leave the brand out there if you want it shown -->
+        <a class="logo" href="/">Disease Tracks</a>
+
+        <!-- Everything you want hidden at 940px or less, place within here -->
+          <div class="nav-collapse collapse">
+          <!-- .nav, .navbar-search, .navbar-form, etc -->
+          </div>
+
+        </div>
+      </div>
+    </div>
 
 
-    <% if session[:user_id] %>
-      <%=link_to "Log Out", "/sessions/1", method: :delete, class: "btn btn-primary btn-xs" %>
-    <% else %>
-      <!-- Button trigger sign-in modal -->
-      <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#mySignInModal">
-        Sign in
-      </button>
-      <!-- Button trigger modal -->
-      <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#mySignUpModal">
-        Sign up
-      </button>
-    <% end %>
+
+
+
+
+
+    <!-- <div class="header-bar">
+      <span class="menu-buttons">
+        <% if session[:user_id] %>
+          <%=link_to "Log Out", "/sessions/1", method: :delete, class: "btn btn-primary btn-xs" %>
+        <% else %>
+          <!-- Button trigger sign-in modal -->
+          <!-- <button class="btn" type="button">
+            Log In<i class="icon-align-justify"></i>
+          </button> -->
+          <!-- <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#mySignInModal">
+            Sign in
+          </button>
+          <!-- Button trigger modal -->
+          <!-- <button type="button" class="btn dropdown-toggle btn-xs" data-toggle="modal" data-target="#mySignUpModal">
+            Sign up
+          </button> -->
+        <!-- <% end %> -->
+      <!-- </span>
+    </div> -->
+    <!-- <div class="logo">
+      <h2>Disease Tracks</h2>
+    </div> -->
+
+    <!-- <#%= render partial: "shared/modals" %> -->
+
+
   </header>
 
 <%= yield %>
