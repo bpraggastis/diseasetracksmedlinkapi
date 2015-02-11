@@ -323,11 +323,19 @@
 #
 # ##################################################################################################################
 #
-outbreaks = []
-(1..3).each do |n|
-  outbreaks += JSON.parse(File.read("db/support/outbreak-#{n}.json"))
+outbreak1 = JSON.parse(File.read("db/support/outbreak-1.json"))
+
+outbreak1.each do |event|
+  e = Event.new()
+  e.date = Date.strptime(event["location"]["DATE_CREATED"], "%m/%d/%y")
+  e.number_infected = event["population"].to_i
+  e.save
 end
-outbreaks.each do |event|
-  
+
+outbreak2.each do |event|
+  e = Event.new()
+  e.date = Date.strptime(event["location"]["DATE_CREATED"], "%m/%d/%y")
+  e.number_infected = event["population"].to_i
+  e.save
 end
 puts outbreaks.length
