@@ -1,13 +1,17 @@
-<div id="page-scroll">
+<div >
   <ul>
-    <% @marker.each do |mark| %>
-    <div >
-      <li class="place-marker">
-     <a href="#" class="location-marker" data-latitude=<%="#{mark.latitude}"%>
-            data-longitude=<%= "#{mark.longitude}" %>>  <%= mark.name %> </a></div>  </li>
-    <% end %>
+    <div class = "scrolling-list">
+      <% @events.each do |event| %>
+        <li class="place-marker">
+           <a href="#" class="location-marker" data-latitude=<%="#{event.latitude}"%>
+              data-longitude=<%= "#{event.longitude}" %>>
+            <%="#{event.date.strftime("%m/%d/%Y")}: #{event.disease} infected #{event.number_infected} people in #{event.location}, #{event.state} " %> </a>
+        </li>
+      <% end %>
+    </div>
   </ul>
 </div>
+
 <div id="name">
   <button type="button" class="clear-markers">Clear Markers</button>
 

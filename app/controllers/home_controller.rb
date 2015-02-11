@@ -1,29 +1,30 @@
 class HomeController < ApplicationController
 
-  def index    
-    @marker = Geo.all[0,4]
+  def index
+    @events = Event.where(date: DateTime.parse('Jan. 15, 2000') .. DateTime.parse('Jan. 15, 2010')).to_a[1,100]
+  end
 
-
-    @cquery = ""
-    @tquery = ""
-    if params[:condition_query].present?
-      @cquery = params[:condition_query]
-      responses = AlternateName.search(@cquery).records
-      @conditions = []
-      responses.each do |response|
-        response.medical_conditions.each do |condition|
-          @conditions << condition
+  def query
+      @cquery = ""
+      @tquery = ""
+      if params[:condition_query].present?
+        @cquery = params[:condition_query]
+        responses = AlternateName.search(@cquery).records
+        @conditions = []
+        responses.each do |response|
+          response.medical_conditions.each do |condition|
+            @conditions << condition
+          end
         end
+      else
+        @conditions = MedicalCondition.all
       end
-    else
-      @conditions = MedicalCondition.all
-    end
-    if params[:therapy_query].present?
-      @tquery = params[:therapy_query]
-      @therapies = MedicalTherapy.search(@tquery).records
-    else
-      @therapies = []
-    end
+      if params[:therapy_query].present?
+        @tquery = params[:therapy_query]
+        @therapies = MedicalTherapy.search(@tquery).records
+      else
+        @therapies = []
+      end
   end
 
 
