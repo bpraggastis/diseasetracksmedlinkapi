@@ -20,8 +20,13 @@
         <div class="container">
 
         <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <a class="btn btn-navbar" data-toggle="collapse" data-target="#nav-collapse-login">
+        <span class="icon-bar">BUTTONNNN</span>
         <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </a>
+        <a class="btn btn-navbar" data-toggle="collapse" data-target="#nav-collapse-signup">
+        <span class="icon-bar">SIGN UPPPP</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         </a>
@@ -30,10 +35,28 @@
         <a class="logo" href="/">Disease Tracks</a>
 
         <!-- Everything you want hidden at 940px or less, place within here -->
-          <div class="nav-collapse collapse">
-          <!-- .nav, .navbar-search, .navbar-form, etc -->
-          </div>
-
+        <div class="nav-collapse collapse" id="nav-collapse-login">
+          <%= form_tag sessions_path, method: :post do %>
+            <%= label_tag :email, "Email" %> <br>
+            <%= email_field_tag :email %> <br>
+            <%= label_tag :password, "Password" %> <br>
+            <%= password_field_tag :password %> <br>
+            <%= submit_tag "Sign In" %>
+          <% end %>
+        <!-- .nav, .navbar-search, .navbar-form, etc -->
+        </div>
+        <div class="nav-collapse collapse" id="nav-collapse-signup">
+          <%= form_for User.new do |f| %>
+            <%= f.label "Name" %> <br>
+            <%= f.text_field :name %> <br>
+            <%= f.label "email" %> <br>
+            <%= f.email_field :email %> <br>
+            <%= f.label "Password" %> <br>
+            <%= f.password_field :password%> <br>
+            <%= f.label "Confirm Password"%> <br>
+            <%= f.password_field :password_confirmation%> <br>
+            <%= f.submit "Sign Up"%>
+          <% end %>
         </div>
       </div>
     </div>
