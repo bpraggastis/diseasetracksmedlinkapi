@@ -1,0 +1,7032 @@
+[
+  {
+    "date": "2015-02-11 08:35:56",
+    "population": 10,
+    "location": {
+      "FEATURE_ID": "276646",
+      "FEATURE_NAME": "Logan",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Siskiyou",
+      "COUNTY_NUMERIC": "93",
+      "PRIMARY_LAT_DMS": "414537N",
+      "PRIM_LONG_DMS": "1222622W",
+      "PRIM_LAT_DEC": "41.760144",
+      "PRIM_LONG_DEC": "-122.4394648",
+      "DATE_CREATED": "10/1/92",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-02-14 05:35:56",
+    "population": 4,
+    "location": {
+      "FEATURE_ID": "253408",
+      "FEATURE_NAME": "Diamond",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Contra Costa",
+      "COUNTY_NUMERIC": "13",
+      "PRIMARY_LAT_DMS": "380118N",
+      "PRIM_LONG_DMS": "1215336W",
+      "PRIM_LAT_DEC": "38.0215875",
+      "PRIM_LONG_DEC": "-121.8932918",
+      "DATE_CREATED": "12/1/91",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-02-15 02:35:56",
+    "population": 2,
+    "location": {
+      "FEATURE_ID": "1512179",
+      "FEATURE_NAME": "Edgewood",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Pierce",
+      "COUNTY_NUMERIC": "53",
+      "PRIMARY_LAT_DMS": "471500N",
+      "PRIM_LONG_DMS": "1221737W",
+      "PRIM_LAT_DEC": "47.2501005",
+      "PRIM_LONG_DEC": "-122.293732",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-02-16 01:35:56",
+    "population": 8,
+    "location": {
+      "FEATURE_ID": "252837",
+      "FEATURE_NAME": "Willow Springs",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Mono",
+      "COUNTY_NUMERIC": "51",
+      "PRIMARY_LAT_DMS": "381119N",
+      "PRIM_LONG_DMS": "1191217W",
+      "PRIM_LAT_DEC": "38.1885314",
+      "PRIM_LONG_DEC": "-119.2045974",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-02-17 03:35:56",
+    "population": 11,
+    "location": {
+      "FEATURE_ID": "1512547",
+      "FEATURE_NAME": "Parker",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Yakima",
+      "COUNTY_NUMERIC": "77",
+      "PRIMARY_LAT_DMS": "463003N",
+      "PRIM_LONG_DMS": "1202755W",
+      "PRIM_LAT_DEC": "46.5009605",
+      "PRIM_LONG_DEC": "-120.4653406",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": "1/29/11"
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-02-19 12:35:56",
+    "population": 9,
+    "location": {
+      "FEATURE_ID": "1136770",
+      "FEATURE_NAME": "Sparta",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Baker",
+      "COUNTY_NUMERIC": "1",
+      "PRIMARY_LAT_DMS": "445216N",
+      "PRIM_LONG_DMS": "1171927W",
+      "PRIM_LAT_DEC": "44.8709927",
+      "PRIM_LONG_DEC": "-117.3240768",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-02-20 18:35:56",
+    "population": 5,
+    "location": {
+      "FEATURE_ID": "1511226",
+      "FEATURE_NAME": "Pierce",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Benton",
+      "COUNTY_NUMERIC": "5",
+      "PRIMARY_LAT_DMS": "463805N",
+      "PRIM_LONG_DMS": "1192708W",
+      "PRIM_LAT_DEC": "46.6348589",
+      "PRIM_LONG_DEC": "-119.4522464",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-02-22 11:35:56",
+    "population": 7,
+    "location": {
+      "FEATURE_ID": "1512091",
+      "FEATURE_NAME": "Chinook",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Pacific",
+      "COUNTY_NUMERIC": "49",
+      "PRIMARY_LAT_DMS": "461622N",
+      "PRIM_LONG_DMS": "1235644W",
+      "PRIM_LAT_DEC": "46.2728802",
+      "PRIM_LONG_DEC": "-123.9454273",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-02-24 03:35:56",
+    "population": 12,
+    "location": {
+      "FEATURE_ID": "1517399",
+      "FEATURE_NAME": "Carlisle West",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Grays Harbor",
+      "COUNTY_NUMERIC": "27",
+      "PRIMARY_LAT_DMS": "470908N",
+      "PRIM_LONG_DMS": "1240629W",
+      "PRIM_LAT_DEC": "47.1523084",
+      "PRIM_LONG_DEC": "-124.1079538",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-02-26 15:35:56",
+    "population": 6,
+    "location": {
+      "FEATURE_ID": "1511193",
+      "FEATURE_NAME": "Northrup",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "King",
+      "COUNTY_NUMERIC": "33",
+      "PRIMARY_LAT_DMS": "473758N",
+      "PRIM_LONG_DMS": "1221107W",
+      "PRIM_LAT_DEC": "47.632877",
+      "PRIM_LONG_DEC": "-122.185401",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-02-27 04:35:56",
+    "population": 11,
+    "location": {
+      "FEATURE_ID": "1660975",
+      "FEATURE_NAME": "Magnolia Park",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Los Angeles",
+      "COUNTY_NUMERIC": "37",
+      "PRIMARY_LAT_DMS": "341004N",
+      "PRIM_LONG_DMS": "1182050W",
+      "PRIM_LAT_DEC": "34.167784",
+      "PRIM_LONG_DEC": "-118.3473006",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-03-01 21:35:56",
+    "population": 7,
+    "location": {
+      "FEATURE_ID": "1166702",
+      "FEATURE_NAME": "Riddle",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Douglas",
+      "COUNTY_NUMERIC": "19",
+      "PRIMARY_LAT_DMS": "425703N",
+      "PRIM_LONG_DMS": "1232151W",
+      "PRIM_LAT_DEC": "42.9509507",
+      "PRIM_LONG_DEC": "-123.3642332",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-03-02 19:35:56",
+    "population": 14,
+    "location": {
+      "FEATURE_ID": "1655905",
+      "FEATURE_NAME": "Cleone",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Mendocino",
+      "COUNTY_NUMERIC": "45",
+      "PRIMARY_LAT_DMS": "392924N",
+      "PRIM_LONG_DMS": "1234708W",
+      "PRIM_LAT_DEC": "39.4898875",
+      "PRIM_LONG_DEC": "-123.785571",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": "1/29/11"
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-03-03 13:35:56",
+    "population": 13,
+    "location": {
+      "FEATURE_ID": "1512617",
+      "FEATURE_NAME": "Ronald",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "King",
+      "COUNTY_NUMERIC": "33",
+      "PRIMARY_LAT_DMS": "474456N",
+      "PRIM_LONG_DMS": "1222023W",
+      "PRIM_LAT_DEC": "47.7489866",
+      "PRIM_LONG_DEC": "-122.3398508",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-03-04 08:35:56",
+    "population": 14,
+    "location": {
+      "FEATURE_ID": "1659543",
+      "FEATURE_NAME": "Rosemont",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Sacramento",
+      "COUNTY_NUMERIC": "67",
+      "PRIMARY_LAT_DMS": "383307N",
+      "PRIM_LONG_DMS": "1212153W",
+      "PRIM_LAT_DEC": "38.5518508",
+      "PRIM_LONG_DEC": "-121.3646739",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-03-05 16:35:56",
+    "population": 5,
+    "location": {
+      "FEATURE_ID": "1637846",
+      "FEATURE_NAME": "Glenwood",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Washington",
+      "COUNTY_NUMERIC": "67",
+      "PRIMARY_LAT_DMS": "453857N",
+      "PRIM_LONG_DMS": "1231615W",
+      "PRIM_LAT_DEC": "45.6492781",
+      "PRIM_LONG_DEC": "-123.2709469",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-03-08 03:35:56",
+    "population": 13,
+    "location": {
+      "FEATURE_ID": "1652720",
+      "FEATURE_NAME": "Hesperia",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Bernardino",
+      "COUNTY_NUMERIC": "71",
+      "PRIMARY_LAT_DMS": "342535N",
+      "PRIM_LONG_DMS": "1171803W",
+      "PRIM_LAT_DEC": "34.4263886",
+      "PRIM_LONG_DEC": "-117.3008784",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-03-10 12:35:56",
+    "population": 9,
+    "location": {
+      "FEATURE_ID": "1652741",
+      "FEATURE_NAME": "Lancaster",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Los Angeles",
+      "COUNTY_NUMERIC": "37",
+      "PRIMARY_LAT_DMS": "344153N",
+      "PRIM_LONG_DMS": "1180812W",
+      "PRIM_LAT_DEC": "34.6980406",
+      "PRIM_LONG_DEC": "-118.1367393",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-03-11 07:35:56",
+    "population": 10,
+    "location": {
+      "FEATURE_ID": "1511943",
+      "FEATURE_NAME": "Oxley",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Lewis",
+      "COUNTY_NUMERIC": "41",
+      "PRIMARY_LAT_DMS": "463702N",
+      "PRIM_LONG_DMS": "1225426W",
+      "PRIM_LAT_DEC": "46.6173267",
+      "PRIM_LONG_DEC": "-122.9073467",
+      "DATE_CREATED": "5/1/92",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-03-14 01:35:56",
+    "population": 12,
+    "location": {
+      "FEATURE_ID": "1660722",
+      "FEATURE_NAME": "Harmony Acres",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Bernardino",
+      "COUNTY_NUMERIC": "71",
+      "PRIMARY_LAT_DMS": "340837N",
+      "PRIM_LONG_DMS": "1160634W",
+      "PRIM_LAT_DEC": "34.1436142",
+      "PRIM_LONG_DEC": "-116.1094487",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-03-14 23:35:56",
+    "population": 1,
+    "location": {
+      "FEATURE_ID": "1723979",
+      "FEATURE_NAME": "Ololopa (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Butte",
+      "COUNTY_NUMERIC": "7",
+      "PRIMARY_LAT_DMS": "Unknown",
+      "PRIM_LONG_DMS": "Unknown",
+      "PRIM_LAT_DEC": "0",
+      "PRIM_LONG_DEC": "0",
+      "DATE_CREATED": "3/5/97",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-03-16 11:35:56",
+    "population": 2,
+    "location": {
+      "FEATURE_ID": "1637841",
+      "FEATURE_NAME": "Deschutes",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Deschutes",
+      "COUNTY_NUMERIC": "17",
+      "PRIMARY_LAT_DMS": "440923N",
+      "PRIM_LONG_DMS": "1211520W",
+      "PRIM_LAT_DEC": "44.1565075",
+      "PRIM_LONG_DEC": "-121.2555881",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-03-19 02:35:56",
+    "population": 6,
+    "location": {
+      "FEATURE_ID": "1659822",
+      "FEATURE_NAME": "South Lake Tahoe",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "El Dorado",
+      "COUNTY_NUMERIC": "17",
+      "PRIMARY_LAT_DMS": "385600N",
+      "PRIM_LONG_DMS": "1195904W",
+      "PRIM_LAT_DEC": "38.9332411",
+      "PRIM_LONG_DEC": "-119.9843482",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-03-21 16:35:56",
+    "population": 13,
+    "location": {
+      "FEATURE_ID": "1701834",
+      "FEATURE_NAME": "Ashipak (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Siskiyou",
+      "COUNTY_NUMERIC": "93",
+      "PRIMARY_LAT_DMS": "Unknown",
+      "PRIM_LONG_DMS": "Unknown",
+      "PRIM_LAT_DEC": "0",
+      "PRIM_LONG_DEC": "0",
+      "DATE_CREATED": "11/22/96",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-03-22 13:35:56",
+    "population": 3,
+    "location": {
+      "FEATURE_ID": "1654952",
+      "FEATURE_NAME": "San Jose",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Santa Clara",
+      "COUNTY_NUMERIC": "85",
+      "PRIMARY_LAT_DMS": "372022N",
+      "PRIM_LONG_DMS": "1215342W",
+      "PRIM_LAT_DEC": "37.3393857",
+      "PRIM_LONG_DEC": "-121.8949555",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-03-25 01:35:56",
+    "population": 14,
+    "location": {
+      "FEATURE_ID": "2607254",
+      "FEATURE_NAME": "Oaks Mobile Home Park",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "San Juan",
+      "COUNTY_NUMERIC": "55",
+      "PRIMARY_LAT_DMS": "482955N",
+      "PRIM_LONG_DMS": "1230228W",
+      "PRIM_LAT_DEC": "48.4985189",
+      "PRIM_LONG_DEC": "-123.0410265",
+      "DATE_CREATED": "6/7/10",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-03-26 23:35:56",
+    "population": 12,
+    "location": {
+      "FEATURE_ID": "1670489",
+      "FEATURE_NAME": "Vega (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Monterey",
+      "COUNTY_NUMERIC": "53",
+      "PRIMARY_LAT_DMS": "365345N",
+      "PRIM_LONG_DMS": "1214127W",
+      "PRIM_LAT_DEC": "36.8957867",
+      "PRIM_LONG_DEC": "-121.6907807",
+      "DATE_CREATED": "11/9/95",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-03-29 04:35:56",
+    "population": 13,
+    "location": {
+      "FEATURE_ID": "1681876",
+      "FEATURE_NAME": "Centerville (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Humboldt",
+      "COUNTY_NUMERIC": "23",
+      "PRIMARY_LAT_DMS": "403429N",
+      "PRIM_LONG_DMS": "1242053W",
+      "PRIM_LAT_DEC": "40.5748511",
+      "PRIM_LONG_DEC": "-124.3481135",
+      "DATE_CREATED": "4/26/96",
+      "DATE_EDITED": "12/9/13"
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-03-30 13:35:56",
+    "population": 3,
+    "location": {
+      "FEATURE_ID": "1661506",
+      "FEATURE_NAME": "Stoil",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Tulare",
+      "COUNTY_NUMERIC": "107",
+      "PRIMARY_LAT_DMS": "355505N",
+      "PRIM_LONG_DMS": "1192531W",
+      "PRIM_LAT_DEC": "35.9180091",
+      "PRIM_LONG_DEC": "-119.4253952",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-04-01 18:35:56",
+    "population": 6,
+    "location": {
+      "FEATURE_ID": "1682911",
+      "FEATURE_NAME": "Little York (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Nevada",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "391143N",
+      "PRIM_LONG_DMS": "1205238W",
+      "PRIM_LAT_DEC": "39.195175",
+      "PRIM_LONG_DEC": "-120.8771629",
+      "DATE_CREATED": "4/29/96",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-04-02 15:35:56",
+    "population": 34,
+    "location": {
+      "FEATURE_ID": "1510953",
+      "FEATURE_NAME": "Eufaula Heights",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Cowlitz",
+      "COUNTY_NUMERIC": "15",
+      "PRIMARY_LAT_DMS": "461257N",
+      "PRIM_LONG_DMS": "1230310W",
+      "PRIM_LAT_DEC": "46.2159439",
+      "PRIM_LONG_DEC": "-123.0528944",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-04-03 06:35:56",
+    "population": 45,
+    "location": {
+      "FEATURE_ID": "277584",
+      "FEATURE_NAME": "Redwood City",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Mateo",
+      "COUNTY_NUMERIC": "81",
+      "PRIMARY_LAT_DMS": "372907N",
+      "PRIM_LONG_DMS": "1221411W",
+      "PRIM_LAT_DEC": "37.4852152",
+      "PRIM_LONG_DEC": "-122.2363548",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-04-04 04:35:56",
+    "population": 40,
+    "location": {
+      "FEATURE_ID": "1511285",
+      "FEATURE_NAME": "Sagemoor",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Franklin",
+      "COUNTY_NUMERIC": "21",
+      "PRIMARY_LAT_DMS": "462355N",
+      "PRIM_LONG_DMS": "1190342W",
+      "PRIM_LAT_DEC": "46.3987477",
+      "PRIM_LONG_DEC": "-119.0616754",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-04-04 14:35:56",
+    "population": 31,
+    "location": {
+      "FEATURE_ID": "1656628",
+      "FEATURE_NAME": "Sespe Village",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Ventura",
+      "COUNTY_NUMERIC": "111",
+      "PRIMARY_LAT_DMS": "342311N",
+      "PRIM_LONG_DMS": "1185720W",
+      "PRIM_LAT_DEC": "34.3863866",
+      "PRIM_LONG_DEC": "-118.9556555",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-04-05 07:35:56",
+    "population": 27,
+    "location": {
+      "FEATURE_ID": "1511368",
+      "FEATURE_NAME": "Thiel",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Walla Walla",
+      "COUNTY_NUMERIC": "71",
+      "PRIMARY_LAT_DMS": "460824N",
+      "PRIM_LONG_DMS": "1182930W",
+      "PRIM_LAT_DEC": "46.1401357",
+      "PRIM_LONG_DEC": "-118.4916435",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-04-06 06:35:56",
+    "population": 39,
+    "location": {
+      "FEATURE_ID": "1652923",
+      "FEATURE_NAME": "Fort Jones",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Calaveras",
+      "COUNTY_NUMERIC": "9",
+      "PRIMARY_LAT_DMS": "381527N",
+      "PRIM_LONG_DMS": "1202511W",
+      "PRIM_LAT_DEC": "38.257417",
+      "PRIM_LONG_DEC": "-120.4196445",
+      "DATE_CREATED": "12/1/91",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-04-06 17:35:56",
+    "population": 36,
+    "location": {
+      "FEATURE_ID": "1511012",
+      "FEATURE_NAME": "Gray Gables",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Grays Harbor",
+      "COUNTY_NUMERIC": "27",
+      "PRIMARY_LAT_DMS": "470048N",
+      "PRIM_LONG_DMS": "1240034W",
+      "PRIM_LAT_DEC": "47.0134219",
+      "PRIM_LONG_DEC": "-124.0093379",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-04-07 05:35:56",
+    "population": 28,
+    "location": {
+      "FEATURE_ID": "1701316",
+      "FEATURE_NAME": "Mills",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Sonoma",
+      "COUNTY_NUMERIC": "97",
+      "PRIMARY_LAT_DMS": "382448N",
+      "PRIM_LONG_DMS": "1225036W",
+      "PRIM_LAT_DEC": "38.4132469",
+      "PRIM_LONG_DEC": "-122.8433258",
+      "DATE_CREATED": "11/22/96",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-04-07 06:35:56",
+    "population": 33,
+    "location": {
+      "FEATURE_ID": "249397",
+      "FEATURE_NAME": "Sherman Oaks",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Los Angeles",
+      "COUNTY_NUMERIC": "37",
+      "PRIMARY_LAT_DMS": "340904N",
+      "PRIM_LONG_DMS": "1182657W",
+      "PRIM_LAT_DEC": "34.1511173",
+      "PRIM_LONG_DEC": "-118.4492482",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-04-07 23:35:56",
+    "population": 40,
+    "location": {
+      "FEATURE_ID": "1511840",
+      "FEATURE_NAME": "Sunrise Beach",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Pierce",
+      "COUNTY_NUMERIC": "53",
+      "PRIMARY_LAT_DMS": "471924N",
+      "PRIM_LONG_DMS": "1224152W",
+      "PRIM_LAT_DEC": "47.3234293",
+      "PRIM_LONG_DEC": "-122.6979109",
+      "DATE_CREATED": "5/1/92",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-04-08 13:35:56",
+    "population": 36,
+    "location": {
+      "FEATURE_ID": "1514937",
+      "FEATURE_NAME": "Ross (historical)",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "King",
+      "COUNTY_NUMERIC": "33",
+      "PRIMARY_LAT_DMS": "473852N",
+      "PRIM_LONG_DMS": "1222144W",
+      "PRIM_LAT_DEC": "47.6478758",
+      "PRIM_LONG_DEC": "-122.3623502",
+      "DATE_CREATED": "3/1/93",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-04-08 20:35:56",
+    "population": 34,
+    "location": {
+      "FEATURE_ID": "1527740",
+      "FEATURE_NAME": "Wabash",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "King",
+      "COUNTY_NUMERIC": "33",
+      "PRIMARY_LAT_DMS": "471434N",
+      "PRIM_LONG_DMS": "1220327W",
+      "PRIM_LAT_DEC": "47.2428787",
+      "PRIM_LONG_DEC": "-122.0576139",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-04-09 01:35:56",
+    "population": 35,
+    "location": {
+      "FEATURE_ID": "1867039",
+      "FEATURE_NAME": "Madera Acres",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Madera",
+      "COUNTY_NUMERIC": "39",
+      "PRIMARY_LAT_DMS": "370109N",
+      "PRIM_LONG_DMS": "1200401W",
+      "PRIM_LAT_DEC": "37.0191134",
+      "PRIM_LONG_DEC": "-120.0668302",
+      "DATE_CREATED": "5/15/00",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-04-10 00:35:56",
+    "population": 30,
+    "location": {
+      "FEATURE_ID": "1637939",
+      "FEATURE_NAME": "Wilkesboro",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Washington",
+      "COUNTY_NUMERIC": "67",
+      "PRIMARY_LAT_DMS": "453631N",
+      "PRIM_LONG_DMS": "1230545W",
+      "PRIM_LAT_DEC": "45.6087249",
+      "PRIM_LONG_DEC": "-123.0959417",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-04-10 08:35:56",
+    "population": 42,
+    "location": {
+      "FEATURE_ID": "1849532",
+      "FEATURE_NAME": "Country Manor Estates",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Riverside",
+      "COUNTY_NUMERIC": "65",
+      "PRIMARY_LAT_DMS": "332853N",
+      "PRIM_LONG_DMS": "1170642W",
+      "PRIM_LAT_DEC": "33.4814177",
+      "PRIM_LONG_DEC": "-117.1116968",
+      "DATE_CREATED": "8/26/99",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-04-10 10:35:56",
+    "population": 27,
+    "location": {
+      "FEATURE_ID": "1503295",
+      "FEATURE_NAME": "Bells Beach",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Island",
+      "COUNTY_NUMERIC": "29",
+      "PRIMARY_LAT_DMS": "480436N",
+      "PRIM_LONG_DMS": "1222809W",
+      "PRIM_LAT_DEC": "48.0767616",
+      "PRIM_LONG_DEC": "-122.4690392",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-04-11 00:35:56",
+    "population": 37,
+    "location": {
+      "FEATURE_ID": "1152787",
+      "FEATURE_NAME": "Zumwalt",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Wallowa",
+      "COUNTY_NUMERIC": "63",
+      "PRIMARY_LAT_DMS": "453751N",
+      "PRIM_LONG_DMS": "1165813W",
+      "PRIM_LAT_DEC": "45.6307095",
+      "PRIM_LONG_DEC": "-116.9701538",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-04-11 06:35:56",
+    "population": 41,
+    "location": {
+      "FEATURE_ID": "1166666",
+      "FEATURE_NAME": "Jasper",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Lane",
+      "COUNTY_NUMERIC": "39",
+      "PRIMARY_LAT_DMS": "435947N",
+      "PRIM_LONG_DMS": "1225422W",
+      "PRIM_LAT_DEC": "43.996515",
+      "PRIM_LONG_DEC": "-122.9061903",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-04-11 18:35:56",
+    "population": 34,
+    "location": {
+      "FEATURE_ID": "2508627",
+      "FEATURE_NAME": "Mountain Shadows Mobile Home Estates",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Shasta",
+      "COUNTY_NUMERIC": "89",
+      "PRIMARY_LAT_DMS": "403658N",
+      "PRIM_LONG_DMS": "1222312W",
+      "PRIM_LAT_DEC": "40.6161111",
+      "PRIM_LONG_DEC": "-122.3866667",
+      "DATE_CREATED": "11/6/08",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-04-12 14:35:56",
+    "population": 26,
+    "location": {
+      "FEATURE_ID": "1511487",
+      "FEATURE_NAME": "Ashby",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Adams",
+      "COUNTY_NUMERIC": "1",
+      "PRIMARY_LAT_DMS": "470908N",
+      "PRIM_LONG_DMS": "1180404W",
+      "PRIM_LAT_DEC": "47.1521005",
+      "PRIM_LONG_DEC": "-118.0677328",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-04-12 18:35:56",
+    "population": 49,
+    "location": {
+      "FEATURE_ID": "1692996",
+      "FEATURE_NAME": "Elmhurst",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Alameda",
+      "COUNTY_NUMERIC": "1",
+      "PRIMARY_LAT_DMS": "374507N",
+      "PRIM_LONG_DMS": "1221019W",
+      "PRIM_LAT_DEC": "37.7518732",
+      "PRIM_LONG_DEC": "-122.1719108",
+      "DATE_CREATED": "5/8/96",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-04-13 06:35:56",
+    "population": 36,
+    "location": {
+      "FEATURE_ID": "1511379",
+      "FEATURE_NAME": "Tulips",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Grays Harbor",
+      "COUNTY_NUMERIC": "27",
+      "PRIMARY_LAT_DMS": "470419N",
+      "PRIM_LONG_DMS": "1240226W",
+      "PRIM_LAT_DEC": "47.0720321",
+      "PRIM_LONG_DEC": "-124.0404508",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-04-14 01:35:56",
+    "population": 34,
+    "location": {
+      "FEATURE_ID": "1817358",
+      "FEATURE_NAME": "Liam (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Ventura",
+      "COUNTY_NUMERIC": "111",
+      "PRIMARY_LAT_DMS": "Unknown",
+      "PRIM_LONG_DMS": "Unknown",
+      "PRIM_LAT_DEC": "0",
+      "PRIM_LONG_DEC": "0",
+      "DATE_CREATED": "3/25/99",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-04-14 22:35:56",
+    "population": 28,
+    "location": {
+      "FEATURE_ID": "1661263",
+      "FEATURE_NAME": "La Conchita",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Ventura",
+      "COUNTY_NUMERIC": "111",
+      "PRIMARY_LAT_DMS": "342145N",
+      "PRIM_LONG_DMS": "1192648W",
+      "PRIM_LAT_DEC": "34.3624961",
+      "PRIM_LONG_DEC": "-119.4467857",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": "2/22/09"
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-04-14 23:35:56",
+    "population": 49,
+    "location": {
+      "FEATURE_ID": "231666",
+      "FEATURE_NAME": "Rob Roy Junction",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Santa Cruz",
+      "COUNTY_NUMERIC": "87",
+      "PRIMARY_LAT_DMS": "365815N",
+      "PRIM_LONG_DMS": "1215227W",
+      "PRIM_LAT_DEC": "36.9707843",
+      "PRIM_LONG_DEC": "-121.8741226",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-04-15 13:35:56",
+    "population": 30,
+    "location": {
+      "FEATURE_ID": "1162809",
+      "FEATURE_NAME": "Airlie",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Polk",
+      "COUNTY_NUMERIC": "53",
+      "PRIMARY_LAT_DMS": "444501N",
+      "PRIM_LONG_DMS": "1231953W",
+      "PRIM_LAT_DEC": "44.7503972",
+      "PRIM_LONG_DEC": "-123.3314898",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-04-16 09:35:56",
+    "population": 47,
+    "location": {
+      "FEATURE_ID": "1817348",
+      "FEATURE_NAME": "Ishgua (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Ventura",
+      "COUNTY_NUMERIC": "111",
+      "PRIMARY_LAT_DMS": "Unknown",
+      "PRIM_LONG_DMS": "Unknown",
+      "PRIM_LAT_DEC": "0",
+      "PRIM_LONG_DEC": "0",
+      "DATE_CREATED": "3/25/99",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-04-17 08:35:56",
+    "population": 29,
+    "location": {
+      "FEATURE_ID": "1682910",
+      "FEATURE_NAME": "Leduc Acres",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Nevada",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "391133N",
+      "PRIM_LONG_DMS": "1210106W",
+      "PRIM_LAT_DEC": "39.1923946",
+      "PRIM_LONG_DEC": "-121.0182805",
+      "DATE_CREATED": "4/29/96",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-04-18 04:35:56",
+    "population": 49,
+    "location": {
+      "FEATURE_ID": "1131882",
+      "FEATURE_NAME": "Warm Springs (historical)",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Malheur",
+      "COUNTY_NUMERIC": "45",
+      "PRIMARY_LAT_DMS": "440120N",
+      "PRIM_LONG_DMS": "1172744W",
+      "PRIM_LAT_DEC": "44.0221041",
+      "PRIM_LONG_DEC": "-117.4621311",
+      "DATE_CREATED": "5/22/86",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-04-18 14:35:56",
+    "population": 43,
+    "location": {
+      "FEATURE_ID": "2607460",
+      "FEATURE_NAME": "Grahams Mobile Home Park",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Ferry",
+      "COUNTY_NUMERIC": "19",
+      "PRIMARY_LAT_DMS": "483856N",
+      "PRIM_LONG_DMS": "1184424W",
+      "PRIM_LAT_DEC": "48.6489155",
+      "PRIM_LONG_DEC": "-118.7399179",
+      "DATE_CREATED": "6/7/10",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-04-19 00:35:56",
+    "population": 33,
+    "location": {
+      "FEATURE_ID": "1512380",
+      "FEATURE_NAME": "Latah",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Spokane",
+      "COUNTY_NUMERIC": "63",
+      "PRIMARY_LAT_DMS": "471654N",
+      "PRIM_LONG_DMS": "1170920W",
+      "PRIM_LAT_DEC": "47.2815642",
+      "PRIM_LONG_DEC": "-117.155461",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-04-19 11:35:56",
+    "population": 36,
+    "location": {
+      "FEATURE_ID": "1839086",
+      "FEATURE_NAME": "East Bakersfield",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Kern",
+      "COUNTY_NUMERIC": "29",
+      "PRIMARY_LAT_DMS": "352312N",
+      "PRIM_LONG_DMS": "1185838W",
+      "PRIM_LAT_DEC": "35.386625",
+      "PRIM_LONG_DEC": "-118.977322",
+      "DATE_CREATED": "5/12/99",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-04-20 00:35:56",
+    "population": 36,
+    "location": {
+      "FEATURE_ID": "1122184",
+      "FEATURE_NAME": "Idleyld Park",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Douglas",
+      "COUNTY_NUMERIC": "19",
+      "PRIMARY_LAT_DMS": "431925N",
+      "PRIM_LONG_DMS": "1230126W",
+      "PRIM_LAT_DEC": "43.3237296",
+      "PRIM_LONG_DEC": "-123.0239511",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-04-20 01:35:56",
+    "population": 43,
+    "location": {
+      "FEATURE_ID": "1511039",
+      "FEATURE_NAME": "Hood",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Skamania",
+      "COUNTY_NUMERIC": "59",
+      "PRIMARY_LAT_DMS": "454329N",
+      "PRIM_LONG_DMS": "1213329W",
+      "PRIM_LAT_DEC": "45.724841",
+      "PRIM_LONG_DEC": "-121.5581291",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-04-20 04:35:56",
+    "population": 46,
+    "location": {
+      "FEATURE_ID": "1868866",
+      "FEATURE_NAME": "Moonglow Mobile Home Park",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Diego",
+      "COUNTY_NUMERIC": "73",
+      "PRIMARY_LAT_DMS": "330647N",
+      "PRIM_LONG_DMS": "1170633W",
+      "PRIM_LAT_DEC": "33.1130959",
+      "PRIM_LONG_DEC": "-117.1091992",
+      "DATE_CREATED": "6/13/00",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-04-20 06:35:56",
+    "population": 47,
+    "location": {
+      "FEATURE_ID": "1661298",
+      "FEATURE_NAME": "Reef Station",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Kings",
+      "COUNTY_NUMERIC": "31",
+      "PRIMARY_LAT_DMS": "355406N",
+      "PRIM_LONG_DMS": "1200317W",
+      "PRIM_LAT_DEC": "35.9016242",
+      "PRIM_LONG_DEC": "-120.0548594",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-04-21 04:35:56",
+    "population": 45,
+    "location": {
+      "FEATURE_ID": "1658608",
+      "FEATURE_NAME": "Gibsonville",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Sierra",
+      "COUNTY_NUMERIC": "91",
+      "PRIMARY_LAT_DMS": "394425N",
+      "PRIM_LONG_DMS": "1205432W",
+      "PRIM_LAT_DEC": "39.7401714",
+      "PRIM_LONG_DEC": "-120.9088398",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-04-22 02:35:56",
+    "population": 28,
+    "location": {
+      "FEATURE_ID": "246651",
+      "FEATURE_NAME": "North Santa Maria",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Santa Barbara",
+      "COUNTY_NUMERIC": "83",
+      "PRIMARY_LAT_DMS": "345725N",
+      "PRIM_LONG_DMS": "1202641W",
+      "PRIM_LAT_DEC": "34.9569224",
+      "PRIM_LONG_DEC": "-120.4446084",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-04-22 22:35:56",
+    "population": 34,
+    "location": {
+      "FEATURE_ID": "1868736",
+      "FEATURE_NAME": "Friendly Hills Manor Mobile Home Park",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Diego",
+      "COUNTY_NUMERIC": "73",
+      "PRIMARY_LAT_DMS": "330858N",
+      "PRIM_LONG_DMS": "1170407W",
+      "PRIM_LAT_DEC": "33.1494835",
+      "PRIM_LONG_DEC": "-117.0686425",
+      "DATE_CREATED": "6/13/00",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-04-23 19:35:56",
+    "population": 31,
+    "location": {
+      "FEATURE_ID": "1785679",
+      "FEATURE_NAME": "Broadmoor Village",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Mateo",
+      "COUNTY_NUMERIC": "81",
+      "PRIMARY_LAT_DMS": "374124N",
+      "PRIM_LONG_DMS": "1222852W",
+      "PRIM_LAT_DEC": "37.6899332",
+      "PRIM_LONG_DEC": "-122.4810841",
+      "DATE_CREATED": "4/6/98",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-04-24 02:35:56",
+    "population": 47,
+    "location": {
+      "FEATURE_ID": "1656476",
+      "FEATURE_NAME": "De Luz",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Diego",
+      "COUNTY_NUMERIC": "73",
+      "PRIMARY_LAT_DMS": "332613N",
+      "PRIM_LONG_DMS": "1171928W",
+      "PRIM_LAT_DEC": "33.4369727",
+      "PRIM_LONG_DEC": "-117.3244823",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-04-24 03:35:56",
+    "population": 35,
+    "location": {
+      "FEATURE_ID": "1867041",
+      "FEATURE_NAME": "Mission Hills",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Santa Barbara",
+      "COUNTY_NUMERIC": "83",
+      "PRIMARY_LAT_DMS": "344110N",
+      "PRIM_LONG_DMS": "1202613W",
+      "PRIM_LAT_DEC": "34.6860938",
+      "PRIM_LONG_DEC": "-120.4368291",
+      "DATE_CREATED": "5/15/00",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-04-24 21:35:56",
+    "population": 35,
+    "location": {
+      "FEATURE_ID": "1661312",
+      "FEATURE_NAME": "Rimrock",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Bernardino",
+      "COUNTY_NUMERIC": "71",
+      "PRIMARY_LAT_DMS": "341153N",
+      "PRIM_LONG_DMS": "1163316W",
+      "PRIM_LAT_DEC": "34.1980622",
+      "PRIM_LONG_DEC": "-116.5544623",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-04-25 02:35:56",
+    "population": 29,
+    "location": {
+      "FEATURE_ID": "1659514",
+      "FEATURE_NAME": "Rio Linda",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Sacramento",
+      "COUNTY_NUMERIC": "67",
+      "PRIMARY_LAT_DMS": "384128N",
+      "PRIM_LONG_DMS": "1212655W",
+      "PRIM_LAT_DEC": "38.6910138",
+      "PRIM_LONG_DEC": "-121.4485654",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-04-26 00:35:56",
+    "population": 32,
+    "location": {
+      "FEATURE_ID": "1666231",
+      "FEATURE_NAME": "Alta (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Diego",
+      "COUNTY_NUMERIC": "73",
+      "PRIMARY_LAT_DMS": "324647N",
+      "PRIM_LONG_DMS": "1165920W",
+      "PRIM_LAT_DEC": "32.7797732",
+      "PRIM_LONG_DEC": "-116.9889163",
+      "DATE_CREATED": "6/1/95",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-04-26 15:35:56",
+    "population": 25,
+    "location": {
+      "FEATURE_ID": "1658505",
+      "FEATURE_NAME": "Ensley",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Sutter",
+      "COUNTY_NUMERIC": "101",
+      "PRIMARY_LAT_DMS": "384827N",
+      "PRIM_LONG_DMS": "1214022W",
+      "PRIM_LAT_DEC": "38.8074009",
+      "PRIM_LONG_DEC": "-121.6727401",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-04-26 17:35:56",
+    "population": 44,
+    "location": {
+      "FEATURE_ID": "1123011",
+      "FEATURE_NAME": "Leaburg",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Lane",
+      "COUNTY_NUMERIC": "39",
+      "PRIMARY_LAT_DMS": "440626N",
+      "PRIM_LONG_DMS": "1224037W",
+      "PRIM_LAT_DEC": "44.1073492",
+      "PRIM_LONG_DEC": "-122.6770174",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-04-27 12:35:56",
+    "population": 27,
+    "location": {
+      "FEATURE_ID": "1724018",
+      "FEATURE_NAME": "Yauko (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Butte",
+      "COUNTY_NUMERIC": "7",
+      "PRIMARY_LAT_DMS": "Unknown",
+      "PRIM_LONG_DMS": "Unknown",
+      "PRIM_LAT_DEC": "0",
+      "PRIM_LONG_DEC": "0",
+      "DATE_CREATED": "3/5/97",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-04-28 11:35:56",
+    "population": 37,
+    "location": {
+      "FEATURE_ID": "1660414",
+      "FEATURE_NAME": "Calico",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Bernardino",
+      "COUNTY_NUMERIC": "71",
+      "PRIMARY_LAT_DMS": "345656N",
+      "PRIM_LONG_DMS": "1165154W",
+      "PRIM_LAT_DEC": "34.9488716",
+      "PRIM_LONG_DEC": "-116.8650363",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-04-29 03:35:56",
+    "population": 41,
+    "location": {
+      "FEATURE_ID": "1153577",
+      "FEATURE_NAME": "Denzer (historical)",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Lincoln",
+      "COUNTY_NUMERIC": "41",
+      "PRIMARY_LAT_DMS": "442014N",
+      "PRIM_LONG_DMS": "1234944W",
+      "PRIM_LAT_DEC": "44.3373429",
+      "PRIM_LONG_DEC": "-123.8289996",
+      "DATE_CREATED": "5/22/86",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-04-29 06:35:56",
+    "population": 33,
+    "location": {
+      "FEATURE_ID": "1656635",
+      "FEATURE_NAME": "South El Monte",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Los Angeles",
+      "COUNTY_NUMERIC": "37",
+      "PRIMARY_LAT_DMS": "340307N",
+      "PRIM_LONG_DMS": "1180248W",
+      "PRIM_LAT_DEC": "34.0519548",
+      "PRIM_LONG_DEC": "-118.0467339",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-04-29 09:35:56",
+    "population": 34,
+    "location": {
+      "FEATURE_ID": "1670293",
+      "FEATURE_NAME": "Teagle (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Kern",
+      "COUNTY_NUMERIC": "29",
+      "PRIMARY_LAT_DMS": "352610N",
+      "PRIM_LONG_DMS": "1173829W",
+      "PRIM_LAT_DEC": "35.4360721",
+      "PRIM_LONG_DEC": "-117.6414495",
+      "DATE_CREATED": "11/9/95",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-04-29 15:35:56",
+    "population": 36,
+    "location": {
+      "FEATURE_ID": "1511326",
+      "FEATURE_NAME": "South Elma",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Grays Harbor",
+      "COUNTY_NUMERIC": "27",
+      "PRIMARY_LAT_DMS": "465852N",
+      "PRIM_LONG_DMS": "1232449W",
+      "PRIM_LAT_DEC": "46.9812073",
+      "PRIM_LONG_DEC": "-123.4134912",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-04-30 07:35:56",
+    "population": 33,
+    "location": {
+      "FEATURE_ID": "1702965",
+      "FEATURE_NAME": "Smyrna (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Tulare",
+      "COUNTY_NUMERIC": "107",
+      "PRIMARY_LAT_DMS": "363100N",
+      "PRIM_LONG_DMS": "1192154W",
+      "PRIM_LAT_DEC": "36.5166172",
+      "PRIM_LONG_DEC": "-119.3651196",
+      "DATE_CREATED": "12/2/96",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-04-30 22:35:56",
+    "population": 45,
+    "location": {
+      "FEATURE_ID": "1666314",
+      "FEATURE_NAME": "Michigan Bar (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Sacramento",
+      "COUNTY_NUMERIC": "67",
+      "PRIMARY_LAT_DMS": "382858N",
+      "PRIM_LONG_DMS": "1210239W",
+      "PRIM_LAT_DEC": "38.4826868",
+      "PRIM_LONG_DEC": "-121.04411",
+      "DATE_CREATED": "6/1/95",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-01 07:35:56",
+    "population": 32,
+    "location": {
+      "FEATURE_ID": "2607333",
+      "FEATURE_NAME": "Candlewood Estates Mobile Home Park",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Snohomish",
+      "COUNTY_NUMERIC": "61",
+      "PRIMARY_LAT_DMS": "475056N",
+      "PRIM_LONG_DMS": "1221711W",
+      "PRIM_LAT_DEC": "47.8489108",
+      "PRIM_LONG_DEC": "-122.286393",
+      "DATE_CREATED": "6/7/10",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-02 06:35:56",
+    "population": 47,
+    "location": {
+      "FEATURE_ID": "1512449",
+      "FEATURE_NAME": "Meadow Glade",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Clark",
+      "COUNTY_NUMERIC": "11",
+      "PRIMARY_LAT_DMS": "454530N",
+      "PRIM_LONG_DMS": "1223337W",
+      "PRIM_LAT_DEC": "45.7584495",
+      "PRIM_LONG_DEC": "-122.5603752",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-02 23:35:56",
+    "population": 49,
+    "location": {
+      "FEATURE_ID": "1658108",
+      "FEATURE_NAME": "Bonnefoy",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Amador",
+      "COUNTY_NUMERIC": "5",
+      "PRIMARY_LAT_DMS": "382138N",
+      "PRIM_LONG_DMS": "1204504W",
+      "PRIM_LAT_DEC": "38.3604686",
+      "PRIM_LONG_DEC": "-120.7510454",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-03 15:35:56",
+    "population": 29,
+    "location": {
+      "FEATURE_ID": "1666617",
+      "FEATURE_NAME": "Hercraff Place",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Tehama",
+      "COUNTY_NUMERIC": "103",
+      "PRIMARY_LAT_DMS": "401230N",
+      "PRIM_LONG_DMS": "1223245W",
+      "PRIM_LAT_DEC": "40.2082083",
+      "PRIM_LONG_DEC": "-122.5458415",
+      "DATE_CREATED": "6/1/95",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-04 06:35:56",
+    "population": 47,
+    "location": {
+      "FEATURE_ID": "1703356",
+      "FEATURE_NAME": "Bihlman (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Sutter",
+      "COUNTY_NUMERIC": "101",
+      "PRIMARY_LAT_DMS": "391552N",
+      "PRIM_LONG_DMS": "1213943W",
+      "PRIM_LAT_DEC": "39.2643345",
+      "PRIM_LONG_DEC": "-121.6619144",
+      "DATE_CREATED": "12/2/96",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-04 10:35:56",
+    "population": 43,
+    "location": {
+      "FEATURE_ID": "244265",
+      "FEATURE_NAME": "Kern City",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Kern",
+      "COUNTY_NUMERIC": "29",
+      "PRIMARY_LAT_DMS": "352114N",
+      "PRIM_LONG_DMS": "1190424W",
+      "PRIM_LAT_DEC": "35.3538486",
+      "PRIM_LONG_DEC": "-119.0734368",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-05 04:35:56",
+    "population": 42,
+    "location": {
+      "FEATURE_ID": "1682470",
+      "FEATURE_NAME": "Churntown (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Shasta",
+      "COUNTY_NUMERIC": "89",
+      "PRIMARY_LAT_DMS": "404041N",
+      "PRIM_LONG_DMS": "1222430W",
+      "PRIM_LAT_DEC": "40.6779277",
+      "PRIM_LONG_DEC": "-122.4083434",
+      "DATE_CREATED": "4/26/96",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-05 18:35:56",
+    "population": 39,
+    "location": {
+      "FEATURE_ID": "1658325",
+      "FEATURE_NAME": "Cottage Springs",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Calaveras",
+      "COUNTY_NUMERIC": "9",
+      "PRIMARY_LAT_DMS": "382122N",
+      "PRIM_LONG_DMS": "1201243W",
+      "PRIM_LAT_DEC": "38.3560262",
+      "PRIM_LONG_DEC": "-120.211859",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-06 00:35:56",
+    "population": 46,
+    "location": {
+      "FEATURE_ID": "270336",
+      "FEATURE_NAME": "Castaic Junction",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Los Angeles",
+      "COUNTY_NUMERIC": "37",
+      "PRIMARY_LAT_DMS": "342627N",
+      "PRIM_LONG_DMS": "1183623W",
+      "PRIM_LAT_DEC": "34.4408286",
+      "PRIM_LONG_DEC": "-118.6064765",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-06 18:35:56",
+    "population": 27,
+    "location": {
+      "FEATURE_ID": "263949",
+      "FEATURE_NAME": "Mugginsville",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Siskiyou",
+      "COUNTY_NUMERIC": "93",
+      "PRIMARY_LAT_DMS": "413424N",
+      "PRIM_LONG_DMS": "1225706W",
+      "PRIM_LAT_DEC": "41.5734703",
+      "PRIM_LONG_DEC": "-122.9517015",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-07 14:35:56",
+    "population": 39,
+    "location": {
+      "FEATURE_ID": "1128916",
+      "FEATURE_NAME": "Westmoreland",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Multnomah",
+      "COUNTY_NUMERIC": "51",
+      "PRIMARY_LAT_DMS": "452834N",
+      "PRIM_LONG_DMS": "1223849W",
+      "PRIM_LAT_DEC": "45.4762301",
+      "PRIM_LONG_DEC": "-122.647039",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-08 05:35:56",
+    "population": 46,
+    "location": {
+      "FEATURE_ID": "1660409",
+      "FEATURE_NAME": "Cajon Junction",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Bernardino",
+      "COUNTY_NUMERIC": "71",
+      "PRIMARY_LAT_DMS": "341842N",
+      "PRIM_LONG_DMS": "1172829W",
+      "PRIM_LAT_DEC": "34.3116702",
+      "PRIM_LONG_DEC": "-117.4747722",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-08 18:35:56",
+    "population": 44,
+    "location": {
+      "FEATURE_ID": "1158165",
+      "FEATURE_NAME": "Clarkes",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Clackamas",
+      "COUNTY_NUMERIC": "5",
+      "PRIMARY_LAT_DMS": "451255N",
+      "PRIM_LONG_DMS": "1222816W",
+      "PRIM_LAT_DEC": "45.2154007",
+      "PRIM_LONG_DEC": "-122.4711975",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-09 08:35:56",
+    "population": 31,
+    "location": {
+      "FEATURE_ID": "1136466",
+      "FEATURE_NAME": "Lawen",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Harney",
+      "COUNTY_NUMERIC": "25",
+      "PRIMARY_LAT_DMS": "432635N",
+      "PRIM_LONG_DMS": "1184804W",
+      "PRIM_LAT_DEC": "43.4429311",
+      "PRIM_LONG_DEC": "-118.8010401",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-09 20:35:56",
+    "population": 31,
+    "location": {
+      "FEATURE_ID": "1816964",
+      "FEATURE_NAME": "Mishopshnow (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Santa Barbara",
+      "COUNTY_NUMERIC": "83",
+      "PRIMARY_LAT_DMS": "342332N",
+      "PRIM_LONG_DMS": "1193118W",
+      "PRIM_LAT_DEC": "34.3922173",
+      "PRIM_LONG_DEC": "-119.5217898",
+      "DATE_CREATED": "3/25/99",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-10 19:35:56",
+    "population": 39,
+    "location": {
+      "FEATURE_ID": "1765292",
+      "FEATURE_NAME": "Play Port Mobile Home Village",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Orange",
+      "COUNTY_NUMERIC": "59",
+      "PRIMARY_LAT_DMS": "333806N",
+      "PRIM_LONG_DMS": "1175614W",
+      "PRIM_LAT_DEC": "33.6350206",
+      "PRIM_LONG_DEC": "-117.9372804",
+      "DATE_CREATED": "11/26/97",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-11 07:35:56",
+    "population": 43,
+    "location": {
+      "FEATURE_ID": "1528572",
+      "FEATURE_NAME": "Paradise Hill",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Okanogan",
+      "COUNTY_NUMERIC": "47",
+      "PRIMARY_LAT_DMS": "481110N",
+      "PRIM_LONG_DMS": "1195304W",
+      "PRIM_LAT_DEC": "48.1859791",
+      "PRIM_LONG_DEC": "-119.8845125",
+      "DATE_CREATED": "7/1/89",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-11 19:35:56",
+    "population": 39,
+    "location": {
+      "FEATURE_ID": "1167062",
+      "FEATURE_NAME": "Sunriver",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Deschutes",
+      "COUNTY_NUMERIC": "17",
+      "PRIMARY_LAT_DMS": "435302N",
+      "PRIM_LONG_DMS": "1212619W",
+      "PRIM_LAT_DEC": "43.8840067",
+      "PRIM_LONG_DEC": "-121.4386404",
+      "DATE_CREATED": "11/1/91",
+      "DATE_EDITED": "1/29/11"
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-12 14:35:56",
+    "population": 27,
+    "location": {
+      "FEATURE_ID": "1666846",
+      "FEATURE_NAME": "Desert Relief (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Los Angeles",
+      "COUNTY_NUMERIC": "37",
+      "PRIMARY_LAT_DMS": "343022N",
+      "PRIM_LONG_DMS": "1175008W",
+      "PRIM_LAT_DEC": "34.5061059",
+      "PRIM_LONG_DEC": "-117.8356192",
+      "DATE_CREATED": "6/1/95",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-12 23:35:56",
+    "population": 28,
+    "location": {
+      "FEATURE_ID": "1130129",
+      "FEATURE_NAME": "Dencer (historical)",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Marion",
+      "COUNTY_NUMERIC": "47",
+      "PRIMARY_LAT_DMS": "445219N",
+      "PRIM_LONG_DMS": "1230454W",
+      "PRIM_LAT_DEC": "44.8720644",
+      "PRIM_LONG_DEC": "-123.0817632",
+      "DATE_CREATED": "5/22/86",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-13 13:35:56",
+    "population": 35,
+    "location": {
+      "FEATURE_ID": "1657240",
+      "FEATURE_NAME": "Clearlake",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Lake",
+      "COUNTY_NUMERIC": "33",
+      "PRIMARY_LAT_DMS": "385730N",
+      "PRIM_LONG_DMS": "1223735W",
+      "PRIM_LAT_DEC": "38.9582307",
+      "PRIM_LONG_DEC": "-122.6263728",
+      "DATE_CREATED": "1/1/95",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-14 00:35:56",
+    "population": 42,
+    "location": {
+      "FEATURE_ID": "1534574",
+      "FEATURE_NAME": "Chambers",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Whitman",
+      "COUNTY_NUMERIC": "75",
+      "PRIMARY_LAT_DMS": "463835N",
+      "PRIM_LONG_DMS": "1171105W",
+      "PRIM_LAT_DEC": "46.6429401",
+      "PRIM_LONG_DEC": "-117.1846136",
+      "DATE_CREATED": "12/31/92",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-14 20:35:56",
+    "population": 35,
+    "location": {
+      "FEATURE_ID": "2413635",
+      "FEATURE_NAME": "Lake Almanor Country Club",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Plumas",
+      "COUNTY_NUMERIC": "63",
+      "PRIMARY_LAT_DMS": "401503N",
+      "PRIM_LONG_DMS": "1210845W",
+      "PRIM_LAT_DEC": "40.250764",
+      "PRIM_LONG_DEC": "-121.14578",
+      "DATE_CREATED": "3/11/08",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-15 11:35:56",
+    "population": 47,
+    "location": {
+      "FEATURE_ID": "1512426",
+      "FEATURE_NAME": "Manchester",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Kitsap",
+      "COUNTY_NUMERIC": "35",
+      "PRIMARY_LAT_DMS": "473321N",
+      "PRIM_LONG_DMS": "1223241W",
+      "PRIM_LAT_DEC": "47.5559302",
+      "PRIM_LONG_DEC": "-122.5448558",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-15 19:35:56",
+    "population": 46,
+    "location": {
+      "FEATURE_ID": "1839706",
+      "FEATURE_NAME": "North Barstow",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Bernardino",
+      "COUNTY_NUMERIC": "71",
+      "PRIMARY_LAT_DMS": "345500N",
+      "PRIM_LONG_DMS": "1170111W",
+      "PRIM_LAT_DEC": "34.9166486",
+      "PRIM_LONG_DEC": "-117.0197625",
+      "DATE_CREATED": "5/12/99",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-16 17:35:56",
+    "population": 28,
+    "location": {
+      "FEATURE_ID": "1817131",
+      "FEATURE_NAME": "Situchi (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Santa Barbara",
+      "COUNTY_NUMERIC": "83",
+      "PRIMARY_LAT_DMS": "Unknown",
+      "PRIM_LONG_DMS": "Unknown",
+      "PRIM_LAT_DEC": "0",
+      "PRIM_LONG_DEC": "0",
+      "DATE_CREATED": "3/25/99",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-17 13:35:56",
+    "population": 41,
+    "location": {
+      "FEATURE_ID": "1520787",
+      "FEATURE_NAME": "High Rock",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Snohomish",
+      "COUNTY_NUMERIC": "61",
+      "PRIMARY_LAT_DMS": "474846N",
+      "PRIM_LONG_DMS": "1215857W",
+      "PRIM_LAT_DEC": "47.8128772",
+      "PRIM_LONG_DEC": "-121.982624",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-17 21:35:56",
+    "population": 25,
+    "location": {
+      "FEATURE_ID": "252999",
+      "FEATURE_NAME": "Val Verde",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Riverside",
+      "COUNTY_NUMERIC": "65",
+      "PRIMARY_LAT_DMS": "335054N",
+      "PRIM_LONG_DMS": "1171514W",
+      "PRIM_LAT_DEC": "33.8483517",
+      "PRIM_LONG_DEC": "-117.2539277",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-17 23:35:56",
+    "population": 36,
+    "location": {
+      "FEATURE_ID": "2710365",
+      "FEATURE_NAME": "Cloverleaf Canyon",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Los Angeles",
+      "COUNTY_NUMERIC": "37",
+      "PRIMARY_LAT_DMS": "341023N",
+      "PRIM_LONG_DMS": "1175944W",
+      "PRIM_LAT_DEC": "34.173137",
+      "PRIM_LONG_DEC": "-117.995497",
+      "DATE_CREATED": "1/10/12",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-18 08:35:56",
+    "population": 27,
+    "location": {
+      "FEATURE_ID": "1670045",
+      "FEATURE_NAME": "Rendalia",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Los Angeles",
+      "COUNTY_NUMERIC": "37",
+      "PRIMARY_LAT_DMS": "335325N",
+      "PRIM_LONG_DMS": "1180802W",
+      "PRIM_LAT_DEC": "33.890293",
+      "PRIM_LONG_DEC": "-118.1339569",
+      "DATE_CREATED": "11/9/95",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-18 10:35:56",
+    "population": 48,
+    "location": {
+      "FEATURE_ID": "1511247",
+      "FEATURE_NAME": "Raeco",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "King",
+      "COUNTY_NUMERIC": "33",
+      "PRIMARY_LAT_DMS": "472259N",
+      "PRIM_LONG_DMS": "1222428W",
+      "PRIM_LAT_DEC": "47.3831544",
+      "PRIM_LONG_DEC": "-122.4079032",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-19 05:35:56",
+    "population": 42,
+    "location": {
+      "FEATURE_ID": "1511000",
+      "FEATURE_NAME": "Gordon",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Whitman",
+      "COUNTY_NUMERIC": "75",
+      "PRIMARY_LAT_DMS": "464549N",
+      "PRIM_LONG_DMS": "1180122W",
+      "PRIM_LAT_DEC": "46.763486",
+      "PRIM_LONG_DEC": "-118.0227281",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-19 22:35:56",
+    "population": 35,
+    "location": {
+      "FEATURE_ID": "1119593",
+      "FEATURE_NAME": "Crown Point",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Coos",
+      "COUNTY_NUMERIC": "11",
+      "PRIMARY_LAT_DMS": "431948N",
+      "PRIM_LONG_DMS": "1241829W",
+      "PRIM_LAT_DEC": "43.330111",
+      "PRIM_LONG_DEC": "-124.3081712",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-20 03:35:56",
+    "population": 32,
+    "location": {
+      "FEATURE_ID": "1867068",
+      "FEATURE_NAME": "West Bishop",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Inyo",
+      "COUNTY_NUMERIC": "27",
+      "PRIMARY_LAT_DMS": "372140N",
+      "PRIM_LONG_DMS": "1182718W",
+      "PRIM_LAT_DEC": "37.3610408",
+      "PRIM_LONG_DEC": "-118.455113",
+      "DATE_CREATED": "5/15/00",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-20 14:35:56",
+    "population": 47,
+    "location": {
+      "FEATURE_ID": "1510834",
+      "FEATURE_NAME": "Boylston",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Kittitas",
+      "COUNTY_NUMERIC": "37",
+      "PRIMARY_LAT_DMS": "465449N",
+      "PRIM_LONG_DMS": "1201404W",
+      "PRIM_LAT_DEC": "46.9137395",
+      "PRIM_LONG_DEC": "-120.234504",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-20 15:35:56",
+    "population": 123,
+    "location": {
+      "FEATURE_ID": "1655817",
+      "FEATURE_NAME": "Beall Place",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Humboldt",
+      "COUNTY_NUMERIC": "23",
+      "PRIMARY_LAT_DMS": "400139N",
+      "PRIM_LONG_DMS": "1234947W",
+      "PRIM_LAT_DEC": "40.0273682",
+      "PRIM_LONG_DEC": "-123.8297489",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-20 16:35:56",
+    "population": 235,
+    "location": {
+      "FEATURE_ID": "1867020",
+      "FEATURE_NAME": "El Dorado Hills",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "El Dorado",
+      "COUNTY_NUMERIC": "17",
+      "PRIMARY_LAT_DMS": "384109N",
+      "PRIM_LONG_DMS": "1210456W",
+      "PRIM_LAT_DEC": "38.6857367",
+      "PRIM_LONG_DEC": "-121.082167",
+      "DATE_CREATED": "5/15/00",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-20 17:35:56",
+    "population": 143,
+    "location": {
+      "FEATURE_ID": "2607126",
+      "FEATURE_NAME": "Woodcrest Estates Mobile Home Park",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "King",
+      "COUNTY_NUMERIC": "33",
+      "PRIMARY_LAT_DMS": "474509N",
+      "PRIM_LONG_DMS": "1221057W",
+      "PRIM_LAT_DEC": "47.752521",
+      "PRIM_LONG_DEC": "-122.182395",
+      "DATE_CREATED": "6/7/10",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-20 19:35:56",
+    "population": 183,
+    "location": {
+      "FEATURE_ID": "1158243",
+      "FEATURE_NAME": "Fox Valley",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Linn",
+      "COUNTY_NUMERIC": "43",
+      "PRIMARY_LAT_DMS": "444534N",
+      "PRIM_LONG_DMS": "1223306W",
+      "PRIM_LAT_DEC": "44.7595663",
+      "PRIM_LONG_DEC": "-122.5517511",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-20 21:35:56",
+    "population": 156,
+    "location": {
+      "FEATURE_ID": "1723774",
+      "FEATURE_NAME": "Walnut Hills Mobile Home Park",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Los Angeles",
+      "COUNTY_NUMERIC": "37",
+      "PRIMARY_LAT_DMS": "340240N",
+      "PRIM_LONG_DMS": "1174906W",
+      "PRIM_LAT_DEC": "34.0444553",
+      "PRIM_LONG_DEC": "-117.8183927",
+      "DATE_CREATED": "3/5/97",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-20 22:35:56",
+    "population": 232,
+    "location": {
+      "FEATURE_ID": "252802",
+      "FEATURE_NAME": "Sousa Corners",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Sonoma",
+      "COUNTY_NUMERIC": "97",
+      "PRIMARY_LAT_DMS": "382647N",
+      "PRIM_LONG_DMS": "1225141W",
+      "PRIM_LAT_DEC": "38.4463019",
+      "PRIM_LONG_DEC": "-122.861382",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-20 23:35:56",
+    "population": 66,
+    "location": {
+      "FEATURE_ID": "1147776",
+      "FEATURE_NAME": "Pistol River",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Curry",
+      "COUNTY_NUMERIC": "15",
+      "PRIMARY_LAT_DMS": "421637N",
+      "PRIM_LONG_DMS": "1242341W",
+      "PRIM_LAT_DEC": "42.2770563",
+      "PRIM_LONG_DEC": "-124.3948296",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": "1/29/11"
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-21 01:35:56",
+    "population": 89,
+    "location": {
+      "FEATURE_ID": "1512963",
+      "FEATURE_NAME": "Gravelly Beach",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Thurston",
+      "COUNTY_NUMERIC": "67",
+      "PRIMARY_LAT_DMS": "470616N",
+      "PRIM_LONG_DMS": "1225755W",
+      "PRIM_LAT_DEC": "47.1045405",
+      "PRIM_LONG_DEC": "-122.965144",
+      "DATE_CREATED": "6/1/92",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-21 03:35:56",
+    "population": 216,
+    "location": {
+      "FEATURE_ID": "1660915",
+      "FEATURE_NAME": "Lincoln Heights",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Los Angeles",
+      "COUNTY_NUMERIC": "37",
+      "PRIMARY_LAT_DMS": "340414N",
+      "PRIM_LONG_DMS": "1181218W",
+      "PRIM_LAT_DEC": "34.0705664",
+      "PRIM_LONG_DEC": "-118.2050727",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-21 04:35:56",
+    "population": 52,
+    "location": {
+      "FEATURE_ID": "1166660",
+      "FEATURE_NAME": "Green",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Douglas",
+      "COUNTY_NUMERIC": "19",
+      "PRIMARY_LAT_DMS": "430937N",
+      "PRIM_LONG_DMS": "1232204W",
+      "PRIM_LAT_DEC": "43.160394",
+      "PRIM_LONG_DEC": "-123.3678491",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-21 05:35:56",
+    "population": 57,
+    "location": {
+      "FEATURE_ID": "1817403",
+      "FEATURE_NAME": "Swino (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Ventura",
+      "COUNTY_NUMERIC": "111",
+      "PRIMARY_LAT_DMS": "Unknown",
+      "PRIM_LONG_DMS": "Unknown",
+      "PRIM_LAT_DEC": "0",
+      "PRIM_LONG_DEC": "0",
+      "DATE_CREATED": "3/25/99",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-21 06:35:56",
+    "population": 171,
+    "location": {
+      "FEATURE_ID": "242167",
+      "FEATURE_NAME": "Famoso",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Kern",
+      "COUNTY_NUMERIC": "29",
+      "PRIMARY_LAT_DMS": "353553N",
+      "PRIM_LONG_DMS": "1191229W",
+      "PRIM_LAT_DEC": "35.5980116",
+      "PRIM_LONG_DEC": "-119.2081627",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-21 07:35:56",
+    "population": 248,
+    "location": {
+      "FEATURE_ID": "1946632",
+      "FEATURE_NAME": "Bouquet Canyon",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Los Angeles",
+      "COUNTY_NUMERIC": "37",
+      "PRIMARY_LAT_DMS": "Unknown",
+      "PRIM_LONG_DMS": "Unknown",
+      "PRIM_LAT_DEC": "0",
+      "PRIM_LONG_DEC": "0",
+      "DATE_CREATED": "12/19/01",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-21 09:35:56",
+    "population": 244,
+    "location": {
+      "FEATURE_ID": "1126446",
+      "FEATURE_NAME": "Saginaw",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Lane",
+      "COUNTY_NUMERIC": "39",
+      "PRIMARY_LAT_DMS": "434957N",
+      "PRIM_LONG_DMS": "1230243W",
+      "PRIM_LAT_DEC": "43.8326235",
+      "PRIM_LONG_DEC": "-123.0453582",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-21 11:35:56",
+    "population": 185,
+    "location": {
+      "FEATURE_ID": "2607148",
+      "FEATURE_NAME": "Nelson Mobile Home Park",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Skagit",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "482915N",
+      "PRIM_LONG_DMS": "1221806W",
+      "PRIM_LAT_DEC": "48.4873859",
+      "PRIM_LONG_DEC": "-122.3017625",
+      "DATE_CREATED": "6/7/10",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-21 12:35:56",
+    "population": 146,
+    "location": {
+      "FEATURE_ID": "2607553",
+      "FEATURE_NAME": "Rhododendron Mobile Home Park",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Pierce",
+      "COUNTY_NUMERIC": "53",
+      "PRIMARY_LAT_DMS": "470900N",
+      "PRIM_LONG_DMS": "1220924W",
+      "PRIM_LAT_DEC": "47.1501077",
+      "PRIM_LONG_DEC": "-122.1567163",
+      "DATE_CREATED": "6/7/10",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-21 14:35:56",
+    "population": 173,
+    "location": {
+      "FEATURE_ID": "1659169",
+      "FEATURE_NAME": "Mooney Flat",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Nevada",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "391256N",
+      "PRIM_LONG_DMS": "1211628W",
+      "PRIM_LAT_DEC": "39.2154489",
+      "PRIM_LONG_DEC": "-121.2744029",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-21 16:35:56",
+    "population": 182,
+    "location": {
+      "FEATURE_ID": "1516008",
+      "FEATURE_NAME": "B Z Corner",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Klickitat",
+      "COUNTY_NUMERIC": "39",
+      "PRIMARY_LAT_DMS": "455100N",
+      "PRIM_LONG_DMS": "1213032W",
+      "PRIM_LAT_DEC": "45.8501201",
+      "PRIM_LONG_DEC": "-121.5089653",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-21 17:35:56",
+    "population": 113,
+    "location": {
+      "FEATURE_ID": "1733395",
+      "FEATURE_NAME": "Irishtown (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Amador",
+      "COUNTY_NUMERIC": "5",
+      "PRIMARY_LAT_DMS": "382320N",
+      "PRIM_LONG_DMS": "1204029W",
+      "PRIM_LAT_DEC": "38.388801",
+      "PRIM_LONG_DEC": "-120.6746536",
+      "DATE_CREATED": "5/14/97",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-21 18:35:56",
+    "population": 115,
+    "location": {
+      "FEATURE_ID": "1528164",
+      "FEATURE_NAME": "Willard",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Skamania",
+      "COUNTY_NUMERIC": "59",
+      "PRIMARY_LAT_DMS": "454651N",
+      "PRIM_LONG_DMS": "1213751W",
+      "PRIM_LAT_DEC": "45.7809516",
+      "PRIM_LONG_DEC": "-121.6309083",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-21 19:35:56",
+    "population": 83,
+    "location": {
+      "FEATURE_ID": "218191",
+      "FEATURE_NAME": "Alto",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Marin",
+      "COUNTY_NUMERIC": "41",
+      "PRIMARY_LAT_DMS": "375416N",
+      "PRIM_LONG_DMS": "1223132W",
+      "PRIM_LAT_DEC": "37.9043701",
+      "PRIM_LONG_DEC": "-122.5255306",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": "1/29/11"
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-21 21:35:56",
+    "population": 182,
+    "location": {
+      "FEATURE_ID": "1660886",
+      "FEATURE_NAME": "Lamont",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Kern",
+      "COUNTY_NUMERIC": "29",
+      "PRIMARY_LAT_DMS": "351535N",
+      "PRIM_LONG_DMS": "1185451W",
+      "PRIM_LAT_DEC": "35.2596833",
+      "PRIM_LONG_DEC": "-118.9142666",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-21 22:35:56",
+    "population": 192,
+    "location": {
+      "FEATURE_ID": "2607494",
+      "FEATURE_NAME": "Green Acres Mobile Estates",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Clallam",
+      "COUNTY_NUMERIC": "9",
+      "PRIMARY_LAT_DMS": "480445N",
+      "PRIM_LONG_DMS": "1230937W",
+      "PRIM_LAT_DEC": "48.0791603",
+      "PRIM_LONG_DEC": "-123.1603803",
+      "DATE_CREATED": "6/7/10",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-22 00:35:56",
+    "population": 55,
+    "location": {
+      "FEATURE_ID": "2607131",
+      "FEATURE_NAME": "Erlands Point Mobile Home Park",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Kitsap",
+      "COUNTY_NUMERIC": "35",
+      "PRIMARY_LAT_DMS": "473555N",
+      "PRIM_LONG_DMS": "1224150W",
+      "PRIM_LAT_DEC": "47.5986265",
+      "PRIM_LONG_DEC": "-122.6970987",
+      "DATE_CREATED": "6/7/10",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-22 01:35:56",
+    "population": 119,
+    "location": {
+      "FEATURE_ID": "1661471",
+      "FEATURE_NAME": "South Anaheim",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Orange",
+      "COUNTY_NUMERIC": "59",
+      "PRIMARY_LAT_DMS": "334832N",
+      "PRIM_LONG_DMS": "1175404W",
+      "PRIM_LAT_DEC": "33.8089049",
+      "PRIM_LONG_DEC": "-117.9011694",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-22 02:35:56",
+    "population": 93,
+    "location": {
+      "FEATURE_ID": "277535",
+      "FEATURE_NAME": "Lafayette",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Contra Costa",
+      "COUNTY_NUMERIC": "13",
+      "PRIMARY_LAT_DMS": "375309N",
+      "PRIM_LONG_DMS": "1220705W",
+      "PRIM_LAT_DEC": "37.8857582",
+      "PRIM_LONG_DEC": "-122.1180201",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-22 04:35:56",
+    "population": 158,
+    "location": {
+      "FEATURE_ID": "252821",
+      "FEATURE_NAME": "Urgon",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Joaquin",
+      "COUNTY_NUMERIC": "77",
+      "PRIMARY_LAT_DMS": "380929N",
+      "PRIM_LONG_DMS": "1211618W",
+      "PRIM_LAT_DEC": "38.1579737",
+      "PRIM_LONG_DEC": "-121.2716141",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-22 05:35:56",
+    "population": 203,
+    "location": {
+      "FEATURE_ID": "1656322",
+      "FEATURE_NAME": "Southport Landing",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Humboldt",
+      "COUNTY_NUMERIC": "23",
+      "PRIMARY_LAT_DMS": "404141N",
+      "PRIM_LONG_DMS": "1241456W",
+      "PRIM_LAT_DEC": "40.6948488",
+      "PRIM_LONG_DEC": "-124.2489489",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-22 06:35:56",
+    "population": 69,
+    "location": {
+      "FEATURE_ID": "2354020",
+      "FEATURE_NAME": "Southgate",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Santa Clara",
+      "COUNTY_NUMERIC": "85",
+      "PRIMARY_LAT_DMS": "372558N",
+      "PRIM_LONG_DMS": "1220904W",
+      "PRIM_LAT_DEC": "37.4327778",
+      "PRIM_LONG_DEC": "-122.1511111",
+      "DATE_CREATED": "9/21/07",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-22 07:35:56",
+    "population": 161,
+    "location": {
+      "FEATURE_ID": "1158435",
+      "FEATURE_NAME": "Raleigh Hills",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Washington",
+      "COUNTY_NUMERIC": "67",
+      "PRIMARY_LAT_DMS": "452850N",
+      "PRIM_LONG_DMS": "1224543W",
+      "PRIM_LAT_DEC": "45.4806734",
+      "PRIM_LONG_DEC": "-122.7620422",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": "8/20/14"
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-22 08:35:56",
+    "population": 112,
+    "location": {
+      "FEATURE_ID": "1520730",
+      "FEATURE_NAME": "Harrington Place",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Cowlitz",
+      "COUNTY_NUMERIC": "15",
+      "PRIMARY_LAT_DMS": "461352N",
+      "PRIM_LONG_DMS": "1222602W",
+      "PRIM_LAT_DEC": "46.2312195",
+      "PRIM_LONG_DEC": "-122.4339932",
+      "DATE_CREATED": "12/31/92",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-22 09:35:56",
+    "population": 204,
+    "location": {
+      "FEATURE_ID": "1785553",
+      "FEATURE_NAME": "Cuesta Serena",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Tuolumne",
+      "COUNTY_NUMERIC": "109",
+      "PRIMARY_LAT_DMS": "375648N",
+      "PRIM_LONG_DMS": "1202310W",
+      "PRIM_LAT_DEC": "37.946592",
+      "PRIM_LONG_DEC": "-120.3860272",
+      "DATE_CREATED": "4/6/98",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-22 11:35:56",
+    "population": 217,
+    "location": {
+      "FEATURE_ID": "1828539",
+      "FEATURE_NAME": "Fox Hollow Mobile Home Park",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Santa Clara",
+      "COUNTY_NUMERIC": "85",
+      "PRIMARY_LAT_DMS": "372421N",
+      "PRIM_LONG_DMS": "1220030W",
+      "PRIM_LAT_DEC": "37.4057738",
+      "PRIM_LONG_DEC": "-122.0082937",
+      "DATE_CREATED": "4/9/99",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-22 13:35:56",
+    "population": 205,
+    "location": {
+      "FEATURE_ID": "1504274",
+      "FEATURE_NAME": "Creston",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Lincoln",
+      "COUNTY_NUMERIC": "43",
+      "PRIMARY_LAT_DMS": "474531N",
+      "PRIM_LONG_DMS": "1183111W",
+      "PRIM_LAT_DEC": "47.7584877",
+      "PRIM_LONG_DEC": "-118.519718",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-22 15:35:56",
+    "population": 125,
+    "location": {
+      "FEATURE_ID": "1733982",
+      "FEATURE_NAME": "Hickok Ranch",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "El Dorado",
+      "COUNTY_NUMERIC": "17",
+      "PRIMARY_LAT_DMS": "384302N",
+      "PRIM_LONG_DMS": "1210248W",
+      "PRIM_LAT_DEC": "38.7171248",
+      "PRIM_LONG_DEC": "-121.0466106",
+      "DATE_CREATED": "5/14/97",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-22 16:35:56",
+    "population": 245,
+    "location": {
+      "FEATURE_ID": "1153407",
+      "FEATURE_NAME": "Acme",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Lane",
+      "COUNTY_NUMERIC": "39",
+      "PRIMARY_LAT_DMS": "435847N",
+      "PRIM_LONG_DMS": "1240339W",
+      "PRIM_LAT_DEC": "43.9798438",
+      "PRIM_LONG_DEC": "-124.0609505",
+      "DATE_CREATED": "5/22/86",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-22 17:35:56",
+    "population": 101,
+    "location": {
+      "FEATURE_ID": "2607179",
+      "FEATURE_NAME": "Sound Vista Mobile Home Park",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "King",
+      "COUNTY_NUMERIC": "33",
+      "PRIMARY_LAT_DMS": "472415N",
+      "PRIM_LONG_DMS": "1221743W",
+      "PRIM_LAT_DEC": "47.4040807",
+      "PRIM_LONG_DEC": "-122.2953844",
+      "DATE_CREATED": "6/7/10",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-22 19:35:56",
+    "population": 155,
+    "location": {
+      "FEATURE_ID": "252844",
+      "FEATURE_NAME": "Amos",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Imperial",
+      "COUNTY_NUMERIC": "25",
+      "PRIMARY_LAT_DMS": "330705N",
+      "PRIM_LONG_DMS": "1151521W",
+      "PRIM_LAT_DEC": "33.1180937",
+      "PRIM_LONG_DEC": "-115.2558112",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-22 21:35:56",
+    "population": 80,
+    "location": {
+      "FEATURE_ID": "1658253",
+      "FEATURE_NAME": "Cerro",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Marin",
+      "COUNTY_NUMERIC": "41",
+      "PRIMARY_LAT_DMS": "375930N",
+      "PRIM_LONG_DMS": "1223153W",
+      "PRIM_LAT_DEC": "37.9915896",
+      "PRIM_LONG_DEC": "-122.5313655",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-22 22:35:56",
+    "population": 121,
+    "location": {
+      "FEATURE_ID": "1656122",
+      "FEATURE_NAME": "Largo",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Mendocino",
+      "COUNTY_NUMERIC": "45",
+      "PRIMARY_LAT_DMS": "390118N",
+      "PRIM_LONG_DMS": "1230748W",
+      "PRIM_LAT_DEC": "39.0215633",
+      "PRIM_LONG_DEC": "-123.1300032",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-22 23:35:56",
+    "population": 211,
+    "location": {
+      "FEATURE_ID": "1666773",
+      "FEATURE_NAME": "Chandon (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Butte",
+      "COUNTY_NUMERIC": "7",
+      "PRIMARY_LAT_DMS": "391852N",
+      "PRIM_LONG_DMS": "1213944W",
+      "PRIM_LAT_DEC": "39.3143337",
+      "PRIM_LONG_DEC": "-121.6621929",
+      "DATE_CREATED": "6/1/95",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-23 01:35:56",
+    "population": 226,
+    "location": {
+      "FEATURE_ID": "1660521",
+      "FEATURE_NAME": "Crest Park",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Bernardino",
+      "COUNTY_NUMERIC": "71",
+      "PRIMARY_LAT_DMS": "341402N",
+      "PRIM_LONG_DMS": "1171147W",
+      "PRIM_LAT_DEC": "34.2338958",
+      "PRIM_LONG_DEC": "-117.1964301",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-23 02:35:56",
+    "population": 169,
+    "location": {
+      "FEATURE_ID": "1660516",
+      "FEATURE_NAME": "Coso",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Inyo",
+      "COUNTY_NUMERIC": "27",
+      "PRIMARY_LAT_DMS": "355842N",
+      "PRIM_LONG_DMS": "1175546W",
+      "PRIM_LAT_DEC": "35.9782789",
+      "PRIM_LONG_DEC": "-117.9295199",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-23 03:35:56",
+    "population": 166,
+    "location": {
+      "FEATURE_ID": "1511251",
+      "FEATURE_NAME": "Reese",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Walla Walla",
+      "COUNTY_NUMERIC": "71",
+      "PRIMARY_LAT_DMS": "460418N",
+      "PRIM_LONG_DMS": "1184653W",
+      "PRIM_LAT_DEC": "46.0718012",
+      "PRIM_LONG_DEC": "-118.7813816",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-23 04:35:56",
+    "population": 236,
+    "location": {
+      "FEATURE_ID": "1670283",
+      "FEATURE_NAME": "Merienda (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Alameda",
+      "COUNTY_NUMERIC": "1",
+      "PRIMARY_LAT_DMS": "373515N",
+      "PRIM_LONG_DMS": "1215742W",
+      "PRIM_LAT_DEC": "37.5874346",
+      "PRIM_LONG_DEC": "-121.9616264",
+      "DATE_CREATED": "11/9/95",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-23 05:35:56",
+    "population": 207,
+    "location": {
+      "FEATURE_ID": "1656123",
+      "FEATURE_NAME": "Leisure Town",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Solano",
+      "COUNTY_NUMERIC": "95",
+      "PRIMARY_LAT_DMS": "382158N",
+      "PRIM_LONG_DMS": "1215641W",
+      "PRIM_LAT_DEC": "38.3660215",
+      "PRIM_LONG_DEC": "-121.9446875",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-23 06:35:56",
+    "population": 129,
+    "location": {
+      "FEATURE_ID": "1534610",
+      "FEATURE_NAME": "Woodinville",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "King",
+      "COUNTY_NUMERIC": "33",
+      "PRIMARY_LAT_DMS": "474515N",
+      "PRIM_LONG_DMS": "1220948W",
+      "PRIM_LAT_DEC": "47.7542651",
+      "PRIM_LONG_DEC": "-122.1634582",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-23 07:35:56",
+    "population": 208,
+    "location": {
+      "FEATURE_ID": "1508614",
+      "FEATURE_NAME": "Sprague",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Lincoln",
+      "COUNTY_NUMERIC": "43",
+      "PRIMARY_LAT_DMS": "471801N",
+      "PRIM_LONG_DMS": "1175832W",
+      "PRIM_LAT_DEC": "47.3001584",
+      "PRIM_LONG_DEC": "-117.9755065",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-23 09:35:56",
+    "population": 233,
+    "location": {
+      "FEATURE_ID": "1136780",
+      "FEATURE_NAME": "Stanfield",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Umatilla",
+      "COUNTY_NUMERIC": "59",
+      "PRIMARY_LAT_DMS": "454649N",
+      "PRIM_LONG_DMS": "1191302W",
+      "PRIM_LAT_DEC": "45.7804098",
+      "PRIM_LONG_DEC": "-119.2172351",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": "8/22/14"
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-23 11:35:56",
+    "population": 113,
+    "location": {
+      "FEATURE_ID": "1661654",
+      "FEATURE_NAME": "Watermans Corner",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Imperial",
+      "COUNTY_NUMERIC": "25",
+      "PRIMARY_LAT_DMS": "324652N",
+      "PRIM_LONG_DMS": "1152652W",
+      "PRIM_LAT_DEC": "32.7811646",
+      "PRIM_LONG_DEC": "-115.4477687",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-23 13:35:56",
+    "population": 179,
+    "location": {
+      "FEATURE_ID": "252703",
+      "FEATURE_NAME": "Jacksnipe",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Solano",
+      "COUNTY_NUMERIC": "95",
+      "PRIMARY_LAT_DMS": "381134N",
+      "PRIM_LONG_DMS": "1220405W",
+      "PRIM_LAT_DEC": "38.1926936",
+      "PRIM_LONG_DEC": "-122.0680217",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-23 15:35:56",
+    "population": 248,
+    "location": {
+      "FEATURE_ID": "1667532",
+      "FEATURE_NAME": "Red Fir",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Tulare",
+      "COUNTY_NUMERIC": "107",
+      "PRIMARY_LAT_DMS": "363620N",
+      "PRIM_LONG_DMS": "1184558W",
+      "PRIM_LAT_DEC": "36.6055002",
+      "PRIM_LONG_DEC": "-118.7662101",
+      "DATE_CREATED": "6/1/95",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-23 17:35:56",
+    "population": 231,
+    "location": {
+      "FEATURE_ID": "1530965",
+      "FEATURE_NAME": "Lakewood",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Snohomish",
+      "COUNTY_NUMERIC": "61",
+      "PRIMARY_LAT_DMS": "480907N",
+      "PRIM_LONG_DMS": "1221227W",
+      "PRIM_LAT_DEC": "48.1520431",
+      "PRIM_LONG_DEC": "-122.2073655",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-23 19:35:56",
+    "population": 81,
+    "location": {
+      "FEATURE_ID": "1670043",
+      "FEATURE_NAME": "Moneta",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Los Angeles",
+      "COUNTY_NUMERIC": "37",
+      "PRIMARY_LAT_DMS": "335248N",
+      "PRIM_LONG_DMS": "1181903W",
+      "PRIM_LAT_DEC": "33.8800155",
+      "PRIM_LONG_DEC": "-118.3175735",
+      "DATE_CREATED": "11/9/95",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-23 20:35:56",
+    "population": 150,
+    "location": {
+      "FEATURE_ID": "1870607",
+      "FEATURE_NAME": "Tico (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Ventura",
+      "COUNTY_NUMERIC": "111",
+      "PRIMARY_LAT_DMS": "Unknown",
+      "PRIM_LONG_DMS": "Unknown",
+      "PRIM_LAT_DEC": "0",
+      "PRIM_LONG_DEC": "0",
+      "DATE_CREATED": "6/13/00",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-23 21:35:56",
+    "population": 247,
+    "location": {
+      "FEATURE_ID": "1652958",
+      "FEATURE_NAME": "Gomez",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Shasta",
+      "COUNTY_NUMERIC": "89",
+      "PRIMARY_LAT_DMS": "410210N",
+      "PRIM_LONG_DMS": "1213059W",
+      "PRIM_LAT_DEC": "41.0359957",
+      "PRIM_LONG_DEC": "-121.5163725",
+      "DATE_CREATED": "10/1/92",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-23 22:35:56",
+    "population": 101,
+    "location": {
+      "FEATURE_ID": "1870124",
+      "FEATURE_NAME": "Mountain View",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Diego",
+      "COUNTY_NUMERIC": "73",
+      "PRIMARY_LAT_DMS": "324157N",
+      "PRIM_LONG_DMS": "1170646W",
+      "PRIM_LAT_DEC": "32.6992189",
+      "PRIM_LONG_DEC": "-117.1128086",
+      "DATE_CREATED": "6/13/00",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-23 23:35:56",
+    "population": 243,
+    "location": {
+      "FEATURE_ID": "1765503",
+      "FEATURE_NAME": "Rancho Huntington Mobile Home Park",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Orange",
+      "COUNTY_NUMERIC": "59",
+      "PRIMARY_LAT_DMS": "334053N",
+      "PRIM_LONG_DMS": "1175723W",
+      "PRIM_LAT_DEC": "33.6814078",
+      "PRIM_LONG_DEC": "-117.9564476",
+      "DATE_CREATED": "11/26/97",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-24 00:35:56",
+    "population": 91,
+    "location": {
+      "FEATURE_ID": "1660093",
+      "FEATURE_NAME": "Vasona Junction",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Santa Clara",
+      "COUNTY_NUMERIC": "85",
+      "PRIMARY_LAT_DMS": "371526N",
+      "PRIM_LONG_DMS": "1215753W",
+      "PRIM_LAT_DEC": "37.2571658",
+      "PRIM_LONG_DEC": "-121.9646791",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-24 02:35:56",
+    "population": 222,
+    "location": {
+      "FEATURE_ID": "253005",
+      "FEATURE_NAME": "Wilson Corner",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Luis Obispo",
+      "COUNTY_NUMERIC": "79",
+      "PRIMARY_LAT_DMS": "352807N",
+      "PRIM_LONG_DMS": "1202245W",
+      "PRIM_LAT_DEC": "35.4685827",
+      "PRIM_LONG_DEC": "-120.3790464",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-24 04:35:56",
+    "population": 109,
+    "location": {
+      "FEATURE_ID": "1153763",
+      "FEATURE_NAME": "Drews Valley (historical)",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Lake",
+      "COUNTY_NUMERIC": "37",
+      "PRIMARY_LAT_DMS": "421340N",
+      "PRIM_LONG_DMS": "1204134W",
+      "PRIM_LAT_DEC": "42.2276572",
+      "PRIM_LONG_DEC": "-120.6927441",
+      "DATE_CREATED": "5/22/86",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-24 05:35:56",
+    "population": 60,
+    "location": {
+      "FEATURE_ID": "2607061",
+      "FEATURE_NAME": "Auburn Green Mobile Home Park",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "King",
+      "COUNTY_NUMERIC": "33",
+      "PRIMARY_LAT_DMS": "471652N",
+      "PRIM_LONG_DMS": "1221312W",
+      "PRIM_LAT_DEC": "47.2810256",
+      "PRIM_LONG_DEC": "-122.2200109",
+      "DATE_CREATED": "6/7/10",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-24 06:35:56",
+    "population": 152,
+    "location": {
+      "FEATURE_ID": "1512211",
+      "FEATURE_NAME": "Fisher",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Clark",
+      "COUNTY_NUMERIC": "11",
+      "PRIMARY_LAT_DMS": "453523N",
+      "PRIM_LONG_DMS": "1223013W",
+      "PRIM_LAT_DEC": "45.589841",
+      "PRIM_LONG_DEC": "-122.5037041",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": "5/20/11"
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-24 07:35:56",
+    "population": 119,
+    "location": {
+      "FEATURE_ID": "1655579",
+      "FEATURE_NAME": "Village Square",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Francisco",
+      "COUNTY_NUMERIC": "75",
+      "PRIMARY_LAT_DMS": "374439N",
+      "PRIM_LONG_DMS": "1222616W",
+      "PRIM_LAT_DEC": "37.7440973",
+      "PRIM_LONG_DEC": "-122.4377489",
+      "DATE_CREATED": "11/1/94",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-24 09:35:56",
+    "population": 228,
+    "location": {
+      "FEATURE_ID": "1512599",
+      "FEATURE_NAME": "Renton",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "King",
+      "COUNTY_NUMERIC": "33",
+      "PRIMARY_LAT_DMS": "472858N",
+      "PRIM_LONG_DMS": "1221301W",
+      "PRIM_LAT_DEC": "47.4828776",
+      "PRIM_LONG_DEC": "-122.2170661",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-24 10:35:56",
+    "population": 64,
+    "location": {
+      "FEATURE_ID": "1512757",
+      "FEATURE_NAME": "Vancouver Junction",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Clark",
+      "COUNTY_NUMERIC": "11",
+      "PRIMARY_LAT_DMS": "454038N",
+      "PRIM_LONG_DMS": "1224131W",
+      "PRIM_LAT_DEC": "45.6773386",
+      "PRIM_LONG_DEC": "-122.6920427",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-24 11:35:56",
+    "population": 137,
+    "location": {
+      "FEATURE_ID": "1867630",
+      "FEATURE_NAME": "Shaker Church",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Snohomish",
+      "COUNTY_NUMERIC": "61",
+      "PRIMARY_LAT_DMS": "480309N",
+      "PRIM_LONG_DMS": "1221343W",
+      "PRIM_LAT_DEC": "48.0525964",
+      "PRIM_LONG_DEC": "-122.2284728",
+      "DATE_CREATED": "5/15/00",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-24 12:35:56",
+    "population": 179,
+    "location": {
+      "FEATURE_ID": "1511188",
+      "FEATURE_NAME": "Norman",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Snohomish",
+      "COUNTY_NUMERIC": "61",
+      "PRIMARY_LAT_DMS": "481230N",
+      "PRIM_LONG_DMS": "1221601W",
+      "PRIM_LAT_DEC": "48.2084326",
+      "PRIM_LONG_DEC": "-122.2668154",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-24 14:35:56",
+    "population": 201,
+    "location": {
+      "FEATURE_ID": "2607381",
+      "FEATURE_NAME": "Hidden Valley Mobile Home Park",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Grays Harbor",
+      "COUNTY_NUMERIC": "27",
+      "PRIMARY_LAT_DMS": "465823N",
+      "PRIM_LONG_DMS": "1233936W",
+      "PRIM_LAT_DEC": "46.9730277",
+      "PRIM_LONG_DEC": "-123.6599135",
+      "DATE_CREATED": "6/7/10",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-24 16:35:56",
+    "population": 214,
+    "location": {
+      "FEATURE_ID": "227648",
+      "FEATURE_NAME": "Loomis Corners",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Shasta",
+      "COUNTY_NUMERIC": "89",
+      "PRIMARY_LAT_DMS": "403518N",
+      "PRIM_LONG_DMS": "1221821W",
+      "PRIM_LAT_DEC": "40.5882068",
+      "PRIM_LONG_DEC": "-122.3058387",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-24 18:35:56",
+    "population": 160,
+    "location": {
+      "FEATURE_ID": "1661345",
+      "FEATURE_NAME": "Rubidoux",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Riverside",
+      "COUNTY_NUMERIC": "65",
+      "PRIMARY_LAT_DMS": "335946N",
+      "PRIM_LONG_DMS": "1172420W",
+      "PRIM_LAT_DEC": "33.9961256",
+      "PRIM_LONG_DEC": "-117.4056018",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-24 19:35:56",
+    "population": 93,
+    "location": {
+      "FEATURE_ID": "1693433",
+      "FEATURE_NAME": "Donner",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Placer",
+      "COUNTY_NUMERIC": "61",
+      "PRIMARY_LAT_DMS": "391859N",
+      "PRIM_LONG_DMS": "1201956W",
+      "PRIM_LAT_DEC": "39.3162939",
+      "PRIM_LONG_DEC": "-120.3321457",
+      "DATE_CREATED": "5/8/96",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-24 20:35:56",
+    "population": 74,
+    "location": {
+      "FEATURE_ID": "1867027",
+      "FEATURE_NAME": "Hidden Meadows",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Diego",
+      "COUNTY_NUMERIC": "73",
+      "PRIMARY_LAT_DMS": "331331N",
+      "PRIM_LONG_DMS": "1170645W",
+      "PRIM_LAT_DEC": "33.2253141",
+      "PRIM_LONG_DEC": "-117.112532",
+      "DATE_CREATED": "5/15/00",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-24 21:35:56",
+    "population": 106,
+    "location": {
+      "FEATURE_ID": "228757",
+      "FEATURE_NAME": "Millertown (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Placer",
+      "COUNTY_NUMERIC": "61",
+      "PRIMARY_LAT_DMS": "385443N",
+      "PRIM_LONG_DMS": "1210535W",
+      "PRIM_LAT_DEC": "38.9118428",
+      "PRIM_LONG_DEC": "-121.0930018",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": "9/18/07"
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-24 22:35:56",
+    "population": 159,
+    "location": {
+      "FEATURE_ID": "1142712",
+      "FEATURE_NAME": "Gibbon",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Umatilla",
+      "COUNTY_NUMERIC": "59",
+      "PRIMARY_LAT_DMS": "454158N",
+      "PRIM_LONG_DMS": "1182154W",
+      "PRIM_LAT_DEC": "45.6995763",
+      "PRIM_LONG_DEC": "-118.3649602",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-24 23:35:56",
+    "population": 144,
+    "location": {
+      "FEATURE_ID": "1529775",
+      "FEATURE_NAME": "Granite Falls",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Chelan",
+      "COUNTY_NUMERIC": "7",
+      "PRIMARY_LAT_DMS": "475324N",
+      "PRIM_LONG_DMS": "1201249W",
+      "PRIM_LAT_DEC": "47.8901343",
+      "PRIM_LONG_DEC": "-120.2136922",
+      "DATE_CREATED": "10/1/91",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-25 01:35:56",
+    "population": 195,
+    "location": {
+      "FEATURE_ID": "1511376",
+      "FEATURE_NAME": "Tracy",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Walla Walla",
+      "COUNTY_NUMERIC": "71",
+      "PRIMARY_LAT_DMS": "460459N",
+      "PRIM_LONG_DMS": "1181120W",
+      "PRIM_LAT_DEC": "46.0831934",
+      "PRIM_LONG_DEC": "-118.1888434",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-25 02:35:56",
+    "population": 101,
+    "location": {
+      "FEATURE_ID": "1732469",
+      "FEATURE_NAME": "Ohmer (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Contra Costa",
+      "COUNTY_NUMERIC": "13",
+      "PRIMARY_LAT_DMS": "380035N",
+      "PRIM_LONG_DMS": "1220122W",
+      "PRIM_LAT_DEC": "38.0096434",
+      "PRIM_LONG_DEC": "-122.02274",
+      "DATE_CREATED": "5/14/97",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-25 04:35:56",
+    "population": 188,
+    "location": {
+      "FEATURE_ID": "273953",
+      "FEATURE_NAME": "Sulphur Springs",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Los Angeles",
+      "COUNTY_NUMERIC": "37",
+      "PRIMARY_LAT_DMS": "342846N",
+      "PRIM_LONG_DMS": "1183651W",
+      "PRIM_LAT_DEC": "34.4794381",
+      "PRIM_LONG_DEC": "-118.6142543",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-25 05:35:56",
+    "population": 195,
+    "location": {
+      "FEATURE_ID": "1510979",
+      "FEATURE_NAME": "Frederickson",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Pierce",
+      "COUNTY_NUMERIC": "53",
+      "PRIMARY_LAT_DMS": "470546N",
+      "PRIM_LONG_DMS": "1222131W",
+      "PRIM_LAT_DEC": "47.0962112",
+      "PRIM_LONG_DEC": "-122.3587307",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-25 07:35:56",
+    "population": 152,
+    "location": {
+      "FEATURE_ID": "1124069",
+      "FEATURE_NAME": "Merrill",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Klamath",
+      "COUNTY_NUMERIC": "35",
+      "PRIMARY_LAT_DMS": "420131N",
+      "PRIM_LONG_DMS": "1213602W",
+      "PRIM_LAT_DEC": "42.0251516",
+      "PRIM_LONG_DEC": "-121.6005501",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-25 09:35:56",
+    "population": 187,
+    "location": {
+      "FEATURE_ID": "1511564",
+      "FEATURE_NAME": "Teske",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Adams",
+      "COUNTY_NUMERIC": "1",
+      "PRIMARY_LAT_DMS": "470427N",
+      "PRIM_LONG_DMS": "1180910W",
+      "PRIM_LAT_DEC": "47.0740431",
+      "PRIM_LONG_DEC": "-118.1527374",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-25 10:35:56",
+    "population": 213,
+    "location": {
+      "FEATURE_ID": "1520828",
+      "FEATURE_NAME": "Hockinson",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Clark",
+      "COUNTY_NUMERIC": "11",
+      "PRIMARY_LAT_DMS": "454416N",
+      "PRIM_LONG_DMS": "1222913W",
+      "PRIM_LAT_DEC": "45.7378945",
+      "PRIM_LONG_DEC": "-122.4870402",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-25 12:35:56",
+    "population": 237,
+    "location": {
+      "FEATURE_ID": "1508820",
+      "FEATURE_NAME": "Sundale",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Klickitat",
+      "COUNTY_NUMERIC": "39",
+      "PRIMARY_LAT_DMS": "454311N",
+      "PRIM_LONG_DMS": "1201904W",
+      "PRIM_LAT_DEC": "45.7198505",
+      "PRIM_LONG_DEC": "-120.3178244",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-25 14:35:56",
+    "population": 56,
+    "location": {
+      "FEATURE_ID": "1136547",
+      "FEATURE_NAME": "Mist",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Columbia",
+      "COUNTY_NUMERIC": "9",
+      "PRIMARY_LAT_DMS": "455946N",
+      "PRIM_LONG_DMS": "1231523W",
+      "PRIM_LAT_DEC": "45.9962223",
+      "PRIM_LONG_DEC": "-123.2565078",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-25 15:35:56",
+    "population": 237,
+    "location": {
+      "FEATURE_ID": "1511187",
+      "FEATURE_NAME": "Nordland",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Jefferson",
+      "COUNTY_NUMERIC": "31",
+      "PRIMARY_LAT_DMS": "480303N",
+      "PRIM_LONG_DMS": "1224128W",
+      "PRIM_LAT_DEC": "48.0509255",
+      "PRIM_LONG_DEC": "-122.6909961",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-25 17:35:56",
+    "population": 62,
+    "location": {
+      "FEATURE_ID": "1665593",
+      "FEATURE_NAME": "Bender (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Fresno",
+      "COUNTY_NUMERIC": "19",
+      "PRIMARY_LAT_DMS": "362735N",
+      "PRIM_LONG_DMS": "1195610W",
+      "PRIM_LAT_DEC": "36.4596716",
+      "PRIM_LONG_DEC": "-119.9359761",
+      "DATE_CREATED": "6/1/95",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-25 19:35:56",
+    "population": 86,
+    "location": {
+      "FEATURE_ID": "1136889",
+      "FEATURE_NAME": "West Portland",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Multnomah",
+      "COUNTY_NUMERIC": "51",
+      "PRIMARY_LAT_DMS": "452717N",
+      "PRIM_LONG_DMS": "1224357W",
+      "PRIM_LAT_DEC": "45.4548406",
+      "PRIM_LONG_DEC": "-122.7325965",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-25 21:35:56",
+    "population": 88,
+    "location": {
+      "FEATURE_ID": "1871223",
+      "FEATURE_NAME": "Arts Trailer Court",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Ventura",
+      "COUNTY_NUMERIC": "111",
+      "PRIMARY_LAT_DMS": "341325N",
+      "PRIM_LONG_DMS": "1190826W",
+      "PRIM_LAT_DEC": "34.2236157",
+      "PRIM_LONG_DEC": "-119.1406616",
+      "DATE_CREATED": "6/13/00",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-25 23:35:56",
+    "population": 196,
+    "location": {
+      "FEATURE_ID": "1868606",
+      "FEATURE_NAME": "Oceana",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Diego",
+      "COUNTY_NUMERIC": "73",
+      "PRIMARY_LAT_DMS": "331238N",
+      "PRIM_LONG_DMS": "1171948W",
+      "PRIM_LAT_DEC": "33.2105916",
+      "PRIM_LONG_DEC": "-117.3300377",
+      "DATE_CREATED": "6/13/00",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-26 00:35:56",
+    "population": 236,
+    "location": {
+      "FEATURE_ID": "1661666",
+      "FEATURE_NAME": "West Highlands",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Bernardino",
+      "COUNTY_NUMERIC": "71",
+      "PRIMARY_LAT_DMS": "340822N",
+      "PRIM_LONG_DMS": "1171353W",
+      "PRIM_LAT_DEC": "34.1394549",
+      "PRIM_LONG_DEC": "-117.2314301",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-26 02:35:56",
+    "population": 72,
+    "location": {
+      "FEATURE_ID": "1162813",
+      "FEATURE_NAME": "Amity",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Yamhill",
+      "COUNTY_NUMERIC": "71",
+      "PRIMARY_LAT_DMS": "450656N",
+      "PRIM_LONG_DMS": "1231226W",
+      "PRIM_LAT_DEC": "45.1156724",
+      "PRIM_LONG_DEC": "-123.2073257",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-26 04:35:56",
+    "population": 71,
+    "location": {
+      "FEATURE_ID": "1817297",
+      "FEATURE_NAME": "Tamarox (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Benito",
+      "COUNTY_NUMERIC": "69",
+      "PRIMARY_LAT_DMS": "Unknown",
+      "PRIM_LONG_DMS": "Unknown",
+      "PRIM_LAT_DEC": "0",
+      "PRIM_LONG_DEC": "0",
+      "DATE_CREATED": "3/25/99",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-26 06:35:56",
+    "population": 161,
+    "location": {
+      "FEATURE_ID": "1146779",
+      "FEATURE_NAME": "Neotsu",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Lincoln",
+      "COUNTY_NUMERIC": "41",
+      "PRIMARY_LAT_DMS": "450004N",
+      "PRIM_LONG_DMS": "1235852W",
+      "PRIM_LAT_DEC": "45.0012191",
+      "PRIM_LONG_DEC": "-123.9812239",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-26 08:35:56",
+    "population": 132,
+    "location": {
+      "FEATURE_ID": "1666626",
+      "FEATURE_NAME": "Montgomery Place",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Tehama",
+      "COUNTY_NUMERIC": "103",
+      "PRIMARY_LAT_DMS": "400512N",
+      "PRIM_LONG_DMS": "1223434W",
+      "PRIM_LAT_DEC": "40.0865424",
+      "PRIM_LONG_DEC": "-122.5761157",
+      "DATE_CREATED": "6/1/95",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-26 09:35:56",
+    "population": 113,
+    "location": {
+      "FEATURE_ID": "1660483",
+      "FEATURE_NAME": "Cienega",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Los Angeles",
+      "COUNTY_NUMERIC": "37",
+      "PRIMARY_LAT_DMS": "340116N",
+      "PRIM_LONG_DMS": "1181942W",
+      "PRIM_LAT_DEC": "34.0211234",
+      "PRIM_LONG_DEC": "-118.3284091",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-26 11:35:56",
+    "population": 183,
+    "location": {
+      "FEATURE_ID": "1136322",
+      "FEATURE_NAME": "Goble",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Columbia",
+      "COUNTY_NUMERIC": "9",
+      "PRIMARY_LAT_DMS": "460057N",
+      "PRIM_LONG_DMS": "1225231W",
+      "PRIM_LAT_DEC": "46.0159469",
+      "PRIM_LONG_DEC": "-122.8753853",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-26 13:35:56",
+    "population": 97,
+    "location": {
+      "FEATURE_ID": "1510786",
+      "FEATURE_NAME": "Argyle",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "San Juan",
+      "COUNTY_NUMERIC": "55",
+      "PRIMARY_LAT_DMS": "483052N",
+      "PRIM_LONG_DMS": "1230111W",
+      "PRIM_LAT_DEC": "48.5145436",
+      "PRIM_LONG_DEC": "-123.0196235",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-26 14:35:56",
+    "population": 210,
+    "location": {
+      "FEATURE_ID": "1659948",
+      "FEATURE_NAME": "Tahoma",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Placer",
+      "COUNTY_NUMERIC": "61",
+      "PRIMARY_LAT_DMS": "390403N",
+      "PRIM_LONG_DMS": "1200742W",
+      "PRIM_LAT_DEC": "39.0674074",
+      "PRIM_LONG_DEC": "-120.1282439",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": "1/29/11"
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-26 16:35:56",
+    "population": 108,
+    "location": {
+      "FEATURE_ID": "1531705",
+      "FEATURE_NAME": "Lakewood",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "King",
+      "COUNTY_NUMERIC": "33",
+      "PRIMARY_LAT_DMS": "473347N",
+      "PRIM_LONG_DMS": "1221618W",
+      "PRIM_LAT_DEC": "47.5631545",
+      "PRIM_LONG_DEC": "-122.2717906",
+      "DATE_CREATED": "12/1/90",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-26 17:35:56",
+    "population": 151,
+    "location": {
+      "FEATURE_ID": "1853407",
+      "FEATURE_NAME": "Rancho Trabuco",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Orange",
+      "COUNTY_NUMERIC": "59",
+      "PRIMARY_LAT_DMS": "333935N",
+      "PRIM_LONG_DMS": "1173652W",
+      "PRIM_LAT_DEC": "33.6597433",
+      "PRIM_LONG_DEC": "-117.6144933",
+      "DATE_CREATED": "2/15/00",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-26 19:35:56",
+    "population": 177,
+    "location": {
+      "FEATURE_ID": "1817091",
+      "FEATURE_NAME": "Pacsiol (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Santa Barbara",
+      "COUNTY_NUMERIC": "83",
+      "PRIMARY_LAT_DMS": "Unknown",
+      "PRIM_LONG_DMS": "Unknown",
+      "PRIM_LAT_DEC": "0",
+      "PRIM_LONG_DEC": "0",
+      "DATE_CREATED": "3/25/99",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-26 21:35:56",
+    "population": 175,
+    "location": {
+      "FEATURE_ID": "1507868",
+      "FEATURE_NAME": "Rockford",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Spokane",
+      "COUNTY_NUMERIC": "63",
+      "PRIMARY_LAT_DMS": "472708N",
+      "PRIM_LONG_DMS": "1170751W",
+      "PRIM_LAT_DEC": "47.4521207",
+      "PRIM_LONG_DEC": "-117.1307471",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-26 23:35:56",
+    "population": 85,
+    "location": {
+      "FEATURE_ID": "269403",
+      "FEATURE_NAME": "Zurich",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Inyo",
+      "COUNTY_NUMERIC": "27",
+      "PRIMARY_LAT_DMS": "371058N",
+      "PRIM_LONG_DMS": "1181536W",
+      "PRIM_LAT_DEC": "37.1827079",
+      "PRIM_LONG_DEC": "-118.2601009",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-27 01:35:56",
+    "population": 225,
+    "location": {
+      "FEATURE_ID": "238710",
+      "FEATURE_NAME": "Arlington Station",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Riverside",
+      "COUNTY_NUMERIC": "65",
+      "PRIMARY_LAT_DMS": "335451N",
+      "PRIM_LONG_DMS": "1172628W",
+      "PRIM_LAT_DEC": "33.9141823",
+      "PRIM_LONG_DEC": "-117.4411573",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-27 03:35:56",
+    "population": 162,
+    "location": {
+      "FEATURE_ID": "1660407",
+      "FEATURE_NAME": "Cairns Corner",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Tulare",
+      "COUNTY_NUMERIC": "107",
+      "PRIMARY_LAT_DMS": "361245N",
+      "PRIM_LONG_DMS": "1190808W",
+      "PRIM_LAT_DEC": "36.2124509",
+      "PRIM_LONG_DEC": "-119.135662",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-27 05:35:56",
+    "population": 123,
+    "location": {
+      "FEATURE_ID": "1660776",
+      "FEATURE_NAME": "Humphreys",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Los Angeles",
+      "COUNTY_NUMERIC": "37",
+      "PRIMARY_LAT_DMS": "342437N",
+      "PRIM_LONG_DMS": "1182626W",
+      "PRIM_LAT_DEC": "34.4102743",
+      "PRIM_LONG_DEC": "-118.4406383",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-27 06:35:56",
+    "population": 211,
+    "location": {
+      "FEATURE_ID": "252638",
+      "FEATURE_NAME": "Browns Corner",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Yolo",
+      "COUNTY_NUMERIC": "113",
+      "PRIMARY_LAT_DMS": "384040N",
+      "PRIM_LONG_DMS": "1214809W",
+      "PRIM_LAT_DEC": "38.6776823",
+      "PRIM_LONG_DEC": "-121.8024646",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-27 08:35:56",
+    "population": 193,
+    "location": {
+      "FEATURE_ID": "1817047",
+      "FEATURE_NAME": "Lajuchu (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Santa Barbara",
+      "COUNTY_NUMERIC": "83",
+      "PRIMARY_LAT_DMS": "Unknown",
+      "PRIM_LONG_DMS": "Unknown",
+      "PRIM_LAT_DEC": "0",
+      "PRIM_LONG_DEC": "0",
+      "DATE_CREATED": "3/25/99",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-27 10:35:56",
+    "population": 214,
+    "location": {
+      "FEATURE_ID": "1785827",
+      "FEATURE_NAME": "Red Arrow Mobile Home Park",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Mateo",
+      "COUNTY_NUMERIC": "81",
+      "PRIMARY_LAT_DMS": "373942N",
+      "PRIM_LONG_DMS": "1222632W",
+      "PRIM_LAT_DEC": "37.6616006",
+      "PRIM_LONG_DEC": "-122.4421949",
+      "DATE_CREATED": "4/6/98",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-27 12:35:56",
+    "population": 81,
+    "location": {
+      "FEATURE_ID": "2352779",
+      "FEATURE_NAME": "Merced Manor",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Francisco",
+      "COUNTY_NUMERIC": "75",
+      "PRIMARY_LAT_DMS": "374400N",
+      "PRIM_LONG_DMS": "1222838W",
+      "PRIM_LAT_DEC": "37.7333333",
+      "PRIM_LONG_DEC": "-122.4772222",
+      "DATE_CREATED": "9/18/07",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-27 14:35:56",
+    "population": 210,
+    "location": {
+      "FEATURE_ID": "1512539",
+      "FEATURE_NAME": "Orting",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Pierce",
+      "COUNTY_NUMERIC": "53",
+      "PRIMARY_LAT_DMS": "470552N",
+      "PRIM_LONG_DMS": "1221215W",
+      "PRIM_LAT_DEC": "47.0978795",
+      "PRIM_LONG_DEC": "-122.2042824",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-27 16:35:56",
+    "population": 73,
+    "location": {
+      "FEATURE_ID": "1661604",
+      "FEATURE_NAME": "University City",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Diego",
+      "COUNTY_NUMERIC": "73",
+      "PRIMARY_LAT_DMS": "325117N",
+      "PRIM_LONG_DMS": "1171214W",
+      "PRIM_LAT_DEC": "32.8547697",
+      "PRIM_LONG_DEC": "-117.2039242",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-27 17:35:56",
+    "population": 70,
+    "location": {
+      "FEATURE_ID": "1514879",
+      "FEATURE_NAME": "Wesley Junction",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Yakima",
+      "COUNTY_NUMERIC": "77",
+      "PRIMARY_LAT_DMS": "462412N",
+      "PRIM_LONG_DMS": "1202019W",
+      "PRIM_LAT_DEC": "46.4034618",
+      "PRIM_LONG_DEC": "-120.3386681",
+      "DATE_CREATED": "3/1/93",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-27 19:35:56",
+    "population": 66,
+    "location": {
+      "FEATURE_ID": "1670497",
+      "FEATURE_NAME": "Sawyers Crossing (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Santa Clara",
+      "COUNTY_NUMERIC": "85",
+      "PRIMARY_LAT_DMS": "365726N",
+      "PRIM_LONG_DMS": "1213118W",
+      "PRIM_LAT_DEC": "36.9571721",
+      "PRIM_LONG_DEC": "-121.5216067",
+      "DATE_CREATED": "11/9/95",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-27 21:35:56",
+    "population": 155,
+    "location": {
+      "FEATURE_ID": "1519869",
+      "FEATURE_NAME": "Galena",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Snohomish",
+      "COUNTY_NUMERIC": "61",
+      "PRIMARY_LAT_DMS": "475332N",
+      "PRIM_LONG_DMS": "1212636W",
+      "PRIM_LAT_DEC": "47.8923287",
+      "PRIM_LONG_DEC": "-121.4434408",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-27 22:35:56",
+    "population": 165,
+    "location": {
+      "FEATURE_ID": "252750",
+      "FEATURE_NAME": "Nielsburg",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Placer",
+      "COUNTY_NUMERIC": "61",
+      "PRIMARY_LAT_DMS": "385726N",
+      "PRIM_LONG_DMS": "1210200W",
+      "PRIM_LAT_DEC": "38.9571198",
+      "PRIM_LONG_DEC": "-121.0332778",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-28 00:35:56",
+    "population": 121,
+    "location": {
+      "FEATURE_ID": "2607058",
+      "FEATURE_NAME": "Riverside Mobile Home Park",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Snohomish",
+      "COUNTY_NUMERIC": "61",
+      "PRIMARY_LAT_DMS": "481206N",
+      "PRIM_LONG_DMS": "1220735W",
+      "PRIM_LAT_DEC": "48.2016732",
+      "PRIM_LONG_DEC": "-122.1263756",
+      "DATE_CREATED": "6/7/10",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-28 01:35:56",
+    "population": 164,
+    "location": {
+      "FEATURE_ID": "1661553",
+      "FEATURE_NAME": "Tecate",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Diego",
+      "COUNTY_NUMERIC": "73",
+      "PRIMARY_LAT_DMS": "323438N",
+      "PRIM_LONG_DMS": "1163739W",
+      "PRIM_LAT_DEC": "32.5772833",
+      "PRIM_LONG_DEC": "-116.6275176",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-28 03:35:56",
+    "population": 187,
+    "location": {
+      "FEATURE_ID": "1530172",
+      "FEATURE_NAME": "Moulton",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Clark",
+      "COUNTY_NUMERIC": "11",
+      "PRIMARY_LAT_DMS": "455004N",
+      "PRIM_LONG_DMS": "1222305W",
+      "PRIM_LAT_DEC": "45.8345583",
+      "PRIM_LONG_DEC": "-122.3848175",
+      "DATE_CREATED": "5/1/92",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-28 04:35:56",
+    "population": 139,
+    "location": {
+      "FEATURE_ID": "1511959",
+      "FEATURE_NAME": "Algona",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "King",
+      "COUNTY_NUMERIC": "33",
+      "PRIMARY_LAT_DMS": "471644N",
+      "PRIM_LONG_DMS": "1221507W",
+      "PRIM_LAT_DEC": "47.2789896",
+      "PRIM_LONG_DEC": "-122.2520647",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-28 05:35:56",
+    "population": 209,
+    "location": {
+      "FEATURE_ID": "1670149",
+      "FEATURE_NAME": "Pleyto (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Monterey",
+      "COUNTY_NUMERIC": "53",
+      "PRIMARY_LAT_DMS": "355140N",
+      "PRIM_LONG_DMS": "1205950W",
+      "PRIM_LAT_DEC": "35.8610787",
+      "PRIM_LONG_DEC": "-120.9971327",
+      "DATE_CREATED": "11/9/95",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-28 06:35:56",
+    "population": 194,
+    "location": {
+      "FEATURE_ID": "1136347",
+      "FEATURE_NAME": "Gurdane",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Umatilla",
+      "COUNTY_NUMERIC": "59",
+      "PRIMARY_LAT_DMS": "451608N",
+      "PRIM_LONG_DMS": "1190616W",
+      "PRIM_LAT_DEC": "45.2690113",
+      "PRIM_LONG_DEC": "-119.1044467",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-28 08:35:56",
+    "population": 80,
+    "location": {
+      "FEATURE_ID": "1733919",
+      "FEATURE_NAME": "Marina Village",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "El Dorado",
+      "COUNTY_NUMERIC": "17",
+      "PRIMARY_LAT_DMS": "384255N",
+      "PRIM_LONG_DMS": "1210522W",
+      "PRIM_LAT_DEC": "38.7151804",
+      "PRIM_LONG_DEC": "-121.0893894",
+      "DATE_CREATED": "5/14/97",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-28 10:35:56",
+    "population": 170,
+    "location": {
+      "FEATURE_ID": "1523242",
+      "FEATURE_NAME": "Minkler",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Skagit",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "483116N",
+      "PRIM_LONG_DMS": "1220644W",
+      "PRIM_LAT_DEC": "48.5212206",
+      "PRIM_LONG_DEC": "-122.1120969",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-28 12:35:56",
+    "population": 157,
+    "location": {
+      "FEATURE_ID": "1661319",
+      "FEATURE_NAME": "Rochester",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Bernardino",
+      "COUNTY_NUMERIC": "71",
+      "PRIMARY_LAT_DMS": "340530N",
+      "PRIM_LONG_DMS": "1173251W",
+      "PRIM_LAT_DEC": "34.0916774",
+      "PRIM_LONG_DEC": "-117.5475515",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-28 14:35:56",
+    "population": 208,
+    "location": {
+      "FEATURE_ID": "1844419",
+      "FEATURE_NAME": "Warm Springs",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Bernardino",
+      "COUNTY_NUMERIC": "71",
+      "PRIMARY_LAT_DMS": "340626N",
+      "PRIM_LONG_DMS": "1171550W",
+      "PRIM_LAT_DEC": "34.1072339",
+      "PRIM_LONG_DEC": "-117.263931",
+      "DATE_CREATED": "6/25/99",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-28 15:35:56",
+    "population": 183,
+    "location": {
+      "FEATURE_ID": "1658287",
+      "FEATURE_NAME": "Claussenius",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "El Dorado",
+      "COUNTY_NUMERIC": "17",
+      "PRIMARY_LAT_DMS": "385048N",
+      "PRIM_LONG_DMS": "1203650W",
+      "PRIM_LAT_DEC": "38.8465697",
+      "PRIM_LONG_DEC": "-120.6138159",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-28 17:35:56",
+    "population": 200,
+    "location": {
+      "FEATURE_ID": "1844834",
+      "FEATURE_NAME": "Serrano Heights",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Riverside",
+      "COUNTY_NUMERIC": "65",
+      "PRIMARY_LAT_DMS": "335729N",
+      "PRIM_LONG_DMS": "1171228W",
+      "PRIM_LAT_DEC": "33.9580722",
+      "PRIM_LONG_DEC": "-117.2078157",
+      "DATE_CREATED": "6/25/99",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-28 19:35:56",
+    "population": 246,
+    "location": {
+      "FEATURE_ID": "1659507",
+      "FEATURE_NAME": "Richmond",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Contra Costa",
+      "COUNTY_NUMERIC": "13",
+      "PRIMARY_LAT_DMS": "375609N",
+      "PRIM_LONG_DMS": "1222052W",
+      "PRIM_LAT_DEC": "37.9357576",
+      "PRIM_LONG_DEC": "-122.3477486",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-28 20:35:56",
+    "population": 180,
+    "location": {
+      "FEATURE_ID": "1151301",
+      "FEATURE_NAME": "Toledo",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Lincoln",
+      "COUNTY_NUMERIC": "41",
+      "PRIMARY_LAT_DMS": "443717N",
+      "PRIM_LONG_DMS": "1235618W",
+      "PRIM_LAT_DEC": "44.621507",
+      "PRIM_LONG_DEC": "-123.9384478",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-28 21:35:56",
+    "population": 185,
+    "location": {
+      "FEATURE_ID": "1510767",
+      "FEATURE_NAME": "Swift",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Whitman",
+      "COUNTY_NUMERIC": "75",
+      "PRIMARY_LAT_DMS": "464031N",
+      "PRIM_LONG_DMS": "1173557W",
+      "PRIM_LAT_DEC": "46.6751569",
+      "PRIM_LONG_DEC": "-117.5990826",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-28 22:35:56",
+    "population": 73,
+    "location": {
+      "FEATURE_ID": "1870915",
+      "FEATURE_NAME": "Friendly Village Mobile Home Park",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Ventura",
+      "COUNTY_NUMERIC": "111",
+      "PRIMARY_LAT_DMS": "341636N",
+      "PRIM_LONG_DMS": "1184810W",
+      "PRIM_LAT_DEC": "34.2766694",
+      "PRIM_LONG_DEC": "-118.8028716",
+      "DATE_CREATED": "6/13/00",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-29 00:35:56",
+    "population": 230,
+    "location": {
+      "FEATURE_ID": "1661204",
+      "FEATURE_NAME": "Pearblossom",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Los Angeles",
+      "COUNTY_NUMERIC": "37",
+      "PRIMARY_LAT_DMS": "343023N",
+      "PRIM_LONG_DMS": "1175435W",
+      "PRIM_LAT_DEC": "34.506383",
+      "PRIM_LONG_DEC": "-117.9097881",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-29 01:35:56",
+    "population": 146,
+    "location": {
+      "FEATURE_ID": "1868912",
+      "FEATURE_NAME": "Silver Dons Mobile Home Park",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Diego",
+      "COUNTY_NUMERIC": "73",
+      "PRIMARY_LAT_DMS": "331411N",
+      "PRIM_LONG_DMS": "1162159W",
+      "PRIM_LAT_DEC": "33.236428",
+      "PRIM_LONG_DEC": "-116.3664007",
+      "DATE_CREATED": "6/13/00",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-29 02:35:56",
+    "population": 162,
+    "location": {
+      "FEATURE_ID": "1525025",
+      "FEATURE_NAME": "Rice",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Stevens",
+      "COUNTY_NUMERIC": "65",
+      "PRIMARY_LAT_DMS": "482544N",
+      "PRIM_LONG_DMS": "1181013W",
+      "PRIM_LAT_DEC": "48.4287848",
+      "PRIM_LONG_DEC": "-118.1702709",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-29 04:35:56",
+    "population": 146,
+    "location": {
+      "FEATURE_ID": "1158123",
+      "FEATURE_NAME": "Biddle (historical)",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Clatsop",
+      "COUNTY_NUMERIC": "7",
+      "PRIMARY_LAT_DMS": "460758N",
+      "PRIM_LONG_DMS": "1233938W",
+      "PRIM_LAT_DEC": "46.1328873",
+      "PRIM_LONG_DEC": "-123.6606906",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-29 05:35:56",
+    "population": 120,
+    "location": {
+      "FEATURE_ID": "252951",
+      "FEATURE_NAME": "Old Dale",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Bernardino",
+      "COUNTY_NUMERIC": "71",
+      "PRIMARY_LAT_DMS": "340721N",
+      "PRIM_LONG_DMS": "1154743W",
+      "PRIM_LAT_DEC": "34.1225027",
+      "PRIM_LONG_DEC": "-115.7952722",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-29 06:35:56",
+    "population": 123,
+    "location": {
+      "FEATURE_ID": "1666049",
+      "FEATURE_NAME": "Santa Ysabel (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Orange",
+      "COUNTY_NUMERIC": "59",
+      "PRIMARY_LAT_DMS": "335202N",
+      "PRIM_LONG_DMS": "1175310W",
+      "PRIM_LAT_DEC": "33.8672371",
+      "PRIM_LONG_DEC": "-117.8861701",
+      "DATE_CREATED": "6/1/95",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-29 07:35:56",
+    "population": 167,
+    "location": {
+      "FEATURE_ID": "1512059",
+      "FEATURE_NAME": "Camas",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Clark",
+      "COUNTY_NUMERIC": "11",
+      "PRIMARY_LAT_DMS": "453513N",
+      "PRIM_LONG_DMS": "1222358W",
+      "PRIM_LAT_DEC": "45.5870631",
+      "PRIM_LONG_DEC": "-122.3995363",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-29 09:35:56",
+    "population": 61,
+    "location": {
+      "FEATURE_ID": "1510060",
+      "FEATURE_NAME": "Arcadia",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "King",
+      "COUNTY_NUMERIC": "33",
+      "PRIMARY_LAT_DMS": "472256N",
+      "PRIM_LONG_DMS": "1220029W",
+      "PRIM_LAT_DEC": "47.3823234",
+      "PRIM_LONG_DEC": "-122.0081709",
+      "DATE_CREATED": "9/1/90",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-29 10:35:56",
+    "population": 50,
+    "location": {
+      "FEATURE_ID": "1670244",
+      "FEATURE_NAME": "Copeland",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Tehama",
+      "COUNTY_NUMERIC": "103",
+      "PRIMARY_LAT_DMS": "395720N",
+      "PRIM_LONG_DMS": "1220349W",
+      "PRIM_LAT_DEC": "39.9554358",
+      "PRIM_LONG_DEC": "-122.0635974",
+      "DATE_CREATED": "11/9/95",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-29 12:35:56",
+    "population": 112,
+    "location": {
+      "FEATURE_ID": "262310",
+      "FEATURE_NAME": "Lamoine",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Shasta",
+      "COUNTY_NUMERIC": "89",
+      "PRIMARY_LAT_DMS": "405841N",
+      "PRIM_LONG_DMS": "1222551W",
+      "PRIM_LAT_DEC": "40.9779272",
+      "PRIM_LONG_DEC": "-122.4308472",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-29 13:35:56",
+    "population": 218,
+    "location": {
+      "FEATURE_ID": "1660231",
+      "FEATURE_NAME": "Adelaida",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Luis Obispo",
+      "COUNTY_NUMERIC": "79",
+      "PRIMARY_LAT_DMS": "353844N",
+      "PRIM_LONG_DMS": "1205225W",
+      "PRIM_LAT_DEC": "35.6455257",
+      "PRIM_LONG_DEC": "-120.8735141",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-29 15:35:56",
+    "population": 132,
+    "location": {
+      "FEATURE_ID": "1659949",
+      "FEATURE_NAME": "Talmage",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Mendocino",
+      "COUNTY_NUMERIC": "45",
+      "PRIMARY_LAT_DMS": "390800N",
+      "PRIM_LONG_DMS": "1231004W",
+      "PRIM_LAT_DEC": "39.1332266",
+      "PRIM_LONG_DEC": "-123.167782",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-29 17:35:56",
+    "population": 166,
+    "location": {
+      "FEATURE_ID": "1523715",
+      "FEATURE_NAME": "Nooksack Salmon Hatchery",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Whatcom",
+      "COUNTY_NUMERIC": "73",
+      "PRIMARY_LAT_DMS": "485349N",
+      "PRIM_LONG_DMS": "1220833W",
+      "PRIM_LAT_DEC": "48.8970645",
+      "PRIM_LONG_DEC": "-122.142374",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-29 19:35:56",
+    "population": 174,
+    "location": {
+      "FEATURE_ID": "1853375",
+      "FEATURE_NAME": "Amesti",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Santa Cruz",
+      "COUNTY_NUMERIC": "87",
+      "PRIMARY_LAT_DMS": "365749N",
+      "PRIM_LONG_DMS": "1214645W",
+      "PRIM_LAT_DEC": "36.9635628",
+      "PRIM_LONG_DEC": "-121.7791182",
+      "DATE_CREATED": "2/15/00",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-29 21:35:56",
+    "population": 243,
+    "location": {
+      "FEATURE_ID": "1872511",
+      "FEATURE_NAME": "Ken Mar Gardens Mobile Home Park",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Luis Obispo",
+      "COUNTY_NUMERIC": "79",
+      "PRIMARY_LAT_DMS": "350620N",
+      "PRIM_LONG_DMS": "1203524W",
+      "PRIM_LAT_DEC": "35.1055315",
+      "PRIM_LONG_DEC": "-120.589892",
+      "DATE_CREATED": "6/13/00",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-29 23:35:56",
+    "population": 61,
+    "location": {
+      "FEATURE_ID": "1828506",
+      "FEATURE_NAME": "Mobiland Manor Mobile Home Park",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Santa Clara",
+      "COUNTY_NUMERIC": "85",
+      "PRIMARY_LAT_DMS": "372335N",
+      "PRIM_LONG_DMS": "1220044W",
+      "PRIM_LAT_DEC": "37.3929964",
+      "PRIM_LONG_DEC": "-122.0121825",
+      "DATE_CREATED": "4/9/99",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-30 00:35:56",
+    "population": 212,
+    "location": {
+      "FEATURE_ID": "275895",
+      "FEATURE_NAME": "Sierra Cedars",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Fresno",
+      "COUNTY_NUMERIC": "19",
+      "PRIMARY_LAT_DMS": "370434N",
+      "PRIM_LONG_DMS": "1191829W",
+      "PRIM_LAT_DEC": "37.0760587",
+      "PRIM_LONG_DEC": "-119.3081807",
+      "DATE_CREATED": "9/1/92",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-30 01:35:56",
+    "population": 173,
+    "location": {
+      "FEATURE_ID": "1661504",
+      "FEATURE_NAME": "Stevens",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Kern",
+      "COUNTY_NUMERIC": "29",
+      "PRIMARY_LAT_DMS": "351851N",
+      "PRIM_LONG_DMS": "1191126W",
+      "PRIM_LAT_DEC": "35.3141283",
+      "PRIM_LONG_DEC": "-119.1906633",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-30 03:35:56",
+    "population": 174,
+    "location": {
+      "FEATURE_ID": "1817385",
+      "FEATURE_NAME": "Quanmugua (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Ventura",
+      "COUNTY_NUMERIC": "111",
+      "PRIMARY_LAT_DMS": "Unknown",
+      "PRIM_LONG_DMS": "Unknown",
+      "PRIM_LAT_DEC": "0",
+      "PRIM_LONG_DEC": "0",
+      "DATE_CREATED": "3/25/99",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-30 04:35:56",
+    "population": 176,
+    "location": {
+      "FEATURE_ID": "1659030",
+      "FEATURE_NAME": "Macdoel",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Siskiyou",
+      "COUNTY_NUMERIC": "93",
+      "PRIMARY_LAT_DMS": "414937N",
+      "PRIM_LONG_DMS": "1220019W",
+      "PRIM_LAT_DEC": "41.8268154",
+      "PRIM_LONG_DEC": "-122.0052851",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-30 06:35:56",
+    "population": 83,
+    "location": {
+      "FEATURE_ID": "1659103",
+      "FEATURE_NAME": "Melita",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Sonoma",
+      "COUNTY_NUMERIC": "97",
+      "PRIMARY_LAT_DMS": "382724N",
+      "PRIM_LONG_DMS": "1223813W",
+      "PRIM_LAT_DEC": "38.4565777",
+      "PRIM_LONG_DEC": "-122.6369291",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-30 07:35:56",
+    "population": 54,
+    "location": {
+      "FEATURE_ID": "2607125",
+      "FEATURE_NAME": "Valley View Mobile Manor",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "King",
+      "COUNTY_NUMERIC": "33",
+      "PRIMARY_LAT_DMS": "474519N",
+      "PRIM_LONG_DMS": "1221044W",
+      "PRIM_LAT_DEC": "47.7552164",
+      "PRIM_LONG_DEC": "-122.1789024",
+      "DATE_CREATED": "6/7/10",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-30 09:35:56",
+    "population": 196,
+    "location": {
+      "FEATURE_ID": "240203",
+      "FEATURE_NAME": "Canoga Park",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Los Angeles",
+      "COUNTY_NUMERIC": "37",
+      "PRIMARY_LAT_DMS": "341204N",
+      "PRIM_LONG_DMS": "1183553W",
+      "PRIM_LAT_DEC": "34.2011156",
+      "PRIM_LONG_DEC": "-118.5981424",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-30 10:35:56",
+    "population": 225,
+    "location": {
+      "FEATURE_ID": "1511302",
+      "FEATURE_NAME": "Semiahmoo",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Whatcom",
+      "COUNTY_NUMERIC": "73",
+      "PRIMARY_LAT_DMS": "485920N",
+      "PRIM_LONG_DMS": "1224624W",
+      "PRIM_LAT_DEC": "48.9890003",
+      "PRIM_LONG_DEC": "-122.7732323",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": "5/20/11"
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-30 12:35:56",
+    "population": 136,
+    "location": {
+      "FEATURE_ID": "1659717",
+      "FEATURE_NAME": "Darrah",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Mariposa",
+      "COUNTY_NUMERIC": "43",
+      "PRIMARY_LAT_DMS": "373105N",
+      "PRIM_LONG_DMS": "1195007W",
+      "PRIM_LAT_DEC": "37.5179921",
+      "PRIM_LONG_DEC": "-119.8351676",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-30 14:35:56",
+    "population": 103,
+    "location": {
+      "FEATURE_ID": "1516205",
+      "FEATURE_NAME": "Bayshore",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Mason",
+      "COUNTY_NUMERIC": "45",
+      "PRIMARY_LAT_DMS": "471446N",
+      "PRIM_LONG_DMS": "1230247W",
+      "PRIM_LAT_DEC": "47.2462059",
+      "PRIM_LONG_DEC": "-123.0462615",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-30 15:35:56",
+    "population": 54,
+    "location": {
+      "FEATURE_ID": "1518433",
+      "FEATURE_NAME": "Cusick",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Pend Oreille",
+      "COUNTY_NUMERIC": "51",
+      "PRIMARY_LAT_DMS": "482015N",
+      "PRIM_LONG_DMS": "1171750W",
+      "PRIM_LAT_DEC": "48.3374055",
+      "PRIM_LONG_DEC": "-117.2971655",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-30 17:35:56",
+    "population": 203,
+    "location": {
+      "FEATURE_ID": "1723853",
+      "FEATURE_NAME": "David (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Butte",
+      "COUNTY_NUMERIC": "7",
+      "PRIMARY_LAT_DMS": "394302N",
+      "PRIM_LONG_DMS": "1212718W",
+      "PRIM_LAT_DEC": "39.717107",
+      "PRIM_LONG_DEC": "-121.4549681",
+      "DATE_CREATED": "3/5/97",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-30 18:35:56",
+    "population": 51,
+    "location": {
+      "FEATURE_ID": "2607494",
+      "FEATURE_NAME": "Green Acres Mobile Estates",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Clallam",
+      "COUNTY_NUMERIC": "9",
+      "PRIMARY_LAT_DMS": "480445N",
+      "PRIM_LONG_DMS": "1230937W",
+      "PRIM_LAT_DEC": "48.0791603",
+      "PRIM_LONG_DEC": "-123.1603803",
+      "DATE_CREATED": "6/7/10",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-30 19:35:56",
+    "population": 239,
+    "location": {
+      "FEATURE_ID": "1702854",
+      "FEATURE_NAME": "Golf (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Marin",
+      "COUNTY_NUMERIC": "41",
+      "PRIMARY_LAT_DMS": "380022N",
+      "PRIM_LONG_DMS": "1223157W",
+      "PRIM_LAT_DEC": "38.0060336",
+      "PRIM_LONG_DEC": "-122.5324769",
+      "DATE_CREATED": "12/2/96",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-30 21:35:56",
+    "population": 58,
+    "location": {
+      "FEATURE_ID": "1512121",
+      "FEATURE_NAME": "Cowiche",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Yakima",
+      "COUNTY_NUMERIC": "77",
+      "PRIMARY_LAT_DMS": "464011N",
+      "PRIM_LONG_DMS": "1204244W",
+      "PRIM_LAT_DEC": "46.6698469",
+      "PRIM_LONG_DEC": "-120.7122935",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": "5/20/11"
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-30 23:35:56",
+    "population": 77,
+    "location": {
+      "FEATURE_ID": "252798",
+      "FEATURE_NAME": "Montezuma",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Solano",
+      "COUNTY_NUMERIC": "95",
+      "PRIMARY_LAT_DMS": "380526N",
+      "PRIM_LONG_DMS": "1215222W",
+      "PRIM_LAT_DEC": "38.0904742",
+      "PRIM_LONG_DEC": "-121.8727367",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-31 01:35:56",
+    "population": 73,
+    "location": {
+      "FEATURE_ID": "1518445",
+      "FEATURE_NAME": "Dabob",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Jefferson",
+      "COUNTY_NUMERIC": "31",
+      "PRIMARY_LAT_DMS": "475049N",
+      "PRIM_LONG_DMS": "1224816W",
+      "PRIM_LAT_DEC": "47.8470359",
+      "PRIM_LONG_DEC": "-122.8043299",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-31 02:35:56",
+    "population": 197,
+    "location": {
+      "FEATURE_ID": "1658576",
+      "FEATURE_NAME": "Freedom",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Santa Cruz",
+      "COUNTY_NUMERIC": "87",
+      "PRIMARY_LAT_DMS": "365607N",
+      "PRIM_LONG_DMS": "1214623W",
+      "PRIM_LAT_DEC": "36.9352303",
+      "PRIM_LONG_DEC": "-121.7730065",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-31 03:35:56",
+    "population": 98,
+    "location": {
+      "FEATURE_ID": "1849214",
+      "FEATURE_NAME": "Menifee Lakes",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Riverside",
+      "COUNTY_NUMERIC": "65",
+      "PRIMARY_LAT_DMS": "334045N",
+      "PRIM_LONG_DMS": "1170918W",
+      "PRIM_LAT_DEC": "33.6791889",
+      "PRIM_LONG_DEC": "-117.1550323",
+      "DATE_CREATED": "8/26/99",
+      "DATE_EDITED": "9/9/08"
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-31 05:35:56",
+    "population": 127,
+    "location": {
+      "FEATURE_ID": "1656383",
+      "FEATURE_NAME": "Valley Home",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Stanislaus",
+      "COUNTY_NUMERIC": "99",
+      "PRIMARY_LAT_DMS": "374944N",
+      "PRIM_LONG_DMS": "1205444W",
+      "PRIM_LAT_DEC": "37.8288158",
+      "PRIM_LONG_DEC": "-120.9121571",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": "1/29/11"
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-31 07:35:56",
+    "population": 164,
+    "location": {
+      "FEATURE_ID": "1652679",
+      "FEATURE_NAME": "Cabazon",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Riverside",
+      "COUNTY_NUMERIC": "65",
+      "PRIMARY_LAT_DMS": "335503N",
+      "PRIM_LONG_DMS": "1164714W",
+      "PRIM_LAT_DEC": "33.9175154",
+      "PRIM_LONG_DEC": "-116.7872399",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-05-31 08:35:56",
+    "population": 148,
+    "location": {
+      "FEATURE_ID": "1127772",
+      "FEATURE_NAME": "Sutherlin",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Douglas",
+      "COUNTY_NUMERIC": "19",
+      "PRIMARY_LAT_DMS": "432324N",
+      "PRIM_LONG_DMS": "1231845W",
+      "PRIM_LAT_DEC": "43.3901177",
+      "PRIM_LONG_DEC": "-123.3125763",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-31 09:35:56",
+    "population": 104,
+    "location": {
+      "FEATURE_ID": "1513057",
+      "FEATURE_NAME": "American Lake Garden Tract",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Pierce",
+      "COUNTY_NUMERIC": "53",
+      "PRIMARY_LAT_DMS": "470720N",
+      "PRIM_LONG_DMS": "1223207W",
+      "PRIM_LAT_DEC": "47.1223202",
+      "PRIM_LONG_DEC": "-122.5354026",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-31 10:35:56",
+    "population": 64,
+    "location": {
+      "FEATURE_ID": "2081992",
+      "FEATURE_NAME": "Ne'sqhwaqhwe (historical)",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Spokane",
+      "COUNTY_NUMERIC": "63",
+      "PRIMARY_LAT_DMS": "474102N",
+      "PRIM_LONG_DMS": "1170516W",
+      "PRIM_LAT_DEC": "47.6837735",
+      "PRIM_LONG_DEC": "-117.08764",
+      "DATE_CREATED": "12/29/05",
+      "DATE_EDITED": "1/4/06"
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-31 11:35:56",
+    "population": 59,
+    "location": {
+      "FEATURE_ID": "263168",
+      "FEATURE_NAME": "Maple Creek",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Humboldt",
+      "COUNTY_NUMERIC": "23",
+      "PRIMARY_LAT_DMS": "404544N",
+      "PRIM_LONG_DMS": "1235209W",
+      "PRIM_LAT_DEC": "40.7623562",
+      "PRIM_LONG_DEC": "-123.8692205",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-31 12:35:56",
+    "population": 79,
+    "location": {
+      "FEATURE_ID": "1658709",
+      "FEATURE_NAME": "Harbin Springs",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Lake",
+      "COUNTY_NUMERIC": "33",
+      "PRIMARY_LAT_DMS": "384716N",
+      "PRIM_LONG_DMS": "1223920W",
+      "PRIM_LAT_DEC": "38.7876817",
+      "PRIM_LONG_DEC": "-122.6555423",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-31 13:35:56",
+    "population": 91,
+    "location": {
+      "FEATURE_ID": "1656044",
+      "FEATURE_NAME": "Gibson",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Shasta",
+      "COUNTY_NUMERIC": "89",
+      "PRIMARY_LAT_DMS": "410043N",
+      "PRIM_LONG_DMS": "1222432W",
+      "PRIM_LAT_DEC": "41.0118164",
+      "PRIM_LONG_DEC": "-122.4089021",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-31 14:35:56",
+    "population": 226,
+    "location": {
+      "FEATURE_ID": "1785588",
+      "FEATURE_NAME": "Sonora Ranchettes",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Tuolumne",
+      "COUNTY_NUMERIC": "109",
+      "PRIMARY_LAT_DMS": "375716N",
+      "PRIM_LONG_DMS": "1201934W",
+      "PRIM_LAT_DEC": "37.9543695",
+      "PRIM_LONG_DEC": "-120.3260251",
+      "DATE_CREATED": "4/6/98",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-05-31 15:35:56",
+    "population": 174,
+    "location": {
+      "FEATURE_ID": "232631",
+      "FEATURE_NAME": "Sawyers Bar",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Siskiyou",
+      "COUNTY_NUMERIC": "93",
+      "PRIMARY_LAT_DMS": "411750N",
+      "PRIM_LONG_DMS": "1230749W",
+      "PRIM_LAT_DEC": "41.2973587",
+      "PRIM_LONG_DEC": "-123.1303203",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-31 16:35:56",
+    "population": 195,
+    "location": {
+      "FEATURE_ID": "1141885",
+      "FEATURE_NAME": "Enterprise",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Wallowa",
+      "COUNTY_NUMERIC": "63",
+      "PRIMARY_LAT_DMS": "452535N",
+      "PRIM_LONG_DMS": "1171644W",
+      "PRIM_LAT_DEC": "45.4262617",
+      "PRIM_LONG_DEC": "-117.2787815",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-31 17:35:56",
+    "population": 179,
+    "location": {
+      "FEATURE_ID": "1723361",
+      "FEATURE_NAME": "Talmont",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Placer",
+      "COUNTY_NUMERIC": "61",
+      "PRIMARY_LAT_DMS": "390842N",
+      "PRIM_LONG_DMS": "1201001W",
+      "PRIM_LAT_DEC": "39.1449069",
+      "PRIM_LONG_DEC": "-120.1668586",
+      "DATE_CREATED": "3/5/97",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-31 18:35:56",
+    "population": 193,
+    "location": {
+      "FEATURE_ID": "1661431",
+      "FEATURE_NAME": "Shell Beach",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Luis Obispo",
+      "COUNTY_NUMERIC": "79",
+      "PRIMARY_LAT_DMS": "350919N",
+      "PRIM_LONG_DMS": "1204021W",
+      "PRIM_LAT_DEC": "35.1552532",
+      "PRIM_LONG_DEC": "-120.672395",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-31 19:35:56",
+    "population": 106,
+    "location": {
+      "FEATURE_ID": "2607249",
+      "FEATURE_NAME": "Muralts Mobile Home Park",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Clallam",
+      "COUNTY_NUMERIC": "9",
+      "PRIMARY_LAT_DMS": "475654N",
+      "PRIM_LONG_DMS": "1242324W",
+      "PRIM_LAT_DEC": "47.9483068",
+      "PRIM_LONG_DEC": "-124.3901337",
+      "DATE_CREATED": "6/7/10",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-31 21:35:56",
+    "population": 237,
+    "location": {
+      "FEATURE_ID": "1652820",
+      "FEATURE_NAME": "Sand City",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Monterey",
+      "COUNTY_NUMERIC": "53",
+      "PRIMARY_LAT_DMS": "363702N",
+      "PRIM_LONG_DMS": "1215054W",
+      "PRIM_LAT_DEC": "36.6171819",
+      "PRIM_LONG_DEC": "-121.8482855",
+      "DATE_CREATED": "5/1/90",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-05-31 22:35:56",
+    "population": 232,
+    "location": {
+      "FEATURE_ID": "1867017",
+      "FEATURE_NAME": "East La Mirada",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Los Angeles",
+      "COUNTY_NUMERIC": "37",
+      "PRIMARY_LAT_DMS": "335528N",
+      "PRIM_LONG_DMS": "1175920W",
+      "PRIM_LAT_DEC": "33.9244577",
+      "PRIM_LONG_DEC": "-117.9889525",
+      "DATE_CREATED": "5/15/00",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-05-31 23:35:56",
+    "population": 59,
+    "location": {
+      "FEATURE_ID": "1533535",
+      "FEATURE_NAME": "Caledonia",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Pierce",
+      "COUNTY_NUMERIC": "53",
+      "PRIMARY_LAT_DMS": "471833N",
+      "PRIM_LONG_DMS": "1222552W",
+      "PRIM_LAT_DEC": "47.3092656",
+      "PRIM_LONG_DEC": "-122.4312358",
+      "DATE_CREATED": "5/1/95",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-06-01 00:35:56",
+    "population": 234,
+    "location": {
+      "FEATURE_ID": "1873567",
+      "FEATURE_NAME": "Hacienda Carmel",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Monterey",
+      "COUNTY_NUMERIC": "53",
+      "PRIMARY_LAT_DMS": "363214N",
+      "PRIM_LONG_DMS": "1215245W",
+      "PRIM_LAT_DEC": "36.5371834",
+      "PRIM_LONG_DEC": "-121.8791195",
+      "DATE_CREATED": "6/13/00",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-06-01 02:35:56",
+    "population": 177,
+    "location": {
+      "FEATURE_ID": "220451",
+      "FEATURE_NAME": "Camp Evers",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Santa Cruz",
+      "COUNTY_NUMERIC": "87",
+      "PRIMARY_LAT_DMS": "370234N",
+      "PRIM_LONG_DMS": "1220130W",
+      "PRIM_LAT_DEC": "37.0427264",
+      "PRIM_LONG_DEC": "-122.0249624",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-06-01 04:35:56",
+    "population": 174,
+    "location": {
+      "FEATURE_ID": "1785739",
+      "FEATURE_NAME": "Treasure Island Mobile Home Park",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Mateo",
+      "COUNTY_NUMERIC": "81",
+      "PRIMARY_LAT_DMS": "374003N",
+      "PRIM_LONG_DMS": "1222702W",
+      "PRIM_LAT_DEC": "37.6674338",
+      "PRIM_LONG_DEC": "-122.4505283",
+      "DATE_CREATED": "4/6/98",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-06-01 05:35:56",
+    "population": 63,
+    "location": {
+      "FEATURE_ID": "252668",
+      "FEATURE_NAME": "Elders Corner",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Placer",
+      "COUNTY_NUMERIC": "61",
+      "PRIMARY_LAT_DMS": "385724N",
+      "PRIM_LONG_DMS": "1210604W",
+      "PRIM_LAT_DEC": "38.9565642",
+      "PRIM_LONG_DEC": "-121.101058",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-06-01 06:35:56",
+    "population": 218,
+    "location": {
+      "FEATURE_ID": "1660455",
+      "FEATURE_NAME": "Cedarpines Park",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Bernardino",
+      "COUNTY_NUMERIC": "71",
+      "PRIMARY_LAT_DMS": "341500N",
+      "PRIM_LONG_DMS": "1171933W",
+      "PRIM_LAT_DEC": "34.2500062",
+      "PRIM_LONG_DEC": "-117.3258786",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-06-01 08:35:56",
+    "population": 125,
+    "location": {
+      "FEATURE_ID": "1514939",
+      "FEATURE_NAME": "Seaport (historical)",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Pacific",
+      "COUNTY_NUMERIC": "49",
+      "PRIMARY_LAT_DMS": "463546N",
+      "PRIM_LONG_DMS": "1235716W",
+      "PRIM_LAT_DEC": "46.5962097",
+      "PRIM_LONG_DEC": "-123.9543306",
+      "DATE_CREATED": "3/1/93",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-06-01 10:35:56",
+    "population": 192,
+    "location": {
+      "FEATURE_ID": "1136547",
+      "FEATURE_NAME": "Mist",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Columbia",
+      "COUNTY_NUMERIC": "9",
+      "PRIMARY_LAT_DMS": "455946N",
+      "PRIM_LONG_DMS": "1231523W",
+      "PRIM_LAT_DEC": "45.9962223",
+      "PRIM_LONG_DEC": "-123.2565078",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-06-01 11:35:56",
+    "population": 56,
+    "location": {
+      "FEATURE_ID": "1512563",
+      "FEATURE_NAME": "Pines",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "King",
+      "COUNTY_NUMERIC": "33",
+      "PRIMARY_LAT_DMS": "473244N",
+      "PRIM_LONG_DMS": "1221125W",
+      "PRIM_LAT_DEC": "47.5456552",
+      "PRIM_LONG_DEC": "-122.1903998",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-06-01 12:35:56",
+    "population": 223,
+    "location": {
+      "FEATURE_ID": "1506618",
+      "FEATURE_NAME": "Melbourne",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Grays Harbor",
+      "COUNTY_NUMERIC": "27",
+      "PRIMARY_LAT_DMS": "465643N",
+      "PRIM_LONG_DMS": "1233734W",
+      "PRIM_LAT_DEC": "46.9453735",
+      "PRIM_LONG_DEC": "-123.6259961",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-06-01 14:35:56",
+    "population": 230,
+    "location": {
+      "FEATURE_ID": "276935",
+      "FEATURE_NAME": "Estrellita",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Trinity",
+      "COUNTY_NUMERIC": "105",
+      "PRIMARY_LAT_DMS": "405134N",
+      "PRIM_LONG_DMS": "1224727W",
+      "PRIM_LAT_DEC": "40.8593115",
+      "PRIM_LONG_DEC": "-122.7908571",
+      "DATE_CREATED": "10/1/92",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-06-01 16:35:56",
+    "population": 50,
+    "location": {
+      "FEATURE_ID": "1661533",
+      "FEATURE_NAME": "Sunset Cliffs",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Diego",
+      "COUNTY_NUMERIC": "73",
+      "PRIMARY_LAT_DMS": "324350N",
+      "PRIM_LONG_DMS": "1171512W",
+      "PRIM_LAT_DEC": "32.7305",
+      "PRIM_LONG_DEC": "-117.2532",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": "11/16/06"
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-06-01 17:35:56",
+    "population": 101,
+    "location": {
+      "FEATURE_ID": "1765485",
+      "FEATURE_NAME": "Liberty Mobile Home Court",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Orange",
+      "COUNTY_NUMERIC": "59",
+      "PRIMARY_LAT_DMS": "334432N",
+      "PRIM_LONG_DMS": "1175507W",
+      "PRIM_LAT_DEC": "33.7422394",
+      "PRIM_LONG_DEC": "-117.9186687",
+      "DATE_CREATED": "11/26/97",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-06-01 19:35:56",
+    "population": 155,
+    "location": {
+      "FEATURE_ID": "1667157",
+      "FEATURE_NAME": "Beveridge",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Inyo",
+      "COUNTY_NUMERIC": "27",
+      "PRIMARY_LAT_DMS": "364216N",
+      "PRIM_LONG_DMS": "1175454W",
+      "PRIM_LAT_DEC": "36.7043775",
+      "PRIM_LONG_DEC": "-117.9150831",
+      "DATE_CREATED": "6/1/95",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-06-01 20:35:56",
+    "population": 53,
+    "location": {
+      "FEATURE_ID": "1662287",
+      "FEATURE_NAME": "Shasta Lake",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Shasta",
+      "COUNTY_NUMERIC": "89",
+      "PRIMARY_LAT_DMS": "404050N",
+      "PRIM_LONG_DMS": "1222215W",
+      "PRIM_LAT_DEC": "40.6804279",
+      "PRIM_LONG_DEC": "-122.3708419",
+      "DATE_CREATED": "3/1/95",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-06-01 21:35:56",
+    "population": 154,
+    "location": {
+      "FEATURE_ID": "1517710",
+      "FEATURE_NAME": "Chimacum",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Jefferson",
+      "COUNTY_NUMERIC": "31",
+      "PRIMARY_LAT_DMS": "480039N",
+      "PRIM_LONG_DMS": "1224608W",
+      "PRIM_LAT_DEC": "48.0109233",
+      "PRIM_LONG_DEC": "-122.7687771",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-06-01 22:35:56",
+    "population": 191,
+    "location": {
+      "FEATURE_ID": "276603",
+      "FEATURE_NAME": "Bormister",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Modoc",
+      "COUNTY_NUMERIC": "49",
+      "PRIMARY_LAT_DMS": "412119N",
+      "PRIM_LONG_DMS": "1203214W",
+      "PRIM_LAT_DEC": "41.3551714",
+      "PRIM_LONG_DEC": "-120.5371768",
+      "DATE_CREATED": "10/1/92",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-06-01 23:35:56",
+    "population": 240,
+    "location": {
+      "FEATURE_ID": "1660891",
+      "FEATURE_NAME": "Lang",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Los Angeles",
+      "COUNTY_NUMERIC": "37",
+      "PRIMARY_LAT_DMS": "342554N",
+      "PRIM_LONG_DMS": "1182239W",
+      "PRIM_LAT_DEC": "34.4316622",
+      "PRIM_LONG_DEC": "-118.3775808",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-06-02 01:35:56",
+    "population": 178,
+    "location": {
+      "FEATURE_ID": "1143062",
+      "FEATURE_NAME": "Greenhorn",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Baker",
+      "COUNTY_NUMERIC": "1",
+      "PRIMARY_LAT_DMS": "444229N",
+      "PRIM_LONG_DMS": "1182929W",
+      "PRIM_LAT_DEC": "44.7079299",
+      "PRIM_LONG_DEC": "-118.4913355",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-06-02 02:35:56",
+    "population": 111,
+    "location": {
+      "FEATURE_ID": "1523022",
+      "FEATURE_NAME": "Metaline",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Pend Oreille",
+      "COUNTY_NUMERIC": "51",
+      "PRIMARY_LAT_DMS": "485102N",
+      "PRIM_LONG_DMS": "1172327W",
+      "PRIM_LAT_DEC": "48.8504748",
+      "PRIM_LONG_DEC": "-117.3908003",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-06-02 04:35:56",
+    "population": 154,
+    "location": {
+      "FEATURE_ID": "1682999",
+      "FEATURE_NAME": "Wokodot (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Nevada",
+      "COUNTY_NUMERIC": "57",
+      "PRIMARY_LAT_DMS": "391550N",
+      "PRIM_LONG_DMS": "1210104W",
+      "PRIM_LAT_DEC": "39.2637828",
+      "PRIM_LONG_DEC": "-121.0177263",
+      "DATE_CREATED": "4/29/96",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-06-02 05:35:56",
+    "population": 205,
+    "location": {
+      "FEATURE_ID": "1804878",
+      "FEATURE_NAME": "Hathaways Mountain Pines",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Calaveras",
+      "COUNTY_NUMERIC": "9",
+      "PRIMARY_LAT_DMS": "381141N",
+      "PRIM_LONG_DMS": "1202206W",
+      "PRIM_LAT_DEC": "38.1946411",
+      "PRIM_LONG_DEC": "-120.3682525",
+      "DATE_CREATED": "2/1/99",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-06-02 07:35:56",
+    "population": 111,
+    "location": {
+      "FEATURE_ID": "263228",
+      "FEATURE_NAME": "Marshall Junction",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Fresno",
+      "COUNTY_NUMERIC": "19",
+      "PRIMARY_LAT_DMS": "370050N",
+      "PRIM_LONG_DMS": "1193408W",
+      "PRIM_LAT_DEC": "37.0138387",
+      "PRIM_LONG_DEC": "-119.5690265",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-06-02 08:35:56",
+    "population": 140,
+    "location": {
+      "FEATURE_ID": "2607330",
+      "FEATURE_NAME": "Dodson Mobile Home Park",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Whatcom",
+      "COUNTY_NUMERIC": "73",
+      "PRIMARY_LAT_DMS": "485707N",
+      "PRIM_LONG_DMS": "1222523W",
+      "PRIM_LAT_DEC": "48.9520618",
+      "PRIM_LONG_DEC": "-122.4230834",
+      "DATE_CREATED": "6/7/10",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-06-02 09:35:56",
+    "population": 235,
+    "location": {
+      "FEATURE_ID": "1665941",
+      "FEATURE_NAME": "Stones Landing",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Lassen",
+      "COUNTY_NUMERIC": "35",
+      "PRIMARY_LAT_DMS": "404245N",
+      "PRIM_LONG_DMS": "1204324W",
+      "PRIM_LAT_DEC": "40.7123946",
+      "PRIM_LONG_DEC": "-120.7232895",
+      "DATE_CREATED": "6/1/95",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-06-02 11:35:56",
+    "population": 113,
+    "location": {
+      "FEATURE_ID": "1512293",
+      "FEATURE_NAME": "Highland Park",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "King",
+      "COUNTY_NUMERIC": "33",
+      "PRIMARY_LAT_DMS": "473142N",
+      "PRIM_LONG_DMS": "1222109W",
+      "PRIM_LAT_DEC": "47.528432",
+      "PRIM_LONG_DEC": "-122.3526261",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-06-02 13:35:56",
+    "population": 184,
+    "location": {
+      "FEATURE_ID": "1136236",
+      "FEATURE_NAME": "Durkee",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Baker",
+      "COUNTY_NUMERIC": "1",
+      "PRIMARY_LAT_DMS": "443456N",
+      "PRIM_LONG_DMS": "1172753W",
+      "PRIM_LAT_DEC": "44.5821048",
+      "PRIM_LONG_DEC": "-117.4646418",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-06-02 14:35:56",
+    "population": 206,
+    "location": {
+      "FEATURE_ID": "1867647",
+      "FEATURE_NAME": "West Wenatchee",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Chelan",
+      "COUNTY_NUMERIC": "7",
+      "PRIMARY_LAT_DMS": "472637N",
+      "PRIM_LONG_DMS": "1202112W",
+      "PRIM_LAT_DEC": "47.4437371",
+      "PRIM_LONG_DEC": "-120.353407",
+      "DATE_CREATED": "5/15/00",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-06-02 16:35:56",
+    "population": 228,
+    "location": {
+      "FEATURE_ID": "1660963",
+      "FEATURE_NAME": "Lucia",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Monterey",
+      "COUNTY_NUMERIC": "53",
+      "PRIMARY_LAT_DMS": "360115N",
+      "PRIM_LONG_DMS": "1213302W",
+      "PRIM_LAT_DEC": "36.0207946",
+      "PRIM_LONG_DEC": "-121.550496",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-06-02 18:35:56",
+    "population": 81,
+    "location": {
+      "FEATURE_ID": "1127780",
+      "FEATURE_NAME": "Svensen",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Clatsop",
+      "COUNTY_NUMERIC": "7",
+      "PRIMARY_LAT_DMS": "461014N",
+      "PRIM_LONG_DMS": "1233933W",
+      "PRIM_LAT_DEC": "46.1706646",
+      "PRIM_LONG_DEC": "-123.6593028",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-06-02 20:35:56",
+    "population": 221,
+    "location": {
+      "FEATURE_ID": "1512111",
+      "FEATURE_NAME": "Columbia Valley Gardens",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Cowlitz",
+      "COUNTY_NUMERIC": "15",
+      "PRIMARY_LAT_DMS": "460927N",
+      "PRIM_LONG_DMS": "1225829W",
+      "PRIM_LAT_DEC": "46.1576117",
+      "PRIM_LONG_DEC": "-122.9748352",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-06-02 21:35:56",
+    "population": 230,
+    "location": {
+      "FEATURE_ID": "2354011",
+      "FEATURE_NAME": "Woodland Acres",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Santa Clara",
+      "COUNTY_NUMERIC": "85",
+      "PRIMARY_LAT_DMS": "372036N",
+      "PRIM_LONG_DMS": "1220445W",
+      "PRIM_LAT_DEC": "37.3433333",
+      "PRIM_LONG_DEC": "-122.0791667",
+      "DATE_CREATED": "9/21/07",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-06-02 22:35:56",
+    "population": 112,
+    "location": {
+      "FEATURE_ID": "1660365",
+      "FEATURE_NAME": "Bowerbank",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Kern",
+      "COUNTY_NUMERIC": "29",
+      "PRIMARY_LAT_DMS": "352358N",
+      "PRIM_LONG_DMS": "1192430W",
+      "PRIM_LAT_DEC": "35.3994055",
+      "PRIM_LONG_DEC": "-119.4084485",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-06-03 00:35:56",
+    "population": 237,
+    "location": {
+      "FEATURE_ID": "1525986",
+      "FEATURE_NAME": "Smith Place",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Jefferson",
+      "COUNTY_NUMERIC": "31",
+      "PRIMARY_LAT_DMS": "473930N",
+      "PRIM_LONG_DMS": "1235553W",
+      "PRIM_LAT_DEC": "47.6584188",
+      "PRIM_LONG_DEC": "-123.9312981",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-06-03 01:35:56",
+    "population": 174,
+    "location": {
+      "FEATURE_ID": "1656304",
+      "FEATURE_NAME": "Dogtown",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Mariposa",
+      "COUNTY_NUMERIC": "43",
+      "PRIMARY_LAT_DMS": "374208N",
+      "PRIM_LONG_DMS": "1200741W",
+      "PRIM_LAT_DEC": "37.7021524",
+      "PRIM_LONG_DEC": "-120.1279636",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-06-03 03:35:56",
+    "population": 157,
+    "location": {
+      "FEATURE_ID": "1873370",
+      "FEATURE_NAME": "Ambler Park",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Monterey",
+      "COUNTY_NUMERIC": "53",
+      "PRIMARY_LAT_DMS": "363435N",
+      "PRIM_LONG_DMS": "1214313W",
+      "PRIM_LAT_DEC": "36.5763493",
+      "PRIM_LONG_DEC": "-121.720225",
+      "DATE_CREATED": "6/13/00",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-06-03 04:35:56",
+    "population": 82,
+    "location": {
+      "FEATURE_ID": "1509785",
+      "FEATURE_NAME": "Vasa Park",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "King",
+      "COUNTY_NUMERIC": "33",
+      "PRIMARY_LAT_DMS": "473447N",
+      "PRIM_LONG_DMS": "1220643W",
+      "PRIM_LAT_DEC": "47.5798223",
+      "PRIM_LONG_DEC": "-122.1120657",
+      "DATE_CREATED": "8/1/90",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-06-03 06:35:56",
+    "population": 147,
+    "location": {
+      "FEATURE_ID": "1534149",
+      "FEATURE_NAME": "Dolphin",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "San Juan",
+      "COUNTY_NUMERIC": "55",
+      "PRIMARY_LAT_DMS": "483905N",
+      "PRIM_LONG_DMS": "1225434W",
+      "PRIM_LAT_DEC": "48.6514923",
+      "PRIM_LONG_DEC": "-122.9093498",
+      "DATE_CREATED": "1/1/92",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-06-03 07:35:56",
+    "population": 248,
+    "location": {
+      "FEATURE_ID": "1946947",
+      "FEATURE_NAME": "Porter Ranch",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Los Angeles",
+      "COUNTY_NUMERIC": "37",
+      "PRIMARY_LAT_DMS": "Unknown",
+      "PRIM_LONG_DMS": "Unknown",
+      "PRIM_LAT_DEC": "0",
+      "PRIM_LONG_DEC": "0",
+      "DATE_CREATED": "12/20/01",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-06-03 09:35:56",
+    "population": 108,
+    "location": {
+      "FEATURE_ID": "1786310",
+      "FEATURE_NAME": "Woodside Highlands",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Mateo",
+      "COUNTY_NUMERIC": "81",
+      "PRIMARY_LAT_DMS": "372323N",
+      "PRIM_LONG_DMS": "1221452W",
+      "PRIM_LAT_DEC": "37.389662",
+      "PRIM_LONG_DEC": "-122.2477446",
+      "DATE_CREATED": "4/6/98",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-06-03 11:35:56",
+    "population": 118,
+    "location": {
+      "FEATURE_ID": "1525047",
+      "FEATURE_NAME": "Riffe (historical)",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Lewis",
+      "COUNTY_NUMERIC": "41",
+      "PRIMARY_LAT_DMS": "463050N",
+      "PRIM_LONG_DMS": "1222213W",
+      "PRIM_LAT_DEC": "46.5139975",
+      "PRIM_LONG_DEC": "-122.3703844",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-06-03 12:35:56",
+    "population": 182,
+    "location": {
+      "FEATURE_ID": "1872176",
+      "FEATURE_NAME": "Walekhe (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Luis Obispo",
+      "COUNTY_NUMERIC": "79",
+      "PRIMARY_LAT_DMS": "Unknown",
+      "PRIM_LONG_DMS": "Unknown",
+      "PRIM_LAT_DEC": "0",
+      "PRIM_LONG_DEC": "0",
+      "DATE_CREATED": "6/13/00",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-06-03 14:35:56",
+    "population": 122,
+    "location": {
+      "FEATURE_ID": "1511410",
+      "FEATURE_NAME": "Walville",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Lewis",
+      "COUNTY_NUMERIC": "41",
+      "PRIMARY_LAT_DMS": "463310N",
+      "PRIM_LONG_DMS": "1232119W",
+      "PRIM_LAT_DEC": "46.5528804",
+      "PRIM_LONG_DEC": "-123.3551465",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-06-03 16:35:56",
+    "population": 156,
+    "location": {
+      "FEATURE_ID": "1511537",
+      "FEATURE_NAME": "Packard",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Adams",
+      "COUNTY_NUMERIC": "1",
+      "PRIMARY_LAT_DMS": "471254N",
+      "PRIM_LONG_DMS": "1182939W",
+      "PRIM_LAT_DEC": "47.2148702",
+      "PRIM_LONG_DEC": "-118.49415",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-06-03 18:35:56",
+    "population": 57,
+    "location": {
+      "FEATURE_ID": "277597",
+      "FEATURE_NAME": "Sausalito",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Marin",
+      "COUNTY_NUMERIC": "41",
+      "PRIMARY_LAT_DMS": "375133N",
+      "PRIM_LONG_DMS": "1222907W",
+      "PRIM_LAT_DEC": "37.8590938",
+      "PRIM_LONG_DEC": "-122.4852507",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": "6/25/11"
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-06-03 20:35:56",
+    "population": 175,
+    "location": {
+      "FEATURE_ID": "1510654",
+      "FEATURE_NAME": "Kenilworth",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "King",
+      "COUNTY_NUMERIC": "33",
+      "PRIMARY_LAT_DMS": "473756N",
+      "PRIM_LONG_DMS": "1220624W",
+      "PRIM_LAT_DEC": "47.6323219",
+      "PRIM_LONG_DEC": "-122.1067888",
+      "DATE_CREATED": "5/1/91",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-06-03 22:35:56",
+    "population": 60,
+    "location": {
+      "FEATURE_ID": "1656497",
+      "FEATURE_NAME": "Edom",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Riverside",
+      "COUNTY_NUMERIC": "65",
+      "PRIMARY_LAT_DMS": "334825N",
+      "PRIM_LONG_DMS": "1162328W",
+      "PRIM_LAT_DEC": "33.8069633",
+      "PRIM_LONG_DEC": "-116.3911223",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-06-03 23:35:56",
+    "population": 177,
+    "location": {
+      "FEATURE_ID": "1804671",
+      "FEATURE_NAME": "Chrysopolis (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Inyo",
+      "COUNTY_NUMERIC": "27",
+      "PRIMARY_LAT_DMS": "365738N",
+      "PRIM_LONG_DMS": "1181148W",
+      "PRIM_LAT_DEC": "36.9604888",
+      "PRIM_LONG_DEC": "-118.196763",
+      "DATE_CREATED": "2/1/99",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-06-04 01:35:56",
+    "population": 166,
+    "location": {
+      "FEATURE_ID": "1819869",
+      "FEATURE_NAME": "Corral (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Diego",
+      "COUNTY_NUMERIC": "73",
+      "PRIMARY_LAT_DMS": "Unknown",
+      "PRIM_LONG_DMS": "Unknown",
+      "PRIM_LAT_DEC": "0",
+      "PRIM_LONG_DEC": "0",
+      "DATE_CREATED": "3/26/99",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-06-04 03:35:56",
+    "population": 154,
+    "location": {
+      "FEATURE_ID": "269332",
+      "FEATURE_NAME": "Yankee Hill",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Tuolumne",
+      "COUNTY_NUMERIC": "109",
+      "PRIMARY_LAT_DMS": "380223N",
+      "PRIM_LONG_DMS": "1202241W",
+      "PRIM_LAT_DEC": "38.0396452",
+      "PRIM_LONG_DEC": "-120.377972",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-06-04 05:35:56",
+    "population": 155,
+    "location": {
+      "FEATURE_ID": "277578",
+      "FEATURE_NAME": "Pleasanton",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Alameda",
+      "COUNTY_NUMERIC": "1",
+      "PRIMARY_LAT_DMS": "373945N",
+      "PRIM_LONG_DMS": "1215229W",
+      "PRIM_LAT_DEC": "37.6624312",
+      "PRIM_LONG_DEC": "-121.8746789",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-06-04 06:35:56",
+    "population": 95,
+    "location": {
+      "FEATURE_ID": "1733987",
+      "FEATURE_NAME": "Oak Tree Village",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "El Dorado",
+      "COUNTY_NUMERIC": "17",
+      "PRIMARY_LAT_DMS": "384225N",
+      "PRIM_LONG_DMS": "1210431W",
+      "PRIM_LAT_DEC": "38.7068472",
+      "PRIM_LONG_DEC": "-121.0752224",
+      "DATE_CREATED": "5/14/97",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-06-04 08:35:56",
+    "population": 199,
+    "location": {
+      "FEATURE_ID": "1660048",
+      "FEATURE_NAME": "Hot Springs",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Plumas",
+      "COUNTY_NUMERIC": "63",
+      "PRIMARY_LAT_DMS": "400108N",
+      "PRIM_LONG_DMS": "1210202W",
+      "PRIM_LAT_DEC": "40.0187792",
+      "PRIM_LONG_DEC": "-121.0338462",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-06-04 09:35:56",
+    "population": 181,
+    "location": {
+      "FEATURE_ID": "1868658",
+      "FEATURE_NAME": "Casitas del Sol Mobile Home Park",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Diego",
+      "COUNTY_NUMERIC": "73",
+      "PRIMARY_LAT_DMS": "330756N",
+      "PRIM_LONG_DMS": "1170753W",
+      "PRIM_LAT_DEC": "33.1322617",
+      "PRIM_LONG_DEC": "-117.131422",
+      "DATE_CREATED": "6/13/00",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-06-04 10:35:56",
+    "population": 145,
+    "location": {
+      "FEATURE_ID": "1511270",
+      "FEATURE_NAME": "Rony",
+      "STATE_ALPHA": "WA",
+      "STATE_NUMERIC": "53",
+      "COUNTY_NAME": "Grays Harbor",
+      "COUNTY_NUMERIC": "27",
+      "PRIMARY_LAT_DMS": "465637N",
+      "PRIM_LONG_DMS": "1232108W",
+      "PRIM_LAT_DEC": "46.9437081",
+      "PRIM_LONG_DEC": "-123.3520989",
+      "DATE_CREATED": "9/10/79",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-06-04 11:35:56",
+    "population": 188,
+    "location": {
+      "FEATURE_ID": "1661450",
+      "FEATURE_NAME": "Simi Valley",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Ventura",
+      "COUNTY_NUMERIC": "111",
+      "PRIMARY_LAT_DMS": "341610N",
+      "PRIM_LONG_DMS": "1184653W",
+      "PRIM_LAT_DEC": "34.2694474",
+      "PRIM_LONG_DEC": "-118.781482",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-06-04 12:35:56",
+    "population": 108,
+    "location": {
+      "FEATURE_ID": "1660140",
+      "FEATURE_NAME": "Weeds Point",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Yuba",
+      "COUNTY_NUMERIC": "115",
+      "PRIMARY_LAT_DMS": "392839N",
+      "PRIM_LONG_DMS": "1210259W",
+      "PRIM_LAT_DEC": "39.4773917",
+      "PRIM_LONG_DEC": "-121.0496773",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-06-04 14:35:56",
+    "population": 209,
+    "location": {
+      "FEATURE_ID": "1765749",
+      "FEATURE_NAME": "Rancho Alipaz Mobile Home Park",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Orange",
+      "COUNTY_NUMERIC": "59",
+      "PRIMARY_LAT_DMS": "332937N",
+      "PRIM_LONG_DMS": "1174018W",
+      "PRIM_LAT_DEC": "33.4936379",
+      "PRIM_LONG_DEC": "-117.6717178",
+      "DATE_CREATED": "11/26/97",
+      "DATE_EDITED": null
+    },
+    "disease": "36989005"
+  },
+  {
+    "date": "2015-06-04 16:35:56",
+    "population": 122,
+    "location": {
+      "FEATURE_ID": "1666224",
+      "FEATURE_NAME": "Patton Village",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Lassen",
+      "COUNTY_NUMERIC": "35",
+      "PRIMARY_LAT_DMS": "400828N",
+      "PRIM_LONG_DMS": "1200918W",
+      "PRIM_LAT_DEC": "40.141014",
+      "PRIM_LONG_DEC": "-120.1549302",
+      "DATE_CREATED": "6/1/95",
+      "DATE_EDITED": "1/29/11"
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-06-04 18:35:56",
+    "population": 120,
+    "location": {
+      "FEATURE_ID": "1140680",
+      "FEATURE_NAME": "Dayville",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Grant",
+      "COUNTY_NUMERIC": "23",
+      "PRIMARY_LAT_DMS": "442806N",
+      "PRIM_LONG_DMS": "1193209W",
+      "PRIM_LAT_DEC": "44.4682007",
+      "PRIM_LONG_DEC": "-119.5358104",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": "3/21/08"
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-06-04 19:35:56",
+    "population": 110,
+    "location": {
+      "FEATURE_ID": "1658561",
+      "FEATURE_NAME": "Forest Lake",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Lake",
+      "COUNTY_NUMERIC": "33",
+      "PRIMARY_LAT_DMS": "384905N",
+      "PRIM_LONG_DMS": "1224304W",
+      "PRIM_LAT_DEC": "38.8179593",
+      "PRIM_LONG_DEC": "-122.7177672",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-06-04 20:35:56",
+    "population": 136,
+    "location": {
+      "FEATURE_ID": "1844337",
+      "FEATURE_NAME": "Juan Bautista (historical)",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Bernardino",
+      "COUNTY_NUMERIC": "71",
+      "PRIMARY_LAT_DMS": "Unknown",
+      "PRIM_LONG_DMS": "Unknown",
+      "PRIM_LAT_DEC": "0",
+      "PRIM_LONG_DEC": "0",
+      "DATE_CREATED": "6/25/99",
+      "DATE_EDITED": null
+    },
+    "disease": "D009107"
+  },
+  {
+    "date": "2015-06-04 22:35:56",
+    "population": 215,
+    "location": {
+      "FEATURE_ID": "1660248",
+      "FEATURE_NAME": "Alray",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "San Bernardino",
+      "COUNTY_NUMERIC": "71",
+      "PRIMARY_LAT_DMS": "341942N",
+      "PRIM_LONG_DMS": "1172858W",
+      "PRIM_LAT_DEC": "34.328336",
+      "PRIM_LONG_DEC": "-117.4828278",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  },
+  {
+    "date": "2015-06-04 23:35:56",
+    "population": 127,
+    "location": {
+      "FEATURE_ID": "252905",
+      "FEATURE_NAME": "Hollis",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Kern",
+      "COUNTY_NUMERIC": "29",
+      "PRIMARY_LAT_DMS": "354003N",
+      "PRIM_LONG_DMS": "1191128W",
+      "PRIM_LAT_DEC": "35.6674547",
+      "PRIM_LONG_DEC": "-119.1912178",
+      "DATE_CREATED": "1/19/81",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-06-05 00:35:56",
+    "population": 232,
+    "location": {
+      "FEATURE_ID": "1666044",
+      "FEATURE_NAME": "Neff",
+      "STATE_ALPHA": "CA",
+      "STATE_NUMERIC": "6",
+      "COUNTY_NAME": "Orange",
+      "COUNTY_NUMERIC": "59",
+      "PRIMARY_LAT_DMS": "334834N",
+      "PRIM_LONG_DMS": "1175558W",
+      "PRIM_LAT_DEC": "33.8094601",
+      "PRIM_LONG_DEC": "-117.932837",
+      "DATE_CREATED": "6/1/95",
+      "DATE_EDITED": null
+    },
+    "disease": "D012409"
+  },
+  {
+    "date": "2015-06-05 01:35:56",
+    "population": 101,
+    "location": {
+      "FEATURE_ID": "1125911",
+      "FEATURE_NAME": "Redland",
+      "STATE_ALPHA": "OR",
+      "STATE_NUMERIC": "41",
+      "COUNTY_NAME": "Clackamas",
+      "COUNTY_NUMERIC": "5",
+      "PRIMARY_LAT_DMS": "452036N",
+      "PRIM_LONG_DMS": "1222934W",
+      "PRIM_LAT_DEC": "45.3434553",
+      "PRIM_LONG_DEC": "-122.4928664",
+      "DATE_CREATED": "11/28/80",
+      "DATE_EDITED": null
+    },
+    "disease": "36653000"
+  }
+]

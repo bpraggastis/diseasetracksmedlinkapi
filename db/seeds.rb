@@ -1,3 +1,4 @@
+require 'csv'
 # # # This file should contain all the record creation needed to seed the database with its default values.
 # # # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
 # # #
@@ -250,22 +251,22 @@
 # end
 #
 # ####--> Replace with correct path name
-# lines = CSV.open('/Users/brendapraggastis/Ada/capstone/datafiles/us_geo_populated_place.csv').readlines
+# lines = CSV.open('db/support/us_geo_populated_place.csv').readlines
 # keys = lines.shift
-# n= lines.count
+# n = lines.count
 #
-# File.open("/Users/brendapraggastis/Ada/capstone/datafiles/us_locations.json", "w") do |f|
+# File.open("db/support/us_locations.json", "w") do |f|
 #   data = lines.map do |values|
 #           puts n
-#           n -=1
+#           n -= 1
 #           Hash[keys.zip(values.map{|val| is_int?(val) ? val.to_i : val})]
 #           end
 #   f.puts JSON.pretty_generate(data)
 #   f.close
 # end
-#
-#
-# ############## Seed Places Table #############
+# #
+# #
+# # ############## Seed Places Table #############
 # lines = CSV.open('db/support/places.csv').readlines
 # lines.each do |abbr,region|
 #   Place.create(name: region ,abbreviation: abbr)
@@ -275,8 +276,11 @@
 #
 #
 # #####--> Replace with correct path name
+
 # geo_data = JSON.parse(File.read("/Users/brendapraggastis/Ada/capstone/datafiles/us_locations.json"))
 # # geo_data = JSON.parse(File.read('db/support/locations.json'))
+# geo_data = JSON.parse(File.read("db/support/us_locations.json"))
+# geo_data = JSON.parse(File.read('db/support/locations.json'))
 # geo_data.each do |local|
 #   new_geo = Geo.create(
 #               name: local["FEATURE_NAME"],
@@ -288,7 +292,6 @@
 #               puts new_geo.name
 #
 # end
-#
 #
 #
 #
@@ -315,8 +318,6 @@
 #   "DATE_CREATED": "12/31/95",
 #   "DATE_EDITED": "1/24/09"
 # },
-
-
 # ##################################################################################################################
 #
 #          Seed 7: Outbreaks and Events
@@ -362,3 +363,23 @@
 # Outbreak.create(title: "Under-vaccination", description: "Cases of Rubella, Mumps, and " +
 # "Encephalitis in California, Oregon, and Washington due to lack of vaccination.")
 # Outbreak.create(title: "Ebola", description: "Cases of Ebola occuring in New York State.")
+#
+# (1..3).each do |n|
+#   outbreak = JSON.parse(File.read("db/support/outbreak-#{n}.json"))
+#   outbreak.each do |event|
+#     unless g = Geo.find_by(name: event["location"]["FEATURE_NAME"])
+#         pl = Place.find_by(abbreviation: event["location"]["STATE_ALPHA"])
+#         g = Geo.create(latitude: event["location"]["PRIM_LAT_DEC"],
+#                    longitude: event["location"]["PRIM_LAT_DEC"],
+#                    name: event["location"]["FEATURE_NAME"],
+#                    county: event["location"]["COUNTY_NAME"],
+#                    place_id: pl.id)
+#     end
+#     event["location"]["DATE_CREATED"]? d = Date.strptime(event["location"]["DATE_CREATED"], "%m/%d/%y") : d = nil
+#     Outbreak.find(n).events.new(
+#         date: d,
+#         medical_condition_id: MedicalCondition.find_by(name: code_hash[event["disease"]]),
+#         number_infected: event["population"].to_i,
+#         geo_id: g.id)
+#   end
+# end
