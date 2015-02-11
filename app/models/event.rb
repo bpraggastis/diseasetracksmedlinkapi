@@ -6,7 +6,7 @@ class Event < ActiveRecord::Base
   has_many :places, through: :geos
 
   #medical condition associations
-  has_one :outbreak
+  belongs_to :outbreak
   has_one :medical_condition
   has_one :geo
 

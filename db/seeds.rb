@@ -330,21 +330,21 @@ require 'csv'
 # # add counties to Geo data
 # # add place_id to Geo data
 
-# DISEASE_HASH = {
-#   "Rubella" => ["D012409","10018206","N0000002655","36653000","C0035920"],
-#   "Ebola" => ["D019142","10014071","N0000003898","37109004","C0282687"],
-#   "Malaria" => ["1385","7728","C03.752.250.552","Malaria","248310"],
-#   "West Nile Virus" => ["C1096184"],
-#   "Encephalitis" => ["C0014060"],
-#   "Mumps" => ["D009107","10009300","N0000002055","240526004","36989005","C0026780"]
-# }
-#
-# code_hash = {}
-# DISEASE_HASH.each do |key,value|
-#   value.each do |val|
-#     code_hash[val] = key
-#   end
-# end
+DISEASE_HASH = {
+  "Rubella" => ["D012409","10018206","N0000002655","36653000","C0035920"],
+  "Ebola" => ["D019142","10014071","N0000003898","37109004","C0282687"],
+  "Malaria" => ["1385","7728","C03.752.250.552","Malaria","248310"],
+  "West Nile Virus" => ["C1096184"],
+  "Encephalitis" => ["C0014060"],
+  "Mumps" => ["D009107","10009300","N0000002055","240526004","36989005","C0026780"]
+}
+
+code_hash = {}
+DISEASE_HASH.each do |key,value|
+  value.each do |val|
+    code_hash[val] = key
+  end
+end
 
 ### to enter Events:
 #  event_hash.keys = {number_infected, date, disease_code, latitude,
@@ -358,28 +358,34 @@ require 'csv'
 
 ######## Outbreaks  Seed:##########
 
-# Outbreak.create(title: "Mosquito Born", description: "Cases of Malaria and West " +
-# "Nile Virus found in Louisiana, Florida, Georgia, Mississippi, Arkansas, and Alabama.")
-# Outbreak.create(title: "Under-vaccination", description: "Cases of Rubella, Mumps, and " +
-# "Encephalitis in California, Oregon, and Washington due to lack of vaccination.")
-# Outbreak.create(title: "Ebola", description: "Cases of Ebola occuring in New York State.")
-#
-# (1..3).each do |n|
-#   outbreak = JSON.parse(File.read("db/support/outbreak-#{n}.json"))
-#   outbreak.each do |event|
-#     unless g = Geo.find_by(name: event["location"]["FEATURE_NAME"])
-#         pl = Place.find_by(abbreviation: event["location"]["STATE_ALPHA"])
-#         g = Geo.create(latitude: event["location"]["PRIM_LAT_DEC"],
-#                    longitude: event["location"]["PRIM_LAT_DEC"],
-#                    name: event["location"]["FEATURE_NAME"],
-#                    county: event["location"]["COUNTY_NAME"],
-#                    place_id: pl.id)
-#     end
-#     event["location"]["DATE_CREATED"]? d = Date.strptime(event["location"]["DATE_CREATED"], "%m/%d/%y") : d = nil
-#     Outbreak.find(n).events.new(
-#         date: d,
-#         medical_condition_id: MedicalCondition.find_by(name: code_hash[event["disease"]]),
-#         number_infected: event["population"].to_i,
-#         geo_id: g.id)
-#   end
-# end
+Outbreak.create(title: "Mosquito Born", description: "Cases of Malaria and West " +
+"Nile Virus found in Louisiana, Florida, Georgia, Mississippi, Arkansas, and Alabama.")
+Outbreak.create(title: "Under-vaccination", description: "Cases of Rubella, Mumps, and " +
+"Encephalitis in California, Oregon, and Washington due to lack of vaccination.")
+Outbreak.create(title: "Ebola", description: "Cases of Ebola occuring in New York State.")
+
+(1..3).each do |n|
+  outbreak = JSON.parse(File.read("db/support/outbreak-#{n}.json"))
+  outbreak.each do |event|
+    unless g = Geo.find_by(name: event["location"]["FEATURE_NAME"])
+        pl = Place.find_by(abbreviation: event["location"]["STATE_ALPHA"])
+        g = Geo.create(latitude: event["location"]["PRIM_LAT_DEC"],
+                   longitude: event["location"]["PRIM_LAT_DEC"],
+                   name: event["location"]["FEATURE_NAME"],
+                   county: event["location"]["COUNTY_NAME"],
+                   place_id: pl.id)
+    end
+    event["location"]["DATE_CREATED"]? d = Date.strptime(event["location"]["DATE_CREATED"], "%m/%d/%y") : d = nil
+    begin
+      Outbreak.find(n).events.new(
+          date: d,
+          medical_condition_id: MedicalCondition.find_by(name: code_hash[event["disease"]]).id,
+          number_infected: event["population"].to_i,
+          geo_id: g.id)
+    rescue
+      puts MedicalCondition.find_by(name: code_hash[event["disease"]]).inspect
+      puts event["disease"]
+      puts code_hash[event["disease"]]
+    end
+  end
+end
