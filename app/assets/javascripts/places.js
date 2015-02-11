@@ -12,7 +12,17 @@ $(function(){
     var latLng = new google.maps.LatLng(latitude,longitude)
     var mapOptions = {
       center: latLng,
-      zoom: 3
+      zoom: 4,
+      mapTypeControl: true,
+      mapTypeControlOptions: {
+          style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
+          position: google.maps.ControlPosition.BOTTOM_CENTER
+      },
+      zoomControl: true,
+      zoomControlOptions: {
+          style: google.maps.ZoomControlStyle.SMALL,
+          position: google.maps.ControlPosition.RIGHT_TOP
+      },
     };
     map = new google.maps.Map(document.getElementById('map-canvas'),
         mapOptions);
