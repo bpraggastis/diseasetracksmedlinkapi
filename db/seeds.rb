@@ -277,21 +277,21 @@ require 'csv'
 #
 # #####--> Replace with correct path name
 
-# geo_data = JSON.parse(File.read("/Users/brendapraggastis/Ada/capstone/datafiles/us_locations.json"))
-# # geo_data = JSON.parse(File.read('db/support/locations.json'))
+geo_data = JSON.parse(File.read("/Users/brendapraggastis/Ada/capstone/datafiles/us_locations.json"))
+# geo_data = JSON.parse(File.read('db/support/locations.json'))
 # geo_data = JSON.parse(File.read("db/support/us_locations.json"))
 # geo_data = JSON.parse(File.read('db/support/locations.json'))
-# geo_data.each do |local|
-#   new_geo = Geo.create(
-#               name: local["FEATURE_NAME"],
-#               latitude: local["PRIM_LAT_DEC"],
-#               longitude: local["PRIM_LONG_DEC"],
-#               county: local["COUNTY_NAME"],
-#               place_id: Place.find_by(abbreviation: local["STATE_ALPHA"] ).id
-#               )
-#               puts new_geo.name
-#
-# end
+geo_data.each do |local|
+  new_geo = Geo.create(
+              name: local["FEATURE_NAME"],
+              latitude: local["PRIM_LAT_DEC"],
+              longitude: local["PRIM_LONG_DEC"],
+              county: local["COUNTY_NAME"],
+              place_id: Place.find_by(abbreviation: local["STATE_ALPHA"] ).id
+              )
+              puts new_geo.name
+
+end
 #
 #
 #
@@ -334,10 +334,15 @@ DISEASE_HASH = {
   "Rubella" => ["D012409","10018206","N0000002655","36653000","C0035920"],
   "Ebola" => ["D019142","10014071","N0000003898","37109004","C0282687"],
   "Malaria" => ["1385","7728","C03.752.250.552","Malaria","248310"],
-  "West Nile Virus" => ["C1096184"],
+  "West Nile virus" => ["C1096184"],
   "Encephalitis" => ["C0014060"],
   "Mumps" => ["D009107","10009300","N0000002055","240526004","36989005","C0026780"]
 }
+
+mumps = MedicalCondition.create(name: "Mumps",description: "An acute infectious disease caused by RUBULAVIRUS, spread by direct contact, airborne droplet nuclei, fomites contaminated by infectious saliva, and perhaps urine, and usually seen in children under the age of 15, although adults may also be affected. (From Dorland, 28th ed)")
+mumps.codes.create(code_system: "meshid", code_value: "D009107")
+
+
 
 code_hash = {}
 DISEASE_HASH.each do |key,value|

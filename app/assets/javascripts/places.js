@@ -23,6 +23,10 @@ $(function(){
           style: google.maps.ZoomControlStyle.SMALL,
           position: google.maps.ControlPosition.RIGHT_TOP
       },
+      panControl: true,
+      panControlOptions: {
+        position: google.maps.ControlPosition. RIGHT_TOP
+      }
     };
     map = new google.maps.Map(document.getElementById('map-canvas'),
         mapOptions);
