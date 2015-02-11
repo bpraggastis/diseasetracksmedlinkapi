@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150206212633) do
+ActiveRecord::Schema.define(version: 20150211035201) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -31,12 +31,12 @@ ActiveRecord::Schema.define(version: 20150206212633) do
 
   create_table "events", force: true do |t|
     t.integer  "number_infected"
-    t.datetime "start_date"
-    t.datetime "duration"
-    t.datetime "end_date"
-    t.string   "status"
+    t.datetime "date"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "medical_condition_id"
+    t.integer  "outbreak_id"
+    t.integer  "geo_id"
   end
 
   create_table "geo_places", force: true do |t|
@@ -53,6 +53,8 @@ ActiveRecord::Schema.define(version: 20150206212633) do
     t.string   "gazateer"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "county"
+    t.integer  "place_id"
   end
 
   create_table "medical_cause_conditions", force: true do |t|
@@ -105,9 +107,10 @@ ActiveRecord::Schema.define(version: 20150206212633) do
   end
 
   create_table "outbreaks", force: true do |t|
-    t.integer  "medical_condition_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "title"
+    t.text     "description"
   end
 
   create_table "places", force: true do |t|

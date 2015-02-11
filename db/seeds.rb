@@ -282,12 +282,11 @@
 #               name: local["FEATURE_NAME"],
 #               latitude: local["PRIM_LAT_DEC"],
 #               longitude: local["PRIM_LONG_DEC"],
+#               county: local["COUNTY_NAME"],
+#               place_id: Place.find_by(abbreviation: local["STATE_ALPHA"] ).id
 #               )
 #               puts new_geo.name
-#   GeoPlace.create(
-#               place_id: Place.find_by(abbreviation: local["STATE_ALPHA"] ).id,
-#               geo_id: new_geo.id
-#               )
+#
 # end
 #
 #
@@ -316,13 +315,18 @@
 #   "DATE_CREATED": "12/31/95",
 #   "DATE_EDITED": "1/24/09"
 # },
+# ##################################################################################################################
+#
+#          Seed 7: Outbreaks and Events
+#
+# ##################################################################################################################
+#
+# # TO DO:
+# # parse the 3 outbreak tables
+# # seed Events and associate with Geo and Place in tables.
+# # add counties to Geo data
+# # add place_id to Geo data
 
-# ##################################################################################################################
-#
-#          Seed 7: EVENT DATA FROM JSON FILES
-#
-# ##################################################################################################################
-#
 outbreak1 = JSON.parse(File.read("db/support/outbreak-1.json"))
 
 outbreak1.each do |event|
@@ -339,3 +343,37 @@ outbreak2.each do |event|
   e.save
 end
 puts outbreaks.length
+
+# DISEASE_HASH = {
+#   "Rubella" => ["D012409","10018206","N0000002655","36653000","C0035920"],
+#   "Ebola" => ["D019142","10014071","N0000003898","37109004","C0282687"],
+#   "Malaria" => ["1385","7728","C03.752.250.552","Malaria","248310"],
+#   "West Nile Virus" => ["C1096184"],
+#   "Encephalitis" => ["C0014060"],
+#   "Mumps" => ["D009107","10009300","N0000002055","240526004","36989005","C0026780"]
+# }
+#
+# code_hash = {}
+# DISEASE_HASH.each do |key,value|
+#   value.each do |val|
+#     code_hash[val] = key
+#   end
+# end
+
+### to enter Events:
+#  event_hash.keys = {number_infected, date, disease_code, latitude,
+#                     longitude, feature, county, state}
+#  medical_condition_id = MedicalCondition.find_by(name: code_hash(disease_code)).id
+#  outbreak_id = number given by filename
+#  geo_id = Geo.find_by(name: feature).id || Geo.create(.....)
+#  we could also use latitude, longitude here for find_by
+#  if we need to do a Geo.create then we need to add place_id
+#
+
+######## Outbreaks  Seed:##########
+
+# Outbreak.create(title: "Mosquito Born", description: "Cases of Malaria and West " +
+# "Nile Virus found in Louisiana, Florida, Georgia, Mississippi, Arkansas, and Alabama.")
+# Outbreak.create(title: "Under-vaccination", description: "Cases of Rubella, Mumps, and " +
+# "Encephalitis in California, Oregon, and Washington due to lack of vaccination.")
+# Outbreak.create(title: "Ebola", description: "Cases of Ebola occuring in New York State.")
