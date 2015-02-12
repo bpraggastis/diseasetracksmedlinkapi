@@ -17,6 +17,18 @@
 
 .navbar {
   margin-bottom: 0;
+  color: ##ffee89;
+}
+
+.navbar a:hover {
+  color: #ffc375;
+}
+.navbar a:visited {
+  color: #ffe8c4;
+}
+
+.navbar a {
+  color: #ffee89;
 }
 
 .logo {
@@ -33,6 +45,10 @@
   top: 25px;
   left: 50px;
   z-index: 1000
+}
+
+.logo span {
+  color: #2D3440;
 }
 
 .menu-buttons {
