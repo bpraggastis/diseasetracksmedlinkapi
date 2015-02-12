@@ -7,7 +7,7 @@ class Event < ActiveRecord::Base
 
   #medical condition associations
   belongs_to :outbreak
-  has_one :medical_condition
+  belongs_to :medical_condition
   has_one :geo
 
   def latitude
