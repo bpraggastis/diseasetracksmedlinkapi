@@ -2,7 +2,7 @@ class Geo < ActiveRecord::Base
   # these are specific places given by latitude and longitude
   Searchable
 
-  has_one :place
+  belongs_to :place
   has_many :events
 
   def self.search(query)
