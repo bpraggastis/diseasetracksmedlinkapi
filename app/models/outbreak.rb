@@ -4,5 +4,7 @@ class Outbreak < ActiveRecord::Base
   # a common concern: mosquito born, under-vaccination, ebola
 
   has_many :events
+  has_many :medical_condition_outbreaks
+  has_many :medical_conditions, through: :medical_condition_outbreaks
 
 end

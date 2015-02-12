@@ -23,8 +23,12 @@ class MedicalCondition < ActiveRecord::Base
   has_many :alternate_names, through: :synonyms
 
   #outbreak associations
-  has_many :outbreaks
-  has_many :events, through: :outbreaks
+  has_many :medical_condition_outbreaks
+  has_many :outbreaks, through: :medical_condition_outbreaks
+  has_many :events
+
+
+
 
 
   def self.search(query)

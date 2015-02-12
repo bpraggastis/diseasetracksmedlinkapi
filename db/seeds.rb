@@ -20,10 +20,14 @@ require 'csv'
 # ######--> Replace with correct path name
 #
 #
+############## Create Initial Seed from list of Outbreak Medical Conditions
+# #####
+# mumps = MedicalCondition.create(name: "Mumps", description: "An acute infectious disease caused by RUBULAVIRUS, spread by direct contact, airborne droplet nuclei, fomites contaminated by infectious saliva, and perhaps urine, and usually seen in children under the age of 15, although adults may also be affected. (From Dorland, 28th ed)")
+# mumps.codes.create(code_system: "meshid", code_value: "D009107")
+#
 # DISEASE_DATA = JSON.parse(HTTParty.get("https://s3-us-west-2.amazonaws.com/capstone-datafiles/datafiles/diseases.json"))['diseases']
 #
 # diseases = MedicalConditionHelpers::DataSeed.make_disease_bank(DISEASE_DATA)
-#
 #
 # diseases.each do |disease|
 #   new_disease = MedicalCondition.create(name: disease['name'])
@@ -41,11 +45,6 @@ require 'csv'
 #     new_disease.codes.create(code_system: code["system"], code_value: code["value"])
 #   end
 # end
-# ##### Don't forget to add Mumps!
-# mumps = MedicalCondition.create(name: "Mumps", description: "An acute infectious disease caused by RUBULAVIRUS, spread by direct contact, airborne droplet nuclei, fomites contaminated by infectious saliva, and perhaps urine, and usually seen in children under the age of 15, although adults may also be affected. (From Dorland, 28th ed)")
-# mumps.codes.create(code_system: "meshid", code_value: "D009107")
-#
-# #
 # #
 # #
 # # ###################################################################################################################
@@ -85,7 +84,7 @@ require 'csv'
 # #
 # ###################################################################################################################
 # # DMED = MedicalTherapyHelpers::DailyMedSeed::make_daily_med_seed("/Users/brendapraggastis/Ada/capstone/datafiles/dailymed_dump.json")
-DMED = MedicalTherapyHelpers::DailyMedSeed::make_daily_med_seed("db/support/dailymed_dump.json")
+# DMED = MedicalTherapyHelpers::DailyMedSeed::make_daily_med_seed("db/support/dailymed_dump.json")
 ######--> Replace with correct path name
 # This returns {dmedcode => {name:----, db_code:----, generic:----, description:----},--=>{..}...}
 # Check medical_therapy_helpers for additional fields
@@ -339,7 +338,7 @@ DMED = MedicalTherapyHelpers::DailyMedSeed::make_daily_med_seed("db/support/dail
 #   "Ebola" => ["D019142","10014071","N0000003898","37109004","C0282687"],
 #   "Malaria" => ["1385","7728","C03.752.250.552","Malaria","248310"],
 #   "West Nile virus" => ["C1096184"],
-#   "Encephalitis" => ["C0014060"],
+#   "Encephalitis, St. Louis" => ["C0014060"],
 #   "Mumps" => ["D009107","10009300","N0000002055","240526004","36989005","C0026780"]
 # }
 
@@ -377,7 +376,7 @@ DMED = MedicalTherapyHelpers::DailyMedSeed::make_daily_med_seed("db/support/dail
 #   "Ebola" => ["D019142","10014071","N0000003898","37109004","C0282687"],
 #   "Malaria" => ["1385","7728","C03.752.250.552","Malaria","248310"],
 #   "West Nile virus" => ["C1096184"],
-#   "Encephalitis" => ["C0014060"],
+#   "Encephalitis, St. Louis" => ["C0014060"],
 #   "Mumps" => ["D009107","10009300","N0000002055","240526004","36989005","C0026780"]
 # }
 #
@@ -413,3 +412,23 @@ DMED = MedicalTherapyHelpers::DailyMedSeed::make_daily_med_seed("db/support/dail
 #     end
 #   end
 # end
+
+# ##################################################################################################################
+#
+#          Seed 8: MedicalConditionOutbreaks
+#
+# ##################################################################################################################
+
+outbreaks = {}
+outbreaks[1] = ["Malaria", "West Nile virus", "Encephalitis, St. Louis"]
+outbreaks[2] = ["Rubella", "Mumps"]
+outbreaks[3] = ["Ebola"]
+
+# MedicalCondition.create(name: "Encephalitis, St. Louis")
+
+(1..3).each do |n|
+  outbreaks[n].each do |item|
+    id = MedicalCondition.find_by(name: item ).id
+    MedicalConditionOutbreak.create(medical_condition_id: id, outbreak_id: n )
+  end
+end

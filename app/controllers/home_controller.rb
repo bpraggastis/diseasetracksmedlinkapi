@@ -10,12 +10,22 @@ class HomeController < ApplicationController
   end
 
   def query
-    outbreak = [params[:outbreak_id].to_i]
-    disease = [params[:disease_id].to_i]
-    outbreak.include?(0) ? @outbreaks = Outbreak.all.collect{|x| x.id} : @outbreaks = [params[:outbreak_id].to_i]
-    disease.include?(0)? @diseases = MedicalCondition.where(name: "Rubella").collect{|x| x.id} : @diseases = [params[:disease_id].to_i]
-    @events = Event.where({outbreak_id: @outbreaks , medical_condition_id: @diseases}).sort_by{|event| event.date}.reverse[1,100]
+    basic_diseases = []
+    (1..3).each do |n|
+      basic_diseases += Outbreak.find(n).medical_conditions.collect{|x| x.id}
+    end # this is a list of ids for all outbreak codes
+    @outbreakq = [params[:outbreak_id].to_i] #ids for queried outbreaks
+    @diseaseq = [params[:disease_id].to_i] #ids for queried diseases
+    outbreakq.include?(0) ? @outbreaks = Outbreak.all.collect{|x| x.id} : @outbreaks = outbreakq
+    diseaseq.include?(0)? @diseases = find_diseases(@outbreaks) : @diseases = diseaseq
+    @events = Event.where({outbreak_id: @outbreaks, medical_condition_id: @diseases }).sort_by{|event| event.date}.reverse[1,100]
     render 'home/index'
+  end
+
+  def find_diseases(array = [1,2,3]) # return ids
+    diseases = []
+    array.each{|x| diseases += Outbreak.find(x).medical_conditions.collect{|x| x.id}}
+    diseases
   end
 
     # @cquery = ""
