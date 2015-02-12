@@ -1,10 +1,31 @@
 class HomeController < ApplicationController
 
   def index
+    @outbreaks = Outbreak.all.collect{|x| x.id}
+    @diseases = []
     @events = Event.where(
           date: DateTime.parse('Jan. 15, 2000') .. DateTime.parse('Jan. 15, 2010')
-          ).to_a.sort_by{|event| event.date}.reverse[0,100]
+          ).to_a.sort_by{|event| event.date}.reverse[1,100]
 
+  end
+
+  def query
+    basic_diseases = []
+    (1..3).each do |n|
+      basic_diseases += Outbreak.find(n).medical_conditions.collect{|x| x.id}
+    end # this is a list of ids for all outbreak codes
+    @outbreakq = [params[:outbreak_id].to_i] #ids for queried outbreaks
+    @diseaseq = [params[:disease_id].to_i] #ids for queried diseases
+    outbreakq.include?(0) ? @outbreaks = Outbreak.all.collect{|x| x.id} : @outbreaks = outbreakq
+    diseaseq.include?(0)? @diseases = find_diseases(@outbreaks) : @diseases = diseaseq
+    @events = Event.where({outbreak_id: @outbreaks, medical_condition_id: @diseases }).sort_by{|event| event.date}.reverse[1,100]
+    render 'home/index'
+  end
+
+  def find_diseases(array = [1,2,3]) # return ids
+    diseases = []
+    array.each{|x| diseases += Outbreak.find(x).medical_conditions.collect{|x| x.id}}
+    diseases
   end
 
     # @cquery = ""
@@ -15,7 +36,7 @@ class HomeController < ApplicationController
 
 
 
-  def query
+  def query1
       @cquery = ""
       @tquery = ""
       if params[:condition_query].present?
