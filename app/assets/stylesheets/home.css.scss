@@ -2,7 +2,7 @@
   display: block;
   height: 500px;
   margin: auto;
-  border: solid green;
+  // border: solid green;
   overflow: scroll;
 }
 
@@ -22,6 +22,39 @@
   color: white;
   height: 30px;
   border: solid black;
-  text-align: center
 
+}
+
+.query-form {
+  width: 100%;
+  z-index: 3;
+  clear: both;
+  // margin-left: 1%;
+  // margin-right: 1%;
+  // margin-top: 3px;
+  background-color: white;
+  color: black;
+
+}
+
+a.menu-item {
+  display: inline-block;
+  margin-left: 10px;
+  float: left;
+  color: white
+}
+
+a.location-marker {
+  color: black;
+}
+
+.white-link {
+  display: inline-block;
+  color: white;
+  padding-left: 5px;
+  float: left;
+
+}
+a:hover {
+  color: red;
 }

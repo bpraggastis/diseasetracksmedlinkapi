@@ -33,14 +33,18 @@ require 'csv'
 #       new_disease.alternate_names.create(name: alternate_name)
 #     end
 #   # Faker data used for causes
-#   rand(3).times do
-#     new_disease.causes.create(name: Faker::Lorem.word, description: Faker::Company.catch_phrase)
-#   end
+## rand(3).times do
+# #  new_disease.causes.create(name: Faker::Lorem.word, description: Faker::Company.catch_phrase)
+# #end
 #
 #   disease["codes"].each do |code|
 #     new_disease.codes.create(code_system: code["system"], code_value: code["value"])
 #   end
 # end
+###### Don't forget to add Mumps!
+# mumps = MedicalCondition.create(name: "Mumps",description: "An acute infectious disease caused by RUBULAVIRUS, spread by direct contact, airborne droplet nuclei, fomites contaminated by infectious saliva, and perhaps urine, and usually seen in children under the age of 15, although adults may also be affected. (From Dorland, 28th ed)")
+# mumps.codes.create(code_system: "meshid", code_value: "D009107")
+#
 # #
 # #
 # #
@@ -277,21 +281,21 @@ require 'csv'
 #
 # #####--> Replace with correct path name
 
-geo_data = JSON.parse(File.read("/Users/brendapraggastis/Ada/capstone/datafiles/us_locations.json"))
-# geo_data = JSON.parse(File.read('db/support/locations.json'))
-# geo_data = JSON.parse(File.read("db/support/us_locations.json"))
-# geo_data = JSON.parse(File.read('db/support/locations.json'))
-geo_data.each do |local|
-  new_geo = Geo.create(
-              name: local["FEATURE_NAME"],
-              latitude: local["PRIM_LAT_DEC"],
-              longitude: local["PRIM_LONG_DEC"],
-              county: local["COUNTY_NAME"],
-              place_id: Place.find_by(abbreviation: local["STATE_ALPHA"] ).id
-              )
-              puts new_geo.name
-
-end
+# geo_data = JSON.parse(File.read("/Users/brendapraggastis/Ada/capstone/datafiles/us_locations.json"))
+# # geo_data = JSON.parse(File.read('db/support/locations.json'))
+# # geo_data = JSON.parse(File.read("db/support/us_locations.json"))
+# # geo_data = JSON.parse(File.read('db/support/locations.json'))
+# geo_data.each do |local|
+#   new_geo = Geo.create(
+#               name: local["FEATURE_NAME"],
+#               latitude: local["PRIM_LAT_DEC"],
+#               longitude: local["PRIM_LONG_DEC"],
+#               county: local["COUNTY_NAME"],
+#               place_id: Place.find_by(abbreviation: local["STATE_ALPHA"] ).id
+#               )
+#               puts new_geo.name
+#
+# end
 #
 #
 #
@@ -330,27 +334,21 @@ end
 # # add counties to Geo data
 # # add place_id to Geo data
 
-DISEASE_HASH = {
-  "Rubella" => ["D012409","10018206","N0000002655","36653000","C0035920"],
-  "Ebola" => ["D019142","10014071","N0000003898","37109004","C0282687"],
-  "Malaria" => ["1385","7728","C03.752.250.552","Malaria","248310"],
-  "West Nile virus" => ["C1096184"],
-  "Encephalitis" => ["C0014060"],
-  "Mumps" => ["D009107","10009300","N0000002055","240526004","36989005","C0026780"]
-}
+# DISEASE_HASH = {
+#   "Rubella" => ["D012409","10018206","N0000002655","36653000","C0035920"],
+#   "Ebola" => ["D019142","10014071","N0000003898","37109004","C0282687"],
+#   "Malaria" => ["1385","7728","C03.752.250.552","Malaria","248310"],
+#   "West Nile virus" => ["C1096184"],
+#   "Encephalitis" => ["C0014060"],
+#   "Mumps" => ["D009107","10009300","N0000002055","240526004","36989005","C0026780"]
+# }
 
-mumps = MedicalCondition.create(name: "Mumps",description: "An acute infectious disease caused by RUBULAVIRUS, spread by direct contact, airborne droplet nuclei, fomites contaminated by infectious saliva, and perhaps urine, and usually seen in children under the age of 15, although adults may also be affected. (From Dorland, 28th ed)")
-mumps.codes.create(code_system: "meshid", code_value: "D009107")
-
-
-
-
-code_hash = {}
-DISEASE_HASH.each do |key,value|
-  value.each do |val|
-    code_hash[val] = key
-  end
-end
+# code_hash = {}
+# DISEASE_HASH.each do |key,value|
+#   value.each do |val|
+#     code_hash[val] = key
+#   end
+# end
 
 ### to enter Events:
 #  event_hash.keys = {number_infected, date, disease_code, latitude,
@@ -370,6 +368,24 @@ end
 # "Encephalitis in California, Oregon, and Washington due to lack of vaccination.")
 # Outbreak.create(title: "Ebola", description: "Cases of Ebola occuring in New Jersey and New York State.")
 #
+####### Events Seed: Turn on DISEASE_HASH and code_hash ###########
+#
+DISEASE_HASH = {
+  "Rubella" => ["D012409","10018206","N0000002655","36653000","C0035920"],
+  "Ebola" => ["D019142","10014071","N0000003898","37109004","C0282687"],
+  "Malaria" => ["1385","7728","C03.752.250.552","Malaria","248310"],
+  "West Nile virus" => ["C1096184"],
+  "Encephalitis" => ["C0014060"],
+  "Mumps" => ["D009107","10009300","N0000002055","240526004","36989005","C0026780"]
+}
+
+code_hash = {}
+DISEASE_HASH.each do |key,value|
+  value.each do |val|
+    code_hash[val] = key
+  end
+end
+
 (1..3).each do |n|
   outbreak = JSON.parse(File.read("db/support/outbreak-#{n}.json"))
   outbreak.each do |event|
