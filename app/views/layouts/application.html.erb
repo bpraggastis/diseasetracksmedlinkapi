@@ -33,29 +33,34 @@
         <a class="logo" href="/"><span>Disease Tracks</span></a>
 
         <!-- Everything you want hidden at 940px or less, place within here -->
-        <div class="nav-collapse collapse" id="nav-collapse-login">
-          <%= form_tag sessions_path, method: :post do %>
-            <%= label_tag :email, "Email" %> <br>
-            <%= email_field_tag :email %> <br>
-            <%= label_tag :password, "Password" %> <br>
-            <%= password_field_tag :password %> <br>
-            <%= submit_tag "Sign In" %>
-          <% end %>
-        <!-- .nav, .navbar-search, .navbar-form, etc -->
-        </div>
-        <div class="nav-collapse collapse" id="nav-collapse-signup">
-          <%= form_for User.new do |f| %>
-            <%= f.label "Name" %> <br>
-            <%= f.text_field :name %> <br>
-            <%= f.label "email" %> <br>
-            <%= f.email_field :email %> <br>
-            <%= f.label "Password" %> <br>
-            <%= f.password_field :password%> <br>
-            <%= f.label "Confirm Password"%> <br>
-            <%= f.password_field :password_confirmation%> <br>
-            <%= f.submit "Sign Up"%>
-          <% end %>
-        </div>
+        <span class="nav-form">
+          <div class="nav-collapse collapse" id="nav-collapse-login">
+            <br>
+            <%= form_tag sessions_path, method: :post do %>
+              <%= label_tag :email, "Email: " %>
+              <%= email_field_tag :email %>
+              <%= label_tag :password, "Password: " %>
+              <%= password_field_tag :password %>
+              <%= submit_tag "Sign In" %>
+            <% end %>
+          <!-- .nav, .navbar-search, .navbar-form, etc -->
+          </div>
+        </span>
+        <span class="nav-form">
+          <div class="nav-collapse collapse" id="nav-collapse-signup">
+            <%= form_for User.new do |f| %>
+              <%= f.label "Name" %> <br>
+              <%= f.text_field :name %> <br>
+              <%= f.label "email" %> <br>
+              <%= f.email_field :email %> <br>
+              <%= f.label "Password" %> <br>
+              <%= f.password_field :password%> <br>
+              <%= f.label "Confirm Password"%> <br>
+              <%= f.password_field :password_confirmation%> <br>
+              <%= f.submit "Sign Up"%>
+            <% end %>
+          </div>
+        </span>
       </div>
     </div>
 

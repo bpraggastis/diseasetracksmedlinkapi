@@ -29,6 +29,14 @@
 
 .navbar a {
   color: #ffee89;
+  float: right;
+}
+
+.nav-form {
+  margin-left: 100px;
+  margin-top: 25px;
+  background-color: #222;
+  color: #ffc375;
 }
 
 .logo {
