@@ -31,6 +31,8 @@ gem 'bcrypt-ruby'
 
 gem 'nokogiri'
 
+gem 'httparty'
+
 group :development, :test do
   gem 'rspec-rails'
   gem 'dotenv-rails'
