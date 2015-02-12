@@ -68,9 +68,7 @@ require 'csv'
 # encephalitis.codes.create(code_system: "image", code_value: "http://upload.wikimedia.org/wikipedia/commons/8/8c/St._Louis_Encephalitis_%28SLE%29_virus_EM_PHIL_1871_lores.JPG")
 
 # # West Nile virus
-# w = MedicalCondition.find_by(name: "West Nile virus")
-# w.description = "West Nile virus (WNV) is a mosquito-borne zoonotic arbovirus belonging to the genus Flavivirus in the family Flaviviridae. This flavivirus is found in temperate and tropical regions of the world. It was first identified in the West Nile subregion in the East African nation of Uganda in 1937. The main mode of WNV transmission is via various species of mosquitoes, which are the prime vector, with birds being the most commonly infected animal and serving as the prime reservoir host—especially passerines, which are of the largest order of birds, Passeriformes."
-# w.save
+# w = MedicalCondition.create(name: "West Nile Virus", description: "West Nile virus (WNV) is a mosquito-borne zoonotic arbovirus belonging to the genus Flavivirus in the family Flaviviridae. This flavivirus is found in temperate and tropical regions of the world. It was first identified in the West Nile subregion in the East African nation of Uganda in 1937. The main mode of WNV transmission is via various species of mosquitoes, which are the prime vector, with birds being the most commonly infected animal and serving as the prime reservoir host—especially passerines, which are of the largest order of birds, Passeriformes.")
 # w.codes.create(code_system: "image", code_value: "http://media.worldbulletin.net/250x190/2012/08/30/west-nile-virus.jpg")
 # #
 # #
