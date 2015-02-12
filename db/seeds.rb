@@ -19,11 +19,11 @@ require 'csv'
 # # DISEASE_DATA = JSON.parse(File.read("db/support/disease_file.json"))['diseases']
 # ######--> Replace with correct path name
 #
-
+#
 # DISEASE_DATA = JSON.parse(HTTParty.get("https://s3-us-west-2.amazonaws.com/capstone-datafiles/datafiles/diseases.json"))['diseases']
-
+#
 # diseases = MedicalConditionHelpers::DataSeed.make_disease_bank(DISEASE_DATA)
-
+#
 #
 # diseases.each do |disease|
 #   new_disease = MedicalCondition.create(name: disease['name'])
@@ -33,7 +33,7 @@ require 'csv'
 #       new_disease.alternate_names.create(name: alternate_name)
 #     end
 #   # Faker data used for causes
-## rand(3).times do
+# # rand(3).times do
 # #  new_disease.causes.create(name: Faker::Lorem.word, description: Faker::Company.catch_phrase)
 # #end
 #
@@ -41,8 +41,8 @@ require 'csv'
 #     new_disease.codes.create(code_system: code["system"], code_value: code["value"])
 #   end
 # end
-###### Don't forget to add Mumps!
-# mumps = MedicalCondition.create(name: "Mumps",description: "An acute infectious disease caused by RUBULAVIRUS, spread by direct contact, airborne droplet nuclei, fomites contaminated by infectious saliva, and perhaps urine, and usually seen in children under the age of 15, although adults may also be affected. (From Dorland, 28th ed)")
+# ##### Don't forget to add Mumps!
+# mumps = MedicalCondition.create(name: "Mumps", description: "An acute infectious disease caused by RUBULAVIRUS, spread by direct contact, airborne droplet nuclei, fomites contaminated by infectious saliva, and perhaps urine, and usually seen in children under the age of 15, although adults may also be affected. (From Dorland, 28th ed)")
 # mumps.codes.create(code_system: "meshid", code_value: "D009107")
 #
 # #
@@ -85,7 +85,7 @@ require 'csv'
 # #
 # ###################################################################################################################
 # # DMED = MedicalTherapyHelpers::DailyMedSeed::make_daily_med_seed("/Users/brendapraggastis/Ada/capstone/datafiles/dailymed_dump.json")
-# DMED = MedicalTherapyHelpers::DailyMedSeed::make_daily_med_seed("db/support/dailymed_dump.json")
+DMED = MedicalTherapyHelpers::DailyMedSeed::make_daily_med_seed("db/support/dailymed_dump.json")
 ######--> Replace with correct path name
 # This returns {dmedcode => {name:----, db_code:----, generic:----, description:----},--=>{..}...}
 # Check medical_therapy_helpers for additional fields
@@ -253,8 +253,8 @@ require 'csv'
 # def is_int?(string)
 #   !!(string =~ /^[+-]?[1-9][0-9]*$/)
 # end
-#
-# ####--> Replace with correct path name
+# #
+# # ####--> Replace with correct path name
 # lines = CSV.open('db/support/us_geo_populated_place.csv').readlines
 # keys = lines.shift
 # n = lines.count
@@ -283,7 +283,7 @@ require 'csv'
 
 # geo_data = JSON.parse(File.read("/Users/brendapraggastis/Ada/capstone/datafiles/us_locations.json"))
 # # geo_data = JSON.parse(File.read('db/support/locations.json'))
-# # geo_data = JSON.parse(File.read("db/support/us_locations.json"))
+# geo_data = JSON.parse(File.read("db/support/us_locations.json"))
 # # geo_data = JSON.parse(File.read('db/support/locations.json'))
 # geo_data.each do |local|
 #   new_geo = Geo.create(
@@ -372,44 +372,44 @@ require 'csv'
 #
 ####### Events Seed: Turn on DISEASE_HASH and code_hash ###########
 #
-DISEASE_HASH = {
-  "Rubella" => ["D012409","10018206","N0000002655","36653000","C0035920"],
-  "Ebola" => ["D019142","10014071","N0000003898","37109004","C0282687"],
-  "Malaria" => ["1385","7728","C03.752.250.552","Malaria","248310"],
-  "West Nile virus" => ["C1096184"],
-  "Encephalitis" => ["C0014060"],
-  "Mumps" => ["D009107","10009300","N0000002055","240526004","36989005","C0026780"]
-}
-
-code_hash = {}
-DISEASE_HASH.each do |key,value|
-  value.each do |val|
-    code_hash[val] = key
-  end
-end
-
-(1..3).each do |n|
-  outbreak = JSON.parse(File.read("db/support/outbreak-#{n}.json"))
-  outbreak.each do |event|
-    unless g = Geo.find_by(name: event["location"]["FEATURE_NAME"])
-        pl = Place.find_by(abbreviation: event["location"]["STATE_ALPHA"])
-        g = Geo.create(latitude: event["location"]["PRIM_LAT_DEC"],
-                   longitude: event["location"]["PRIM_LAT_DEC"],
-                   name: event["location"]["FEATURE_NAME"],
-                   county: event["location"]["COUNTY_NAME"],
-                   place_id: pl.id)
-    end
-    event["location"]["DATE_CREATED"]? d = Date.strptime(event["location"]["DATE_CREATED"], "%m/%d/%y") : d = nil
-    begin
-      Outbreak.find(n).events.new(
-          date: d,
-          medical_condition_id: MedicalCondition.find_by(name: code_hash[event["disease"]]).id,
-          number_infected: event["population"].to_i,
-          geo_id: g.id)
-    rescue
-      puts MedicalCondition.find_by(name: code_hash[event["disease"]]).inspect
-      puts event["disease"]
-      puts code_hash[event["disease"]]
-    end
-  end
-end
+# DISEASE_HASH = {
+#   "Rubella" => ["D012409","10018206","N0000002655","36653000","C0035920"],
+#   "Ebola" => ["D019142","10014071","N0000003898","37109004","C0282687"],
+#   "Malaria" => ["1385","7728","C03.752.250.552","Malaria","248310"],
+#   "West Nile virus" => ["C1096184"],
+#   "Encephalitis" => ["C0014060"],
+#   "Mumps" => ["D009107","10009300","N0000002055","240526004","36989005","C0026780"]
+# }
+#
+# code_hash = {}
+# DISEASE_HASH.each do |key,value|
+#   value.each do |val|
+#     code_hash[val] = key
+#   end
+# end
+#
+# (1..3).each do |n|
+#   outbreak = JSON.parse(File.read("db/support/outbreak-#{n}.json"))
+#   outbreak.each do |event|
+#     unless g = Geo.find_by(name: event["location"]["FEATURE_NAME"])
+#         pl = Place.find_by(abbreviation: event["location"]["STATE_ALPHA"])
+#         g = Geo.create(latitude: event["location"]["PRIM_LAT_DEC"],
+#                    longitude: event["location"]["PRIM_LAT_DEC"],
+#                    name: event["location"]["FEATURE_NAME"],
+#                    county: event["location"]["COUNTY_NAME"],
+#                    place_id: pl.id)
+#     end
+#     event["location"]["DATE_CREATED"]? d = Date.strptime(event["location"]["DATE_CREATED"], "%m/%d/%y") : d = nil
+#     begin
+#       Outbreak.find(n).events.new(
+#           date: d,
+#           medical_condition_id: MedicalCondition.find_by(name: code_hash[event["disease"]]).id,
+#           number_infected: event["population"].to_i,
+#           geo_id: g.id)
+#     rescue
+#       puts MedicalCondition.find_by(name: code_hash[event["disease"]]).inspect
+#       puts event["disease"]
+#       puts code_hash[event["disease"]]
+#     end
+#   end
+# end
