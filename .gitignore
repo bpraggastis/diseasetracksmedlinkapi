@@ -8,11 +8,16 @@
 /.bundle
 /db/support/drugbank.xml
 /db/support/diseasome_dump.json
+/db/support/dailymed_dump.json
+/db/support/us_geo_populated_place.csv
+/db/support/us_locations.json
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
 /db/*.sqlite3-journal
 
+
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+/.env

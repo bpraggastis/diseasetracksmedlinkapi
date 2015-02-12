@@ -1,0 +1,61 @@
+beo-disease:PA445579 a schema:MedicalCondition ;
+    rdfs:label "Rubella" ;
+    schema:alternateName "German Measles" ;
+    schema:alternateName "Measles" ;
+    schema:alternateName "German" ;
+    schema:alternateName "Rubella without mention of complication" ;
+    schema:alternateName "NOS" ;
+    schema:alternateName "Rubellas" ;
+    schema:code "D012409" ;
+    schema:code "10018206" ;
+    schema:code "N0000002655" ;
+    schema:code "36653000" ;
+    schema:code "C0035920" ;
+    rdfs:comment "Imported from PharmGKB on: 10/02/2014 09:56" .
+
+beo-disease:PA165108343 a schema:MedicalCondition ;
+    rdfs:label "Ebola virus disease" ;
+    schema:alternateName "Ebola haemorrhagic fever" ;
+    schema:code "D019142" ;
+    schema:code "10014071" ;
+    schema:code "N0000003898" ;
+    schema:code "37109004" ;
+    schema:code "C0282687" ;
+    rdfs:comment "Imported from PharmGKB on: 10/02/2014 09:56" .
+
+beo-disease:Malaria a schema:MedicalCondition ;
+    rdfs:label "Malaria" ;
+    schema:image "http://upload.wikimedia.org/wikipedia/commons/3/3c/Plasmodium.jpg" ;
+    schema:code "1385" ;
+    schema:code "7728" ;
+    schema:code "C03.752.250.552" ;
+    schema:code "Malaria" ;
+    schema:code "248310" ;
+    rdfs:comment "Imported from Wikipedia Infobox on: 10/02/2014 09:40" .
+
+beo-disease:C1096184 a schema:MedicalCondition ;
+    rdfs:label "West Nile viral infection" ;
+    schema:code "C1096184" ;
+    rdfs:comment "Imported from DISGENET on: 10/01/2014 11:22" .
+
+beo-disease:C0014060 a schema:MedicalCondition ;
+    rdfs:label "Encephalitis, St. Louis" ;
+    schema:code "C0014060" ;
+    rdfs:comment "Imported from DISGENET on: 10/01/2014 11:22" .
+
+beo-disease:PA444989 a schema:MedicalCondition ;
+    rdfs:label "Mumps" ;
+    schema:alternateName "Epidemic Parotitides" ; 
+    schema:alternateName "Epidemic Parotitis" ;
+    schema:alternateName "Infectious parotitis" ;
+    schema:alternateName "Mumps parotitis" ;
+    schema:alternateName "NOS" ;
+    schema:alternateName "Parotitides" ;
+    schema:alternateName "Parotitis" ;;
+    schema:code "D009107" ;
+    schema:code "10009300" ;
+    schema:code "N0000002055" ; 
+    schema:code "240526004" ;
+    schema:code "36989005" ;
+    schema:code "C0026780" ; 
+    rdfs:comment "Imported from PharmGKB on: 10/02/2014 09:56" . 
