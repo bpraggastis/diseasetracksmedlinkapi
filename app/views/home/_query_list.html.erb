@@ -1,6 +1,7 @@
+
 <div >
   <ul>
-    <div class = "scrolling-list">
+    <div class = "scrolling-list clear">
       <% @events.each do |event| %>
         <li class="place-marker">
            <a href="#" class="location-marker" data-latitude=<%="#{event.latitude}"%>
@@ -10,9 +11,4 @@
       <% end %>
     </div>
   </ul>
-</div>
-
-<div id="name">
-  <button type="button" class="clear-markers">Clear Markers</button>
-
 </div>

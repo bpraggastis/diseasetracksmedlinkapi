@@ -1,8 +1,19 @@
 class HomeController < ApplicationController
 
   def index
-    @events = Event.where(date: DateTime.parse('Jan. 15, 2000') .. DateTime.parse('Jan. 15, 2010')).to_a[1,100]
+    @events = Event.where(
+          date: DateTime.parse('Jan. 15, 2000') .. DateTime.parse('Jan. 15, 2010')
+          ).to_a.sort_by{|event| event.date}.reverse[0,100]
+
   end
+
+    # @cquery = ""
+    # if params[:condition_query].present?
+    #   @cquery = params[:condition_query]
+    # end
+
+
+
 
   def query
       @cquery = ""
