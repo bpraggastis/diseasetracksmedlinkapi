@@ -33,8 +33,9 @@
 }
 
 .nav-form {
-  margin-left: 100px;
-  margin-top: 25px;
+  /*padding-left: 300px;*/
+  margin-top: 50px;
+  float: right;
   background-color: #222;
   color: #ffc375;
 }
