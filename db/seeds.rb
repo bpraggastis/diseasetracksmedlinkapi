@@ -85,7 +85,7 @@ require 'csv'
 # #
 # ###################################################################################################################
 # # DMED = MedicalTherapyHelpers::DailyMedSeed::make_daily_med_seed("/Users/brendapraggastis/Ada/capstone/datafiles/dailymed_dump.json")
-DMED = MedicalTherapyHelpers::DailyMedSeed::make_daily_med_seed("db/support/dailymed_dump.json")
+# DMED = MedicalTherapyHelpers::DailyMedSeed::make_daily_med_seed("db/support/dailymed_dump.json")
 ######--> Replace with correct path name
 # This returns {dmedcode => {name:----, db_code:----, generic:----, description:----},--=>{..}...}
 # Check medical_therapy_helpers for additional fields
@@ -401,7 +401,7 @@ DMED = MedicalTherapyHelpers::DailyMedSeed::make_daily_med_seed("db/support/dail
 #     end
 #     event["location"]["DATE_CREATED"]? d = Date.strptime(event["location"]["DATE_CREATED"], "%m/%d/%y") : d = nil
 #     begin
-#       Outbreak.find(n).events.new(
+#       Outbreak.find(n).events.create(
 #           date: d,
 #           medical_condition_id: MedicalCondition.find_by(name: code_hash[event["disease"]]).id,
 #           number_infected: event["population"].to_i,
