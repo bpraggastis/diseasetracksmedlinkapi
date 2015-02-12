@@ -1,13 +1,27 @@
 <div id="query-box">
-
   <a href="#" class="clear-markers menu-item">Clear Markers</a>
-
   <a href="#" class="clear-markers menu-item">|</a>
   <a href="#" class="menu-item" id="select-outbreak">Query Events</a>
-
-
-
 </div>
+
 <div id="outbreak-query-box" class="query-form" style="display: none" >
-  
+  <%= form_tag query_path, method: "get" do %>
+    <%= select_tag 'outbreak_id',
+        options_for_select(@outbreaks.collect{|x| x.title})%>
+  <%= select_tag 'disease_id',
+        options_for_select()%>
+    <select id="outbreak-choices" name="outbreak_id">
+      <option value="0">Show All</option>
+      <option value="1">Mosquito-Born Diseases</option>
+      <option value="2">Disease due to lack of vaccination</option>
+      <option value="3">Cases of Ebola</option>
+    </select>
+    <select id="disease-choices" name="diseases", multipl="true">
+      <option value="0">Show All</option>
+      <option value="Rubella">Mosquito-Born Diseases</option>
+      <option value="2">Disease due to lack of vaccination</option>
+      <option value="3">Cases of Ebola</option>
+    </select>
+    <%= submit_tag "Submit Query" %>
+  <% end %>
 </div>

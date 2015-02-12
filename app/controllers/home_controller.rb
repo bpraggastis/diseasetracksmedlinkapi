@@ -1,10 +1,17 @@
 class HomeController < ApplicationController
 
   def index
+    @outbreaks = Outbreak.all
     @events = Event.where(
           date: DateTime.parse('Jan. 15, 2000') .. DateTime.parse('Jan. 15, 2010')
           ).to_a.sort_by{|event| event.date}.reverse[0,100]
 
+  end
+
+  def query
+    @outbreak_id = params[:outbreak_id]
+    @events = Event.where(outbreak_id: @outbreak_id).to_a.sort_by{|event| event.date}.reverse[0,100]
+    render 'home/index'
   end
 
     # @cquery = ""
@@ -15,7 +22,7 @@ class HomeController < ApplicationController
 
 
 
-  def query
+  def query1
       @cquery = ""
       @tquery = ""
       if params[:condition_query].present?
