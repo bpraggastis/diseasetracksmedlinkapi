@@ -44,7 +44,7 @@
                 <%= label_tag :password, "Password: " %> <br>
                 <%= password_field_tag :password %>
                 <div class="col-xs-12 col-sm-6 col-sm-offset-4">
-                  <%= submit_tag "Sign In" %>
+                  <%= submit_tag "Sign In", class: "submit-btn" %>
                 </div>
               </div>
             <% end %>
@@ -70,7 +70,7 @@
                 <%= f.label "Confirm Password"%><br>
                 <%= f.password_field :password_confirmation%><br>
                 <div class="col-sm-4 col-sm-offset-5">
-                  <%= f.submit "Sign Up"%>
+                  <%= f.submit "Sign Up", class: "submit-btn"%>
                 </div>
               </div>
               <!-- <div class="col-sm-11"></div>

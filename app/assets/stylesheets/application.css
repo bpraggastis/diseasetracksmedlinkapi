@@ -28,25 +28,10 @@
 .navbar a:visited {
   color: #ffe8c4;
 }
-
 .navbar a {
   color: #ffee89;
   float: right;
 }
-
-.nav-form {
-  margin-top: 25px;
-  float: right;
-  background-color: #222;
-  color: #ffc375;
-}
-
-.collapse {
-  margin-top: 30px;
-  padding-bottom: 25px;
-  margin-bottom: 25px;
-}
-
 
 .logo {
   display: block;
@@ -70,4 +55,26 @@
 
 .menu-buttons {
   float: right;
+}
+
+.nav-form {
+  margin-top: 25px;
+  float: right;
+  background-color: #222;
+  color: #ffc375;
+}
+
+.submit-btn {
+  color: #2D3440;
+  background-color: #ffc375;
+  border-color: #ffc375;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.collapse {
+  margin-top: 30px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
 }
