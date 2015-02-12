@@ -1,16 +1,20 @@
 class HomeController < ApplicationController
 
   def index
-    @outbreaks = Outbreak.all
+    @outbreaks = Outbreak.all.collect{|x| x.id}
+    @diseases = []
     @events = Event.where(
           date: DateTime.parse('Jan. 15, 2000') .. DateTime.parse('Jan. 15, 2010')
-          ).to_a.sort_by{|event| event.date}.reverse[0,100]
+          ).to_a.sort_by{|event| event.date}.reverse[1,100]
 
   end
 
   def query
-    @outbreak_id = params[:outbreak_id]
-    @events = Event.where(outbreak_id: @outbreak_id).to_a.sort_by{|event| event.date}.reverse[0,100]
+    outbreak = [params[:outbreak_id].to_i]
+    disease = [params[:disease_id].to_i]
+    outbreak.include?(0) ? @outbreaks = Outbreak.all.collect{|x| x.id} : @outbreaks = [params[:outbreak_id].to_i]
+    disease.include?(0)? @diseases = MedicalCondition.where(name: "Rubella").collect{|x| x.id} : @diseases = [params[:disease_id].to_i]
+    @events = Event.where({outbreak_id: @outbreaks , medical_condition_id: @diseases}).sort_by{|event| event.date}.reverse[1,100]
     render 'home/index'
   end
 

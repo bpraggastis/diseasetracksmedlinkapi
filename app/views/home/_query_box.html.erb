@@ -6,21 +6,17 @@
 
 <div id="outbreak-query-box" class="query-form" style="display: none" >
   <%= form_tag query_path, method: "get" do %>
-    <%= select_tag 'outbreak_id',
-        options_for_select(@outbreaks.collect{|x| x.title})%>
-  <%= select_tag 'disease_id',
-        options_for_select()%>
     <select id="outbreak-choices" name="outbreak_id">
       <option value="0">Show All</option>
-      <option value="1">Mosquito-Born Diseases</option>
-      <option value="2">Disease due to lack of vaccination</option>
-      <option value="3">Cases of Ebola</option>
+      <%= @outbreaks.each do |obk| %>
+        <option value="<%= obk %>"> <%= Outbreak.find(obk).title %> </option>
+      <% end %>
     </select>
-    <select id="disease-choices" name="diseases", multipl="true">
+    <select id="disease-choices" name="disease_id">
       <option value="0">Show All</option>
-      <option value="Rubella">Mosquito-Born Diseases</option>
-      <option value="2">Disease due to lack of vaccination</option>
-      <option value="3">Cases of Ebola</option>
+      <%= @diseases.each do |id| %>
+      <option value="<%= id %>"> <%= MedicalCondition.find(id).name %> </option>
+      <% end %>
     </select>
     <%= submit_tag "Submit Query" %>
   <% end %>

@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
 
-  root 'home#index'
-  get '/', to: "home#query", as: :query
+
+
+  root "home#index"
+  get '/query', to: "home#query", as: :query
 
   resources :medical_conditions, :medical_codes, :medical_therapies, :users, :sessions, :places
 
