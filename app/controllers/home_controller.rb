@@ -1,6 +1,7 @@
 class HomeController < ApplicationController
 
   def index
+    @user = User.find(session[:user_id]) if session[:user_id]
     @outbreaks = Outbreak.all.collect{|x| x.id}
     @diseases = []
     @events = Event.where(
