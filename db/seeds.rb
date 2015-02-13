@@ -1,32 +1,19 @@
 require 'csv'
-# # # This file should contain all the record creation needed to seed the database with its default values.
-# # # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-# # #
-# # # Examples:
-# # #
-# # #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-# # #   Mayor.create(name: 'Emanuel', city: cities.first)
-# #
-# #
-# # ###################################################################################################################
-# # #
-# # #          Seed 1: Creates MedicalCondition records by name. Creates associated MedicalCode.
-# # #
-# # ###################################################################################################################
-# #
-# #
-# # DISEASE_DATA = JSON.parse(File.read("/Users/brendapraggastis/Ada/capstone/datafiles/diseases.json"))['diseases']
-# # DISEASE_DATA = JSON.parse(File.read("db/support/disease_file.json"))['diseases']
-# ######--> Replace with correct path name
+
 #
+# ###################################################################################################################
+# #
+# #          Seed 1: Creates MedicalCondition records by name. Creates associated MedicalCode.
+# #
+# ###################################################################################################################
 #
+## **********  File Switch  *******************************************************************************************************************************************
+DISEASE_DATA = JSON.parse(File.read("/Users/brendapraggastis/Ada/capstone/datafiles/diseases.json"))['diseases']
+# DISEASE_DATA = JSON.parse(HTTParty.get("https://s3-us-west-2.amazonaws.com/capstone-datafiles/datafiles/diseases.json"))['diseases']
+#
+
 ############## Create Initial Seed from list of Outbreak Medical Conditions
-# #####
 
-#
-
-
-##### Don't forget to add Mumps!
 mumps = MedicalCondition.create(name: "Mumps", description: "An acute infectious disease caused by RUBULAVIRUS, spread by direct contact, airborne droplet nuclei, fomites contaminated by infectious saliva, and perhaps urine, and usually seen in children under the age of 15, although adults may also be affected. (From Dorland, 28th ed)")
 mumps.codes.create(code_system: "meshid", code_value: "D009107")
 mumps.codes.create(code_system: "image", code_value: "http://www.cdc.gov/mumps/images/glands_image.gif")
@@ -57,46 +44,37 @@ w = MedicalCondition.create(name: "West Nile Virus")
 w.description = "West Nile virus (WNV) is a mosquito-borne zoonotic arbovirus belonging to the genus Flavivirus in the family Flaviviridae. This flavivirus is found in temperate and tropical regions of the world. It was first identified in the West Nile subregion in the East African nation of Uganda in 1937. The main mode of WNV transmission is via various species of mosquitoes, which are the prime vector, with birds being the most commonly infected animal and serving as the prime reservoir host—especially passerines, which are of the largest order of birds, Passeriformes."
 w.save
 w.codes.create(code_system: "image", code_value: "http://media.worldbulletin.net/250x190/2012/08/30/west-nile-virus.jpg")
-#
-DISEASE_DATA = JSON.parse(HTTParty.get("https://s3-us-west-2.amazonaws.com/capstone-datafiles/datafiles/diseases.json"))['diseases']
-#
+
+
 diseases = MedicalConditionHelpers::DataSeed.make_disease_bank(DISEASE_DATA)
 
 diseases.each do |disease|
-
   new_disease = MedicalCondition.find_by(name: disease['name']) || MedicalCondition.create(name: disease['name'])
-  # puts disease["name"]
+  puts new_disease.name
   # taken from rdfs:label
-    disease["alternate_names"].each do |alternate_name|
-      unless new_disease.alternate_names.collect{|x| x.name}.include?(alternate_name)
-        new_disease.alternate_names.create(name: alternate_name)
-      end
+  disease["alternate_names"].each do |alternate_name|
+    unless new_disease.alternate_names.collect{|x| x.name}.include?(alternate_name)
+      new_disease.alternate_names.create(name: alternate_name)
     end
-  # Faker data used for causes
-# rand(3).times do
-#  new_disease.causes.create(name: Faker::Lorem.word, description: Faker::Company.catch_phrase)
-#end
-
+  end
   disease["codes"].each do |code|
     new_disease.codes.create(code_system: code["system"], code_value: code["value"])
   end
 end
+
 #
+# ###################################################################################################################
 # #
-# # ###################################################################################################################
-# # #
-# # #          Seed 2: Creates MedicalTherapy by name, description. Creates associated MedicalCode.
-# # #
-# # ###################################################################################################################
+# #          Seed 2: Creates MedicalTherapy by name, description. Creates associated MedicalCode.
 # #
-# # DRUG_DATA = Nokogiri::XML(File.read('/Users/brendapraggastis/Ada/capstone/datafiles/drugbank.xml'))
-# DRUG_DATA = Nokogiri::XML(File.read('db/support/drugbank.xml'))
-# ######--> Replace with correct path name
+# ###################################################################################################################
 #
-DRUG_DATA = Nokogiri::XML(HTTParty.get("https://s3-us-west-2.amazonaws.com/capstone-datafiles/datafiles/drugbank.xml"))
+
+# # **********  File Switch  *******************************************************************************************************************************************
+DRUG_DATA = Nokogiri::XML(File.read('/Users/brendapraggastis/Ada/capstone/datafiles/drugbank.xml'))
+# DRUG_DATA = Nokogiri::XML(HTTParty.get("https://s3-us-west-2.amazonaws.com/capstone-datafiles/datafiles/drugbank.xml"))
 
 drugs = DRUG_DATA.css('/drugbank/drug')
-
 puts drugs.length
 n=0
 drugs.each do |drug|
@@ -112,19 +90,17 @@ drugs.each do |drug|
     d.codes.create(code_system: code.css('/resource').text, code_value: code.css('identifier').text)
   end
 end
-#
-#
-#
+
 # ###################################################################################################################
 # #
 # #          Seed 3: Adds MedicalTherapy by name. Creates associated MedicalCode for DrugBank and DailyMed.
 # #                  Included generic name as associated AlternateName.
 # #
 # ###################################################################################################################
-# # DMED = MedicalTherapyHelpers::DailyMedSeed::make_daily_med_seed("/Users/brendapraggastis/Ada/capstone/datafiles/dailymed_dump.json")
-# DMED = MedicalTherapyHelpers::DailyMedSeed::make_daily_med_seed("db/support/dailymed_dump.json")
-######--> Replace with correct path name
-DMED = MedicalTherapyHelpers::DailyMedSeed::make_daily_med_seed(HTTParty.get("https://s3-us-west-2.amazonaws.com/capstone-datafiles/datafiles/dailymed_dump.json"))
+
+# # **********  File Switch  *******************************************************************************************************************************************
+DMED = MedicalTherapyHelpers::DailyMedSeed::make_daily_med_seed("/Users/brendapraggastis/Ada/capstone/datafiles/dailymed_dump.json")
+# DMED = MedicalTherapyHelpers::DailyMedSeed::make_daily_med_seed(HTTParty.get("https://s3-us-west-2.amazonaws.com/capstone-datafiles/datafiles/dailymed_dump.json"))
 
 # This returns {dmedcode => {name:----, db_code:----, generic:----, description:----},--=>{..}...}
 # Check medical_therapy_helpers for additional fields
@@ -167,9 +143,10 @@ end
 # #          Seed 4: Adds drug-disease associations to PrimaryPreventions.
 # #
 # ###################################################################################################################
-# # l = JSON.parse(File.read('/Users/brendapraggastis/Ada/capstone/datafiles/diseasome_dump.json'))
-# ######--> Replace with correct path name
-l = JSON.parse(HTTParty.get("https://s3-us-west-2.amazonaws.com/capstone-datafiles/datafiles/diseasome_dump.json"))
+
+# # **********  File Switch  *******************************************************************************************************************************************
+l = JSON.parse(File.read('/Users/brendapraggastis/Ada/capstone/datafiles/diseasome_dump.json'))
+# l = JSON.parse(HTTParty.get("https://s3-us-west-2.amazonaws.com/capstone-datafiles/datafiles/diseasome_dump.json"))
 #
 l.keys.each do |key|
   name = URI.decode(l[key]['http://schema.org/name'][0]['value']).gsub("_", " ") if l[key]['http://schema.org/name']
@@ -228,8 +205,7 @@ def parse_drug(string)
   drug = /http:\/\/beowulf\.pnnl\.gov\/2014\/drug\/(DB)*(\d*)/.match(string)
   return drug[1], drug[2]
 end
-#
-#
+
 #
 # ###################################################################################################################
 # #
@@ -238,7 +214,6 @@ end
 # ###################################################################################################################
 #
 omim_refs = MedicalCode.select{|name| name.code_system == 'omim' && name.code_value.to_i.to_s === name.code_value}
-# omim_refs = [MedicalCode.find_by("code_system" == 'omim' && "code_value" == '242500')]
 omim_refs.each do |code|
   omim_description = OmimHelpers::Omim::description(code)
   if omim_description != nil
@@ -320,12 +295,9 @@ end
 #
 # #####--> Replace with correct path name
 
-# geo_data = JSON.parse(File.read("/Users/brendapraggastis/Ada/capstone/datafiles/us_locations.json"))
-# # geo_data = JSON.parse(File.read('db/support/locations.json'))
-# geo_data = JSON.parse(File.read("db/support/us_locations.json"))
-# # geo_data = JSON.parse(File.read('db/support/locations.json'))
-
-geo_data = JSON.parse(HTTParty.get("https://s3-us-west-2.amazonaws.com/capstone-datafiles/datafiles/us_locations.json"))
+# # **********  File Switch  *******************************************************************************************************************************************
+geo_data = JSON.parse(File.read("/Users/brendapraggastis/Ada/capstone/datafiles/us_locations.json"))
+# geo_data = JSON.parse(HTTParty.get("https://s3-us-west-2.amazonaws.com/capstone-datafiles/datafiles/us_locations.json"))
 
 geo_data.each do |local|
   new_geo = Geo.create(
@@ -369,29 +341,6 @@ end
 #          Seed 7: Outbreaks and Events
 #
 # ##################################################################################################################
-#
-# # TO DO:
-# # parse the 3 outbreak tables
-# # seed Events and associate with Geo and Place in tables.
-# # add counties to Geo data
-# # add place_id to Geo data
-
-# DISEASE_HASH = {
-#   "Rubella" => ["D012409","10018206","N0000002655","36653000","C0035920"],
-#   "Ebola" => ["D019142","10014071","N0000003898","37109004","C0282687"],
-#   "Malaria" => ["1385","7728","C03.752.250.552","Malaria","248310"],
-#   "West Nile Virus" => ["C1096184"],
-#   "Encephalitis, St. Louis" => ["C0014060"],
-#   "Mumps" => ["D009107","10009300","N0000002055","240526004","36989005","C0026780"]
-# }
-#
-#
-# code_hash = {}
-# DISEASE_HASH.each do |key,value|
-#   value.each do |val|
-#     code_hash[val] = key
-#   end
-# end
 
 ### to enter Events:
 ##  event_hash.keys = {number_infected, date, disease_code, latitude,
@@ -404,7 +353,6 @@ end
 ##
 
 ######## Outbreaks  Seed:##########
-
 
 Outbreak.create(title: "Mosquito Born", description: "Cases of Malaria and West " +
 "Nile Virus found in Louisiana, Florida, Georgia, Mississippi, Arkansas, and Alabama.")
