@@ -18,7 +18,7 @@ class HomeController < ApplicationController
     @diseaseq = [params[:disease_id].to_i] #ids for queried diseases
     @outbreakq.include?(0) ? @outbreaks = Outbreak.all.collect{|x| x.id} : @outbreaks = @outbreakq
     @diseaseq.include?(0)? @diseases = find_diseases(@outbreaks) : @diseases = @diseaseq
-    @events = Event.where({outbreak_id: @outbreaks, medical_condition_id: @diseases }).sort_by{|event| event.date}.reverse[1,100]
+    @events = Event.where({outbreak_id: @outbreaks, medical_condition_id: @diseases }).sort_by{|event| event.date}.reverse
     render 'home/index'
   end
 
