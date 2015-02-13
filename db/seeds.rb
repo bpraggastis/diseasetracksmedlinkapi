@@ -8,8 +8,8 @@ require 'csv'
 # ###################################################################################################################
 #
 ## **********  File Switch  *******************************************************************************************************************************************
-DISEASE_DATA = JSON.parse(File.read("/Users/brendapraggastis/Ada/capstone/datafiles/diseases.json"))['diseases']
-# DISEASE_DATA = JSON.parse(HTTParty.get("https://s3-us-west-2.amazonaws.com/capstone-datafiles/datafiles/diseases.json"))['diseases']
+# DISEASE_DATA = JSON.parse(File.read("/Users/brendapraggastis/Ada/capstone/datafiles/diseases.json"))['diseases']
+DISEASE_DATA = JSON.parse(HTTParty.get("https://s3-us-west-2.amazonaws.com/capstone-datafiles/datafiles/diseases.json"))['diseases']
 #
 
 ############## Create Initial Seed from list of Outbreak Medical Conditions
@@ -61,18 +61,18 @@ diseases.each do |disease|
     new_disease.codes.create(code_system: code["system"], code_value: code["value"])
   end
 end
-
 #
-# ###################################################################################################################
 # #
-# #          Seed 2: Creates MedicalTherapy by name, description. Creates associated MedicalCode.
+# # ###################################################################################################################
+# # #
+# # #          Seed 2: Creates MedicalTherapy by name, description. Creates associated MedicalCode.
+# # #
+# # ###################################################################################################################
 # #
-# ###################################################################################################################
 #
-
 # # **********  File Switch  *******************************************************************************************************************************************
-DRUG_DATA = Nokogiri::XML(File.read('/Users/brendapraggastis/Ada/capstone/datafiles/drugbank.xml'))
-# DRUG_DATA = Nokogiri::XML(HTTParty.get("https://s3-us-west-2.amazonaws.com/capstone-datafiles/datafiles/drugbank.xml"))
+# DRUG_DATA = Nokogiri::XML(File.read('/Users/brendapraggastis/Ada/capstone/datafiles/drugbank.xml'))
+DRUG_DATA = Nokogiri::XML(HTTParty.get("https://s3-us-west-2.amazonaws.com/capstone-datafiles/datafiles/drugbank.xml"))
 
 drugs = DRUG_DATA.css('/drugbank/drug')
 puts drugs.length
@@ -99,8 +99,8 @@ end
 # ###################################################################################################################
 
 # # **********  File Switch  *******************************************************************************************************************************************
-DMED = MedicalTherapyHelpers::DailyMedSeed::make_daily_med_seed("/Users/brendapraggastis/Ada/capstone/datafiles/dailymed_dump.json")
-# DMED = MedicalTherapyHelpers::DailyMedSeed::make_daily_med_seed(HTTParty.get("https://s3-us-west-2.amazonaws.com/capstone-datafiles/datafiles/dailymed_dump.json"))
+# DMED = MedicalTherapyHelpers::DailyMedSeed::make_daily_med_seed(File.read("/Users/brendapraggastis/Ada/capstone/datafiles/dailymed_dump.json"))
+DMED = MedicalTherapyHelpers::DailyMedSeed::make_daily_med_seed(HTTParty.get("https://s3-us-west-2.amazonaws.com/capstone-datafiles/datafiles/dailymed_dump.json"))
 
 # This returns {dmedcode => {name:----, db_code:----, generic:----, description:----},--=>{..}...}
 # Check medical_therapy_helpers for additional fields
@@ -145,8 +145,8 @@ end
 # ###################################################################################################################
 
 # # **********  File Switch  *******************************************************************************************************************************************
-l = JSON.parse(File.read('/Users/brendapraggastis/Ada/capstone/datafiles/diseasome_dump.json'))
-# l = JSON.parse(HTTParty.get("https://s3-us-west-2.amazonaws.com/capstone-datafiles/datafiles/diseasome_dump.json"))
+# l = JSON.parse(File.read('/Users/brendapraggastis/Ada/capstone/datafiles/diseasome_dump.json'))
+l = JSON.parse(HTTParty.get("https://s3-us-west-2.amazonaws.com/capstone-datafiles/datafiles/diseasome_dump.json"))
 #
 l.keys.each do |key|
   name = URI.decode(l[key]['http://schema.org/name'][0]['value']).gsub("_", " ") if l[key]['http://schema.org/name']
