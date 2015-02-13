@@ -103,161 +103,161 @@ require 'csv'
 
 # # **********  File Switch  *******************************************************************************************************************************************
 # DMED = MedicalTherapyHelpers::DailyMedSeed::make_daily_med_seed(File.read("/Users/brendapraggastis/Ada/capstone/datafiles/dailymed_dump.json"))
-DMED = MedicalTherapyHelpers::DailyMedSeed::make_daily_med_seed(HTTParty.get("https://s3-us-west-2.amazonaws.com/capstone-datafiles/datafiles/dailymed_dump.json"))
-
-# This returns {dmedcode => {name:----, db_code:----, generic:----, description:----},--=>{..}...}
-# Check medical_therapy_helpers for additional fields
+# DMED = MedicalTherapyHelpers::DailyMedSeed::make_daily_med_seed(HTTParty.get("https://s3-us-west-2.amazonaws.com/capstone-datafiles/datafiles/dailymed_dump.json"))
 #
-DMED.keys.each do |dkey|  #dkey = primary key for DailyMed record
-  dKey = DMED[dkey] #dKey = the hash for the drug in dailymed record dkey
-  therapy = nil
-  therapy_code = MedicalCode.find_by(code_value: dKey[:db_code])
-  if dKey[:db_code] != nil
-    therapy = therapy_code.medical_code_therapy.medical_therapy if therapy_code != nil
-  end
-  if therapy != nil
-    dmed_code = therapy.codes.find_by(code_system: "DailyMed", code_value: dkey)
-    begin
-      therapy.codes.create(code_system: "DailyMed", code_value: dkey) if dmed_code == nil
-    rescue
-      temp_ar = therapy.codes.map {|code| code.code_system == "DailyMed"? code.code_value : next }
-      puts "DailyMed Duplicate Code! Code value: #{dkey}"
-      if temp_ar.include? dkey
-        puts "Code was already in there"
-      else
-        puts temp_ar.inspect
-        puts "They were trying to put in a second DM code."
-      end
-    end
-    therapy.therapy_alternate_names.create(name: dKey[:generic])
-  else
-    therapy = MedicalTherapy.create(name: dKey[:name], description: dKey[:description])
-    puts therapy.name
-    therapy.therapy_alternate_names.create(name: dKey[:generic][0,255]) if dKey[:generic] != nil
-    therapy.codes.create(code_system: "DrugBank", code_value: dKey[:db_code]) if dKey[:db_code] != nil
-    therapy.codes.create(code_system: "DailyMed", code_value: dkey)
-  end
-
-end
-#
-#
-# ###################################################################################################################
+# # This returns {dmedcode => {name:----, db_code:----, generic:----, description:----},--=>{..}...}
+# # Check medical_therapy_helpers for additional fields
 # #
-# #          Seed 4: Adds drug-disease associations to PrimaryPreventions.
+# DMED.keys.each do |dkey|  #dkey = primary key for DailyMed record
+#   dKey = DMED[dkey] #dKey = the hash for the drug in dailymed record dkey
+#   therapy = nil
+#   therapy_code = MedicalCode.find_by(code_value: dKey[:db_code])
+#   if dKey[:db_code] != nil
+#     therapy = therapy_code.medical_code_therapy.medical_therapy if therapy_code != nil
+#   end
+#   if therapy != nil
+#     dmed_code = therapy.codes.find_by(code_system: "DailyMed", code_value: dkey)
+#     begin
+#       therapy.codes.create(code_system: "DailyMed", code_value: dkey) if dmed_code == nil
+#     rescue
+#       temp_ar = therapy.codes.map {|code| code.code_system == "DailyMed"? code.code_value : next }
+#       puts "DailyMed Duplicate Code! Code value: #{dkey}"
+#       if temp_ar.include? dkey
+#         puts "Code was already in there"
+#       else
+#         puts temp_ar.inspect
+#         puts "They were trying to put in a second DM code."
+#       end
+#     end
+#     therapy.therapy_alternate_names.create(name: dKey[:generic])
+#   else
+#     therapy = MedicalTherapy.create(name: dKey[:name], description: dKey[:description])
+#     puts therapy.name
+#     therapy.therapy_alternate_names.create(name: dKey[:generic][0,255]) if dKey[:generic] != nil
+#     therapy.codes.create(code_system: "DrugBank", code_value: dKey[:db_code]) if dKey[:db_code] != nil
+#     therapy.codes.create(code_system: "DailyMed", code_value: dkey)
+#   end
+#
+# end
 # #
-# ###################################################################################################################
-
-# # **********  File Switch  *******************************************************************************************************************************************
-# l = JSON.parse(File.read('/Users/brendapraggastis/Ada/capstone/datafiles/diseasome_dump.json'))
-l = JSON.parse(HTTParty.get("https://s3-us-west-2.amazonaws.com/capstone-datafiles/datafiles/diseasome_dump.json"))
-#
-l.keys.each do |key|
-  name = URI.decode(l[key]['http://schema.org/name'][0]['value']).gsub("_", " ") if l[key]['http://schema.org/name']
-  preventions = l[key]["http://schema.org/primaryPrevention"]
-  if name && preventions
-    diseasealt = AlternateName.find_by(name: name)
-    if diseasealt
-      disease = diseasealt.medical_conditions[0]
-    end
-    if disease != nil
-      preventions.each do |hash|
-        # if nums = hash['value'].match(/http:\/\/beowulf.pnnl.gov\/2014\/drug\/DB\d+/)
-        dcode = /http:\/\/beowulf\.pnnl\.gov\/2014\/drug\/(DB)*(\d*)/.match(hash['value'])
-        db, code = dcode[1], dcode[2]
-        if db != nil
-          begin
-            drug_code = MedicalCode.find_by(
-                                  code_system: "DrugBank",
-                                  code_value: db + code
-                                )
-            drug = drug_code.medical_code_therapy.medical_therapy if drug_code != nil
-          rescue
-            puts "No connection"
-            next
-          end
-        else
-          begin
-            drug_code = MedicalCode.find_by(
-                                  code_system: "DailyMed",
-                                  code_value: code
-                                )
-            drug = drug_code.medical_code_therapy.medical_therapy if drug_code != nil
-          rescue
-            puts "No connection"
-            next
-          end
-        end
-        if drug != nil
-          puts PrimaryPrevention.create(
-                              medical_therapy_id: drug.id,
-                              medical_condition_id: disease.id)
-        else
-          puts '*'*(80)
-          print "drug: ", dcode
-          print "disease: " , disease.name
-          puts '*'*(80)
-        end
-      end
-    end
-  end
-
-end
-
-
-def parse_drug(string)
-  drug = /http:\/\/beowulf\.pnnl\.gov\/2014\/drug\/(DB)*(\d*)/.match(string)
-  return drug[1], drug[2]
-end
-
-#
-# ###################################################################################################################
 # #
-# #          Seed 5: Adds Omim Description to MedicalCondition
+# # ###################################################################################################################
+# # #
+# # #          Seed 4: Adds drug-disease associations to PrimaryPreventions.
+# # #
+# # ###################################################################################################################
+#
+# # # **********  File Switch  *******************************************************************************************************************************************
+# # l = JSON.parse(File.read('/Users/brendapraggastis/Ada/capstone/datafiles/diseasome_dump.json'))
+# l = JSON.parse(HTTParty.get("https://s3-us-west-2.amazonaws.com/capstone-datafiles/datafiles/diseasome_dump.json"))
 # #
-# ###################################################################################################################
+# l.keys.each do |key|
+#   name = URI.decode(l[key]['http://schema.org/name'][0]['value']).gsub("_", " ") if l[key]['http://schema.org/name']
+#   preventions = l[key]["http://schema.org/primaryPrevention"]
+#   if name && preventions
+#     diseasealt = AlternateName.find_by(name: name)
+#     if diseasealt
+#       disease = diseasealt.medical_conditions[0]
+#     end
+#     if disease != nil
+#       preventions.each do |hash|
+#         # if nums = hash['value'].match(/http:\/\/beowulf.pnnl.gov\/2014\/drug\/DB\d+/)
+#         dcode = /http:\/\/beowulf\.pnnl\.gov\/2014\/drug\/(DB)*(\d*)/.match(hash['value'])
+#         db, code = dcode[1], dcode[2]
+#         if db != nil
+#           begin
+#             drug_code = MedicalCode.find_by(
+#                                   code_system: "DrugBank",
+#                                   code_value: db + code
+#                                 )
+#             drug = drug_code.medical_code_therapy.medical_therapy if drug_code != nil
+#           rescue
+#             puts "No connection"
+#             next
+#           end
+#         else
+#           begin
+#             drug_code = MedicalCode.find_by(
+#                                   code_system: "DailyMed",
+#                                   code_value: code
+#                                 )
+#             drug = drug_code.medical_code_therapy.medical_therapy if drug_code != nil
+#           rescue
+#             puts "No connection"
+#             next
+#           end
+#         end
+#         if drug != nil
+#           puts PrimaryPrevention.create(
+#                               medical_therapy_id: drug.id,
+#                               medical_condition_id: disease.id)
+#         else
+#           puts '*'*(80)
+#           print "drug: ", dcode
+#           print "disease: " , disease.name
+#           puts '*'*(80)
+#         end
+#       end
+#     end
+#   end
 #
-omim_refs = MedicalCode.select{|name| name.code_system == 'omim' && name.code_value.to_i.to_s === name.code_value}
-omim_refs.each do |code|
-  omim_description = OmimHelpers::Omim::description(code)
-  if omim_description != nil
-    condition = MedicalCode.find_by(
-                          code_system: "omim",
-                          code_value: "#{code["code_value"]}"
-                          ).medical_conditions[0]
-    if condition != nil
-      condition.update(description: omim_description)
-      # puts hash["description"][0,50] if hash["description"]
-      puts condition.name
-
-
-    end
-  end
-end
+# end
 #
 #
+# def parse_drug(string)
+#   drug = /http:\/\/beowulf\.pnnl\.gov\/2014\/drug\/(DB)*(\d*)/.match(string)
+#   return drug[1], drug[2]
+# end
 #
-# ##################################################################################################################
+# #
+# # ###################################################################################################################
+# # #
+# # #          Seed 5: Adds Omim Description to MedicalCondition
+# # #
+# # ###################################################################################################################
+# #
+# omim_refs = MedicalCode.select{|name| name.code_system == 'omim' && name.code_value.to_i.to_s === name.code_value}
+# omim_refs.each do |code|
+#   omim_description = OmimHelpers::Omim::description(code)
+#   if omim_description != nil
+#     condition = MedicalCode.find_by(
+#                           code_system: "omim",
+#                           code_value: "#{code["code_value"]}"
+#                           ).medical_conditions[0]
+#     if condition != nil
+#       condition.update(description: omim_description)
+#       # puts hash["description"][0,50] if hash["description"]
+#       puts condition.name
 #
-#          Seed 6: Place names will be given by name(state/country/territory), and abbreviation
 #
-# ##################################################################################################################
-#
-#
-omim_refs = MedicalCode.select{|name| name.code_system == 'omim' && name.code_value.to_i.to_s === name.code_value}
-omim_refs.each do |code|
-  omim_description = OmimHelpers::Omim::description(code)
-  if omim_description != nil
-    condition = MedicalCode.find_by(
-                          code_system: "omim",
-                          code_value: "#{code["code_value"]}"
-                          ).medical_conditions[0]
-    if condition != nil
-      condition.update(description: omim_description)
-      # puts hash["description"][0,50] if hash["description"]
-      # puts condition.name
-    end
-  end
-end
+#     end
+#   end
+# end
+# #
+# #
+# #
+# # ##################################################################################################################
+# #
+# #          Seed 6: Place names will be given by name(state/country/territory), and abbreviation
+# #
+# # ##################################################################################################################
+# #
+# #
+# omim_refs = MedicalCode.select{|name| name.code_system == 'omim' && name.code_value.to_i.to_s === name.code_value}
+# omim_refs.each do |code|
+#   omim_description = OmimHelpers::Omim::description(code)
+#   if omim_description != nil
+#     condition = MedicalCode.find_by(
+#                           code_system: "omim",
+#                           code_value: "#{code["code_value"]}"
+#                           ).medical_conditions[0]
+#     if condition != nil
+#       condition.update(description: omim_description)
+#       # puts hash["description"][0,50] if hash["description"]
+#       # puts condition.name
+#     end
+#   end
+# end
 #
 # ##################################################################################################################
 #
@@ -287,11 +287,11 @@ end
 # end
 # #
 # #
-# ############## Seed Places Table #############
-lines = CSV.open('db/support/places.csv').readlines
-lines.each do |abbr,region|
-  Place.create(name: region ,abbreviation: abbr)
-end
+# # ############## Seed Places Table #############
+# lines = CSV.open('db/support/places.csv').readlines
+# lines.each do |abbr,region|
+#   Place.create(name: region ,abbreviation: abbr)
+# end
 #
 # ############## Seed GEO Table ################
 #
@@ -299,8 +299,8 @@ end
 # #####--> Replace with correct path name
 
 # # **********  File Switch  *******************************************************************************************************************************************
-geo_data = JSON.parse(File.read("/Users/brendapraggastis/Ada/capstone/datafiles/us_locations.json"))
-# geo_data = JSON.parse(HTTParty.get("https://s3-us-west-2.amazonaws.com/capstone-datafiles/datafiles/us_locations.json"))
+# geo_data = JSON.parse(File.read("/Users/brendapraggastis/Ada/capstone/datafiles/us_locations.json"))
+geo_data = JSON.parse(HTTParty.get("https://s3-us-west-2.amazonaws.com/capstone-datafiles/datafiles/us_locations.json"))
 
 geo_data.each do |local|
   new_geo = Geo.create(
