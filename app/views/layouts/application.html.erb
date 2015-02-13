@@ -78,6 +78,35 @@
           </span>
         <% else %>
           <%=link_to "Log Out", "/sessions/1", method: :delete, class: "btn btn-navbar" %>
+          <a class="btn btn-navbar" data-toggle="collapse" data-target="#nav-collapse-profile">
+            <span class="icon-bar">Profile</span>
+          </a>
+          <span class="nav-form">
+            <div class="nav-collapse collapse" id="nav-collapse-profile">
+                <%= form_for(@user, method: :patch) do |f| %>
+                  <div class="col-xs-12 col-sm-3">
+                    <%= f.label "Name" %><br>
+                    <%= f.text_field :name %>
+                  </div>
+                  <div class="col-xs-12 col-sm-3">
+                    <%= f.label "email" %><br>
+                    <%= f.email_field :email %>
+                  </div>
+                  <div class="col-xs-12 col-sm-3">
+                    <%= f.label "New Password" %> <br>
+                    <%= f.password_field :password %>
+                  </div>
+                  <div class="col-xs-12 col-sm-3">
+                    <%= f.label "Confirm Password" %> <br>
+                    <%= f.password_field :password_confirmation %> <br>
+                    <div class="col-sm-4 col-sm-offset-2">
+                      <%= f.submit "Save changes", class: "submit-btn" %>
+                    </div>
+                  </div>
+                <% end %>
+              <!-- .nav, .navbar-search, .navbar-form, etc -->
+            </div>
+          </span>
         <% end %>
       </div>
     </div>
