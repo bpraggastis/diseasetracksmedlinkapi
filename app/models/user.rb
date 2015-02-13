@@ -1,5 +1,6 @@
 class User < ActiveRecord::Base
   validates :name, :email, :password, presence: true, on: :create
+  validates :name, :email, presence: true, on: :update
   validates :email, :name, uniqueness: true, on: :create, on: :update
   has_secure_password
 
