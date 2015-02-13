@@ -22,8 +22,7 @@ require 'csv'
 #
 ############## Create Initial Seed from list of Outbreak Medical Conditions
 # #####
-# mumps = MedicalCondition.create(name: "Mumps", description: "An acute infectious disease caused by RUBULAVIRUS, spread by direct contact, airborne droplet nuclei, fomites contaminated by infectious saliva, and perhaps urine, and usually seen in children under the age of 15, although adults may also be affected. (From Dorland, 28th ed)")
-# mumps.codes.create(code_system: "meshid", code_value: "D009107")
+
 #
 # DISEASE_DATA = JSON.parse(HTTParty.get("https://s3-us-west-2.amazonaws.com/capstone-datafiles/datafiles/diseases.json"))['diseases']
 #
@@ -45,6 +44,7 @@ require 'csv'
 #     new_disease.codes.create(code_system: code["system"], code_value: code["value"])
 #   end
 # end
+
 # ##### Don't forget to add Mumps!
 # mumps = MedicalCondition.create(name: "Mumps", description: "An acute infectious disease caused by RUBULAVIRUS, spread by direct contact, airborne droplet nuclei, fomites contaminated by infectious saliva, and perhaps urine, and usually seen in children under the age of 15, although adults may also be affected. (From Dorland, 28th ed)")
 # mumps.codes.create(code_system: "meshid", code_value: "D009107")

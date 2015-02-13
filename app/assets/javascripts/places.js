@@ -4,7 +4,9 @@ $(function(){
   var markers = [];
 
   function initialize() {
+
     var mapElement = $("#map-canvas");
+    var events = $("meta").attr
 
     var latitude = parseFloat(mapElement.attr('data-center-latitude'));
     var longitude = parseFloat(mapElement.attr('data-center-longitude'));
@@ -37,16 +39,28 @@ $(function(){
     // });
   }
 
+  var make_mark = function(latitude,longitude){
+    var marker = new google.maps.Marker({
+      position: new google.maps.LatLng(latitude,longitude),
+    });
+    marker.setMap(map);
+    markers.push(marker);
+  };
+
   var place_marker = function(e){
     var new_mark = $(e.target);
     var latitude = parseFloat(new_mark.attr('data-latitude'));
     var longitude = parseFloat(new_mark.attr('data-longitude'));
+    make_mark(latitude,longitude);
+  };
 
-    var marker = new google.maps.Marker({
-      position: new google.maps.LatLng(latitude, longitude),
+  var auto_marks = function(){
+    var spots = $(".place-marker").children(".location-marker")
+    spots.each(function(){
+      latitude = parseFloat(this.getAttribute('data-latitude'))
+      longitude = parseFloat(this.getAttribute('data-longitude'))
+      make_mark(latitude,longitude);
     });
-    marker.setMap(map);
-    markers.push(marker)
   };
 
   var clear_markers = function(){
@@ -56,8 +70,14 @@ $(function(){
     markers = [];
   }
 
+  var remove_marker = function(e){
+    
+    var index = markers.indexOf(e)
+  }
+
   $(".location-marker").click(place_marker);
   $(".clear-markers").click(clear_markers);
+  $(".auto-mark").click(auto_marks);
 
   google.maps.event.addDomListener(window, 'load', initialize);
 
