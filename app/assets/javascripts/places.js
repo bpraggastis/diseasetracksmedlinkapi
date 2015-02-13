@@ -4,6 +4,7 @@ $(function(){
   var markers = [];
 
   function initialize() {
+
     var mapElement = $("#map-canvas");
 
     var latitude = parseFloat(mapElement.attr('data-center-latitude'));

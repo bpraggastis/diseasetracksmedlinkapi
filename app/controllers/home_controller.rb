@@ -4,8 +4,8 @@ class HomeController < ApplicationController
     @outbreaks = Outbreak.all.collect{|x| x.id}
     @diseases = find_diseases
     @events = Event.where(
-          date: DateTime.parse('Jan. 15, 2000') .. DateTime.parse('Jan. 15, 2010')
-          ).to_a.sort_by{|event| event.date}.reverse[1,100]
+          date: DateTime.parse('Jan. 1, 2000') .. DateTime.now
+          ).to_a.sort_by{|event| event.date}.reverse[1,10]
 
   end
 
