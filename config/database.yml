@@ -86,5 +86,5 @@ test:
 production:
   <<: *default
   database: ada-capstone-project_production
-  username: postgres
+  username: ubuntu
   password: <%= ENV['ADA-CAPSTONE-PROJECT_DATABASE_PASSWORD'] %>
