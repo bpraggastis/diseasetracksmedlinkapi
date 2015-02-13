@@ -74,25 +74,25 @@ require 'csv'
 #
 # # **********  File Switch  *******************************************************************************************************************************************
 # DRUG_DATA = Nokogiri::XML(File.read('/Users/brendapraggastis/Ada/capstone/datafiles/drugbank.xml'))
-puts "loading drugbank file"
-DRUG_DATA = Nokogiri::XML(HTTParty.get("https://s3-us-west-2.amazonaws.com/capstone-datafiles/datafiles/drugbank.xml"))
-puts "got past defining drug_data"
-drugs = DRUG_DATA.css('/drugbank/drug')
-puts drugs.length
-n=0
-drugs.each do |drug|
-  name = drug.css("/name").text
-  puts drugs.length - n
-  n += 1
-  description = drug.css('/description').text
-  d = MedicalTherapy.create(name: name, description: description)
-  d.codes.create(code_value: drug.css('cas-number').text, code_system: "cas-number")
-  d.codes.create(code_system: 'DrugBank', code_value: drug.css('/drugbank-id').first.text)
-  codes = drug.css('/external-identifiers/external-identifier')
-  codes.each do |code|
-    d.codes.create(code_system: code.css('/resource').text, code_value: code.css('identifier').text)
-  end
-end
+# puts "loading drugbank file"
+# DRUG_DATA = Nokogiri::XML(HTTParty.get("https://s3-us-west-2.amazonaws.com/capstone-datafiles/datafiles/drugbank.xml"))
+# puts "got past defining drug_data"
+# drugs = DRUG_DATA.css('/drugbank/drug')
+# puts drugs.length
+# n=0
+# drugs.each do |drug|
+#   name = drug.css("/name").text
+#   puts drugs.length - n
+#   n += 1
+#   description = drug.css('/description').text
+#   d = MedicalTherapy.create(name: name, description: description)
+#   d.codes.create(code_value: drug.css('cas-number').text, code_system: "cas-number")
+#   d.codes.create(code_system: 'DrugBank', code_value: drug.css('/drugbank-id').first.text)
+#   codes = drug.css('/external-identifiers/external-identifier')
+#   codes.each do |code|
+#     d.codes.create(code_system: code.css('/resource').text, code_value: code.css('identifier').text)
+#   end
+# end
 
 # ###################################################################################################################
 # #
