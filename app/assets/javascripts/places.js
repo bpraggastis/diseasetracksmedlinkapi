@@ -48,7 +48,7 @@ $(function(){
     var infowindow = new google.maps.InfoWindow({
       content: content_string(my_content),
     });
-    console.log(my_marker.__gm_id);
+
     infowindow.open(map,my_marker);
     $('.remove-marker').click(function(my_marker){
       console.log('made it here');
@@ -67,11 +67,9 @@ $(function(){
       event_id: id,
       event_disease: disease,
     });
-    console.log(marker.event_id, marker.event_disease, marker.__gm_id);
     marker.setMap(map);
     markers.push(marker);
-    // google.maps.event.addListener(marker, 'click',function(){
-    //   console.log("clicked marker");
+
     google.maps.event.addListener(marker, 'click', function(e){
       myInfoWindow(marker.event_disease, marker);
     });
@@ -85,11 +83,9 @@ $(function(){
 
   var auto_marks = function(){
     var spots = $(".place-marker").children(".location-marker");
-    spots.each(function(){
-      latitude = parseFloat(this.getAttribute('data-latitude'));
-      longitude = parseFloat(this.getAttribute('data-longitude'));
-      event_id = this.
-      make_mark(this);
+    spots.each(function(index,value){
+      event = $(value);
+      make_mark(event);
     });
   };
 
