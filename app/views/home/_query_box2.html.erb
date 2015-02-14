@@ -27,13 +27,12 @@
       <% end %>
     </select>
 
-    <select id="place-choices" name="place_id">
+    <select id="states" name: "place_id">
       <option value="0">Specify a State or Region </option>
       <% @places.each do |id| %>
-        <option value="<%= id %>"> <%= Place.find(id).name %> </option>
+        <option value=" <%= id %>"> <%= Place.find(id).abbreviation %> </option>
         <% end %>
-    </select>
-
+      </select>
     <%= submit_tag "Submit Query" %>
 
   <% end %>
