@@ -300,19 +300,18 @@ require 'csv'
 
 # # **********  File Switch  *******************************************************************************************************************************************
 # geo_data = JSON.parse(File.read("/Users/brendapraggastis/Ada/capstone/datafiles/us_locations.json"))
-geo_data = JSON.parse(HTTParty.get("https://s3-us-west-2.amazonaws.com/capstone-datafiles/datafiles/us_locations.json"))
-
-geo_data.each do |local|
-  new_geo = Geo.create(
-              name: local["FEATURE_NAME"],
-              latitude: local["PRIM_LAT_DEC"],
-              longitude: local["PRIM_LONG_DEC"],
-              county: local["COUNTY_NAME"],
-              place_id: Place.find_by(abbreviation: local["STATE_ALPHA"] ).id
-              )
-              puts new_geo.name
-
-end
+# geo_data = JSON.parse(HTTParty.get("https://s3-us-west-2.amazonaws.com/capstone-datafiles/datafiles/us_locations.json"))
+#
+# geo_data.each do |local|
+#   new_geo = Geo.create(
+#               name: local["FEATURE_NAME"],
+#               latitude: local["PRIM_LAT_DEC"],
+#               longitude: local["PRIM_LONG_DEC"],
+#               county: local["COUNTY_NAME"],
+#               place_id: Place.find_by(abbreviation: local["STATE_ALPHA"] ).id
+#               )
+#               puts new_geo.name
+# end
 #
 #
 #
@@ -357,55 +356,55 @@ end
 
 ######## Outbreaks  Seed:##########
 
-Outbreak.create(title: "Mosquito Born", description: "Cases of Malaria and West " +
-"Nile Virus found in Louisiana, Florida, Georgia, Mississippi, Arkansas, and Alabama.")
-Outbreak.create(title: "Under-vaccination", description: "Cases of Rubella, Mumps, and " +
-"Encephalitis in California, Oregon, and Washington due to lack of vaccination.")
-Outbreak.create(title: "Ebola", description: "Cases of Ebola occuring in New Jersey and New York State.")
+# Outbreak.create(title: "Mosquito Born", description: "Cases of Malaria and West " +
+# "Nile Virus found in Louisiana, Florida, Georgia, Mississippi, Arkansas, and Alabama.")
+# Outbreak.create(title: "Under-vaccination", description: "Cases of Rubella, Mumps, and " +
+# "Encephalitis in California, Oregon, and Washington due to lack of vaccination.")
+# Outbreak.create(title: "Ebola", description: "Cases of Ebola occuring in New Jersey and New York State.")
 #
 ####### Events Seed: Turn on DISEASE_HASH and code_hash ###########
 #
-DISEASE_HASH = {
-  "Rubella" => ["D012409","10018206","N0000002655","36653000","C0035920"],
-  "Ebola" => ["D019142","10014071","N0000003898","37109004","C0282687"],
-  "Malaria" => ["1385","7728","C03.752.250.552","Malaria","248310"],
-  "West Nile Virus" => ["C1096184"],
-  "Encephalitis, St. Louis" => ["C0014060"],
-  "Mumps" => ["D009107","10009300","N0000002055","240526004","36989005","C0026780"]
-}
+# DISEASE_HASH = {
+#   "Rubella" => ["D012409","10018206","N0000002655","36653000","C0035920"],
+#   "Ebola" => ["D019142","10014071","N0000003898","37109004","C0282687"],
+#   "Malaria" => ["1385","7728","C03.752.250.552","Malaria","248310"],
+#   "West Nile Virus" => ["C1096184"],
+#   "Encephalitis, St. Louis" => ["C0014060"],
+#   "Mumps" => ["D009107","10009300","N0000002055","240526004","36989005","C0026780"]
+# }
+#
+# code_hash = {}
+# DISEASE_HASH.each do |key,value|
+#   value.each do |val|
+#     code_hash[val] = key
+#   end
+# end
 
-code_hash = {}
-DISEASE_HASH.each do |key,value|
-  value.each do |val|
-    code_hash[val] = key
-  end
-end
-
-(1..3).each do |n|
-  outbreak = JSON.parse(File.read("db/support/outbreak-#{n}.json"))
-  outbreak.each do |event|
-    unless g = Geo.find_by(name: event["location"]["FEATURE_NAME"])
-        pl = Place.find_by(abbreviation: event["location"]["STATE_ALPHA"])
-        g = Geo.create(latitude: event["location"]["PRIM_LAT_DEC"],
-                   longitude: event["location"]["PRIM_LAT_DEC"],
-                   name: event["location"]["FEATURE_NAME"],
-                   county: event["location"]["COUNTY_NAME"],
-                   place_id: pl.id)
-    end
-    event["location"]["DATE_CREATED"]? d = Date.strptime(event["location"]["DATE_CREATED"], "%m/%d/%y") : d = nil
-    begin
-      Outbreak.find(n).events.create(
-          date: d,
-          medical_condition_id: MedicalCondition.find_by(name: code_hash[event["disease"]]).id,
-          number_infected: event["population"].to_i,
-          geo_id: g.id)
-    rescue
-      puts MedicalCondition.find_by(name: code_hash[event["disease"]]).inspect
-      puts event["disease"]
-      puts code_hash[event["disease"]]
-    end
-  end
-end
+# (1..3).each do |n|
+#   outbreak = JSON.parse(File.read("db/support/outbreak-#{n}.json"))
+#   outbreak.each do |event|
+#     unless g = Geo.find_by(name: event["location"]["FEATURE_NAME"])
+#         pl = Place.find_by(abbreviation: event["location"]["STATE_ALPHA"])
+#         g = Geo.create(latitude: event["location"]["PRIM_LAT_DEC"],
+#                    longitude: event["location"]["PRIM_LAT_DEC"],
+#                    name: event["location"]["FEATURE_NAME"],
+#                    county: event["location"]["COUNTY_NAME"],
+#                    place_id: pl.id)
+#     end
+#     event["location"]["DATE_CREATED"]? d = Date.strptime(event["location"]["DATE_CREATED"], "%m/%d/%y") : d = nil
+#     begin
+#       Outbreak.find(n).events.create(
+#           date: d,
+#           medical_condition_id: MedicalCondition.find_by(name: code_hash[event["disease"]]).id,
+#           number_infected: event["population"].to_i,
+#           geo_id: g.id)
+#     rescue
+#       puts MedicalCondition.find_by(name: code_hash[event["disease"]]).inspect
+#       puts event["disease"]
+#       puts code_hash[event["disease"]]
+#     end
+#   end
+# end
 
 # ##################################################################################################################
 #
@@ -413,16 +412,16 @@ end
 #
 # ##################################################################################################################
 
-outbreaks = {}
-outbreaks[1] = ["Malaria", "West Nile virus", "Encephalitis, St. Louis"]
-outbreaks[2] = ["Rubella", "Mumps"]
-outbreaks[3] = ["Ebola"]
-
-# MedicalCondition.create(name: "Encephalitis, St. Louis")
-
-(1..3).each do |n|
-  outbreaks[n].each do |item|
-    id = MedicalCondition.find_by(name: item ).id
-    MedicalConditionOutbreak.create(medical_condition_id: id, outbreak_id: n )
-  end
-end
+# outbreaks = {}
+# outbreaks[1] = ["Malaria", "West Nile virus", "Encephalitis, St. Louis"]
+# outbreaks[2] = ["Rubella", "Mumps"]
+# outbreaks[3] = ["Ebola"]
+#
+# # MedicalCondition.create(name: "Encephalitis, St. Louis")
+#
+# (1..3).each do |n|
+#   outbreaks[n].each do |item|
+#     id = MedicalCondition.find_by(name: item ).id
+#     MedicalConditionOutbreak.create(medical_condition_id: id, outbreak_id: n )
+#   end
+# end
