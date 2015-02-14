@@ -7,4 +7,7 @@ class Outbreak < ActiveRecord::Base
   has_many :medical_condition_outbreaks
   has_many :medical_conditions, through: :medical_condition_outbreaks
 
+  has_many :outbreak_places
+  has_many :places, through: :outbreak_places
+
 end

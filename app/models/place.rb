@@ -6,4 +6,7 @@ class Place < ActiveRecord::Base
 has_many :geos
 has_many :events, through: :geos
 
+has_many :outbreak_places
+has_many :outbreaks, through: :outbreak_places
+
 end
