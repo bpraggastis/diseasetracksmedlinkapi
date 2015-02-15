@@ -8,36 +8,28 @@ class HomeController < ApplicationController
     @outbreaks = find_outbreaks
     @diseases = find_diseases
     @places = find_places
+    @start_date = Date.parse('Jan 1, 1979')
+    @end_date = Date.parse('Dec. 31, 2014')
 
 
     @events = Event.where(
-          date: DateTime.parse('Jan. 1, 1960') .. DateTime.now
+          date: DateTime.parse('Jan. 1, 1979') .. DateTime.now
           ).to_a.sort_by{|event| event.date}.reverse
     # @places = Place.all.sort_by{|x| x.name}.collect{|x| x.id}.uniq
   end
 
   def query
-    # basic_diseases = []
-    # (1..3).each do |n|
-    #   basic_diseases += Outbreak.find(n).medical_conditions.collect{|x| x.id}
-    # end # this is a list of ids for all outbreak codes
-
-    # @outbreakq = [params[:outbreak_id].to_i] #ids for queried outbreaks
-    # @diseaseq = [params[:disease_id].to_i] #ids for queried diseases
-    # @statesq = [params[:place_id].to_i] #ids for queried states
-    #
-    # @outbreakq.include?(0) ? @outbreaks = Outbreak.all.collect{|x| x.id} : @outbreaks = @outbreakq
-    # @diseaseq.include?(0)? @diseases = find_diseases(@outbreaks) : @diseases = @diseaseq
-    # @statesq.include?(0)? @places = find_places(@outbreaks): @places = @statesq
 
     @outbreaks = find_outbreaks(Array(params[:outbreak_id].to_i))
     @diseases = find_diseases(Array(params[:disease_id].to_i))
     @places = find_places(Array(params[:place_id].to_i))
-    @events = Event.joins(geo: :place).where({outbreak_id: @outbreaks,
+    params[:start_date] == "" ? @start_date = Date.parse('Jan 1, 1979') : @start_date = Date.parse(params[:start_date])
+    params[:end_date] == "" ? @end_date = Date.today : @end_date = Date.parse(params[:end_date])
+    @events = Event.joins(geo: :place).where({date: @start_date..@end_date,
+                                      outbreak_id: @outbreaks,
                                       medical_condition_id: @diseases,
                                       places: {id: @places}}
                                       ).sort_by{|event| event.date}.reverse
-                                    
     render 'home/index'
   end
 
@@ -66,7 +58,9 @@ class HomeController < ApplicationController
   end
 
 
+  def sample
 
+  end
 
 
 
