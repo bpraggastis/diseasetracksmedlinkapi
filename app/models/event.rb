@@ -3,12 +3,12 @@ class Event < ActiveRecord::Base
 
   #place associations
 
-  has_many :places, through: :geos
+  has_one :place, through: :geos
 
   #medical condition associations
   belongs_to :outbreak
   belongs_to :medical_condition
-  has_one :geo
+  belongs_to :geo
 
   def latitude
     Geo.find(self.geo_id).latitude
