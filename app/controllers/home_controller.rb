@@ -29,6 +29,7 @@ class HomeController < ApplicationController
     # @outbreakq.include?(0) ? @outbreaks = Outbreak.all.collect{|x| x.id} : @outbreaks = @outbreakq
     # @diseaseq.include?(0)? @diseases = find_diseases(@outbreaks) : @diseases = @diseaseq
     # @statesq.include?(0)? @places = find_places(@outbreaks): @places = @statesq
+    @user = User.find(session[:user_id])
 
     @outbreaks = find_outbreaks(Array(params[:outbreak_id].to_i))
     @diseases = find_diseases(Array(params[:disease_id].to_i))
@@ -37,7 +38,7 @@ class HomeController < ApplicationController
                                       medical_condition_id: @diseases,
                                       places: {id: @places}}
                                       ).sort_by{|event| event.date}.reverse
-                                    
+
     render 'home/index'
   end
 
