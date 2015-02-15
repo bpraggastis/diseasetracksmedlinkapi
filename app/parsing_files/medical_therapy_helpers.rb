@@ -5,7 +5,7 @@ module MedicalTherapyHelpers
     # Create a list of drug keys from the dailymed seed file
 
     def self.dailymed(dailymed_file)
-      JSON.parse(File.read(dailymed_file))
+      JSON.parse(dailymed_file) #dailymed_file is gotten from HTTParty.get
     end
 
     def self.daily_drug_keys(dailymed)
