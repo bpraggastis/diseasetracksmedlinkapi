@@ -53,10 +53,11 @@ $(function(){
 
   var make_mark = function(event){
     var id = event.attr('data-event-id');
-    if (markers[id]== null)
+    var latitude = parseFloat(event.attr('data-latitude'));
+    var longitude = parseFloat(event.attr('data-longitude'));
+
+    if (markers[id] == null && latitude !== 0 && longitude !== 0)
       {
-        var latitude = parseFloat(event.attr('data-latitude'));
-        var longitude = parseFloat(event.attr('data-longitude'));
         var disease = event.attr('data-disease');
         var marker = new google.maps.Marker({
           position: new google.maps.LatLng(latitude,longitude),
@@ -105,9 +106,7 @@ $(function(){
   $(".location-marker").click(place_marker);
   $(".clear-markers").click(clear_markers);
   $(".auto-mark").click(auto_marks);
-  $(".remove-marker").click(function(e){
-    console.log("here!!!!!!");
-  });
+
   $(document).click(function(e){
     console.log(e.target);
   });

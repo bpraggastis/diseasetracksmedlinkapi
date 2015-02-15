@@ -14,27 +14,34 @@
   <%= form_tag query_path, method:"get" do %>
 
     <select id="outbreak-choices" name="outbreak_id">
-      <option value="0">Choose Outbreaks</option>
+      <option value="0" >Choose Outbreaks</option>
       <% @outbreaks.each do |obk| %>
-        <option value="<%= obk %>"> <%= Outbreak.find(obk).title %> </option>
+        <option class="outbreak-selection" data-category="outbreak" value="<%= obk %>"> <%= Outbreak.find(obk).title %> </option>
       <% end %>
     </select>
 
     <select id="disease-choices" name="disease_id">
-      <option value="0">Choose Medical Conditions</option>
+      <option value="0" >Choose Medical Conditions</option>
       <% @diseases.each do |id| %>
-        <option value="<%= id %>"> <%= MedicalCondition.find(id).name %> </option>
+        <option class="disease-option" data-category="disease" value="<%= id %>" > <%= MedicalCondition.find(id).name %> </option>
       <% end %>
     </select>
 
     <select id="place-choices" name="place_id">
-      <option value="0">Specify a State or Region </option>
+      <option value="0" >Specify a State or Region </option>
       <% @places.each do |id| %>
-        <option value="<%= id %>"> <%= Place.find(id).name %> </option>
+        <option class="place-selection" data-category="place" value="<%= id %>"> <%= Place.find(id).name %> </option>
         <% end %>
     </select>
 
     <%= submit_tag "Submit Query" %>
 
   <% end %>
+</div>
+<div id="query-choices">
+  <ul id="list-of-choices" style="list-style-type:none; float: left">
+    <li>Query Choices: </li>
+    <li> <%= @outbreaks.collect{|x| Outbreak.find(x).title} + @diseases.collect{|x| MedicalCondition.find(x).name} +
+            @places.collect{|x| Place.find(x).name }  %> </li>
+  </ul>
 </div>
