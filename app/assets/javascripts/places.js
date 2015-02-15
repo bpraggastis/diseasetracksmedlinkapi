@@ -52,24 +52,25 @@ $(function(){
   };
 
   var make_mark = function(event){
-    var latitude = parseFloat(event.attr('data-latitude'));
-    var longitude = parseFloat(event.attr('data-longitude'));
     var id = event.attr('data-event-id');
-    var disease = event.attr('data-disease');
-
-    var marker = new google.maps.Marker({
-      position: new google.maps.LatLng(latitude,longitude),
-      event_id: id,
-      event_disease: disease,
-    });
-    console.log(marker.id);
-    marker.setMap(map);
-    markers[id]= marker;
-
-    google.maps.event.addListener(marker, 'click', function(e){
-      myInfoWindow(marker.event_disease, marker);
-    });
-
+    if (markers[id]== null)
+      {
+        var latitude = parseFloat(event.attr('data-latitude'));
+        var longitude = parseFloat(event.attr('data-longitude'));
+        var disease = event.attr('data-disease');
+        var marker = new google.maps.Marker({
+          position: new google.maps.LatLng(latitude,longitude),
+          event_id: id,
+          event_disease: disease,
+        });
+        marker.setMap(map);
+        markers[id]= marker;
+        google.maps.event.addListener(marker, 'click', function(e){
+          myInfoWindow(marker.event_disease, marker);
+        });
+      }
+      else
+        {console.log("duplicate");}
   };
 
   var place_marker = function(e){
