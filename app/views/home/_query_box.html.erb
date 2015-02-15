@@ -13,38 +13,51 @@
 
 <div id="outbreak-query-box" class="query-form" style="display: none" >
   <%= form_tag query_path, method:"get" do %>
+  <ul>
 
+
+    <li>
     <select id="outbreak-choices" name="outbreak_id">
       <option value="0" >Choose Outbreaks</option>
       <% @outbreaks.each do |obk| %>
         <option class="outbreak-selection" data-category="outbreak" value="<%= obk %>"> <%= Outbreak.find(obk).title %> </option>
       <% end %>
     </select>
-
+  </li>
+    <li>
     <select id="disease-choices" name="disease_id">
       <option value="0" >Choose Medical Conditions</option>
       <% @diseases.each do |id| %>
         <option class="disease-option" data-category="disease" value="<%= id %>" > <%= MedicalCondition.find(id).name %> </option>
       <% end %>
     </select>
-
-    <select id="place-choices" name="place_id">
+  </li>
+    <li>
+      <select id="place-choices" name="place_id">
       <option value="0" >Specify a State or Region </option>
+
       <% @places.each do |id| %>
         <option class="place-selection" data-category="place" value="<%= id %>"> <%= Place.find(id).name %> </option>
         <% end %>
     </select>
-
+  </li>
+    <li>
+    <input type="text" name="start_date" placeholder="Start Date ....."  id="startdatepicker">&nbspTo&nbsp
+    <input type="text" name="end_date" placeholder="..... End Date" id="enddatepicker"></p>
+  </li>
+    <li>
     <%= submit_tag "Submit Query" %>
-
+  </li>
   <% end %>
+</ul>
 </div>
 
 <div id="query-choices">
   <ul id="list-of-choices" style="list-style-type:none; float: left">
     <li>Query Choices: </li>
-    <li> <%= @outbreaks.collect{|x| Outbreak.find(x).title} + @diseases.collect{|x| MedicalCondition.find(x).name} +
-            @places.collect{|x| Place.find(x).name }  %> </li>
+    <li><%= @outbreaks.collect{|x| Outbreak.find(x).title} + @diseases.collect{|x| MedicalCondition.find(x).name} +
+            @places.collect{|x| Place.find(x).name }%>&nbspBetween:&nbsp<%= @start_date.strftime("%b %d, %Y")%>&nbspand&nbsp
+            <%= @end_date.strftime("%b %d, %Y")%></li>
   </ul>
 
 </div>
