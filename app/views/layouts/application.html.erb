@@ -19,9 +19,9 @@
 
         var data = new google.visualization.DataTable();
         data.addColumn('number', 'Day');
-        data.addColumn('number', 'Guardians of the Galaxy');
-        data.addColumn('number', 'The Avengers');
-        data.addColumn('number', 'Transformers: Age of Extinction');
+        data.addColumn('number', 'Ebola');
+        data.addColumn('number', 'West Nile Virus');
+        data.addColumn('number', 'Rubella');
 
         data.addRows([
           [1,  37.8, 80.8, 41.8],
@@ -45,8 +45,8 @@
             title: 'Box Office Earnings in First Two Weeks of Opening',
             subtitle: 'in millions of dollars (USD)'
           },
-          width: 900,
-          height: 500
+          width: 500,
+          height: 350
         };
 
         var chart = new google.charts.Line(document.getElementById('linechart_material'));
@@ -157,7 +157,7 @@
         <% end %>
       </div>
     </div>
-    <div id="linechart_material"></div>
+    <!-- <div id="linechart_material"></div> -->
   </header>
 
   <%= yield %>
