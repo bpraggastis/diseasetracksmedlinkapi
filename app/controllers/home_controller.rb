@@ -19,7 +19,7 @@ class HomeController < ApplicationController
   end
 
   def query
-
+    @user = User.find(session[:user_id])
     @outbreaks = find_outbreaks(Array(params[:outbreak_id].to_i))
     @diseases = find_diseases(Array(params[:disease_id].to_i))
     @places = find_places(Array(params[:place_id].to_i))
