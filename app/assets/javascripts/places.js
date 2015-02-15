@@ -1,7 +1,7 @@
 $(function(){
 
   var map;
-  var markers = [];
+  markers = {};
 
   function initialize() {
 
@@ -31,35 +31,30 @@ $(function(){
     };
     map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
-
-
   }
+
   // ends initialize
 
-
-  var content_string = function(my_content){ string = '<h4>'+ my_content + '</h4>' +
-                        '<button href="#" + class="remove-marker">Remove Marker</button>';
+  var content_string = function(my_content,id){ string = '<h4>'+ my_content + '</h4>' +
+                        '<button href="#" id="remove-marker" data-marker-id='+
+                        id +' >Remove Marker</button>';
                         return string;
   };
 
-
-
   var myInfoWindow = function(my_content, my_marker){
     var infowindow = new google.maps.InfoWindow({
-      content: content_string(my_content),
+      content: content_string(my_content, my_marker.event_id),
     });
-
-    infowindow.open(map,my_marker);
-    $('.remove-marker').click(function(my_marker){
-      console.log('made it here');
-      my_marker.setMap(null);
+    infowindow.open(map, my_marker);
+    google.maps.event.addListener(infowindow, 'domready', function(){
+      $('#remove-marker').click(remove_marker);
     });
   };
 
   var make_mark = function(event){
     var latitude = parseFloat(event.attr('data-latitude'));
     var longitude = parseFloat(event.attr('data-longitude'));
-    var id = parseInt(event.attr('data-event-id'));
+    var id = event.attr('data-event-id');
     var disease = event.attr('data-disease');
 
     var marker = new google.maps.Marker({
@@ -67,8 +62,9 @@ $(function(){
       event_id: id,
       event_disease: disease,
     });
+    console.log(marker.id);
     marker.setMap(map);
-    markers.push(marker);
+    markers[id]= marker;
 
     google.maps.event.addListener(marker, 'click', function(e){
       myInfoWindow(marker.event_disease, marker);
@@ -90,70 +86,32 @@ $(function(){
   };
 
   var clear_markers = function(){
-    for (var i = 0; i < markers.length; i++) {
-      markers[i].setMap(null);
-    }
-    markers = [];
+    var key_set = Object.keys(markers);
+    $.each(key_set, function(index,key){
+      markers[key].setMap(null);
+    });
+    markers = {};
   };
 
   var remove_marker = function(e){
-    var index = markers.indexOf(e);
+    console.log("here");
+    id = $(e.target).attr('data-marker-id');
+    console.log(id);
+    markers[id].setMap(null);
   };
 
 
   $(".location-marker").click(place_marker);
   $(".clear-markers").click(clear_markers);
   $(".auto-mark").click(auto_marks);
-  $(".remove-marker").click(remove_marker);
+  $(".remove-marker").click(function(e){
+    console.log("here!!!!!!");
+  });
+  $(document).click(function(e){
+    console.log(e.target);
+  });
+
 
   google.maps.event.addDomListener(window, 'load', initialize);
 
 });
-//
-//   // var latitude =  -25.363882;
-//   // var longitude = 131.044922;
-//
-//   var place_marker = function(e){
-//     var latitude = $(e.target).dataset.latitude;
-//     var longitude = $(e.target).dataset.longitude;
-//
-//     var marker = new google.maps.Marker({
-//       position: new google.maps.LatLng(latitude, longitude),
-//       map: map
-//     });
-//   };
-//
-//   var initialize = function(){
-//     var myLatlng = new google.maps.LatLng(-25.363882,131.044922);
-//     // var myLatlng = new google.maps.LatLng(latitude, longitude);
-//     var mapOptions = {
-//       zoom: 2,
-//       center: myLatlng
-//     };
-//     var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
-//   };
-//
-//   document.addEventListener('click', place_marker);
-//   //
-//   // var myLatlng = new google.maps.LatLng(-25.363882,131.044922);
-//   // // var myLatlng = new google.maps.LatLng(latitude, longitude);
-//   // var mapOptions = {
-//   //   zoom: 4,
-//   //   center: myLatlng
-//   // };
-//   // var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
-//
-//   // To add the marker to the map, use the 'map' property
-// //   var marker = new google.maps.Marker({
-// //       position: myLatlng,
-// //       map: map
-// });
-//
-//
-//
-//
-//
-//
-// });
-//
-//
