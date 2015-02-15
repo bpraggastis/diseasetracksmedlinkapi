@@ -59,15 +59,18 @@ $(function(){
     if (markers[id] == null && latitude !== 0 && longitude !== 0)
       {
         var disease = event.attr('data-disease');
+        var location = event.attr('data-location')
         var marker = new google.maps.Marker({
           position: new google.maps.LatLng(latitude,longitude),
           event_id: id,
           event_disease: disease,
+          event_location: location,
         });
         marker.setMap(map);
         markers[id]= marker;
         google.maps.event.addListener(marker, 'click', function(e){
-          myInfoWindow(marker.event_disease, marker);
+          var infoString = marker.event_disease + " " + marker.event_location
+          myInfoWindow(infoString, marker);
         });
       }
       else
