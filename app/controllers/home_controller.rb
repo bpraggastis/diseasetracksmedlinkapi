@@ -2,20 +2,20 @@ class HomeController < ApplicationController
 
   def index
     @user = User.find(session[:user_id]) if session[:user_id]
-    # @outbreaks = Outbreak.all.sort_by{|x| x.title}.collect{|x| x.id}
-    # @diseases = MedicalCondition.all.sort_by{|x| x.name}.collect{|x| x.id}
-
-    @outbreaks = find_outbreaks
-    @diseases = find_diseases
-    @places = find_places
+    @outbreaks = []
+    @diseases = []
+    @places = []
+    temp = Outbreak.includes(:medical_conditions, :places)
+    temp.each do |obreak|
+      @outbreaks << obreak.id
+      @diseases |= obreak.medical_conditions.collect{|x| x.id}
+      @places |= obreak.places.collect{|x| x.id} # |= replaces with union - no dupes!
+    end
     @start_date = Date.parse('Jan 1, 1979')
     @end_date = Date.parse('Dec. 31, 2014')
-
-
     @events = Event.where(
           date: DateTime.parse('Jan. 1, 1979') .. DateTime.now
           ).to_a.sort_by{|event| event.date}.reverse
-    # @places = Place.all.sort_by{|x| x.name}.collect{|x| x.id}.uniq
   end
 
   def query
