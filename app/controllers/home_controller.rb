@@ -33,8 +33,8 @@ class HomeController < ApplicationController
     render 'home/index'
   end
 
-  def find_outbreaks(items = [0])
-    if items.include?(0) || items == []
+  def find_outbreaks(items = [0]) #return ids
+    if items - [0] == []
       return Outbreak.all.sort_by{|x| x.title}.collect{|x| x.id}
     else
       return Outbreak.find(items).sort_by{|x| x.title}.collect{|x| x.id}
@@ -42,7 +42,7 @@ class HomeController < ApplicationController
   end
 
   def find_diseases(items = [0]) # return ids
-    if items.include?(0) || items == []
+    if items - [0] == []
       return MedicalCondition.all.sort_by{|x| x.name}.collect{|x| x.id}
     else
       return MedicalCondition.find(items).sort_by{|x| x.name}.collect{|x| x.id}
@@ -50,12 +50,14 @@ class HomeController < ApplicationController
   end
 
   def find_places(items = [0]) # return ids
-    if items.include?(0) || items == []
+    if items - [0] == []
       return Place.joins(:outbreaks).uniq.sort_by{|x| x.name}.collect{|x| x.id}
     else
       return Place.find([items]).sort_by{|x| x.name}.collect{|x| x.id}
     end
   end
+
+
 
 
   def sample
