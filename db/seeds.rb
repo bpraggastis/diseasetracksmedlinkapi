@@ -365,7 +365,7 @@ Outbreak.create(title: "Under-vaccination", description: "Cases of Rubella, Mump
 "Encephalitis in California, Oregon, and Washington due to lack of vaccination.")
 Outbreak.create(title: "Ebola", description: "Cases of Ebola occuring in New Jersey and New York State.")
 
-###### Events Seed: Turn on DISEASE_HASH and code_hash ###########
+###### Events Seed: Requires DISEASE_HASH and code_hash ###########
 
 DISEASE_HASH = {
   "Rubella" => ["D012409","10018206","N0000002655","36653000","C0035920"],
@@ -431,7 +431,7 @@ end
 
 ##################################################################################################################
 #
-#         Seed 9: MedicalConditionOutbreaks
+#         Seed 9: OutbreakPlaces
 #
 ##################################################################################################################
 
