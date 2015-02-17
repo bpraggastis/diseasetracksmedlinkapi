@@ -61,8 +61,8 @@ $(function(){
 
     if (markers[id] == null && latitude !== 0 && longitude !== 0)
       {
-        var disease = event.attr('data-disease');
-        var location = event.attr('data-location');
+        var disease = event.attr('data-disease').replace(/\_/g, ' ');
+        var location = event.attr('data-location').replace(/\_/g, ' ');
         var number = event.attr('data-number-infected');
         var date = event.attr('data-date');
 
