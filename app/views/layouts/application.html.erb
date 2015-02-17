@@ -33,19 +33,20 @@
             row[i] = null;
           }
           var point = $(marker);
-          // NEEDS TO BE SWITCHED TO DATA-DATE
-          row[0] = point.attr("data-event-id");
+          // row[0] = parseInt(point.attr("data-event-id"));
+          console.log(point.attr("data-date"));
+          row[0] = new Date(point.attr("data-date"));
           var disease = point.attr("data-disease");
           var diseaseIndex = $.inArray(disease, table[0]);
-          row[diseaseIndex] = point.attr("data-number-infected");
+          row[diseaseIndex] = parseInt(point.attr("data-number-infected"), 10);
           table.push(row);
         });
         var data = google.visualization.arrayToDataTable(table);
 
         var options = {
-          title: 'Age vs. Weight comparison',
-          hAxis: {title: 'Age', minValue: 0, maxValue: 15},
-          vAxis: {title: 'Weight', minValue: 0, maxValue: 15},
+          title: 'Outbreaks Over Time',
+          hAxis: {title: 'Time', format: 'M/d/yy'},
+          vAxis: {title: 'Number Infected', minValue: 0, maxValue: 20},
           legend: 'none'
         };
 
