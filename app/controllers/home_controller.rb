@@ -5,9 +5,9 @@ class HomeController < ApplicationController
     @outbreaks, @diseases, @places = menu_defaults
     @start_date = Date.parse('Jan 1, 1979')
     @end_date = Date.parse('Dec. 31, 2014')
-    @events = Event.where(
+    @events = Event.includes(:medical_condition, geo: :place).where(
           date: DateTime.parse('Jan. 1, 1979') .. DateTime.now
-          ).to_a.sort_by{|event| event.date}.reverse
+          ).order(date: :desc)
   end
 
   def query
@@ -18,11 +18,11 @@ class HomeController < ApplicationController
     placesq = find_places(Array(params[:place_id].to_i))
     params[:start_date] == "" ? @start_date = Date.parse('Jan 1, 1979') : @start_date = Date.parse(params[:start_date])
     params[:end_date] == "" ? @end_date = Date.today : @end_date = Date.parse(params[:end_date])
-    @events = Event.joins(geo: :place).where({date: @start_date..@end_date,
+    @events = Event.joins(:medical_condition, geo: :place).where({date: @start_date..@end_date,
                                       outbreak_id: outbreaksq,
                                       medical_condition_id: diseasesq,
                                       places: {id: placesq}}
-                                      ).sort_by{|event| event.date}.reverse
+                                      ).order(date: :desc)
     render 'home/index'
   end
 
@@ -63,15 +63,7 @@ class HomeController < ApplicationController
     end
   end
 
-
-
-
-  def sample
-
-  end
-
-
-
+######################## For Disease Drug Bank ###############################
   def query1
       @cquery = ""
       @tquery = ""

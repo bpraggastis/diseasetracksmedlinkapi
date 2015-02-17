@@ -11,23 +11,23 @@ class Event < ActiveRecord::Base
   belongs_to :geo
 
   def latitude
-    Geo.find(self.geo_id).latitude
+    geo.latitude
   end
 
   def longitude
-    Geo.find(self.geo_id).longitude
+    geo.longitude
   end
 
   def disease
-    MedicalCondition.find(self.medical_condition_id).name
+    medical_condition.name
   end
 
   def location
-    Geo.find(self.geo_id).name
+    geo.name
   end
 
   def state
-    Geo.find(self.geo_id).place.abbreviation
+    geo.place.abbreviation
   end
 
 
