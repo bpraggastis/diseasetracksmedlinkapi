@@ -19,9 +19,9 @@
         var table = [[{type: 'date', label: "Time"}]];
         $(".location-marker").each(function(index, marker){
           var point = $(marker);
-          var d = point.attr("data-disease");
+          var d = point.attr("data-disease").replace(/\_/g, " ");
           if ($.inArray(d, table[0]) === -1){
-              table[0].push(point.attr("data-disease"));
+              table[0].push(point.attr("data-disease").replace(/\_/g, " "));
               console.log(table[0]);
           } else {
               console.log("repeat disease");
@@ -36,7 +36,7 @@
           // row[0] = parseInt(point.attr("data-event-id"));
           row[0] = new Date(point.attr("data-date"));
           // console.log(row[0]);
-          var disease = point.attr("data-disease");
+          var disease = point.attr("data-disease").replace(/\_/g, " ");
           var diseaseIndex = $.inArray(disease, table[0]);
           row[diseaseIndex] = parseInt(point.attr("data-number-infected"), 10);
           table.push(row);
