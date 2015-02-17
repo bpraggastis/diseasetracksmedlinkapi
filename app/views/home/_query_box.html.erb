@@ -14,30 +14,27 @@
 <div id="outbreak-query-box" class="query-form" style="display: none" >
   <%= form_tag query_path, method:"get" do %>
   <ul>
-
-
     <li>
     <select id="outbreak-choices" name="outbreak_id">
-      <option value="0" >Choose Outbreaks</option>
-      <% @outbreaks.each do |obk| %>
-        <option class="outbreak-selection" data-category="outbreak" value="<%= obk %>"> <%= Outbreak.find(obk).title %> </option>
+      <option class="outbreak-selection" value="0" >Choose All Outbreaks</option>
+      <% @outbreaks.each do |id| %>
+        <option class="outbreak-selection" value="<%= id %>"> <%= Outbreak.find(id).title %> </option>
       <% end %>
     </select>
   </li>
     <li>
     <select id="disease-choices" name="disease_id">
-      <option value="0" >Choose Medical Conditions</option>
+      <option class="disease-option" value="0" >Choose All Medical Conditions</option>
       <% @diseases.each do |id| %>
-        <option class="disease-option" data-category="disease" value="<%= id %>" > <%= MedicalCondition.find(id).name %> </option>
+        <option class="disease-option" value="<%= id %>" > <%= MedicalCondition.find(id).name %> </option>
       <% end %>
     </select>
   </li>
     <li>
       <select id="place-choices" name="place_id">
-      <option value="0" >Specify a State or Region </option>
-
+      <option class="place-selection" value="0" >Choose All States and Regions </option>
       <% @places.each do |id| %>
-        <option class="place-selection" data-category="place" value="<%= id %>"> <%= Place.find(id).name %> </option>
+        <option class="place-selection" value="<%= id %>"> <%= Place.find(id).name %> </option>
         <% end %>
     </select>
   </li>
@@ -46,7 +43,7 @@
     <input type="text" name="end_date" placeholder="..... End Date" id="enddatepicker"></p>
   </li>
     <li>
-    <%= submit_tag "Submit Query" %>
+    <%= submit_tag "Submit New Query" %>
   </li>
   <% end %>
 </ul>
