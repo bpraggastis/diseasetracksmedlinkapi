@@ -16,7 +16,7 @@
       google.setOnLoadCallback(drawChart);
 
       function drawChart() {
-        var table = [['Time']];
+        var table = [[{type: 'date', label: "Time"}]];
         $(".location-marker").each(function(index, marker){
           var point = $(marker);
           var d = point.attr("data-disease");
@@ -34,19 +34,30 @@
           }
           var point = $(marker);
           // row[0] = parseInt(point.attr("data-event-id"));
-          console.log(point.attr("data-date"));
           row[0] = new Date(point.attr("data-date"));
+          // console.log(row[0]);
           var disease = point.attr("data-disease");
           var diseaseIndex = $.inArray(disease, table[0]);
           row[diseaseIndex] = parseInt(point.attr("data-number-infected"), 10);
           table.push(row);
         });
-        var data = google.visualization.arrayToDataTable(table);
+        console.log(table);
+        var data = new google.visualization.arrayToDataTable(table);
+
+        // data.addColumn("date", "Date");
+        //
+        // for (var i = 1; i < table[0].length; i++) {
+        //   data.addColumn("number", table[0][i]);
+        // }
+        //
+        // data.addRows(table.slice(1,-1));
 
         var options = {
           title: 'Outbreaks Over Time',
-          hAxis: {title: 'Time', format: 'M/d/yy'},
-          vAxis: {title: 'Number Infected', minValue: 0, maxValue: 20},
+          width: 500,
+          height: 350,
+          hAxis: {format: 'MMM d, yyyy', gridlines: {count: 20}, minValue: new Date("01/01/1979")},
+          vAxis: {title: 'Number Infected', minValue: 0, maxValue: 50},
           legend: 'none'
         };
 
@@ -55,15 +66,6 @@
         chart.draw(data, options);
       }
 
-
-        // var options = {
-        //   chart: {
-        //     title: 'Box Office Earnings in First Two Weeks of Opening',
-        //     subtitle: 'in millions of dollars (USD)'
-        //   },
-        //   width: 500,
-        //   height: 350
-        // };
     </script>
 
   <!-- <link href="assets/css/bootstrap-responsive.css" rel="stylesheet"> -->
