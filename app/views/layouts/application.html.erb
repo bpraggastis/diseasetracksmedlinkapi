@@ -9,7 +9,67 @@
     src="https://maps.googleapis.com/maps/api/js?key="+ENV[GMAPS_KEY]>
   </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var table = [[{type: 'date', label: "Time"}]];
+        $(".location-marker").each(function(index, marker){
+          var point = $(marker);
+          var d = point.attr("data-disease");
+          if ($.inArray(d, table[0]) === -1){
+              table[0].push(point.attr("data-disease"));
+              console.log(table[0]);
+          } else {
+              console.log("repeat disease");
+          }
+        });
+        $(".location-marker").each(function(index, marker){
+          var row = new Array(table[0].length);
+          for (var i=1; i<row.length; i++){
+            row[i] = null;
+          }
+          var point = $(marker);
+          // row[0] = parseInt(point.attr("data-event-id"));
+          row[0] = new Date(point.attr("data-date"));
+          // console.log(row[0]);
+          var disease = point.attr("data-disease");
+          var diseaseIndex = $.inArray(disease, table[0]);
+          row[diseaseIndex] = parseInt(point.attr("data-number-infected"), 10);
+          table.push(row);
+        });
+        console.log(table);
+        var data = new google.visualization.arrayToDataTable(table);
+
+        // data.addColumn("date", "Date");
+        //
+        // for (var i = 1; i < table[0].length; i++) {
+        //   data.addColumn("number", table[0][i]);
+        // }
+        //
+        // data.addRows(table.slice(1,-1));
+
+        var options = {
+          title: 'Outbreaks Over Time',
+          width: 500,
+          height: 350,
+          hAxis: {format: 'MMM d, yyyy', gridlines: {count: 20}, minValue: new Date("01/01/1979")},
+          vAxis: {title: 'Number Infected', minValue: 0, maxValue: 50},
+          legend: 'none'
+        };
+
+        var chart = new google.visualization.ScatterChart(document.getElementById('chart_div'));
+
+        chart.draw(data, options);
+      }
+
+    </script>
+
   <!-- <link href="assets/css/bootstrap-responsive.css" rel="stylesheet"> -->
+
 </head>
 
 <body>
@@ -110,7 +170,7 @@
         <% end %>
       </div>
     </div>
-
+    <!-- <div id="linechart_material"></div> -->
   </header>
 
   <%= yield %>

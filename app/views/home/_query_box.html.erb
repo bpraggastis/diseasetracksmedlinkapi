@@ -7,7 +7,8 @@
   <a href="#" class="menu-item" id="select-outbreak">Query Events</a>
   <a href="#" class="menu-item">|</a>
   <a href="/" class="menu-item">Reset Query</a>
-
+  <a href="#" class="menu-item">|</a>
+  <a class="menu-item" id="graph-trigger">See Graph</a>
 </div>
 
 <div id="outbreak-query-box" class="query-form" style="display: none" >
@@ -47,6 +48,7 @@
   <% end %>
 </ul>
 </div>
+
 <div id="query-choices">
   <ul id="list-of-choices" style="list-style-type:none; float: left">
     <li>Query Choices: </li>
@@ -54,4 +56,5 @@
             @places.collect{|x| Place.find(x).name }%>&nbspBetween:&nbsp<%= @start_date.strftime("%b %d, %Y")%>&nbspand&nbsp
             <%= @end_date.strftime("%b %d, %Y")%></li>
   </ul>
+
 </div>
