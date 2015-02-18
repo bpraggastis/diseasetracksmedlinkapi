@@ -386,7 +386,7 @@ end
 (1..3).each do |n|
   outbreak = JSON.parse(File.read("db/support/outbreak-#{n}.json"))
   outbreak.each do |event|
-    unless g = Geo.find_by(name: event["location"]["FEATURE_NAME"])
+    unless g = Geo.find_by(latitude: event["location"]["PRIM_LAT_DEC"], longitude: event["location"]["PRIM_LONG_DEC"])
         pl = Place.find_by(abbreviation: event["location"]["STATE_ALPHA"])
         g = Geo.create(latitude: event["location"]["PRIM_LAT_DEC"],
                    longitude: event["location"]["PRIM_LONG_DEC"],
