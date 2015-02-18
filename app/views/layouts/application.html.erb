@@ -53,12 +53,14 @@
         // data.addRows(table.slice(1,-1));
 
         var options = {
+          enableInteractivity: true,
+          legend: {position: 'top', maxLines: 3},
           title: 'Outbreaks Over Time',
           width: 500,
           height: 350,
+          colors: ["#FFBB34", "#CC2B15", "#15CC73", "#33517F", "#66A3FF", "#9E2BD4"],
           hAxis: {format: 'MMM d, yyyy', gridlines: {count: 20}, minValue: new Date("01/01/1979")},
-          vAxis: {title: 'Number Infected', minValue: 0, maxValue: 50},
-          legend: 'none'
+          vAxis: {title: 'Number Infected', minValue: 0, maxValue: 50}
         };
 
         var chart = new google.visualization.ScatterChart(document.getElementById('chart_div'));
