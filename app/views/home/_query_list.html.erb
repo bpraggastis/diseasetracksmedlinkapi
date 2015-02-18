@@ -5,16 +5,16 @@
       <% if @events != [] && @events != nil %>
         <% @events.each do |event| %>
           <li class="place-marker">
-             <a href="#" class="location-marker"
-                data-event-id=<%="#{event.id}"%>
-                data-disease=<%="#{event.disease}"%>
+                <!-- <#% raise %> -->
+             <a href="#" class="location-marker" data-event-id=<%="#{event.id}"%>
+                data-disease=<%="#{event.disease.gsub(" ", "_")}"%>
                 data-latitude=<%="#{event.latitude}"%>
                 data-longitude=<%= "#{event.longitude}" %>
-                data-location=<%= "#{event.geo.name}" %>
+                data-location=<%= "#{event.geo.name.gsub(" ", "_")}" %>
                 data-date=<%= "#{event.date}" %>
                 data-number-infected=<%= "#{event.number_infected}" %>>
               <%="#{event.date.strftime("%m/%d/%Y")}: #{event.disease} infected #{event.number_infected} people in #{event.location}, #{event.state} " %> </a>
-          </li>
+          </li><br>
         <% end %>
       <% else %>
       <h2>No Events Found For This Query</h2>

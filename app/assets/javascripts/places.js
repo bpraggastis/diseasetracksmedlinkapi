@@ -39,11 +39,11 @@ $(function(){
   // ends initialize
 
   var content_string = function(my_content,id){ string = '<div '+
-              'style="margin:0;padding:12px;background-color:#fffa67;">' +
+              'style="margin:0;padding:10px;background-color:#fffa67;text-align: center;">' +
               ' <h5>'+ my_content + '</h5>' +
               '<button style="background-color: #58f55b; border-radius: 30px; color: navy;}' +
               ' href="#" id="extra-info" data-marker-id='+ id +
-              ' >More Information</button>' +
+              ' >More Information</button>&nbsp&nbsp&nbsp&nbsp' +
               '<button style="background-color: #7f040e; border-radius: 30px; color: white;}' +
               ' href="#" id="remove-marker" data-marker-id='+ id +
               ' >Remove Marker</button></div>';
@@ -68,8 +68,8 @@ $(function(){
 
     if (markers[id] == null && latitude !== 0 && longitude !== 0)
       {
-        var disease = event.attr('data-disease');
-        var location = event.attr('data-location');
+        var disease = event.attr('data-disease').replace(/\_/g, ' ');
+        var location = event.attr('data-location').replace(/\_/g, ' ');
         var number = event.attr('data-number-infected');
         var date = event.attr('data-date');
 
