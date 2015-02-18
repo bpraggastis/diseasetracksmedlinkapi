@@ -2,24 +2,22 @@
 <div >
     <div class = "scrolling-list clear">
       <% if @events != [] && @events != nil %>
-        <table class="table table-hover table-condensed">
+        <table class="table table-hover table-condensed place-marker">
           <tr>
-            <th>Date</th> <th>Disease</th> <th>Number Infected</th> <th>Location</th> <th>Map</th>
+            <th>Date</th> <th>Disease</th> <th>Number Infected</th> <th>Location</th>
           </tr>
           <% @events.each do |event| %>
-            <tr class="place-marker">
+            <tr class="location-marker" data-event-id=<%="#{event.id}"%>
+                  data-disease=<%="#{event.disease.gsub(" ", "_")}"%>
+                  data-latitude=<%="#{event.latitude}"%>
+                  data-longitude=<%= "#{event.longitude}" %>
+                  data-location=<%= "#{event.geo.name.gsub(" ", "_")}" %>
+                  data-date=<%= "#{event.date}" %>
+                  data-number-infected=<%= "#{event.number_infected}" %>>
               <td> <%= event.date.strftime("%m-%d-%Y") %> </td>
               <td> <%= event.disease %> </td>
               <td> <%= event.number_infected %> </td>
               <td> <%= event.location %>, <%= event.state %> </td>
-              <td> <a href="#" class="location-marker" data-event-id=<%="#{event.id}"%>
-                    data-disease=<%="#{event.disease.gsub(" ", "_")}"%>
-                    data-latitude=<%="#{event.latitude}"%>
-                    data-longitude=<%= "#{event.longitude}" %>
-                    data-location=<%= "#{event.geo.name.gsub(" ", "_")}" %>
-                    data-date=<%= "#{event.date}" %>
-                    data-number-infected=<%= "#{event.number_infected}" %>>X</a>
-              </td>
             </tr>
           <% end %>
         </table>
