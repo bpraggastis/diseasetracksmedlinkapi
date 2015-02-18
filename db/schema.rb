@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150208233053) do
+ActiveRecord::Schema.define(version: 20150214173446) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -20,6 +20,41 @@ ActiveRecord::Schema.define(version: 20150208233053) do
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "event_places", force: true do |t|
+    t.integer  "place_id"
+    t.integer  "event_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "events", force: true do |t|
+    t.integer  "number_infected"
+    t.datetime "date"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "medical_condition_id"
+    t.integer  "outbreak_id"
+    t.integer  "geo_id"
+  end
+
+  create_table "geo_places", force: true do |t|
+    t.integer  "place_id"
+    t.integer  "geo_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "geos", force: true do |t|
+    t.float    "latitude"
+    t.float    "longitude"
+    t.string   "name"
+    t.string   "gazateer"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "county"
+    t.integer  "place_id"
   end
 
   create_table "medical_cause_conditions", force: true do |t|
@@ -57,6 +92,13 @@ ActiveRecord::Schema.define(version: 20150208233053) do
     t.datetime "updated_at"
   end
 
+  create_table "medical_condition_outbreaks", force: true do |t|
+    t.integer  "medical_condition_id"
+    t.integer  "outbreak_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "medical_conditions", force: true do |t|
     t.string   "name"
     t.text     "description"
@@ -71,24 +113,48 @@ ActiveRecord::Schema.define(version: 20150208233053) do
     t.datetime "updated_at"
   end
 
+  create_table "outbreak_places", force: true do |t|
+    t.integer  "outbreak_id"
+    t.integer  "place_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "outbreaks", force: true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "title"
+    t.text     "description"
+  end
+
+  create_table "places", force: true do |t|
+    t.string   "name"
+    t.string   "abbreviation"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "primary_preventions", force: true do |t|
     t.integer "medical_condition_id"
     t.integer "medical_therapy_id"
   end
 
-  create_table "query_records", force: true do |t|
-    t.string   "disease"
-    t.datetime "start_date"
-    t.datetime "end_date"
-    t.string   "location"
-    t.integer  "user_id"
+  create_table "synonyms", force: true do |t|
+    t.integer  "medical_condition_id"
+    t.integer  "alternate_name_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "synonyms", force: true do |t|
-    t.integer  "medical_condition_id"
-    t.integer  "alternate_name_id"
+  create_table "therapy_alternate_names", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "therapy_synonyms", force: true do |t|
+    t.integer  "therapy_alternate_name_id"
+    t.integer  "medical_therapy_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

@@ -2,11 +2,11 @@ class UsersController < ApplicationController
 
   def create
     @user = User.new(user_params)
-
     if @user.save
       session[:user_id] = @user.id.to_s
-      redirect_to @user
+      redirect_to root_path
     else
+      flash[:notice] = "There was a problem creating the user. Please try again."
       redirect_to root_path
     end
   end
@@ -29,7 +29,9 @@ class UsersController < ApplicationController
       flash[:notice] = "You are not authorized to update that user's profile."
       redirect_to root_path
     end
-    @user = User.find(params[:id])
+    @user = User.find(session[:user_id])
+    @user.update(user_params)
+    redirect_to root_path
   end
 
   def delete
@@ -49,11 +51,15 @@ class UsersController < ApplicationController
   private
 
   def authorization_check
-    params[:id] == session[:user_id] || User.find(session[:user_id]).tier == "admin"
+    params[:id] == session[:user_id] # || User.find(session[:user_id]).tier == "admin"
   end
 
   def user_params
     params.require(:user).permit(:name, :email, :password)
   end
+
+  # def user_update_params
+  #   params.require(:user).permit(:name, :email, :password)
+  # end
 
 end

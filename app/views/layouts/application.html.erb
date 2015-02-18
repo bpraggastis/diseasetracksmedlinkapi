@@ -5,31 +5,177 @@
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
-  <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
-  <script src="javascripts/jquery-min.js"></script>
-  <script src="javascripts/bootstrap.min.js"></script>
+  <script type="text/javascript"
+    src="https://maps.googleapis.com/maps/api/js?key="+ENV[GMAPS_KEY]>
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var table = [[{type: 'date', label: "Time"}]];
+        $(".location-marker").each(function(index, marker){
+          var point = $(marker);
+          var d = point.attr("data-disease").replace(/\_/g, " ");
+          if ($.inArray(d, table[0]) === -1){
+              table[0].push(point.attr("data-disease").replace(/\_/g, " "));
+              console.log(table[0]);
+          } else {
+              console.log("repeat disease");
+          }
+        });
+        $(".location-marker").each(function(index, marker){
+          var row = new Array(table[0].length);
+          for (var i=1; i<row.length; i++){
+            row[i] = null;
+          }
+          var point = $(marker);
+          // row[0] = parseInt(point.attr("data-event-id"));
+          row[0] = new Date(point.attr("data-date"));
+          // console.log(row[0]);
+          var disease = point.attr("data-disease").replace(/\_/g, " ");
+          var diseaseIndex = $.inArray(disease, table[0]);
+          row[diseaseIndex] = parseInt(point.attr("data-number-infected"), 10);
+          table.push(row);
+        });
+        console.log(table);
+        var data = new google.visualization.arrayToDataTable(table);
+
+        // data.addColumn("date", "Date");
+        //
+        // for (var i = 1; i < table[0].length; i++) {
+        //   data.addColumn("number", table[0][i]);
+        // }
+        //
+        // data.addRows(table.slice(1,-1));
+
+        var options = {
+          enableInteractivity: true,
+          legend: {position: 'top', maxLines: 3},
+          title: 'Outbreaks Over Time',
+          width: 500,
+          height: 350,
+          colors: ["#FFBB34", "#CC2B15", "#15CC73", "#33517F", "#66A3FF", "#9E2BD4"],
+          hAxis: {format: 'MMM d, yyyy', gridlines: {count: 20}, minValue: new Date("01/01/1979")},
+          vAxis: {title: 'Number Infected', minValue: 0, maxValue: 50}
+        };
+
+        var chart = new google.visualization.ScatterChart(document.getElementById('chart_div'));
+
+        chart.draw(data, options);
+      }
+
+    </script>
+
+  <!-- <link href="assets/css/bootstrap-responsive.css" rel="stylesheet"> -->
 
 </head>
+
 <body>
   <header>
-    <%= render partial: "shared/modals" %>
+    <div class="navbar navbar-inverse">
+      <div class="navbar-inner">
+        <div class="container">
 
+        <!-- Be sure to leave the brand out there if you want it shown -->
+        <a class="logo" href="/"><span>Disease Tracks</span></a>
 
-    <% if session[:user_id] %>
-      <%=link_to "Log Out", "/sessions/1", method: :delete, class: "btn btn-primary btn-xs" %>
-    <% else %>
-      <!-- Button trigger sign-in modal -->
-      <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#mySignInModal">
-        Sign in
-      </button>
-      <!-- Button trigger modal -->
-      <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#mySignUpModal">
-        Sign up
-      </button>
-    <% end %>
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <% if session[:user_id] == nil %>
+          <a class="btn btn-navbar" data-toggle="collapse" data-target="#nav-collapse-login">
+            <span class="icon-bar">Log in</span>
+          </a>
+          <a class="btn btn-navbar" data-toggle="collapse" data-target="#nav-collapse-signup">
+            <span class="icon-bar">Sign up</span>
+          </a>
+
+          <!-- Everything you want hidden at 940px or less, place within here -->
+          <span class="nav-form">
+            <div class="nav-collapse collapse" id="nav-collapse-login">
+              <%= form_tag sessions_path, method: :post do %>
+                <div class="col-xs-12 col-sm-5 col-sm-offset-2">
+                  <%= label_tag :email, "Email: " %> <br>
+                  <%= email_field_tag :email %>
+                </div>
+                <div class="col-xs-12 col-sm-5">
+                  <%= label_tag :password, "Password: " %> <br>
+                  <%= password_field_tag :password %>
+                  <div class="col-xs-12 col-sm-6 col-sm-offset-4">
+                    <%= submit_tag "Sign In", class: "submit-btn" %>
+                  </div>
+                </div>
+              <% end %>
+            <!-- .nav, .navbar-search, .navbar-form, etc -->
+            </div>
+          </span>
+          <span class="nav-form">
+            <div class="nav-collapse collapse" id="nav-collapse-signup">
+              <%= form_for User.new do |f| %>
+                <div class="col-xs-12 col-sm-3">
+                  <%= f.label "Name" %><br>
+                  <%= f.text_field :name %>
+                </div>
+                <div class="col-xs-12 col-sm-3">
+                  <%= f.label "email" %><br>
+                  <%= f.email_field :email %>
+                </div>
+                <div class="col-xs-12 col-sm-3">
+                  <%= f.label "Password" %><br>
+                  <%= f.password_field :password%>
+                </div>
+                <div class="col-xs-12 col-sm-3">
+                  <%= f.label "Confirm Password"%><br>
+                  <%= f.password_field :password_confirmation%><br>
+                  <div class="col-sm-4 col-sm-offset-5">
+                    <%= f.submit "Sign Up", class: "submit-btn"%>
+                  </div>
+                </div>
+                <!-- <div class="col-sm-11"></div>
+                <div class="btn submit-btn col-xs-1 col-sm-1"><%= f.submit "Sign Up"%></div> -->
+              <% end %>
+            </div>
+          </span>
+        <% else %>
+          <%=link_to "Log Out", "/sessions/1", method: :delete, class: "btn btn-navbar" %>
+          <a class="btn btn-navbar" data-toggle="collapse" data-target="#nav-collapse-profile">
+            <span class="icon-bar">Profile</span>
+          </a>
+          <span class="nav-form">
+            <div class="nav-collapse collapse" id="nav-collapse-profile">
+                <%= form_for(@user, method: :patch) do |f| %>
+                  <div class="col-xs-12 col-sm-3">
+                    <%= f.label "Name" %><br>
+                    <%= f.text_field :name %>
+                  </div>
+                  <div class="col-xs-12 col-sm-3">
+                    <%= f.label "email" %><br>
+                    <%= f.email_field :email %>
+                  </div>
+                  <div class="col-xs-12 col-sm-3">
+                    <%= f.label "New Password" %> <br>
+                    <%= f.password_field :password %>
+                  </div>
+                  <div class="col-xs-12 col-sm-3">
+                    <%= f.label "Confirm Password" %> <br>
+                    <%= f.password_field :password_confirmation %> <br>
+                    <div class="col-sm-4 col-sm-offset-2">
+                      <%= f.submit "Save changes", class: "submit-btn" %>
+                    </div>
+                  </div>
+                <% end %>
+              <!-- .nav, .navbar-search, .navbar-form, etc -->
+            </div>
+          </span>
+        <% end %>
+      </div>
+    </div>
+    <!-- <div id="linechart_material"></div> -->
   </header>
 
-<%= yield %>
+  <%= yield %>
 
 </body>
 </html>

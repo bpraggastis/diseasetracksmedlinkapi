@@ -1,0 +1,19 @@
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline-block;
+  float: left;
+}
+
+.ui-datepicker-month, .ui-datepicker-year {
+  color: black;
+}
+
+#outbreak-query-box.query-form form ul {
+  display: block;
+  margin: 2px;
+  border: solid 0.5px black;
+  background-color: #f89022;
+  font-family: Arial 50px;
+}

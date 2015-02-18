@@ -31,6 +31,8 @@ gem 'bcrypt-ruby'
 
 gem 'nokogiri'
 
+gem 'httparty'
+
 group :development, :test do
   gem 'rspec-rails'
   gem 'dotenv-rails'
@@ -53,6 +55,16 @@ gem 'rails_12factor', group: :production
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+group :development do
+  gem 'capistrano'
+  gem 'capistrano-rvm'
+  gem 'capistrano-bundler'
+  gem 'capistrano-rails'
+  gem "capistrano-passenger"
+end
+
+gem 'therubyracer', platforms: :ruby
+
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
@@ -60,3 +72,5 @@ gem 'json'
 gem "elasticsearch", git: "git://github.com/elasticsearch/elasticsearch-ruby.git"
 gem "elasticsearch-model", git: "git://github.com/elasticsearch/elasticsearch-rails.git"
 gem "elasticsearch-rails", git: "git://github.com/elasticsearch/elasticsearch-rails.git"
+gem 'aws-sdk'
+gem 'gmaps4rails'

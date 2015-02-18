@@ -1,0 +1,31 @@
+{
+  "Rubella" : {
+    "alternate_names" : ["German Measles", "Measles"],
+    "codes" : ["D012409","10018206","N0000002655","36653000","C0035920"]
+  },
+
+  "Ebola virus disease" : {
+    "alternate_names" : ["Ebola haemorrhagic fever"],
+    "codes" : ["D019142","10014071","N0000003898","37109004","C0282687"]
+  },
+
+  "Malaria" : {
+    "alternate_names" : [],
+    "codes" : ["1385","7728","C03.752.250.552","Malaria","248310"]
+  },
+
+  "West Nile Virus": {
+    "alternate_names": [],
+    "codes": ["C1096184"]
+  },
+
+  "Encephalitis": {
+    "alternate_names": [],
+    "codes": ["C0014060"]
+  },
+
+  "Mumps": {
+    "alternate_names": ["Epidemic Parotitides","Epidemic Parotitis","Infectious parotitis","Mumps parotitis","Mumps without mention of complication"],
+    "codes": ["D009107","10009300","N0000002055","240526004","36989005","C0026780"]
+    }
+  }
