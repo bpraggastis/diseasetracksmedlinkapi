@@ -1,7 +1,9 @@
 $(function(){
 
   var map;
+  var geocoder;
   markers = {};
+  infoLocation = "";
 
   function initialize() {
 
@@ -30,6 +32,7 @@ $(function(){
       }
     };
     map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
     geocoder = new google.maps.Geocoder();
   }
 
@@ -53,11 +56,11 @@ $(function(){
       $('#remove-marker').click(remove_marker);
     });
   };
-
   var make_mark = function(event){
     var id = event.attr('data-event-id');
     var latitude = parseFloat(event.attr('data-latitude'));
     var longitude = parseFloat(event.attr('data-longitude'));
+
 
     if (markers[id] == null && latitude !== 0 && longitude !== 0)
       {
@@ -78,10 +81,25 @@ $(function(){
         marker.setMap(map);
         markers[id]= marker;
         google.maps.event.addListener(marker, 'click', function(e){
-          var infoString = marker.event_disease + " infected " +
-                marker.event_number + "people in " + marker.event_location
-                // + nearby_local(marker.position);
-          myInfoWindow(infoString, marker);
+
+          geocoder.geocode({"latLng" : marker.position}, function(results,status){
+              if(status == google.maps.GeocoderStatus.OK){
+                if(results[0] !== null){
+                  info = results[0].formatted_address.replace(/(.+),(.+),(.+), USA/g,"$2, $3");
+                }
+                else{
+                  info = marker.location;
+                }
+              }
+              else{
+                info = marker.location;
+              }
+              var infoString = marker.event_disease + " infected " +
+                    marker.event_number + " people near " +
+                    " "+ info;
+              myInfoWindow(infoString, marker);
+          });
+
         });
       }
       else
@@ -89,10 +107,11 @@ $(function(){
   };
 
   var nearby_local = function(markerPosition){
-    geocoder.geocode({"latlng": markerPosition}, function(result,status){
+    geocoder.geocode({"latLng": markerPosition}, function(result,status){
     if(status == google.maps.GeocoderStatus.OK)
-    {return results[1].formatted_address;}
-
+    {alert("yes!");infoLocation = results[1].formatted_address || location;}
+    else
+      {alert("no!)");}
     });
   };
 
