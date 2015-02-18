@@ -41,10 +41,13 @@ $(function(){
   var content_string = function(my_content,id){ string = '<div '+
               'style="margin:0;padding:12px;background-color:#fffa67;">' +
               ' <h5>'+ my_content + '</h5>' +
-                        '<button style="background-color: #7f040e; border-radius: 30px; color: white;}' +
-                        ' href="#" id="remove-marker" data-marker-id='+ id +
-                        ' >Remove Marker</button></div>';
-                        return string;
+              '<button style="background-color: #58f55b; border-radius: 30px; color: navy;}' +
+              ' href="#" id="extra-info" data-marker-id='+ id +
+              ' >More Information</button>' +
+              '<button style="background-color: #7f040e; border-radius: 30px; color: white;}' +
+              ' href="#" id="remove-marker" data-marker-id='+ id +
+              ' >Remove Marker</button></div>';
+              return string;
   };
 
   var myInfoWindow = function(my_content, my_marker){
@@ -54,6 +57,7 @@ $(function(){
     infowindow.open(map, my_marker);
     google.maps.event.addListener(infowindow, 'domready', function(){
       $('#remove-marker').click(remove_marker);
+      $('#extra-info').click(extra_information);
     });
   };
   var make_mark = function(event){
@@ -106,14 +110,6 @@ $(function(){
         {console.log("duplicate");}
   };
 
-  var nearby_local = function(markerPosition){
-    geocoder.geocode({"latLng": markerPosition}, function(result,status){
-    if(status == google.maps.GeocoderStatus.OK)
-    {alert("yes!");infoLocation = results[1].formatted_address || location;}
-    else
-      {alert("no!)");}
-    });
-  };
 
   var place_marker = function(e){
     var new_mark = $(e.target);
@@ -137,10 +133,13 @@ $(function(){
   };
 
   var remove_marker = function(e){
-    console.log("here");
     id = $(e.target).attr('data-marker-id');
-    console.log(id);
     markers[id].setMap(null);
+  };
+
+  var extra_information = function(e){
+    id = $(e.target).attr('data-marker-id');
+    console.log("Extra Information for event #", id, " goes here.");
   };
 
 
