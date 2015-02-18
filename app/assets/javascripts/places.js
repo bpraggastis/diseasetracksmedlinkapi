@@ -4,6 +4,7 @@ $(function(){
   var geocoder;
   markers = {};
   infoLocation = "";
+  var latLngBounds;
 
   function initialize() {
 
@@ -13,6 +14,7 @@ $(function(){
     var longitude = parseFloat(mapElement.attr('data-center-longitude'));
 
     var latLng = new google.maps.LatLng(latitude,longitude);
+
     var mapOptions = {
       center: latLng,
       zoom: 4,
@@ -32,7 +34,7 @@ $(function(){
       }
     };
     map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-
+    latLngBounds = new google.maps.LatLngBounds();
     geocoder = new google.maps.Geocoder();
   }
 
@@ -84,6 +86,13 @@ $(function(){
         });
         marker.setMap(map);
         markers[id]= marker;
+        latLngBounds.extend(marker.position);
+        map.setCenter(latLngBounds.getCenter());
+        if(markers.count > 1){
+          map.setZoom(10);
+          map.fitBounds(latLngBounds);
+          };
+
         google.maps.event.addListener(marker, 'click', function(e){
 
           geocoder.geocode({"latLng" : marker.position}, function(results,status){
@@ -105,6 +114,11 @@ $(function(){
           });
 
         });
+        // code to adjust bounds of viewport
+
+        // console.log(latLngBounds);
+
+
       }
       else
         {console.log("duplicate");}
