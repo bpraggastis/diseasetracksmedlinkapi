@@ -1,7 +1,9 @@
 $(function(){
 
   var map;
+  var geocoder;
   markers = {};
+  infoLocation = "";
 
   function initialize() {
 
@@ -30,18 +32,22 @@ $(function(){
       }
     };
     map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
     geocoder = new google.maps.Geocoder();
   }
 
   // ends initialize
 
   var content_string = function(my_content,id){ string = '<div '+
-              'style="margin:0;padding:12px;background-color:#fffa67;">' +
+              'style="margin:0;padding:10px;background-color:#fffa67;text-align: center;">' +
               ' <h5>'+ my_content + '</h5>' +
-                        '<button style="background-color: #7f040e; border-radius: 30px; color: white;}' +
-                        ' href="#" id="remove-marker" data-marker-id='+ id +
-                        ' >Remove Marker</button></div>';
-                        return string;
+              '<button style="background-color: #58f55b; border-radius: 30px; color: navy;}' +
+              ' href="#" id="extra-info" data-marker-id='+ id +
+              ' >More Information</button>&nbsp&nbsp&nbsp&nbsp' +
+              '<button style="background-color: #7f040e; border-radius: 30px; color: white;}' +
+              ' href="#" id="remove-marker" data-marker-id='+ id +
+              ' >Remove Marker</button></div>';
+              return string;
   };
 
   var myInfoWindow = function(my_content, my_marker){
@@ -51,13 +57,14 @@ $(function(){
     infowindow.open(map, my_marker);
     google.maps.event.addListener(infowindow, 'domready', function(){
       $('#remove-marker').click(remove_marker);
+      $('#extra-info').click(extra_information);
     });
   };
-
   var make_mark = function(event){
     var id = event.attr('data-event-id');
     var latitude = parseFloat(event.attr('data-latitude'));
     var longitude = parseFloat(event.attr('data-longitude'));
+
 
     if (markers[id] == null && latitude !== 0 && longitude !== 0)
       {
@@ -78,23 +85,31 @@ $(function(){
         marker.setMap(map);
         markers[id]= marker;
         google.maps.event.addListener(marker, 'click', function(e){
-          var infoString = marker.event_disease + " infected " +
-                marker.event_number + "people in " + marker.event_location
-                // + nearby_local(marker.position);
-          myInfoWindow(infoString, marker);
+
+          geocoder.geocode({"latLng" : marker.position}, function(results,status){
+              if(status == google.maps.GeocoderStatus.OK){
+                if(results[0] !== null){
+                  info = results[0].formatted_address.replace(/(.+),(.+),(.+), USA/g,"$2, $3");
+                }
+                else{
+                  info = marker.location;
+                }
+              }
+              else{
+                info = marker.location;
+              }
+              var infoString = marker.event_disease + " infected " +
+                    marker.event_number + " people near " +
+                    " "+ info;
+              myInfoWindow(infoString, marker);
+          });
+
         });
       }
       else
         {console.log("duplicate");}
   };
 
-  var nearby_local = function(markerPosition){
-    geocoder.geocode({"latlng": markerPosition}, function(result,status){
-    if(status == google.maps.GeocoderStatus.OK)
-    {return results[1].formatted_address;}
-
-    });
-  };
 
   var place_marker = function(e){
     var new_mark = $(e.target);
@@ -118,10 +133,13 @@ $(function(){
   };
 
   var remove_marker = function(e){
-    console.log("here");
     id = $(e.target).attr('data-marker-id');
-    console.log(id);
     markers[id].setMap(null);
+  };
+
+  var extra_information = function(e){
+    id = $(e.target).attr('data-marker-id');
+    console.log("Extra Information for event #", id, " goes here.");
   };
 
 
