@@ -139,6 +139,16 @@ ActiveRecord::Schema.define(version: 20150214173446) do
     t.integer "medical_therapy_id"
   end
 
+  create_table "query_records", force: true do |t|
+    t.string   "disease"
+    t.datetime "start_date"
+    t.datetime "end_date"
+    t.string   "location"
+    t.integer  "user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "synonyms", force: true do |t|
     t.integer  "medical_condition_id"
     t.integer  "alternate_name_id"
