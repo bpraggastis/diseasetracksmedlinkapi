@@ -20,18 +20,18 @@ class QueryRecordController < ApplicationController
     if @record.user_id == @user.id
       @record.delete
       flash[:notice] = "Query record successfully deleted."
-      redirect_to @user
+      redirect_to root_path
     else
       flash[:notice] = "You are not authorized to delete that query."
-      redirect_to @user
+      redirect_to root_path
     end
   end
 
   private
 
   def query_params
-    params.require(:query).permit(:disease, :disease, :start_date,
-                                  :end_date, :location, :user_id)
+    params.require(:query).permit(:outbreak_id, :disease_id, :start_date, :end_date,
+                                  :place_id, :user_id)
   end
 
 end
