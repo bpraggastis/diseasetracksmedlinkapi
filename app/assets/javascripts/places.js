@@ -71,6 +71,7 @@ $(function(){
     var longitude = parseFloat(event.attr('data-longitude'));
     if (markers[id] == null && latitude !== 0 && longitude !== 0)
       {
+        // var disease = event.data("disease").replace(/\_/g, ' ');
         var disease = event.attr('data-disease').replace(/\_/g, ' ');
         var location = event.attr('data-location').replace(/\_/g, ' ');
         var number = event.attr('data-number-infected');
@@ -145,12 +146,12 @@ $(function(){
 
 
   var place_marker = function(e){
-    var new_mark = $(e.target);
+    var new_mark = $(e.target.parentElement);
     make_mark(new_mark);
   };
 
   var auto_marks = function(){
-    var spots = $(".place-marker").children(".location-marker");
+    var spots = $(".place-marker").children("tbody").children(".location-marker");
     spots.each(function(index,value){
       event = $(value);
       make_mark(event);
