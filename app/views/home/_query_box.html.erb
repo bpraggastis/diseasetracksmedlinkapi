@@ -42,9 +42,14 @@
     <input type="text" name="start_date" placeholder="Start Date ....."  id="startdatepicker">&nbspTo&nbsp
     <input type="text" name="end_date" placeholder="..... End Date" id="enddatepicker"></p>
   </li>
-    <li>
+  <li>
     <%= submit_tag "Submit New Query" %>
   </li>
+  <% if @user %>
+  <li>
+    <%= submit_tag "Save Query Record" %>
+  </li>
+  <% end %>
   <% end %>
 </ul>
 </div>
