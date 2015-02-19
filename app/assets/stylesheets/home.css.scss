@@ -1,9 +1,16 @@
 .scrolling-list {
-  display: block;
+  // display: block;
   height: 300px;
-  margin: auto;
   // border: solid green;
   overflow: scroll;
+  background-color: white;
+  margin: 20px 0;
+  border-width: 5px;
+  border-color: #2D3440;
+}
+
+.scroll-background {
+  background-color: #2D3440;
 }
 
 .basic-block {
@@ -20,6 +27,7 @@
   display: block;
   background-color: #2D3440;
   color: #FFBB34;
+  padding: 2px;
 }
 
 .query-form {
