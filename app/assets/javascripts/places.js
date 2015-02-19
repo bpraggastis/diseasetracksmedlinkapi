@@ -1,9 +1,12 @@
 $(function(){
 
+  var latLngCenter;
   var map;
   var geocoder;
   markers = {};
+  circles = {};
   infoLocation = "";
+  var latLngBounds;
 
   function initialize() {
 
@@ -12,9 +15,10 @@ $(function(){
     var latitude = parseFloat(mapElement.attr('data-center-latitude'));
     var longitude = parseFloat(mapElement.attr('data-center-longitude'));
 
-    var latLng = new google.maps.LatLng(latitude,longitude);
+    var latLngCenter = new google.maps.LatLng(latitude,longitude);
+
     var mapOptions = {
-      center: latLng,
+      center: latLngCenter,
       zoom: 4,
       mapTypeControl: true,
       mapTypeControlOptions: {
@@ -32,11 +36,24 @@ $(function(){
       }
     };
     map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-
+    latLngBounds = new google.maps.LatLngBounds();
     geocoder = new google.maps.Geocoder();
+
+    var center = latLngCenter;
+    var calculateCenter = function(){
+      center = map.getCenter();
+    }
+    google.maps.event.addDomListener(map, 'idle', function() {
+      calculateCenter();
+    });
+    google.maps.event.addDomListener(window, 'resize', function() {
+      map.setCenter(center);
+    });
+    auto_marks;
+
   }
 
-  // ends initialize
+  // ------>>>>>>>>>>>>>>>> ends initialize
 
   var content_string = function(my_content,id){ string = '<div '+
               'style="margin:0;padding:10px;background-color:#fffa67;text-align: center;">' +
@@ -52,6 +69,7 @@ $(function(){
 
   var myInfoWindow = function(my_content, my_marker){
     var infowindow = new google.maps.InfoWindow({
+
       content: content_string(my_content, my_marker.event_id),
     });
     infowindow.open(map, my_marker);
@@ -60,12 +78,11 @@ $(function(){
       $('#extra-info').click(extra_information);
     });
   };
+
   var make_mark = function(event){
     var id = event.attr('data-event-id');
     var latitude = parseFloat(event.attr('data-latitude'));
     var longitude = parseFloat(event.attr('data-longitude'));
-
-
     if (markers[id] == null && latitude !== 0 && longitude !== 0)
       {
         // var disease = event.data("disease").replace(/\_/g, ' ');
@@ -76,17 +93,48 @@ $(function(){
 
         var marker = new google.maps.Marker({
           position: new google.maps.LatLng(latitude,longitude),
+          opacity: 1,
           event_id: id,
           event_disease: disease,
           event_location: location,
           event_number: number,
           event_date: date,
-
         });
-        marker.setMap(map);
-        markers[id]= marker;
-        google.maps.event.addListener(marker, 'click', function(e){
 
+        markers[id]= marker;
+        latLngBounds.extend(marker.position);
+        map.setCenter(latLngBounds.getCenter());
+        if(markers.count > 1){
+          map.setZoom(24);
+          map.fitBounds(latLngBounds);
+          };
+
+        // Make a corresponding circle
+        var circleCenter = marker.position
+        var circleRadius = marker.event_number * 45000/250.0;
+        var circleOpacity = marker.event_number * 0.35/250 + 0.15;
+
+        var populationOptions = {
+          strokeColor: '#FF0000',
+          strokeOpacity: 0.10,
+          strokeWeight: 2,
+          fillColor: '#FF0000',
+          fillOpacity: circleOpacity,
+          map: map,
+          center: circleCenter,
+          radius: circleRadius,
+          clickable: true,
+        };
+        mycircle = new google.maps.Circle(populationOptions);
+        circles[id] = mycircle;
+        // mycircle.setMap(null);
+        // marker.setMap(map);
+
+
+
+        // Geocoder will return the closest community name for display in the infowindow
+        // google.maps.event.addListener(mycircle, 'click', function(e){
+        google.maps.event.addListener(marker, 'click', function(e){
           geocoder.geocode({"latLng" : marker.position}, function(results,status){
               if(status == google.maps.GeocoderStatus.OK){
                 if(results[0] !== null){
@@ -102,14 +150,16 @@ $(function(){
               var infoString = marker.event_disease + " infected " +
                     marker.event_number + " people near " +
                     " "+ info;
+
               myInfoWindow(infoString, marker);
           });
 
         });
+
       }
       else
         {console.log("duplicate");}
-  };
+  };///------------------->>>>>>>>>>>>>>>>>>>>>>>>>>End of make_mark
 
 
   var place_marker = function(e){
@@ -123,19 +173,44 @@ $(function(){
       event = $(value);
       make_mark(event);
     });
+
   };
+
 
   var clear_markers = function(){
     var key_set = Object.keys(markers);
     $.each(key_set, function(index,key){
       markers[key].setMap(null);
+      circles[key].setMap(null);
     });
-    markers = {};
+
+  };
+
+  var show_markers = function(){
+    var key_set = Object.keys(markers);
+    $.each(key_set, function(index,key){
+      // markers[key].setMap(map);
+      circles[key].setMap(map);
+    });
+  };
+
+  var showCircle = function(id){
+    circles[id].setMap(map);
+  };
+
+  var show_marker = function(e){
+    var id = $(e.target.parentElement).attr('data-event-id');
+    console.log(id);
+    // var id = event.attr('data-event-id');
+    markers[id].setMap(map);
+    showCircle(id);
   };
 
   var remove_marker = function(e){
     id = $(e.target).attr('data-marker-id');
     markers[id].setMap(null);
+    // markers[id] = null;
+    // circles[id] = null;
   };
 
   var extra_information = function(e){
@@ -143,16 +218,16 @@ $(function(){
     console.log("Extra Information for event #", id, " goes here.");
   };
 
-
-  $(".location-marker").click(place_marker);
+  $(".location-marker").click(show_marker);
   $(".clear-markers").click(clear_markers);
-  $(".auto-mark").click(auto_marks);
+  $(".auto-mark").click(show_markers);
 
   $(document).click(function(e){
     console.log(e.target);
   });
 
+  var main = function(){initialize(); auto_marks();}
 
-  google.maps.event.addDomListener(window, 'load', initialize);
+  google.maps.event.addDomListener(window, 'load', main);
 
 });
