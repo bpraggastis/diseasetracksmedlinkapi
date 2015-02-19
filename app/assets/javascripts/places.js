@@ -90,22 +90,24 @@ $(function(){
         latLngBounds.extend(marker.position);
         map.setCenter(latLngBounds.getCenter());
         if(markers.count > 1){
-          map.setZoom(10);
+          map.setZoom(24);
           map.fitBounds(latLngBounds);
           };
 
         // Make a corresponding circle
         var circleCenter = marker.position
+        var circleRadius = marker.event_number * 45000/250.0 + 45000;
+        var circleOpacity = marker.event_number * 0.35/250 + 0.15;
 
         var populationOptions = {
           strokeColor: '#FF0000',
-          strokeOpacity: 0.15,
+          strokeOpacity: 0.10,
           strokeWeight: 2,
           fillColor: '#FF0000',
-          fillOpacity: 0.15,
+          fillOpacity: circleOpacity,
           map: map,
           center: circleCenter,
-          radius: 90000,
+          radius: circleRadius,
           clickable: true,
         };
         mycircle = new google.maps.Circle(populationOptions);
