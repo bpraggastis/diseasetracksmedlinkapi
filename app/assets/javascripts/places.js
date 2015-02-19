@@ -156,6 +156,10 @@ $(function(){
           });
 
         });
+        google.maps.event.addListener(mycircle, 'click', function(e){
+          alert("clicked");
+          marker.setMap(map);
+        });
 
       }
       else
@@ -225,7 +229,7 @@ $(function(){
         modal.find('.modal-content').html('<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>'+
           '<div style="display: block;font: 1.5em serif;padding: 30px;">'+
         ' <h3 style="font-size: bold 3em serif">'+response.medical_condition.name+'</h3>'+
-        ' <img src='+ response.image+' alt="" style="float:left;margin:10px;max-width:50%;" /><br> ' +
+        ' <img src='+ response.image+' alt="" style="float:left;margin:10px;max-width:50%;max-height:100%;" /><br> ' +
         response.medical_condition.description + '</div>');
         modal.modal('show')
       }
