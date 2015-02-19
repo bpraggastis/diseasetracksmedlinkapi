@@ -60,7 +60,7 @@ $(function(){
               ' <h5>'+ my_content + '</h5>' +
               '<button style="background-color: #58f55b; border-radius: 30px; color: navy;}' +
               ' href="#" id="extra-info" data-marker-id='+ id +
-              ' >More Information</button>&nbsp&nbsp&nbsp&nbsp' +
+              ' data-toggle="modal" data-target="#myModal">More Information</button>&nbsp&nbsp&nbsp&nbsp' +
               '<button style="background-color: #7f040e; border-radius: 30px; color: white;}' +
               ' href="#" id="remove-marker" data-marker-id='+ id +
               ' >Remove Marker</button></div>';
