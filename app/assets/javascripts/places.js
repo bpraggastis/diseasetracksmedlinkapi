@@ -215,7 +215,12 @@ $(function(){
 
   var extra_information = function(e){
     id = $(e.target).attr('data-marker-id');
-    console.log("Extra Information for event #", id, " goes here.");
+    console.log("We did it!" + id);
+    var disease = "";
+    
+    var modal = $('#myModal');
+    modal.find('.modal-title').text('Disease! ' + id);
+    // console.log("Extra Information for event #", id, " goes here.");
   };
 
   $(".location-marker").click(show_marker);
