@@ -1,5 +1,6 @@
 $(function(){
 
+  var latLngCenter;
   var map;
   var geocoder;
   markers = {};
@@ -14,10 +15,10 @@ $(function(){
     var latitude = parseFloat(mapElement.attr('data-center-latitude'));
     var longitude = parseFloat(mapElement.attr('data-center-longitude'));
 
-    var latLng = new google.maps.LatLng(latitude,longitude);
+    var latLngCenter = new google.maps.LatLng(latitude,longitude);
 
     var mapOptions = {
-      center: latLng,
+      center: latLngCenter,
       zoom: 4,
       mapTypeControl: true,
       mapTypeControlOptions: {
@@ -37,6 +38,19 @@ $(function(){
     map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
     latLngBounds = new google.maps.LatLngBounds();
     geocoder = new google.maps.Geocoder();
+
+    var center = latLngCenter;
+    var calculateCenter = function(){
+      center = map.getCenter();
+    }
+    google.maps.event.addDomListener(map, 'idle', function() {
+      calculateCenter();
+    });
+    google.maps.event.addDomListener(window, 'resize', function() {
+      map.setCenter(center);
+    });
+    auto_marks;
+
   }
 
   // ------>>>>>>>>>>>>>>>> ends initialize
@@ -79,14 +93,14 @@ $(function(){
 
         var marker = new google.maps.Marker({
           position: new google.maps.LatLng(latitude,longitude),
-          opacity: 0.0,
+          opacity: 1,
           event_id: id,
           event_disease: disease,
           event_location: location,
           event_number: number,
           event_date: date,
         });
-        marker.setMap(map);
+
         markers[id]= marker;
         latLngBounds.extend(marker.position);
         map.setCenter(latLngBounds.getCenter());
@@ -97,7 +111,7 @@ $(function(){
 
         // Make a corresponding circle
         var circleCenter = marker.position
-        var circleRadius = marker.event_number * 45000/250.0 + 45000;
+        var circleRadius = marker.event_number * 45000/250.0;
         var circleOpacity = marker.event_number * 0.35/250 + 0.15;
 
         var populationOptions = {
@@ -113,11 +127,14 @@ $(function(){
         };
         mycircle = new google.maps.Circle(populationOptions);
         circles[id] = mycircle;
+        // mycircle.setMap(null);
+        // marker.setMap(map);
 
 
 
         // Geocoder will return the closest community name for display in the infowindow
-        google.maps.event.addListener(mycircle, 'click', function(e){
+        // google.maps.event.addListener(mycircle, 'click', function(e){
+        google.maps.event.addListener(marker, 'click', function(e){
           geocoder.geocode({"latLng" : marker.position}, function(results,status){
               if(status == google.maps.GeocoderStatus.OK){
                 if(results[0] !== null){
@@ -156,7 +173,9 @@ $(function(){
       event = $(value);
       make_mark(event);
     });
+
   };
+
 
   var clear_markers = function(){
     var key_set = Object.keys(markers);
@@ -164,16 +183,34 @@ $(function(){
       markers[key].setMap(null);
       circles[key].setMap(null);
     });
-    markers = {};
-    circles = {};
+
+  };
+
+  var show_markers = function(){
+    var key_set = Object.keys(markers);
+    $.each(key_set, function(index,key){
+      // markers[key].setMap(map);
+      circles[key].setMap(map);
+    });
+  };
+
+  var showCircle = function(id){
+    circles[id].setMap(map);
+  };
+
+  var show_marker = function(e){
+    var id = $(e.target.parentElement).attr('data-event-id');
+    console.log(id);
+    // var id = event.attr('data-event-id');
+    markers[id].setMap(map);
+    showCircle(id);
   };
 
   var remove_marker = function(e){
     id = $(e.target).attr('data-marker-id');
     markers[id].setMap(null);
-    circles[id].setMap(null);
-    markers[id] = null;
-    circles[id] = null;
+    // markers[id] = null;
+    // circles[id] = null;
   };
 
   var extra_information = function(e){
@@ -181,16 +218,16 @@ $(function(){
     console.log("Extra Information for event #", id, " goes here.");
   };
 
-
-  $(".location-marker").click(place_marker);
+  $(".location-marker").click(show_marker);
   $(".clear-markers").click(clear_markers);
-  $(".auto-mark").click(auto_marks);
+  $(".auto-mark").click(show_markers);
 
   $(document).click(function(e){
     console.log(e.target);
   });
 
+  var main = function(){initialize(); auto_marks();}
 
-  google.maps.event.addDomListener(window, 'load', initialize);
+  google.maps.event.addDomListener(window, 'load', main);
 
 });
