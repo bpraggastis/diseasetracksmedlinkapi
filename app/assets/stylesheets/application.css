@@ -29,13 +29,13 @@
 }
 
 .navbar a:hover {
-  color: #ffc375;
+  color: #ffee89;
 }
 .navbar a:visited {
   color: #ffe8c4;
 }
 .navbar a {
-  color: #ffee89;
+  color: #ffc375;
   float: right;
 }
 
@@ -68,6 +68,10 @@
   float: right;
   background-color: #222;
   color: #ffc375;
+}
+
+.nav-form input {
+  color: #2D3440;
 }
 
 .submit-btn {

@@ -1,24 +1,28 @@
 
-<div >
-  <ul>
-    <div class = "scrolling-list clear">
+<div class="col-xs-12 scroll-background">
+    <div class="scrolling-list clear col-xs-12 col-sm-10 col-sm-offset-1">
       <% if @events != [] && @events != nil %>
-        <% @events.each do |event| %>
-          <li class="place-marker">
-                <!-- <#% raise %> -->
-             <a href="#" class="location-marker" data-event-id=<%="#{event.id}"%>
-                data-disease=<%="#{event.disease.gsub(" ", "_")}"%>
-                data-latitude=<%="#{event.latitude}"%>
-                data-longitude=<%= "#{event.longitude}" %>
-                data-location=<%= "#{event.geo.name.gsub(" ", "_")}" %>
-                data-date=<%= "#{event.date}" %>
-                data-number-infected=<%= "#{event.number_infected}" %>>
-              <%="#{event.date.strftime("%m/%d/%Y")}: #{event.disease} infected #{event.number_infected} people in #{event.location}, #{event.state} " %> </a>
-          </li><br>
-        <% end %>
+        <table class="table table-hover table-condensed place-marker">
+          <tr>
+            <th>Date</th> <th>Disease</th> <th>Number Infected</th> <th>Location</th>
+          </tr>
+          <% @events.each do |event| %>
+            <tr class="location-marker" data-event-id=<%="#{event.id}"%>
+                  data-disease=<%="#{event.disease.gsub(" ", "_")}"%>
+                  data-latitude=<%="#{event.latitude}"%>
+                  data-longitude=<%= "#{event.longitude}" %>
+                  data-location=<%= "#{event.geo.name.gsub(" ", "_")}" %>
+                  data-date=<%= "#{event.date}" %>
+                  data-number-infected=<%= "#{event.number_infected}" %>>
+              <td> <%= event.date.strftime("%m-%d-%Y") %> </td>
+              <td> <%= event.disease %> </td>
+              <td> <%= event.number_infected %> </td>
+              <td> <%= event.location %>, <%= event.state %> </td>
+            </tr>
+          <% end %>
+        </table>
       <% else %>
-      <h2>No Events Found For This Query</h2>
+        <h2>No Events Found For This Query</h2>
       <% end %>
     </div>
-  </ul>
 </div>

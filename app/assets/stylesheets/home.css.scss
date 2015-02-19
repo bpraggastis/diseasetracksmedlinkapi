@@ -1,9 +1,16 @@
 .scrolling-list {
-  display: block;
+  // display: block;
   height: 300px;
-  margin: auto;
   // border: solid green;
   overflow: scroll;
+  background-color: white;
+  margin: 20px 0;
+  border-width: 5px;
+  border-color: #2D3440;
+}
+
+.scroll-background {
+  background-color: #2D3440;
 }
 
 .basic-block {
@@ -18,11 +25,9 @@
 
 #query-box {
   display: block;
-  background-color: navy;
-  color: white;
-  height: 30px;
-  border: solid black;
-
+  background-color: #2D3440;
+  color: #FFBB34;
+  padding: 2px;
 }
 
 .query-form {
@@ -40,8 +45,8 @@
 a.menu-item {
   display: inline-block;
   margin-left: 10px;
-  float: left;
-  color: white
+  // float: left;
+  color: #FFBB34;
 }
 
 a.location-marker {
@@ -50,11 +55,11 @@ a.location-marker {
 
 .white-link {
   display: inline-block;
-  color: white;
+  color: #FFBB34;
   padding-left: 5px;
   float: left;
 
 }
 a:hover {
-  color: red;
+  color: #ffee89;
 }
