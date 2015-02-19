@@ -1,12 +1,13 @@
 $(function(){
 
-  var latLngCenter;
-  var map;
-  var geocoder;
-  markers = {};
-  circles = {};
-  infoLocation = "";
-  var latLngBounds;
+  var latLngCenter = "";
+  var map = "";
+  var geocoder = "";
+  var markers = {};
+  var circles = {};
+  var infoLocation = "";
+  var latLngBounds = "";
+  var visible_markers = {};
 
   function initialize() {
 
@@ -43,14 +44,14 @@ $(function(){
     var center = latLngCenter;
     var calculateCenter = function(){
       center = map.getCenter();
-    }
+    };
     google.maps.event.addDomListener(map, 'idle', function() {
       calculateCenter();
     });
     google.maps.event.addDomListener(window, 'resize', function() {
       map.setCenter(center);
     });
-    auto_marks;
+
 
   }
 
@@ -103,15 +104,15 @@ $(function(){
         });
 
         markers[id]= marker;
-        latLngBounds.extend(marker.position);
-        map.setCenter(latLngBounds.getCenter());
-        if(markers.count > 1){
-          map.setZoom(24);
-          map.fitBounds(latLngBounds);
-          };
+        // latLngBounds.extend(marker.position);
+        // map.setCenter(latLngBounds.getCenter());
+        // if(markers.count > 1){
+        //   map.setZoom(24);
+        //   map.fitBounds(latLngBounds);
+        //   }
 
         // Make a corresponding circle
-        var circleCenter = marker.position
+        var circleCenter = marker.position;
         var circleRadius = marker.event_number * 45000/250.0;
         var circleOpacity = marker.event_number * 0.35/250 + 0.15;
 
@@ -188,13 +189,13 @@ $(function(){
       markers[key].setMap(null);
       circles[key].setMap(null);
     });
+    visible_markers = {};
 
   };
 
-  var show_markers = function(){
+  var show_circles = function(){
     var key_set = Object.keys(markers);
     $.each(key_set, function(index,key){
-      // markers[key].setMap(map);
       circles[key].setMap(map);
     });
   };
@@ -204,16 +205,29 @@ $(function(){
   };
 
   var show_marker = function(e){
+
+    if(visible_markers === {}){
+    latLngBounds = new google.maps.LatLngBounds();
+    }
     var id = $(e.target.parentElement).attr('data-event-id');
     console.log(id);
-    // var id = event.attr('data-event-id');
-    markers[id].setMap(map);
+    marker = markers[id];
+    visible_markers[id] = marker;
+    marker.setMap(map);
     showCircle(id);
+
+    latLngBounds.extend(marker.position);
+
+
+      map.setCenter(latLngBounds.getCenter());
+
+
   };
 
   var remove_marker = function(e){
     id = $(e.target).attr('data-marker-id');
     markers[id].setMap(null);
+    visible_markers[id] = null;
     // markers[id] = null;
     // circles[id] = null;
   };
@@ -229,7 +243,7 @@ $(function(){
         modal.find('.modal-content').html('<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>'+
           '<div style="display: block;font: 1.5em serif;padding: 30px;">'+
         ' <h3 style="font-size: bold 3em serif">'+response.medical_condition.name+'</h3>'+
-        ' <img src='+ response.image+' alt="" style="float:left;margin:10px;max-width:50%;max-height:100%;" /><br> ' +
+        ' <img src='+ response.image+' alt="" style="float:left;margin:10px;max-width:50%;max-height:100;" /><br> ' +
         response.medical_condition.description + '</div>');
         modal.modal('show')
       }
@@ -240,13 +254,13 @@ $(function(){
 
   $(".location-marker").click(show_marker);
   $(".clear-markers").click(clear_markers);
-  $(".auto-mark").click(show_markers);
+  $(".auto-mark").click(show_circles);
 
   $(document).click(function(e){
     console.log(e.target);
   });
 
-  var main = function(){initialize(); auto_marks();}
+  var main = function(){initialize(); auto_marks();};
 
   google.maps.event.addDomListener(window, 'load', main);
 
