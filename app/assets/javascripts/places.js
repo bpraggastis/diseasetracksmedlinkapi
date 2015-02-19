@@ -118,7 +118,7 @@ $(function(){
   };
 
   var auto_marks = function(){
-    var spots = $(".place-marker").children(".location-marker");
+    var spots = $(".place-marker").children("tbody").children(".location-marker");
     spots.each(function(index,value){
       event = $(value);
       make_mark(event);
