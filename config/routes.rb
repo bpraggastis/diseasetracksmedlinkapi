@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get '/query', to: "home#query", as: :query
 
   get '/home/sample', to: 'home#sample'
+  get '/medical_conditions/show/:id', to: "medical_conditions#show"
 
   resources :medical_conditions, :medical_codes, :medical_therapies, :users, :sessions, :places
 

@@ -10,6 +10,7 @@ $(function(){
 
   function initialize() {
 
+
     var mapElement = $("#map-canvas");
 
     var latitude = parseFloat(mapElement.attr('data-center-latitude'));
@@ -59,10 +60,10 @@ $(function(){
               'style="margin:0;padding:10px;background-color:#fffa67;text-align: center;">' +
               ' <h5>'+ my_content + '</h5>' +
               '<button style="background-color: #58f55b; border-radius: 30px; color: navy;}' +
-              ' href="#" id="extra-info" data-marker-id='+ id +
-              ' >More Information</button>&nbsp&nbsp&nbsp&nbsp' +
+              ' href="#" id="extra-info-'+id+'" data-marker-id='+ id +
+              ' data-toggle="modal" data-target="#myModal">More Information</button>&nbsp&nbsp&nbsp&nbsp' +
               '<button style="background-color: #7f040e; border-radius: 30px; color: white;}' +
-              ' href="#" id="remove-marker" data-marker-id='+ id +
+              ' href="#" id="remove-marker-'+id+'" data-marker-id='+ id +
               ' >Remove Marker</button></div>';
               return string;
   };
@@ -74,8 +75,8 @@ $(function(){
     });
     infowindow.open(map, my_marker);
     google.maps.event.addListener(infowindow, 'domready', function(){
-      $('#remove-marker').click(remove_marker);
-      $('#extra-info').click(extra_information);
+      $('#remove-marker-'+my_marker.event_id).click(remove_marker);
+      $('#extra-info-'+my_marker.event_id).click(extra_information);
     });
   };
 
@@ -215,8 +216,22 @@ $(function(){
 
   var extra_information = function(e){
     id = $(e.target).attr('data-marker-id');
-    console.log("Extra Information for event #", id, " goes here.");
-    console.log(markers[id].position);
+    $.get(
+      "/medical_conditions/show/"+id,
+      function(data){
+        var modal = $('#myModal');
+        response = data;
+        console.log(data);
+        modal.find('.modal-content').html('<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>'+
+          '<div style="display: block;font: 1.5em serif;padding: 30px;">'+
+        ' <h3 style="font-size: bold 3em serif">'+response.medical_condition.name+'</h3>'+
+        ' <img src='+ response.image+' alt="" style="float:left;margin:10px;max-width:50%;" /><br> ' +
+        response.medical_condition.description + '</div>');
+        modal.modal('show')
+      }
+
+    );
+
   };
 
   $(".location-marker").click(show_marker);

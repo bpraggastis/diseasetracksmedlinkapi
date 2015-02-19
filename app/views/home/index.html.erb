@@ -2,6 +2,15 @@
 
 <%= render 'map' %>
 <%= render 'query_box' %>
-<div id="name" style="clear:both">
-  <%= render 'query_list' %>
+<%= render 'query_list' %>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="false">
+
+  <div class="modal-dialog">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <div class="modal-content">
+      <!-- modal content is in extra_information function in places.js -->
+
+    </div>
+  </div>
 </div>

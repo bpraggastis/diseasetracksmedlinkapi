@@ -28,6 +28,7 @@ rubella.alternate_names.create(name: "Rubella")
 # adding description to malaria
 malaria = MedicalCondition.create(name: "Malaria")
 malaria.description = "Malaria is a mosquito-borne infectious disease of humans and other animals caused by parasitic protozoans (a group of single-celled microorganism) belonging to the genus Plasmodium. Malaria causes symptoms that typically include fever, fatigue, vomiting and headaches. In severe cases it can cause yellow skin, seizures, coma or death. The disease is transmitted by the biting of mosquitos, and the symptoms usually begin ten to fifteen days after being bitten. In those who have not been appropriately treated disease may recur months later. In those who have recently survived an infection, re-infection typically causes milder symptoms. This partial resistance disappears over months to years if there is no ongoing exposure to malaria."
+malaria.codes.create(code_system: "image", code_value: "http://upload.wikimedia.org/wikipedia/commons/f/f1/Malaria.jpg")
 malaria.save
 malaria.alternate_names.create(name: "Malaria")
 
