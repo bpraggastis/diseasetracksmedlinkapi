@@ -216,6 +216,7 @@ $(function(){
   var extra_information = function(e){
     id = $(e.target).attr('data-marker-id');
     console.log("Extra Information for event #", id, " goes here.");
+    console.log(markers[id].position);
   };
 
   $(".location-marker").click(show_marker);
