@@ -8,6 +8,7 @@ class HomeController < ApplicationController
     @events = Event.includes(:medical_condition, geo: :place).where(
           date: DateTime.parse('Jan. 1, 1979') .. DateTime.now
           ).order(date: :desc)
+    session[:query_id] = nil
   end
 
   def query
