@@ -18,16 +18,26 @@ $.fn.serializeObject = function()
 $(function(){
   $("#save-query-record").click(function(){
       var queryRecord = $("#query-form").serializeObject();
-      var url = $(this).data("url");
+      var ajaxUrl = $(this).data("url");
       // var url = this.data("url");
-      $.post("/query_records", {query: queryRecord}, function(){
+      $.post(ajaxUrl, {query: queryRecord}, function(){
         window.location.reload();
       });
   });
 
   $("#update-query-record").click(function(){
     var queryRecord = $("#query-form").serializeObject();
-    $.post("/query_records/", {query: queryRecord});
+    var ajaxUrl = $(this).data("url");
+    console.log("HEEEEREEE!!!");
+    console.log(ajaxUrl);
+    $.ajax(ajaxUrl,
+            {type: 'PATCH',
+            data: {query: queryRecord},
+            success: function(){
+              console.log("RAAAHHHHRRRR!");
+              window.location.reload();
+            }
+          });
   });
 
 });
