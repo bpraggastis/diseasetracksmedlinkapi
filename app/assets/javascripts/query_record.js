@@ -17,16 +17,16 @@ $.fn.serializeObject = function()
 
 $(function(){
   $("#save-query-record").click(function(){
-      var queryRecord = $("#query-form").serializeObject();
+      var queryRecord = $(".query-form form").serializeObject();
       var ajaxUrl = $(this).data("url");
-      // var url = this.data("url");
+      console.log(queryRecord);
       $.post(ajaxUrl, {query: queryRecord}, function(){
         window.location.reload();
       });
   });
 
   $("#update-query-record").click(function(){
-    var queryRecord = $("#query-form").serializeObject();
+    var queryRecord = $(".query-form form").serializeObject();
     var ajaxUrl = $(this).data("url");
     console.log("HEEEEREEE!!!");
     console.log(ajaxUrl);
