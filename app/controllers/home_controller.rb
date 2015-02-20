@@ -23,14 +23,6 @@ class HomeController < ApplicationController
                                       medical_condition_id: diseasesq,
                                       places: {id: placesq}}
                                       ).order(date: :desc)
-    if params[:commit] == "Save Query Record" && session[:user_id]
-      QueryRecord.new(user_id: session[:user_id],
-                      start_date: params[:start_date],
-                      end_date: params[:end_date],
-                      place_id: params[:place_id].to_i,
-                      disease_id: params[:disease_id].to_i,
-                      outbreak_id: params[:outbreak_id].to_i)
-    end
     render 'home/index'
   end
 
