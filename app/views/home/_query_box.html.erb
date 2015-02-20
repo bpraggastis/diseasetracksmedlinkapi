@@ -15,9 +15,9 @@
   <% end %>
 </div>
 
-<div class="collapse" id="query-records" >
+<div class="collapse col-xs-12" id="query-records" >
   <% if @user.query_records.length > 0 %>
-    <table class="table table-hover table-condensed">
+    <table class="table table-hover table-condensed col-sm-10 col-sm-1-offset">
       <tr>
         <th>Date of Query</th> <th>Outbreak</th> <th>Disease</th> <th>Location</th> <th>Start Date</th> <th>End Date</th>
       </tr>
@@ -37,48 +37,55 @@
   <% end %>
 </div>
 
-<div id="outbreak-query-box" class="query-form" >
+<div id="outbreak-query-box" class="query-form col-xs-12" >
   <%= form_tag query_path, method:"get", id: "query-form" do %>
   <ul>
     <li>
-    <select id="outbreak-choices" name="outbreak_id">
-      <option class="outbreak-selection" value="0" >Choose All Outbreaks</option>
-      <% @outbreaks.each do |id| %>
-        <option class="outbreak-selection" value="<%= id %>"> <%= Outbreak.find(id).title %> </option>
-      <% end %>
-    </select>
-  </li>
+      <select id="outbreak-choices" name="outbreak_id">
+        <option class="outbreak-selection" value="0" >Choose All Outbreaks</option>
+        <% @outbreaks.each do |id| %>
+          <option class="outbreak-selection" value="<%= id %>"> <%= Outbreak.find(id).title %> </option>
+        <% end %>
+      </select>
+    </li>
     <li>
-    <select id="disease-choices" name="disease_id">
-      <option class="disease-option" value="0" >Choose All Medical Conditions</option>
-      <% @diseases.each do |id| %>
-        <option class="disease-option" value="<%= id %>" > <%= MedicalCondition.find(id).name %> </option>
-      <% end %>
-    </select>
-  </li>
+      <select id="disease-choices" name="disease_id">
+        <option class="disease-option" value="0" >Choose All Medical Conditions</option>
+        <% @diseases.each do |id| %>
+          <option class="disease-option" value="<%= id %>" > <%= MedicalCondition.find(id).name %> </option>
+        <% end %>
+      </select>
+    </li>
     <li>
       <select id="place-choices" name="place_id">
-      <option class="place-selection" value="0" >Choose All States and Regions </option>
-      <% @places.each do |id| %>
-        <option class="place-selection" value="<%= id %>"> <%= Place.find(id).name %> </option>
+        <option class="place-selection" value="0" >Choose All States and Regions </option>
+        <% @places.each do |id| %>
+          <option class="place-selection" value="<%= id %>"> <%= Place.find(id).name %> </option>
         <% end %>
-    </select>
-  </li>
+      </select>
+    </li>
     <li>
-    <input type="text" name="start_date" placeholder="Start Date ....."  id="startdatepicker">&nbspTo&nbsp
-    <input type="text" name="end_date" placeholder="..... End Date" id="enddatepicker"></p>
-  </li>
-  <li>
-    <%= submit_tag "Submit New Query", class: "btn btn-default" %>
-  </li>
-  <% end %>
-  <% if @user %>
-  <li>
-    <a href="#" class="btn btn-default" id="save-query-record">Save Query Record</a>
-  </li>
-  <% end %>
-</ul>
+      <input type="text" name="start_date" placeholder="Start Date ....."  id="startdatepicker">&nbspTo&nbsp
+      <input type="text" name="end_date" placeholder="..... End Date" id="enddatepicker"></p>
+    </li>
+    <li>
+      <%= submit_tag "Submit New Query", class: "btn btn-default" %>
+    </li>
+    <% end %>
+    <% if @user %>
+    <li>
+      <a href="#" class="btn btn-default" id="save-query-record", data-url="/query_records">Save New Query Record</a>
+    </li>
+    <% end %>
+    <% if session[:query_id] %>
+    <li>
+      <a href="#" class="btn btn-default" id="update-query-record", data-url= <%= "/query_records/#{session[:query_id]}" %> >Update Query Record</a>
+    </li>
+    <% end %>
+  </ul>
 </div>
+
+
 
 <!-- <div id="query-choices">
   <ul id="list-of-choices" style="list-style-type:none; float: left">
