@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   get '/home/sample', to: 'home#sample'
   get '/medical_conditions/show/:id', to: "medical_conditions#show"
 
-  resources :medical_conditions, :medical_codes, :medical_therapies, :users, :sessions, :places
+  resources :medical_conditions, :medical_codes, :medical_therapies, :users, :sessions, :places, :query_records
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

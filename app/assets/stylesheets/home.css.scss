@@ -1,5 +1,6 @@
 
 
+
 .basic-block {
   display: block;
   float: left;
@@ -9,6 +10,7 @@
 .hi-lite {
   background: yellow;
 }
+
 
 // #query-box {
 //   display: block;
@@ -28,6 +30,7 @@
 //   color: black;
 //
 // }
+
 
 a.menu-item {
   display: inline-block;
@@ -49,4 +52,9 @@ a.location-marker {
 }
 a:hover {
   color: #ffee89;
+}
+
+#query-records {
+  overflow: scroll;
+  height: 150px;
 }
