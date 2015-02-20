@@ -20,12 +20,9 @@ class QueryRecordsController < ApplicationController
     #   params[:commit] = ""
     # end
     @record.user_id = session[:user_id]
-    if @record.save
-      redirect_to @query
-    else
-      flash[:notice] = "Query record failed to save."
-      redirect_to root_path
-    end
+    @record.save
+    session[:query_id] = @record.id
+    redirect_to root_path
   end
 
   def show
