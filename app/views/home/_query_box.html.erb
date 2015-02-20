@@ -33,9 +33,9 @@
         <% @user.query_records.sort_by{ |qr| qr.created_at }.reverse.each do |qr| %>
           <tr class="query-record-link <%= "high-light-row" if qr.id == session[:query_id] %>">
             <td> <%= qr.created_at.strftime("%b %d, %Y") %> </td>
-            <td> <%= Outbreak.find(qr.outbreak_id).title %> </td>
-            <td> <%= MedicalCondition.find(qr.disease_id).name %> </td>
-            <td> <%= Place.find(qr.place_id).name %> </td>
+            <td> <%= qr.outbreak_id > 0 ? Outbreak.find(qr.outbreak_id).title : "" %> </td>
+            <td> <%= qr.disease_id > 0 ? MedicalCondition.find(qr.disease_id).name : "" %> </td>
+            <td> <%= qr.place_id > 0 ? Place.find(qr.place_id).name : "" %> </td>
             <td> <%= qr.start_date.strftime("%m-%d-%Y") if qr.start_date %> </td>
             <td> <%= qr.end_date.strftime("%m-%d-%Y") if qr.end_date %> </td>
             <td>
