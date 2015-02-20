@@ -16,3 +16,26 @@ li {
   background-color: #f89022;
   font-family: Arial 50px;
 }
+
+.scrolling-list {
+  display: block;
+  width: 90%;
+  height: 300px;
+  // border: solid green;
+  overflow: scroll;
+  background-color: white;
+  padding: 20px;
+  margin: 5%;
+  margin-top: 10px;
+  border-width: 5px;
+  border-color: #2D3440;
+}
+
+.scroll-background {
+  background-color: black;
+  text-align: center;
+}
+
+table th, td {
+  text-align: center;
+}

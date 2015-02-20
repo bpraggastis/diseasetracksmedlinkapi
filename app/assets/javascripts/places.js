@@ -158,7 +158,6 @@ $(function(){
 
         });
         google.maps.event.addListener(mycircle, 'click', function(e){
-          alert("clicked");
           marker.setMap(map);
         });
 
