@@ -9,10 +9,36 @@
   <a href="/" class="menu-item">Reset Query</a>
   <a href="#" class="menu-item">|</a>
   <a class="menu-item" id="graph-trigger">See Graph</a>
+  <% if @user %>
+  <a href="#" class="menu-item">|</a>
+  <a href="#" class="menu-item" data-toggle="collapse" data-target="#query-records">Saved Queries</a>
+  <% end %>
+</div>
+
+<div class="collapse" id="query-records" >
+  <% if @user.query_records.length > 0 %>
+    <table class="table table-hover table-condensed">
+      <tr>
+        <th>Date of Query</th> <th>Outbreak</th> <th>Disease</th> <th>Location</th> <th>Start Date</th> <th>End Date</th>
+      </tr>
+      <% @user.query_records.each do |qr| %>
+        <tr>
+          <td> <%= qr.created_at.strftime("%b %d, %Y") %> </td>
+          <td> <%= qr.outbreak_id %> </td>
+          <td> <%= qr.disease_id %> </td>
+          <td> <%= qr.place_id %> </td>
+          <td> <%= qr.start_date.strftime("%m-%d-%Y") if qr.start_date %> </td>
+          <td> <%= qr.end_date.strftime("%m-%d-%Y") if qr.end_date %> </td>
+        </tr>
+      <% end %>
+    </table>
+  <% else %>
+    You have saved no query records.
+  <% end %>
 </div>
 
 <div id="outbreak-query-box" class="query-form" >
-  <%= form_tag query_path, method:"get" do %>
+  <%= form_tag query_path, method:"get", id: "query-form" do %>
   <ul>
     <li>
     <select id="outbreak-choices" name="outbreak_id">
@@ -43,13 +69,13 @@
     <input type="text" name="end_date" placeholder="..... End Date" id="enddatepicker"></p>
   </li>
   <li>
-    <%= submit_tag "Submit New Query" %>
-  </li>
-  <% if @user %>
-  <li>
-    <%= submit_tag "Save Query Record" %>
+    <%= submit_tag "Submit New Query", class: "btn btn-default" %>
   </li>
   <% end %>
+  <% if @user %>
+  <li>
+    <a href="#" class="btn btn-default" id="save-query-record">Save Query Record</a>
+  </li>
   <% end %>
 </ul>
 </div>
