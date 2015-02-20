@@ -1,20 +1,59 @@
-ul {
-  list-style-type: none;
+.query-nav-bar {
+  display: block;
+  background-color: #2D3440;
+  color: #FFBB34;
+  padding: 2px;
 }
-li {
+
+.query-nav-bar ul {
+  list-style-type: none;
+  text-align: center;
+
+}
+.query-nav-bar li {
   display: inline-block;
-  float: left;
+  position: center;
+  padding: 5px 10px 0 10px;
+  font-size: 1em
+
 }
 
 .ui-datepicker-month, .ui-datepicker-year {
   color: black;
 }
 
-#outbreak-query-box.query-form form ul {
+
+#outbreak-query-box.query-form  ul {
   display: block;
   margin: 2px;
   background-color: #f89022;
-  font-family: Arial 50px;
+  list-style-type: none;
+  width: 100%;
+  li {
+    display: inline-block;
+  }
+
+}
+
+
+
+
+.submit-query {
+  background-color: green;
+  color: white;
+}
+#outbreak-query-box input, select {
+  font-size: 1em;
+}
+
+#outbreak-query-box input {
+  border: .1em solid black;
+  border-radius: 13px;
+  text-align: center;
+}
+
+#outbreak-query-box select {
+  border: solid black .1em;
 }
 
 .scrolling-list {

@@ -1,14 +1,19 @@
 
-<div id="query-box">
-  <a href="#" class="auto-mark menu-item">Mark All Events</a>
-  <a href="#" class="menu-item">|</a>
-  <a href="#" class="clear-markers menu-item">Clear Markers</a>
-  <a href="#" class="menu-item">|</a>
-  <a href="#" class="menu-item" id="select-outbreak">Toggle Query Form</a>
-  <a href="#" class="menu-item">|</a>
-  <a href="/" class="menu-item">Reset Query</a>
-  <a href="#" class="menu-item">|</a>
-  <a class="menu-item" id="graph-trigger">See Graph</a>
+
+
+<div class="query-nav-bar">
+  <ul style="list-style-none">
+    <li><a href="#" class="auto-mark menu-item">Mark All Events</a></li>
+    <li style="color: #f89022">|</li>
+    <li><a href="#" class="clear-markers menu-item">Clear Marks</a></li>
+    <li style="color: #f89022">|</li>
+    <li><a href="#" class="menu-item" id="select-outbreak">Toggle Query Form</a></li>
+    <li style="color: #f89022">|</li>
+    <li><a href="/" class="menu-item">Reset Query</a></li>
+    <li style="color: #f89022">|</li>
+    <li><a class="menu-item" id="graph-trigger">See Graph</a></li>
+
+  </ul>
 </div>
 
 <div id="outbreak-query-box" class="query-form" >
@@ -43,7 +48,7 @@
     <input type="text" name="end_date" placeholder="..... End Date" id="enddatepicker"></p>
   </li>
     <li>
-    <%= submit_tag "Submit New Query" %>
+    <%= submit_tag "Submit New Query", class: "submit-query"%>
   </li>
   <% end %>
 </ul>
