@@ -58,7 +58,7 @@ $(function(){
   // ------>>>>>>>>>>>>>>>> ends initialize
 
   var content_string = function(my_content,id){ string = '<div '+
-              'style="margin:0;padding:10px;background-color:#fffa67;text-align: center;">' +
+              'style="margin:0;padding:10px;background-color:#fcc08c;text-align: center;">' +
               ' <h5>'+ my_content + '</h5>' +
               '<button style="background-color: #58f55b; border-radius: 30px; color: navy;}' +
               ' href="#" id="extra-info-'+id+'" data-marker-id='+ id +
@@ -143,15 +143,17 @@ $(function(){
                   info = results[0].formatted_address.replace(/(.+),(.+),(.+), USA/g,"$2, $3");
                 }
                 else{
-                  info = marker.location;
+                  info = marker.event_location;
                 }
               }
               else{
-                info = marker.location;
+                info = marker.event_location;
               }
-              var infoString = marker.event_disease + " infected " +
-                    marker.event_number + " people near " +
-                    " "+ info;
+              var infoString = marker.event_date + ": " +
+                  marker.event_disease + " infected " +
+                    marker.event_number + " people in " + marker.event_location +
+                    "<br> near " + info;
+
 
               myInfoWindow(infoString, marker);
           });
