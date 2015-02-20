@@ -22,9 +22,10 @@ class QueryRecordsController < ApplicationController
     #   params[:commit] = ""
     # end
     @record.user_id = session[:user_id]
+
     @record.save
     session[:query_id] = @record.id
-    redirect_to root_path
+    render "home/index"
   end
 
   def update
@@ -46,7 +47,8 @@ class QueryRecordsController < ApplicationController
     if @record.user_id == @user.id
       @record.delete
       flash[:notice] = "Query record successfully deleted."
-      redirect_to root_path
+      session[:query_id] = nil
+      render json: {status: "record deleted"}
     else
       flash[:notice] = "You are not authorized to delete that query."
       redirect_to root_path

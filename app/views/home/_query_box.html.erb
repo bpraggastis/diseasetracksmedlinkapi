@@ -4,7 +4,7 @@
     <li style="color: #f89022">|</li>
     <li><a href="#" class="clear-markers menu-item">Clear Marks</a></li>
     <li style="color: #f89022">|</li>
-    <li><a href="#" class="menu-item" id="select-outbreak"><span id="createq">Create a Query</span><span id="hideq" style="display:none">Hide Query Fields</span></a></li>
+    <li><a class="menu-item" id="select-outbreak"><span id="createq">Create a Query</span><span id="hideq" style="display:none">Hide Query Fields</span></a></li>
     <li style="color: #f89022">|</li>
     <li><a href="/" class="menu-item">Reset Query</a></li>
     <li style="color: #f89022">|</li>
@@ -28,16 +28,20 @@
     <% if @user.query_records.length > 0 %>
       <table class="table table-hover table-condensed col-sm-10 col-sm-1-offset">
         <tr>
-          <th>Date of Query</th> <th>Outbreak</th> <th>Disease</th> <th>Location</th> <th>Start Date</th> <th>End Date</th>
+          <th>Date of Query</th> <th>Outbreak</th> <th>Disease</th> <th>Location</th> <th>Start Date</th> <th>End Date</th> <th>Options</th>
         </tr>
-        <% @user.query_records.each do |qr| %>
-          <tr>
+        <% @user.query_records.sort_by{ |qr| qr.created_at }.reverse.each do |qr| %>
+          <tr class="query-record-link <%= "high-light-row" if qr.id == session[:query_id] %>">
             <td> <%= qr.created_at.strftime("%b %d, %Y") %> </td>
-            <td> <%= qr.outbreak_id %> </td>
-            <td> <%= qr.disease_id %> </td>
-            <td> <%= qr.place_id %> </td>
+            <td> <%= qr.outbreak_id > 0 ? Outbreak.find(qr.outbreak_id).title : "" %> </td>
+            <td> <%= qr.disease_id > 0 ? MedicalCondition.find(qr.disease_id).name : "" %> </td>
+            <td> <%= qr.place_id > 0 ? Place.find(qr.place_id).name : "" %> </td>
             <td> <%= qr.start_date.strftime("%m-%d-%Y") if qr.start_date %> </td>
             <td> <%= qr.end_date.strftime("%m-%d-%Y") if qr.end_date %> </td>
+            <td>
+              <a href="http://localhost:3000/query?utf8=%E2%9C%93&outbreak_id=<%= qr.outbreak_id.to_s %>&disease_id=<%= qr.disease_id.to_s %>&place_id=<%= qr.place_id.to_s %>&start_date=<%= qr.start_date.to_s %>&end_date=<%= qr.end_date.to_s %>&commit=<%= qr.id %>#">View Query</a> |
+              <a href="#" id="delete-query-record", data-url= <%= "/query_records/#{qr.id}" %> >Delete Query</a>
+            </td>
           </tr>
         <% end %>
       </table>
@@ -81,21 +85,22 @@
       <input type="text" name="end_date" placeholder="..... End Date" id="enddatepicker"></p>
     </li>
     <li>
-    <button href="#" class="submit-query"> <%= submit_tag "Submit New Query", style: "border: none", class: "submit-query"%> </button>
-  </li>
+      <button href="#" class="submit-query"> <%= submit_tag "Submit New Query", style: "border: none", class: "submit-query"%> </button>
+    </li>
+
   <% end %>
 
 
-    <% if @user %>
+  <% if @user %>
     <li>
       <button href="#" class="submit-query" id="save-query-record", data-url="/query_records">Save New Query Record</a>
     </li>
-    <% end %>
-    <% if session[:query_id] %>
+  <% end %>
+  <% if session[:query_id] %>
     <li>
       <button href="#" class="submit-query" id="update-query-record", data-url= <%= "/query_records/#{session[:query_id]}" %> >Update Query Record</a>
     </li>
-    <% end %>
+  <% end %>
   </ul>
 </div>
 

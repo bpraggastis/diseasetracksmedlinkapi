@@ -8,6 +8,7 @@ class HomeController < ApplicationController
     @events = Event.includes(:medical_condition, geo: :place).where(
           date: DateTime.parse('Jan. 1, 1979') .. DateTime.now
           ).order(date: :desc)
+    session[:query_id] = nil
   end
 
   def query
@@ -23,6 +24,7 @@ class HomeController < ApplicationController
                                       medical_condition_id: diseasesq,
                                       places: {id: placesq}}
                                       ).order(date: :desc)
+    session[:query_id] = params[:commit].to_i if params[:commit].to_i > 0
     render 'home/index'
   end
 
