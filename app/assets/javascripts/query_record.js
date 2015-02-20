@@ -18,8 +18,16 @@ $.fn.serializeObject = function()
 $(function(){
   $("#save-query-record").click(function(){
       var queryRecord = $("#query-form").serializeObject();
-      console.log(queryRecord);
-      $.post("/query_records", {query: queryRecord});
+      var url = $(this).data("url");
+      // var url = this.data("url");
+      $.post("/query_records", {query: queryRecord}, function(){
+        window.location.reload();
+      });
+  });
+
+  $("#update-query-record").click(function(){
+    var queryRecord = $("#query-form").serializeObject();
+    $.post("/query_records/", {query: queryRecord});
   });
 
 });
