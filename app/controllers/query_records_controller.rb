@@ -2,6 +2,8 @@ class QueryRecordsController < ApplicationController
 
   def create
     @record = QueryRecord.new(query_params)
+    @record.start_date = Date.parse("January 1, 1979") if params[:query][:start_date] == ""
+    @record.end_date = Date.today if params[:query][:end_date] == ""
     # raise "wtf?"
     # if params[:commit] == "Save Query Record" && session[:user_id]
     #   sd = DateTime.strptime(params[:start_date]) if params[:start_date].length > 0
@@ -23,6 +25,15 @@ class QueryRecordsController < ApplicationController
     @record.save
     session[:query_id] = @record.id
     redirect_to root_path
+  end
+
+  def update
+    if params[:id].to_i == session[:query_id]
+      @query = QueryRecord.find(session[:query_id])
+      @query.update(query_params)
+      @query.save
+      render json: {status: "200"}
+    end
   end
 
   def show
