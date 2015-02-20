@@ -1,4 +1,4 @@
-<div class="query-nav-bar" >
+<div class="query-nav-bar"  >
   <ul style="list-style-none">
     <li><a href="#" class="auto-mark menu-item">Mark All Events</a></li>
     <li style="color: #f89022">|</li>
@@ -11,7 +11,7 @@
     <li><a class="menu-item" id="graph-trigger"><span id="createg">See Graph</span><span id="hideg" style="display:none">Hide Graph</span></a></li>
     <% if @user %>
     <li style="color: #f89022">|</li>
-    <li><a href="#" class="menu-item" data-toggle="collapse" data-target="#query-records">Saved Queries</a></li>
+    <li><a href="#" class="menu-item" id="query-save" data-toggle="collapse" data-target="#query-records"><span id="showsq">Show Saved Queries</span><span id="hidesq" style="display:none">Hide Saved Queries</span></a></li>
     <% end %>
   </ul>
 </div>
@@ -24,7 +24,7 @@
 
 
 <% if @user %>
-  <div class="collapse " id="query-records"  >
+  <div class="" id="query-records" style="display:none" >
     <% if @user.query_records.length > 0 %>
       <table class="table table-hover table-condensed col-sm-10 col-sm-1-offset">
         <tr>
@@ -81,19 +81,19 @@
       <input type="text" name="end_date" placeholder="..... End Date" id="enddatepicker"></p>
     </li>
     <li>
-    <%= submit_tag "Submit New Query", class: "submit-query"%>
+    <button href="#" class="submit-query"> <%= submit_tag "Submit New Query", class: "submit-query"%> </button>
   </li>
   <% end %>
 
 
     <% if @user %>
     <li>
-      <a href="#" class="btn btn-default" id="save-query-record", data-url="/query_records">Save New Query Record</a>
+      <button href="#" class="submit-query" id="save-query-record", data-url="/query_records">Save New Query Record</a>
     </li>
     <% end %>
     <% if session[:query_id] %>
     <li>
-      <a href="#" class="btn btn-default" id="update-query-record", data-url= <%= "/query_records/#{session[:query_id]}" %> >Update Query Record</a>
+      <button href="#" class="submit-query" id="update-query-record", data-url= <%= "/query_records/#{session[:query_id]}" %> >Update Query Record</a>
     </li>
     <% end %>
   </ul>

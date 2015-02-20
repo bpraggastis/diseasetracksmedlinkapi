@@ -7,6 +7,12 @@ $(function(){
     $("#hideq").toggle();
   });
 
+  $("#query-save").click(function(){
+    $("#query-records").slideToggle();
+    $("#showsq").toggle();
+    $("#hidesq").toggle();
+  });
+
   var toggle_selector = function(item){
     if(item.hasAttribute('selected'))
       { item.removeAttr('selected');}
