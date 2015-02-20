@@ -104,12 +104,12 @@ $(function(){
         });
 
         markers[id]= marker;
-        // latLngBounds.extend(marker.position);
-        // map.setCenter(latLngBounds.getCenter());
-        // if(markers.count > 1){
-        //   map.setZoom(24);
-        //   map.fitBounds(latLngBounds);
-        //   }
+        latLngBounds.extend(marker.position);
+        map.setCenter(latLngBounds.getCenter());
+        if(markers.count > 1){
+          map.setZoom(24);
+          map.fitBounds(latLngBounds);
+          }
 
         // Make a corresponding circle
         var circleCenter = marker.position;

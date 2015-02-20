@@ -9,5 +9,7 @@ $(document).ready(function() {
       $("#graph").css("height", 0);
       $("#map-canvas").css("width", "100%");
     }
+    $("#createg").toggle();
+    $("#hideg").toggle();
   });
 });
