@@ -46,7 +46,8 @@ class QueryRecordsController < ApplicationController
     if @record.user_id == @user.id
       @record.delete
       flash[:notice] = "Query record successfully deleted."
-      redirect_to root_path
+      render json: {status: "record deleted"}
+      session[:query_id] = nil
     else
       flash[:notice] = "You are not authorized to delete that query."
       redirect_to root_path
