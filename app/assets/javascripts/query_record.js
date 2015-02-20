@@ -40,4 +40,14 @@ $(function(){
           });
   });
 
+  $("#delete-query-record").click(function(){
+    var ajaxUrl = $(this).data("url");
+    $.ajax(ajaxUrl,
+          {type: 'DELETE',
+          success: function(){
+            window.location.reload();
+          }}
+        );
+  });
+
 });
