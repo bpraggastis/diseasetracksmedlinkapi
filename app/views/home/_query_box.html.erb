@@ -27,12 +27,12 @@
         <tr>
           <th>Date of Query</th> <th>Outbreak</th> <th>Disease</th> <th>Location</th> <th>Start Date</th> <th>End Date</th>
         </tr>
-        <% @user.query_records.each do |qr| %>
+        <% @user.query_records.sort_by{ |qr| qr.created_at }.reverse.each do |qr| %>
           <tr>
             <td> <%= qr.created_at.strftime("%b %d, %Y") %> </td>
-            <td> <%= qr.outbreak_id %> </td>
-            <td> <%= qr.disease_id %> </td>
-            <td> <%= qr.place_id %> </td>
+            <td> <%= Outbreak.find(qr.outbreak_id).title %> </td>
+            <td> <%= MedicalCondition.find(qr.disease_id).name %> </td>
+            <td> <%= Place.find(qr.place_id).name %> </td>
             <td> <%= qr.start_date.strftime("%m-%d-%Y") if qr.start_date %> </td>
             <td> <%= qr.end_date.strftime("%m-%d-%Y") if qr.end_date %> </td>
           </tr>
