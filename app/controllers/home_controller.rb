@@ -23,6 +23,7 @@ class HomeController < ApplicationController
                                       medical_condition_id: diseasesq,
                                       places: {id: placesq}}
                                       ).order(date: :desc)
+    session[:query_id] = params[:commit].to_i if params[:commit].to_i > 0
     render 'home/index'
   end
 
