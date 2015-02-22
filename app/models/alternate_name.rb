@@ -1,8 +1,8 @@
 class AlternateName < ActiveRecord::Base
-
+  include Searchable
   validates_uniqueness_of :name
 
-  include Searchable
+
 
   #medical_condition associations
   has_many :synonyms
