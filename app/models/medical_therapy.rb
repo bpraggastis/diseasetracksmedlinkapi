@@ -41,3 +41,5 @@ class MedicalTherapy < ActiveRecord::Base
   end
 
 end
+
+MedicalTherapy.import

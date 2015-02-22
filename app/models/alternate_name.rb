@@ -23,3 +23,5 @@ class AlternateName < ActiveRecord::Base
   end
 
 end
+
+AlternateName.import

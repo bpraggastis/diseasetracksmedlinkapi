@@ -53,3 +53,5 @@ class MedicalCondition < ActiveRecord::Base
   end
 
 end
+
+MedicalCondition.import
