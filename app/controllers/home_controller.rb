@@ -1,5 +1,6 @@
 class HomeController < ApplicationController
 
+
   def index
     @cquery = ""
     @tquery = ""
@@ -13,7 +14,7 @@ class HomeController < ApplicationController
         end
       end
     else
-      @conditions = MedicalCondition.all
+      @conditions = []
     end
     if params[:therapy_query].present?
       @tquery = params[:therapy_query]
@@ -22,6 +23,8 @@ class HomeController < ApplicationController
       @therapies = []
     end
   end
+
+
 
 
   def self.hilite(string, query = "")
@@ -33,5 +36,6 @@ class HomeController < ApplicationController
       end
     end
   end
+
 
 end

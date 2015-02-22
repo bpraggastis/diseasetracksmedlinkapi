@@ -1,35 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>AdaCapstoneProject</title>
+  <title>AdaCapstoneProjectApi</title>
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
   <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
   <script src="javascripts/jquery-min.js"></script>
   <script src="javascripts/bootstrap.min.js"></script>
-
+  <script type="text/javascript" src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs" data-app-key="yjvsintsjj3wt2q"></script>
 </head>
-<body>
-  <header>
-    <%= render partial: "shared/modals" %>
 
-
-    <% if session[:user_id] %>
-      <%=link_to "Log Out", "/sessions/1", method: :delete, class: "btn btn-primary btn-xs" %>
-    <% else %>
-      <!-- Button trigger sign-in modal -->
-      <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#mySignInModal">
-        Sign in
-      </button>
-      <!-- Button trigger modal -->
-      <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#mySignUpModal">
-        Sign up
-      </button>
-    <% end %>
-  </header>
-
+<body style="margin: 5%">
 <%= yield %>
-
 </body>
 </html>

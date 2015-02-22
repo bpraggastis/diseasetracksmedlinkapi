@@ -23,13 +23,13 @@ default: &default
 
 development:
   <<: *default
-  database: ada-capstone-project_development
+  database: heroku-capstone-project_development
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
   # When left blank, postgres will use the default role. This is
   # the same name as the operating system user that initialized the database.
-  #username: ada-capstone-project
+  #username: heroku-capstone-project
 
   # The password associated with the postgres role (username).
   #password:
@@ -57,7 +57,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: ada-capstone-project_test
+  database: heroku-capstone-project_test
 
 # test:
 #   adapter: postgresql
@@ -85,6 +85,6 @@ test:
 #
 production:
   <<: *default
-  database: ada-capstone-project_production
-  username: ada-capstone-project
-  password: <%= ENV['ADA-CAPSTONE-PROJECT_DATABASE_PASSWORD'] %>
+  database: heroku-capstone-project_production
+  username: heroku-capstone-project
+  password: <%= ENV['HEROKU-CAPSTONE-PROJECT_DATABASE_PASSWORD'] %>

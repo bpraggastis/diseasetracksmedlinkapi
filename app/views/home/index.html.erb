@@ -1,4 +1,7 @@
-<h1>Disease Tracks  .....  </h1>
+<h1>Medical Condition/Therapy Resources .....  </h1>
+<p>
+  Enter your search criteria in the fields below:
+</p>
 
 <div id="disease-list" class="basic-block">
   <h2>Medical Conditions</h2>
@@ -66,17 +69,25 @@
     <ol>
       <% @therapies.each do |therapy| %>
       <li>
-        <strong><%= HomeController::hilite(therapy.name, @tquery) %></strong>: <%= HomeController::hilite(therapy.description, @tquery) %>
+        <strong><%= HomeController::hilite(therapy.name, @tquery) %></strong>: <%#= HomeController::hilite(therapy.description, @tquery) %>
         <br>
-        <ul>
+        <p>
+          Description: <%= therapy.description %>
+        </p>
+        <p>
+          Indications: <%= therapy.indications %>
+        </p>
 
-        <% therapy.codes.each do |code| %>
-          <li>
-            <%= code.code_system %>: <%= code.code_value %>
-          </li>
-        <% end %>
+        <!-- <ul> -->
 
-      </ul>
+        <%# therapy.codes.each do |code| %>
+          <!-- <li> -->
+            <!-- <%#= code.code_system %>: <%#= code.code_value %> -->
+
+          <!-- </li> -->
+        <%# end %>
+
+      <!-- </ul> -->
       </li>
       <% end %>
     </ol>
