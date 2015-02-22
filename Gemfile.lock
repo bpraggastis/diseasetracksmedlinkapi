@@ -84,7 +84,6 @@ GEM
       ruport (~> 1.6)
       sass (~> 3.0)
     builder (3.2.2)
-<<<<<<< HEAD
     capistrano (3.3.5)
       capistrano-stats (~> 1.1.0)
       i18n
@@ -102,12 +101,10 @@ GEM
       capistrano (~> 3.0)
       sshkit (~> 1.2)
     capistrano-stats (1.1.1)
-=======
     climate_control (0.0.3)
       activesupport (>= 3.0)
     cocaine (0.5.5)
       climate_control (>= 0.0.3, < 1.0)
->>>>>>> 221apiwork2
     coderay (1.1.0)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)

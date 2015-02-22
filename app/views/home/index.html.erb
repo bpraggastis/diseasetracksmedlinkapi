@@ -14,7 +14,7 @@
         </p>
         <!-- put %end here if wish to break up queries -->
     </div>
-  <div class="scrolling-list">
+  <div class="scrolling-list" >
     <ol>
       <% @conditions.each do |condition| %>
         <li> <strong><%= HomeController::hilite(condition.name, @cquery) %></strong> <br>
