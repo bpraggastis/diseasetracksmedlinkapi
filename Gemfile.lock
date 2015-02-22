@@ -75,6 +75,7 @@ GEM
       rack (>= 0.9.0)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
+    bonsai-elasticsearch-rails (0.0.4)
     brakeman (1.5.3)
       activesupport
       erubis (~> 2.6)
@@ -273,6 +274,7 @@ DEPENDENCIES
   bcrypt-ruby
   better_errors
   binding_of_caller
+  bonsai-elasticsearch-rails
   brakeman
   capistrano
   capistrano-bundler
