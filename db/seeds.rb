@@ -140,7 +140,7 @@ DMED.keys.each do |dkey|  #dkey = primary key for DailyMed record
       therapy = therapy_code.medical_code_therapies[0].medical_therapy
     end
   end
-  end
+
   if therapy != nil
     begin
       therapy.codes.create(code_system: "DailyMed", code_value: dkey )
@@ -191,9 +191,7 @@ puts "Seed 3 Complete"
 diseasome_file = open("https://s3-us-west-2.amazonaws.com/capstone-datafiles/datafiles/diseasome_dump.json"){|f| f.read}
 l = JSON.parse(diseasome_file)
 #
-n = l.keys.count
-q = n%100
-r = n-100*k
+
 
 l.keys.each do |key|
   print "."
