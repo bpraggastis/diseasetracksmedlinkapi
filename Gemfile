@@ -72,7 +72,7 @@ gem 'aws-sdk'
 
 gem "paperclip-dropbox", ">= 1.1.7"
 gem 'json'
-gem "elasticsearch"
+
 gem "elasticsearch", git: "git://github.com/elasticsearch/elasticsearch-ruby.git"
 gem "elasticsearch-model", git: "git://github.com/elasticsearch/elasticsearch-rails.git"
 gem "elasticsearch-rails", git: "git://github.com/elasticsearch/elasticsearch-rails.git"
