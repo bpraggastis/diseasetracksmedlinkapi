@@ -140,6 +140,7 @@ DMED.keys.each do |dkey|  #dkey = primary key for DailyMed record
       therapy = therapy_code.medical_code_therapies[0].medical_therapy
     end
   end
+  end
   if therapy != nil
     begin
       therapy.codes.create(code_system: "DailyMed", code_value: dkey )
