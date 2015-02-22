@@ -85,7 +85,6 @@ test:
 #
 production:
   <<: *default
-
   database: heroku-capstone-project_production
   username: heroku-capstone-project
   password: <%= ENV['HEROKU-CAPSTONE-PROJECT_DATABASE_PASSWORD'] %>
