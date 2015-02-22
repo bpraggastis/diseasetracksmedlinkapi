@@ -67,7 +67,10 @@ gem 'therubyracer', platforms: :ruby
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+gem 'dropbox-sdk'
+gem 'aws-sdk'
 
+gem "paperclip-dropbox", ">= 1.1.7"
 gem 'json'
 gem "elasticsearch", git: "git://github.com/elasticsearch/elasticsearch-ruby.git"
 gem "elasticsearch-model", git: "git://github.com/elasticsearch/elasticsearch-rails.git"

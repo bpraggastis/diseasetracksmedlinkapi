@@ -5,12 +5,18 @@ module MedicalTherapyHelpers
     # Create a list of drug keys from the dailymed seed file
 
     def self.dailymed(dailymed_file)
+
       JSON.parse(dailymed_file) #dailymed_file is gotten from HTTParty.get
+
     end
 
     def self.daily_drug_keys(dailymed)
-      dailymed.keys.select {|key| /dailymed\/resource\/drugs/.match(key)}
+      dailymed.keys.select {|key| /dailymed\/resource\/drugs\/(\d+)/.match(key)}
     end
+
+
+
+
 
     # DAILY_MED = JSON.parse(File.read('db/support/dmedsmall.json'))
     # DRUGS = DAILY_MED.keys.select {|key| /dailymed\/resource\/drugs/.match(key)}
@@ -22,6 +28,7 @@ module MedicalTherapyHelpers
     DESCRIPTION = "http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/description"
     INDICATION = "http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/indication"
     CONTRAINDICATION = "http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/contraindication"
+    FULLNAME = "http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/fullName"
 
     def self.db_code(drug_hash)
       if drug_hash[DB_CODE] != nil
@@ -45,7 +52,8 @@ module MedicalTherapyHelpers
       # temp[:warning] = DailyMedSeed::get_value(dailymedvalue, WARNING)
       temp_descr = DailyMedSeed::get_value(dailymedvalue, DESCRIPTION)
       temp[:description] = temp_descr.gsub(/(\\uFFFD)+/,"-") if temp_descr != nil
-      # temp[:indications] = DailyMedSeed::get_value(dailymedvalue, INDICATION)
+      temp[:indications] = DailyMedSeed::get_value(dailymedvalue, INDICATION)
+      temp[:fullName] = DailyMedSeed::get_value(dailymedvalue, FULLNAME)
       # temp[:contraindication] = DailyMedSeed::get_value(dailymedvalue, CONTRAINDICATION
       return temp
     end
@@ -55,9 +63,14 @@ module MedicalTherapyHelpers
       keys = DailyMedSeed::daily_drug_keys(seed_file) # identifies the drug keys
       temp = {}
       keys.each do |dkey|
-        value = seed_file[dkey] # this is the hash the drug key points at
-        dmed_code = /dailymed\/resource\/drugs\/(\d+)/.match(dkey)[1]
-        temp[dmed_code] = DailyMedSeed::make_one_drug_hash(value)
+        begin
+          value = seed_file[dkey] # this is the hash the drug key points at
+          dmed_code = /dailymed\/resource\/drugs\/(\d+)/.match(dkey)[1]
+          temp[dmed_code] = DailyMedSeed::make_one_drug_hash(value)
+        rescue
+          print " !!seed-failed!! " + dkey
+          next
+        end
       end
       return temp
     end
